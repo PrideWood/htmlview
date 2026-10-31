@@ -49,7 +49,7 @@ npm start
 
 ## Vercel 部署
 
-逐步配置请看 [Vercel部署指南.md](Vercel部署指南.md)。仓库根目录就是应用，Vercel Root Directory保持根目录。
+逐步配置请看 [Vercel部署指南.md](Vercel部署指南.md)。仓库根目录就是应用，Vercel Root Directory保持根目录（不要选public），Framework Preset选Other。仓库配置已关闭框架自动推断。
 
 ## 部署配置
 

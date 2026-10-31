@@ -6,7 +6,7 @@
 
 Vercel → Add New → Project → 导入 PrideWood/htmlview。
 
-- Framework Preset：Other
+- Framework Preset：Other（仓库vercel.json也已显式设置framework为null，关闭框架自动推断）
 - Root Directory：保持根目录（`.`），不要选public
 - Node.js：22.x
 - Install Command：npm ci
@@ -104,3 +104,17 @@ Settings → Environment Variables保存后，Deployments → 最新部署 → R
 | 模型超时 | 先减少图片数；模型请求180秒超时，函数配置300秒，实际还取决于套餐 |
 
 可在Vercel项目Logs查看错误状态。反馈报错时不要提供环境变量值或密钥。当前尚未连接真实云数据库、私有Blob与视觉模型，云端首次测试仍需完成以上检查。
+
+## 修复 document is not defined / FUNCTION_INVOCATION_FAILED
+
+若日志指向 `/var/task/app.js` 并提示 `document is not defined`，说明浏览器脚本被当成Node函数执行。不要删掉前端代码中的document，它是网页正常需要的浏览器API。
+
+在Vercel项目 Settings → Build and Deployment 中检查：
+
+- Root Directory：必须为仓库根目录（默认留空或显示`.`），**不能是public**。根目录包含package.json、vercel.json、api、lib和public。
+- Framework Preset：Other，不能选择Node.js、Express或其他后端框架。
+- Build Command：node scripts/build.mjs。
+- Output Directory：public。它只用于静态输出，不是Root Directory。
+- 不要把public/app.js设为函数入口；唯一云端函数入口是api/index.mjs。
+
+保存设置后从Git main分支部署最新提交；如果点旧部署的Redeploy，要注意它可能仍使用旧提交。必要时禁用构建缓存后重试。修改后首页应该是HTML，/app.js应该以静态JavaScript返回，/api/session才是API。
