@@ -25,8 +25,10 @@ renderSide=function(){ $('material').hidden=!current().context.length;$('side').
 const nav=document.createElement('aside');nav.id='question-navigation';nav.setAttribute('aria-label','题目导航');nav.hidden=true;
 nav.innerHTML='<header><strong>题目导航</strong><button id="nav-close" aria-label="收起题目导航">收起 ‹</button></header><p>✓ 正确　✕ 待复习　● 已查看</p><label>跳转第 <input id="nav-number" type="number" min="1" max="'+lesson.questions.length+'" value="1" aria-label="题目序号"> 题 <button id="nav-go">前往</button></label><div id="nav-grid" class="question-grid"></div>';
 $('workspace').prepend(nav);
+document.addEventListener('pointerdown',e=>{if(!nav.hidden&&!nav.contains(e.target)&&!$('picker').contains(e.target))toggleNav(false);});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!nav.hidden)toggleNav(false);});
 function updateNav(){ $('nav-grid').innerHTML=lesson.questions.map((q,i)=>{const s=states[q.label]||{};return '<button title="第 '+(i+1)+' 题 · 原题 '+esc(q.label)+'" aria-label="第 '+(i+1)+' 题，原题 '+esc(q.label)+'" '+(i===index?'aria-current="true"':'')+' class="'+(q.invalid?'pending':s.result||s.revealed&&'revealed'||'')+' '+(i===index?'current':'')+'" data-go="'+i+'">'+(i+1)+(q.invalid?' ?':s.result==='good'?' ✓':s.result==='bad'?' ✕':s.revealed?' ●':'')+'</button>';}).join('');$('nav-number').value=index+1;nav.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>{index=+b.dataset.go;render();}); }
-function toggleNav(open){nav.hidden=!open;$('workspace').classList.toggle('navigation-open',open);$('picker').setAttribute('aria-expanded',String(open));if(open)updateNav();}
+function toggleNav(open){nav.hidden=!open;$('picker').setAttribute('aria-expanded',String(open));if(open)updateNav();}
 picker=function(){toggleNav(nav.hidden);};$('picker').onclick=picker;$('picker').setAttribute('aria-controls','question-navigation');$('nav-close').onclick=()=>toggleNav(false);
 $('nav-go').onclick=()=>{const n=Number($('nav-number').value);if(Number.isInteger(n)&&n>=1&&n<=lesson.questions.length){index=n-1;render();}};$('nav-number').onkeydown=e=>{if(e.key==='Enter')$('nav-go').click();};
 const originalRender=render;render=function(){if(explanation.open)explanation.close();originalRender();updateNav();};
@@ -44,10 +46,10 @@ document.addEventListener('keydown',e=>{
  if(next||prev){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)move(next?1:-1);}
  else if(['j','b','.'].includes(k)){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)explain();}
 },true);
-reference=function(){modal('讲义与说明','<p><strong>修订版操作：</strong>解析与材料以大对话框显示；解析字号独立保存。点击右上题号展开导航。翻页后锁定 0.8 秒，防止连点跳题。支持方向键、PageUp / PageDown、空格及回车型翻页笔；解析窗口打开时仅滚动解析。Esc 关闭窗口。</p>'+ (lesson.reference.length?blocks(lesson.reference):'')+'<h3>来源</h3><p>'+esc(lesson.source)+'</p>'+lesson.notes.map(n=>'<p>'+esc(n)+'</p>').join(''));};$('reference').onclick=reference;
+reference=function(){modal('讲义与说明','<p><strong>修订版操作：</strong>解析与材料以大对话框显示；解析字号独立保存。点击左下角图标展开导航，点击区域外收起。翻页后锁定 0.8 秒，防止连点跳题。支持方向键、PageUp / PageDown、空格及回车型翻页笔；解析窗口打开时仅滚动解析。Esc 关闭窗口。</p>'+ (lesson.reference.length?blocks(lesson.reference):'')+'<h3>来源</h3><p>'+esc(lesson.source)+'</p>'+lesson.notes.map(n=>'<p>'+esc(n)+'</p>').join(''));};$('reference').onclick=reference;
 // Keep the chosen question font; shrink only when “适应屏幕” is explicitly requested.
 fit=function(reset=true){cancelAnimationFrame(fitFrame);if(reset)setFont(preferred);};
-$('fit').onclick=()=>{let n=Number($('font').value),panel=$('question-panel');while(n>18&&panel.scrollHeight>panel.clientHeight+2)setFont(--n);panel.scrollTop=0;};
+
 const requested=new URLSearchParams(location.hash.slice(1)).get('q');if(requested){const target=lesson.questions.findIndex(q=>q.label===requested);if(target>=0)index=target;}
 render();
 })();
