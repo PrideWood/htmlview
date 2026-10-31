@@ -52,3 +52,4 @@ test('首批多图保存保持原始顺序并能读取',async()=>{
  const r=await call('/imports','POST',{title:'首批多图',images});assert.equal(r.status,201);assert.deepEqual(r.data.lesson.images.map(x=>x.name),images.map(x=>x.name));
  for(const image of r.data.lesson.images){const b=await fetch(base+image.url);assert.equal(b.status,200);assert.deepEqual(Buffer.from(await b.arrayBuffer()),Buffer.from(png,'base64'));}
 });
+test('记录内置资料最近使用时间而不改变题库版本',async()=>{const before=await call('/lessons');const id=before.data.lessons.find(d=>d.sourceType==='builtin').id;const original=(await call('/lessons/'+id)).data.lesson;const used=await call('/lessons/'+id+'/use','POST',{});assert.equal(used.status,200);const listed=(await call('/lessons')).data.lessons.find(d=>d.id===id);assert.equal(listed.lastUsedAt,used.data.lastUsedAt);const after=(await call('/lessons/'+id)).data.lesson;assert.deepEqual(after.questions,original.questions);assert.equal(after.version,original.version);});

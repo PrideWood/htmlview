@@ -1,0 +1,3393 @@
+{
+  "summary": {
+    "lessons": 51,
+    "questions": 1570,
+    "changedLessons": 43,
+    "changedFields": 482,
+    "changedQuestionStems": 238,
+    "editOperations": 483
+  },
+  "changes": [
+    {
+      "lessonId": "builtin-71ac3e46734e3665",
+      "title": "名词复习练习",
+      "path": "questions.1.stem",
+      "before": "-- I feel tired now. Can I use your room for a ____? - Yes, go ahead and here is the key.",
+      "after": "— I feel tired now. Can I use your room for a ____?\n— Yes, go ahead and here is the key."
+    },
+    {
+      "lessonId": "builtin-71ac3e46734e3665",
+      "title": "名词复习练习",
+      "path": "questions.1.worked",
+      "before": "-- I feel tired now. Can I use your room for a rest? - Yes, go ahead and here is the key.",
+      "after": "— I feel tired now. Can I use your room for a rest?\n— Yes, go ahead and here is the key."
+    },
+    {
+      "lessonId": "builtin-71ac3e46734e3665",
+      "title": "名词复习练习",
+      "path": "questions.4.stem",
+      "before": "-Excuse me, are you ____?\n-Yes, I'm from ____.",
+      "after": "— Excuse me, are you ____?\n— Yes, I'm from ____."
+    },
+    {
+      "lessonId": "builtin-71ac3e46734e3665",
+      "title": "名词复习练习",
+      "path": "questions.4.worked",
+      "before": "-Excuse me, are you Russian?\n-Yes, I'm from Russia.",
+      "after": "— Excuse me, are you Russian?\n— Yes, I'm from Russia."
+    },
+    {
+      "lessonId": "builtin-71ac3e46734e3665",
+      "title": "名词复习练习",
+      "path": "questions.11.stem",
+      "before": "-What kind of food do you like best?\n-I like ____ best.",
+      "after": "— What kind of food do you like best?\n— I like ____ best."
+    },
+    {
+      "lessonId": "builtin-71ac3e46734e3665",
+      "title": "名词复习练习",
+      "path": "questions.11.worked",
+      "before": "-What kind of food do you like best?\n-I like chicken and potatoes best.",
+      "after": "— What kind of food do you like best?\n— I like chicken and potatoes best."
+    },
+    {
+      "lessonId": "builtin-71ac3e46734e3665",
+      "title": "名词复习练习",
+      "path": "questions.17.stem",
+      "before": "-Did your mother do anything special on your birthday? -Yes. She made me a cake in the ____ of a heart.",
+      "after": "— Did your mother do anything special on your birthday?\n— Yes. She made me a cake in the ____ of a heart."
+    },
+    {
+      "lessonId": "builtin-71ac3e46734e3665",
+      "title": "名词复习练习",
+      "path": "questions.17.worked",
+      "before": "-Did your mother do anything special on your birthday? -Yes. She made me a cake in the shape of a heart.",
+      "after": "— Did your mother do anything special on your birthday?\n— Yes. She made me a cake in the shape of a heart."
+    },
+    {
+      "lessonId": "builtin-71ac3e46734e3665",
+      "title": "名词复习练习",
+      "path": "questions.27.stem",
+      "before": "-Peter, how far is it from your home to school? -It's only five ____ walk.",
+      "after": "— Peter, how far is it from your home to school?\n— It's only five ____ walk."
+    },
+    {
+      "lessonId": "builtin-71ac3e46734e3665",
+      "title": "名词复习练习",
+      "path": "questions.27.worked",
+      "before": "-Peter, how far is it from your home to school? -It's only five minutes' walk.",
+      "after": "— Peter, how far is it from your home to school?\n— It's only five minutes' walk."
+    },
+    {
+      "lessonId": "builtin-0d18b69d0a62662c",
+      "title": "名词专题 PDF来源练习",
+      "path": "questions.5.stem",
+      "before": "—Let's try to operate the machine right now. —Wait. Better read the ____ first.",
+      "after": "— Let's try to operate the machine right now.\n— Wait. Better read the ____ first."
+    },
+    {
+      "lessonId": "builtin-0d18b69d0a62662c",
+      "title": "名词专题 PDF来源练习",
+      "path": "questions.5.worked",
+      "before": "—Let's try to operate the machine right now. —Wait. Better read the instructions first.",
+      "after": "— Let's try to operate the machine right now.\n— Wait. Better read the instructions first."
+    },
+    {
+      "lessonId": "builtin-0d18b69d0a62662c",
+      "title": "名词专题 PDF来源练习",
+      "path": "questions.10.stem",
+      "before": "—Who did you spend last weekend with? — ____.",
+      "after": "— Who did you spend last weekend with?\n— ____."
+    },
+    {
+      "lessonId": "builtin-0d18b69d0a62662c",
+      "title": "名词专题 PDF来源练习",
+      "path": "questions.10.worked",
+      "before": "—Who did you spend last weekend with? — The Palmers.",
+      "after": "— Who did you spend last weekend with?\n— The Palmers."
+    },
+    {
+      "lessonId": "builtin-0d18b69d0a62662c",
+      "title": "名词专题 PDF来源练习",
+      "path": "questions.15.stem",
+      "before": "—Can we have some ____? —Yes, please.",
+      "after": "— Can we have some ____?\n— Yes, please."
+    },
+    {
+      "lessonId": "builtin-0d18b69d0a62662c",
+      "title": "名词专题 PDF来源练习",
+      "path": "questions.15.worked",
+      "before": "—Can we have some oranges? —Yes, please.",
+      "after": "— Can we have some oranges?\n— Yes, please."
+    },
+    {
+      "lessonId": "builtin-0d18b69d0a62662c",
+      "title": "名词专题 PDF来源练习",
+      "path": "questions.26.stem",
+      "before": "—How many ____ have you got on your farm? —I've got five.",
+      "after": "— How many ____ have you got on your farm?\n— I've got five."
+    },
+    {
+      "lessonId": "builtin-0d18b69d0a62662c",
+      "title": "名词专题 PDF来源练习",
+      "path": "questions.26.worked",
+      "before": "—How many sheep have you got on your farm? —I've got five.",
+      "after": "— How many sheep have you got on your farm?\n— I've got five."
+    },
+    {
+      "lessonId": "builtin-0d18b69d0a62662c",
+      "title": "名词专题 PDF来源练习",
+      "path": "questions.31.stem",
+      "before": "—What would you like to have for lunch, sir? —I'd like ____!",
+      "after": "— What would you like to have for lunch, sir?\n— I'd like ____!"
+    },
+    {
+      "lessonId": "builtin-0d18b69d0a62662c",
+      "title": "名词专题 PDF来源练习",
+      "path": "questions.31.worked",
+      "before": "—What would you like to have for lunch, sir? —I'd like chicken!",
+      "after": "— What would you like to have for lunch, sir?\n— I'd like chicken!"
+    },
+    {
+      "lessonId": "builtin-0d18b69d0a62662c",
+      "title": "名词专题 PDF来源练习",
+      "path": "questions.39.stem",
+      "before": "—Where is your father? —At ____.",
+      "after": "— Where is your father?\n— At ____."
+    },
+    {
+      "lessonId": "builtin-0d18b69d0a62662c",
+      "title": "名词专题 PDF来源练习",
+      "path": "questions.39.worked",
+      "before": "—Where is your father? —At Mr. Black's.",
+      "after": "— Where is your father?\n— At Mr. Black's."
+    },
+    {
+      "lessonId": "builtin-0d18b69d0a62662c",
+      "title": "名词专题 PDF来源练习",
+      "path": "questions.42.stem",
+      "before": "—What's the ____ like today? —Cloudy.",
+      "after": "— What's the ____ like today?\n— Cloudy."
+    },
+    {
+      "lessonId": "builtin-0d18b69d0a62662c",
+      "title": "名词专题 PDF来源练习",
+      "path": "questions.42.worked",
+      "before": "—What's the weather like today? —Cloudy.",
+      "after": "— What's the weather like today?\n— Cloudy."
+    },
+    {
+      "lessonId": "builtin-0d18b69d0a62662c",
+      "title": "名词专题 PDF来源练习",
+      "path": "questions.48.stem",
+      "before": "—What time is it now? —My ____ says it is ten o'clock.",
+      "after": "— What time is it now?\n— My ____ says it is ten o'clock."
+    },
+    {
+      "lessonId": "builtin-0d18b69d0a62662c",
+      "title": "名词专题 PDF来源练习",
+      "path": "questions.48.worked",
+      "before": "—What time is it now? —My watch says it is ten o'clock.",
+      "after": "— What time is it now?\n— My watch says it is ten o'clock."
+    },
+    {
+      "lessonId": "builtin-0fbbfdedc8dda503",
+      "title": "代词复习练习",
+      "path": "questions.3.stem",
+      "before": "—Is this Kate's bicycle? —No, ____ is under the tree. She put it there this morning.",
+      "after": "— Is this Kate's bicycle?\n— No, ____ is under the tree. She put it there this morning."
+    },
+    {
+      "lessonId": "builtin-0fbbfdedc8dda503",
+      "title": "代词复习练习",
+      "path": "questions.3.worked",
+      "before": "—Is this Kate's bicycle? —No, hers is under the tree. She put it there this morning.",
+      "after": "— Is this Kate's bicycle?\n— No, hers is under the tree. She put it there this morning."
+    },
+    {
+      "lessonId": "builtin-0fbbfdedc8dda503",
+      "title": "代词复习练习",
+      "path": "questions.7.stem",
+      "before": "-Look! ( ____ ) is dancing under the tree. -That's my cousin, Anna.",
+      "after": "— Look! ( ____ ) is dancing under the tree.\n— That's my cousin, Anna."
+    },
+    {
+      "lessonId": "builtin-0fbbfdedc8dda503",
+      "title": "代词复习练习",
+      "path": "questions.7.worked",
+      "before": "-Look! ( Somebody ) is dancing under the tree. -That's my cousin, Anna.",
+      "after": "— Look! ( Somebody ) is dancing under the tree.\n— That's my cousin, Anna."
+    },
+    {
+      "lessonId": "builtin-0fbbfdedc8dda503",
+      "title": "代词复习练习",
+      "path": "questions.8.stem",
+      "before": "-Is this ( ____ ) computer? -Yes, it's ( ____ ). My mother bought it for me.",
+      "after": "— Is this ( ____ ) computer?\n— Yes, it's ( ____ ). My mother bought it for me."
+    },
+    {
+      "lessonId": "builtin-0fbbfdedc8dda503",
+      "title": "代词复习练习",
+      "path": "questions.8.worked",
+      "before": "-Is this ( your ) computer? -Yes, it's ( mine ). My mother bought it for me.",
+      "after": "— Is this ( your ) computer?\n— Yes, it's ( mine ). My mother bought it for me."
+    },
+    {
+      "lessonId": "builtin-0fbbfdedc8dda503",
+      "title": "代词复习练习",
+      "path": "questions.9.stem",
+      "before": "-Did anyone call me when I was out? -Yes. A man who called( ____ ) Tom.",
+      "after": "— Did anyone call me when I was out?\n— Yes. A man who called( ____ ) Tom."
+    },
+    {
+      "lessonId": "builtin-0fbbfdedc8dda503",
+      "title": "代词复习练习",
+      "path": "questions.9.worked",
+      "before": "-Did anyone call me when I was out? -Yes. A man who called( himself ) Tom.",
+      "after": "— Did anyone call me when I was out?\n— Yes. A man who called( himself ) Tom."
+    },
+    {
+      "lessonId": "builtin-0fbbfdedc8dda503",
+      "title": "代词复习练习",
+      "path": "questions.10.stem",
+      "before": "—This cake smells great! —I made it by ____. Would you like ____?",
+      "after": "— This cake smells great!\n— I made it by ____. Would you like ____?"
+    },
+    {
+      "lessonId": "builtin-0fbbfdedc8dda503",
+      "title": "代词复习练习",
+      "path": "questions.10.worked",
+      "before": "—This cake smells great! —I made it by myself. Would you like some?",
+      "after": "— This cake smells great!\n— I made it by myself. Would you like some?"
+    },
+    {
+      "lessonId": "builtin-0fbbfdedc8dda503",
+      "title": "代词复习练习",
+      "path": "questions.17.stem",
+      "before": "- Hello, Linda is speaking. Who's ( ____ ) Hello, this is Martin.",
+      "after": "— Hello, Linda is speaking. Who's ( ____ ) Hello, this is Martin."
+    },
+    {
+      "lessonId": "builtin-0fbbfdedc8dda503",
+      "title": "代词复习练习",
+      "path": "questions.17.worked",
+      "before": "- Hello, Linda is speaking. Who's ( that ) Hello, this is Martin.",
+      "after": "— Hello, Linda is speaking. Who's ( that ) Hello, this is Martin."
+    },
+    {
+      "lessonId": "builtin-0fbbfdedc8dda503",
+      "title": "代词复习练习",
+      "path": "questions.23.stem",
+      "before": "- Which do you prefer, tea or coffee? ( ____ ) is OK. I don't care.",
+      "after": "— Which do you prefer, tea or coffee? ( ____ ) is OK. I don't care."
+    },
+    {
+      "lessonId": "builtin-0fbbfdedc8dda503",
+      "title": "代词复习练习",
+      "path": "questions.23.worked",
+      "before": "- Which do you prefer, tea or coffee? ( Either ) is OK. I don't care.",
+      "after": "— Which do you prefer, tea or coffee? ( Either ) is OK. I don't care."
+    },
+    {
+      "lessonId": "builtin-299a30abb671b3f6",
+      "title": "代词图片练习 原题1至12",
+      "path": "questions.0.stem",
+      "before": "—Do you like Jane's new skirt? —Yes, very much. I'll ask Mum to buy ____ for me.",
+      "after": "— Do you like Jane's new skirt?\n— Yes, very much. I'll ask Mum to buy ____ for me."
+    },
+    {
+      "lessonId": "builtin-299a30abb671b3f6",
+      "title": "代词图片练习 原题1至12",
+      "path": "questions.0.worked",
+      "before": "—Do you like Jane's new skirt? —Yes, very much. I'll ask Mum to buy one for me.",
+      "after": "— Do you like Jane's new skirt?\n— Yes, very much. I'll ask Mum to buy one for me."
+    },
+    {
+      "lessonId": "builtin-299a30abb671b3f6",
+      "title": "代词图片练习 原题1至12",
+      "path": "questions.1.stem",
+      "before": "—Whose card is this? —It is ____. My brother Tom gave it to me on my birthday.",
+      "after": "— Whose card is this?\n— It is ____. My brother Tom gave it to me on my birthday."
+    },
+    {
+      "lessonId": "builtin-299a30abb671b3f6",
+      "title": "代词图片练习 原题1至12",
+      "path": "questions.1.worked",
+      "before": "—Whose card is this? —It is mine. My brother Tom gave it to me on my birthday.",
+      "after": "— Whose card is this?\n— It is mine. My brother Tom gave it to me on my birthday."
+    },
+    {
+      "lessonId": "builtin-299a30abb671b3f6",
+      "title": "代词图片练习 原题1至12",
+      "path": "questions.6.stem",
+      "before": "—What are you looking for? —I am looking for the pen ____ I bought yesterday.",
+      "after": "— What are you looking for?\n— I am looking for the pen ____ I bought yesterday."
+    },
+    {
+      "lessonId": "builtin-299a30abb671b3f6",
+      "title": "代词图片练习 原题1至12",
+      "path": "questions.6.worked",
+      "before": "—What are you looking for? —I am looking for the pen which I bought yesterday.",
+      "after": "— What are you looking for?\n— I am looking for the pen which I bought yesterday."
+    },
+    {
+      "lessonId": "builtin-299a30abb671b3f6",
+      "title": "代词图片练习 原题1至12",
+      "path": "questions.9.stem",
+      "before": "—I want to buy a dictionary. Could you show me ____? —Yes. This is the most popular kind.",
+      "after": "— I want to buy a dictionary. Could you show me ____?\n— Yes. This is the most popular kind."
+    },
+    {
+      "lessonId": "builtin-299a30abb671b3f6",
+      "title": "代词图片练习 原题1至12",
+      "path": "questions.9.worked",
+      "before": "—I want to buy a dictionary. Could you show me one? —Yes. This is the most popular kind.",
+      "after": "— I want to buy a dictionary. Could you show me one?\n— Yes. This is the most popular kind."
+    },
+    {
+      "lessonId": "builtin-299a30abb671b3f6",
+      "title": "代词图片练习 原题1至12",
+      "path": "questions.10.stem",
+      "before": "—My watch keeps good time. What about ____? —Mine? Oh, two minutes slow.",
+      "after": "— My watch keeps good time. What about ____?\n— Mine? Oh, two minutes slow."
+    },
+    {
+      "lessonId": "builtin-299a30abb671b3f6",
+      "title": "代词图片练习 原题1至12",
+      "path": "questions.10.worked",
+      "before": "—My watch keeps good time. What about yours? —Mine? Oh, two minutes slow.",
+      "after": "— My watch keeps good time. What about yours?\n— Mine? Oh, two minutes slow."
+    },
+    {
+      "lessonId": "builtin-e923f4bd1d468998",
+      "title": "代词图片练习 原题13至26",
+      "path": "questions.0.stem",
+      "before": "—I made the cake by ____. Help ____, Tom. —Thanks.",
+      "after": "— I made the cake by ____. Help ____, Tom.\n— Thanks."
+    },
+    {
+      "lessonId": "builtin-e923f4bd1d468998",
+      "title": "代词图片练习 原题13至26",
+      "path": "questions.0.worked",
+      "before": "—I made the cake by myself. Help yourself, Tom. —Thanks.",
+      "after": "— I made the cake by myself. Help yourself, Tom.\n— Thanks."
+    },
+    {
+      "lessonId": "builtin-1e21c2c4ccde457f",
+      "title": "代词图片练习 原题27至40",
+      "path": "questions.2.stem",
+      "before": "—Do you like those shoes, Madam? —No, show me ____.",
+      "after": "— Do you like those shoes, Madam?\n— No, show me ____."
+    },
+    {
+      "lessonId": "builtin-1e21c2c4ccde457f",
+      "title": "代词图片练习 原题27至40",
+      "path": "questions.2.worked",
+      "before": "—Do you like those shoes, Madam? —No, show me some others.",
+      "after": "— Do you like those shoes, Madam?\n— No, show me some others."
+    },
+    {
+      "lessonId": "builtin-1e21c2c4ccde457f",
+      "title": "代词图片练习 原题27至40",
+      "path": "questions.3.stem",
+      "before": "—Where are ____? I can't find ____. —Let me help you.",
+      "after": "— Where are ____? I can't find ____.\n— Let me help you."
+    },
+    {
+      "lessonId": "builtin-1e21c2c4ccde457f",
+      "title": "代词图片练习 原题27至40",
+      "path": "questions.3.worked",
+      "before": "—Where are they? I can't find them. —Let me help you.",
+      "after": "— Where are they? I can't find them.\n— Let me help you."
+    },
+    {
+      "lessonId": "builtin-1e21c2c4ccde457f",
+      "title": "代词图片练习 原题27至40",
+      "path": "questions.5.stem",
+      "before": "—The latest English newspaper, please! —Only one copy left. Would you like to have ____, sir?",
+      "after": "— The latest English newspaper, please!\n— Only one copy left. Would you like to have ____, sir?"
+    },
+    {
+      "lessonId": "builtin-1e21c2c4ccde457f",
+      "title": "代词图片练习 原题27至40",
+      "path": "questions.5.worked",
+      "before": "—The latest English newspaper, please! —Only one copy left. Would you like to have it, sir?",
+      "after": "— The latest English newspaper, please!\n— Only one copy left. Would you like to have it, sir?"
+    },
+    {
+      "lessonId": "builtin-1e21c2c4ccde457f",
+      "title": "代词图片练习 原题27至40",
+      "path": "questions.9.stem",
+      "before": "—____ is your uncle? —He is a journalist of the Shaanxi Daily.",
+      "after": "— ____ is your uncle?\n— He is a journalist of the Shaanxi Daily."
+    },
+    {
+      "lessonId": "builtin-1e21c2c4ccde457f",
+      "title": "代词图片练习 原题27至40",
+      "path": "questions.9.worked",
+      "before": "—What is your uncle? —He is a journalist of the Shaanxi Daily.",
+      "after": "— What is your uncle?\n— He is a journalist of the Shaanxi Daily."
+    },
+    {
+      "lessonId": "builtin-1e21c2c4ccde457f",
+      "title": "代词图片练习 原题27至40",
+      "path": "questions.11.stem",
+      "before": "—____ will make your grandma happy if you buy a walking stick for her birthday, I guess. —It sounds like a good idea! She has some problems walking now.",
+      "after": "— ____ will make your grandma happy if you buy a walking stick for her birthday, I guess.\n— It sounds like a good idea! She has some problems walking now."
+    },
+    {
+      "lessonId": "builtin-1e21c2c4ccde457f",
+      "title": "代词图片练习 原题27至40",
+      "path": "questions.11.worked",
+      "before": "—It will make your grandma happy if you buy a walking stick for her birthday, I guess. —It sounds like a good idea! She has some problems walking now.",
+      "after": "— It will make your grandma happy if you buy a walking stick for her birthday, I guess.\n— It sounds like a good idea! She has some problems walking now."
+    },
+    {
+      "lessonId": "builtin-74d7af69a6b4b6ce",
+      "title": "代词图片练习 原题41至45",
+      "path": "questions.4.stem",
+      "before": "—Do you have money? —Yes, ____.",
+      "after": "— Do you have money?\n— Yes, ____."
+    },
+    {
+      "lessonId": "builtin-74d7af69a6b4b6ce",
+      "title": "代词图片练习 原题41至45",
+      "path": "questions.4.worked",
+      "before": "—Do you have money? —Yes, a little.",
+      "after": "— Do you have money?\n— Yes, a little."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.3.stem",
+      "before": "—Is this Kate's bicycle? —No, ____ is under the tree. She put it there this morning.",
+      "after": "— Is this Kate's bicycle?\n— No, ____ is under the tree. She put it there this morning."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.3.worked",
+      "before": "—Is this Kate's bicycle? —No, hers is under the tree. She put it there this morning.",
+      "after": "— Is this Kate's bicycle?\n— No, hers is under the tree. She put it there this morning."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.7.stem",
+      "before": "—Look! ____ is dancing under the tree. —That's my cousin, Anna.",
+      "after": "— Look! ____ is dancing under the tree.\n— That's my cousin, Anna."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.7.worked",
+      "before": "—Look! Somebody is dancing under the tree. —That's my cousin, Anna.",
+      "after": "— Look! Somebody is dancing under the tree.\n— That's my cousin, Anna."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.8.stem",
+      "before": "—Is this ____ computer? —Yes, it's ____. My mother bought it for me.",
+      "after": "— Is this ____ computer?\n— Yes, it's ____. My mother bought it for me."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.8.worked",
+      "before": "—Is this your computer? —Yes, it's mine. My mother bought it for me.",
+      "after": "— Is this your computer?\n— Yes, it's mine. My mother bought it for me."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.9.stem",
+      "before": "—Did anyone call me when I was out? —Yes. A man who called ____ Tom.",
+      "after": "— Did anyone call me when I was out?\n— Yes. A man who called ____ Tom."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.9.worked",
+      "before": "—Did anyone call me when I was out? —Yes. A man who called himself Tom.",
+      "after": "— Did anyone call me when I was out?\n— Yes. A man who called himself Tom."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.10.stem",
+      "before": "—This cake smells great! —I made it by ____. Would you like ____?",
+      "after": "— This cake smells great!\n— I made it by ____. Would you like ____?"
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.10.worked",
+      "before": "—This cake smells great! —I made it by myself. Would you like some?",
+      "after": "— This cake smells great!\n— I made it by myself. Would you like some?"
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.17.stem",
+      "before": "—Hello, Linda is speaking. Who's ____? —Hello, this is Martin.",
+      "after": "— Hello, Linda is speaking. Who's ____?\n— Hello, this is Martin."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.17.worked",
+      "before": "—Hello, Linda is speaking. Who's that? —Hello, this is Martin.",
+      "after": "— Hello, Linda is speaking. Who's that?\n— Hello, this is Martin."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.23.stem",
+      "before": "—Which do you prefer, tea or coffee? — ____ is OK. I don't care.",
+      "after": "— Which do you prefer, tea or coffee?\n— ____ is OK. I don't care."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.23.worked",
+      "before": "—Which do you prefer, tea or coffee? — Either is OK. I don't care.",
+      "after": "— Which do you prefer, tea or coffee?\n— Either is OK. I don't care."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.50.stem",
+      "before": "—Do you want ____ sandwich? —Yes, I usually eat a lot when I'm hungry.",
+      "after": "— Do you want ____ sandwich?\n— Yes, I usually eat a lot when I'm hungry."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.50.worked",
+      "before": "—Do you want another sandwich? —Yes, I usually eat a lot when I'm hungry.",
+      "after": "— Do you want another sandwich?\n— Yes, I usually eat a lot when I'm hungry."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.58.stem",
+      "before": "—Have you got a ticket? —Yes, I've got ____.",
+      "after": "— Have you got a ticket?\n— Yes, I've got ____."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.58.worked",
+      "before": "—Have you got a ticket? —Yes, I've got one.",
+      "after": "— Have you got a ticket?\n— Yes, I've got one."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.60.stem",
+      "before": "—Which do you prefer, a bottle of orange or a bottle of milk? — ____, thanks. I'd like a cup of tea.",
+      "after": "— Which do you prefer, a bottle of orange or a bottle of milk?\n— ____, thanks. I'd like a cup of tea."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.60.worked",
+      "before": "—Which do you prefer, a bottle of orange or a bottle of milk? — Neither, thanks. I'd like a cup of tea.",
+      "after": "— Which do you prefer, a bottle of orange or a bottle of milk?\n— Neither, thanks. I'd like a cup of tea."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.61.stem",
+      "before": "—Oh! I came in a hurry and forgot to bring food. —Never mind. You can have ____.",
+      "after": "— Oh! I came in a hurry and forgot to bring food.\n— Never mind. You can have ____."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.61.worked",
+      "before": "—Oh! I came in a hurry and forgot to bring food. —Never mind. You can have ours.",
+      "after": "— Oh! I came in a hurry and forgot to bring food.\n— Never mind. You can have ours."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.63.stem",
+      "before": "—How are you going to improve ____ this term? —Work harder than last term.",
+      "after": "— How are you going to improve ____ this term?\n— Work harder than last term."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.63.worked",
+      "before": "—How are you going to improve yourself this term? —Work harder than last term.",
+      "after": "— How are you going to improve yourself this term?\n— Work harder than last term."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.65.stem",
+      "before": "—Could you tell me ____ she is looking for? —Her cousin, Susan.",
+      "after": "— Could you tell me ____ she is looking for?\n— Her cousin, Susan."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.65.worked",
+      "before": "—Could you tell me who she is looking for? —Her cousin, Susan.",
+      "after": "— Could you tell me who she is looking for?\n— Her cousin, Susan."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.67.stem",
+      "before": "—Is ____ here? —No. Li Lei and Han Mei have asked for leave.",
+      "after": "— Is ____ here?\n— No. Li Lei and Han Mei have asked for leave."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.67.worked",
+      "before": "—Is everybody here? —No. Li Lei and Han Mei have asked for leave.",
+      "after": "— Is everybody here?\n— No. Li Lei and Han Mei have asked for leave."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.77.stem",
+      "before": "—Who is singing in the next room? — ____ must be Tim.",
+      "after": "— Who is singing in the next room?\n— ____ must be Tim."
+    },
+    {
+      "lessonId": "builtin-f5c1a943bd148587",
+      "title": "代词专题 PDF来源练习",
+      "path": "questions.77.worked",
+      "before": "—Who is singing in the next room? — It must be Tim.",
+      "after": "— Who is singing in the next room?\n— It must be Tim."
+    },
+    {
+      "lessonId": "builtin-ec5eac72e19205db",
+      "title": "数词复习练习",
+      "path": "questions.2.stem",
+      "before": "—How many students are there in your class? —____.",
+      "after": "— How many students are there in your class?\n— ____."
+    },
+    {
+      "lessonId": "builtin-ec5eac72e19205db",
+      "title": "数词复习练习",
+      "path": "questions.2.worked",
+      "before": "—How many students are there in your class? —Forty-five.",
+      "after": "— How many students are there in your class?\n— Forty-five."
+    },
+    {
+      "lessonId": "builtin-ec5eac72e19205db",
+      "title": "数词复习练习",
+      "path": "questions.14.stem",
+      "before": "-What's the date today?\n-It's ____.",
+      "after": "— What's the date today?\n— It's ____."
+    },
+    {
+      "lessonId": "builtin-ec5eac72e19205db",
+      "title": "数词复习练习",
+      "path": "questions.14.worked",
+      "before": "-What's the date today?\n-It's May the fourth.",
+      "after": "— What's the date today?\n— It's May the fourth."
+    },
+    {
+      "lessonId": "builtin-175adc1776ea8bfe",
+      "title": "数词图片练习 原题1至12",
+      "path": "questions.4.stem",
+      "before": "—Dear, how is your homework going? —Oh, Mum. I've finished ____ of it.",
+      "after": "— Dear, how is your homework going?\n— Oh, Mum. I've finished ____ of it."
+    },
+    {
+      "lessonId": "builtin-175adc1776ea8bfe",
+      "title": "数词图片练习 原题1至12",
+      "path": "questions.4.worked",
+      "before": "—Dear, how is your homework going? —Oh, Mum. I've finished two thirds of it.",
+      "after": "— Dear, how is your homework going?\n— Oh, Mum. I've finished two thirds of it."
+    },
+    {
+      "lessonId": "builtin-448570908d39974e",
+      "title": "数词图片练习 原题28至41",
+      "path": "questions.3.stem",
+      "before": "—I like number \"9\" best because I think it stands for \"long lasting\". —Me, too. So I choose ____ floor to live on.",
+      "after": "— I like number \"9\" best because I think it stands for \"long lasting\".\n— Me, too. So I choose ____ floor to live on."
+    },
+    {
+      "lessonId": "builtin-448570908d39974e",
+      "title": "数词图片练习 原题28至41",
+      "path": "questions.3.worked",
+      "before": "—I like number \"9\" best because I think it stands for \"long lasting\". —Me, too. So I choose the ninth floor to live on.",
+      "after": "— I like number \"9\" best because I think it stands for \"long lasting\".\n— Me, too. So I choose the ninth floor to live on."
+    },
+    {
+      "lessonId": "builtin-448570908d39974e",
+      "title": "数词图片练习 原题28至41",
+      "path": "questions.7.stem",
+      "before": "—How many books do you have? —I have ____.",
+      "after": "— How many books do you have?\n— I have ____."
+    },
+    {
+      "lessonId": "builtin-448570908d39974e",
+      "title": "数词图片练习 原题28至41",
+      "path": "questions.7.worked",
+      "before": "—How many books do you have? —I have two dozen.",
+      "after": "— How many books do you have?\n— I have two dozen."
+    },
+    {
+      "lessonId": "builtin-448570908d39974e",
+      "title": "数词图片练习 原题28至41",
+      "path": "questions.13.stem",
+      "before": "—How often do you come back to your hometown? —____ a month.",
+      "after": "— How often do you come back to your hometown?\n— ____ a month."
+    },
+    {
+      "lessonId": "builtin-448570908d39974e",
+      "title": "数词图片练习 原题28至41",
+      "path": "questions.13.worked",
+      "before": "—How often do you come back to your hometown? —Twice a month.",
+      "after": "— How often do you come back to your hometown?\n— Twice a month."
+    },
+    {
+      "lessonId": "builtin-d9a90d515f51fd1d",
+      "title": "数词图片练习 原题42至45",
+      "path": "questions.1.stem",
+      "before": "—Which phone is yours? —The ____ one is ____.",
+      "after": "— Which phone is yours?\n— The ____ one is ____."
+    },
+    {
+      "lessonId": "builtin-d9a90d515f51fd1d",
+      "title": "数词图片练习 原题42至45",
+      "path": "questions.1.worked",
+      "before": "—Which phone is yours? —The third one is mine.",
+      "after": "— Which phone is yours?\n— The third one is mine."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.5.stem",
+      "before": "—How many students are there in your class? — ____.",
+      "after": "— How many students are there in your class?\n— ____."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.5.worked",
+      "before": "—How many students are there in your class? — Forty-five.",
+      "after": "— How many students are there in your class?\n— Forty-five."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.6.stem",
+      "before": "—Which number is wrong? — ____.",
+      "after": "— Which number is wrong?\n— ____."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.6.worked",
+      "before": "—Which number is wrong? — Ninteen.",
+      "after": "— Which number is wrong?\n— Ninteen."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.10.stem",
+      "before": "—Which is the car that he drives? —It's ____.",
+      "after": "— Which is the car that he drives?\n— It's ____."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.10.worked",
+      "before": "—Which is the car that he drives? —It's the fifty-fourth car.",
+      "after": "— Which is the car that he drives?\n— It's the fifty-fourth car."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.11.stem",
+      "before": "—Which of the following is wrong? — ____.",
+      "after": "— Which of the following is wrong?\n— ____."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.11.worked",
+      "before": "—Which of the following is wrong? — He is fifteen year old..",
+      "after": "— Which of the following is wrong?\n— He is fifteen year old.."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.13.stem",
+      "before": "—How many new words are there in ____ lesson? —There are only ____.",
+      "after": "— How many new words are there in ____ lesson?\n— There are only ____."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.13.worked",
+      "before": "—How many new words are there in the fifth lesson? —There are only five.",
+      "after": "— How many new words are there in the fifth lesson?\n— There are only five."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.17.stem",
+      "before": "—Which room do you live in? — ____.",
+      "after": "— Which room do you live in?\n— ____."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.17.worked",
+      "before": "—Which room do you live in? — Room 201.",
+      "after": "— Which room do you live in?\n— Room 201."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.18.stem",
+      "before": "—How many magazines do you have? —I have ____.",
+      "after": "— How many magazines do you have?\n— I have ____."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.18.worked",
+      "before": "—How many magazines do you have? —I have two.",
+      "after": "— How many magazines do you have?\n— I have two."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.23.stem",
+      "before": "—Would you like to eat ____ apples? —No, thank you.",
+      "after": "— Would you like to eat ____ apples?\n— No, thank you."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.23.worked",
+      "before": "—Would you like to eat two more apples? —No, thank you.",
+      "after": "— Would you like to eat two more apples?\n— No, thank you."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.31.stem",
+      "before": "—What year was it? —It was ____.",
+      "after": "— What year was it?\n— It was ____."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.31.worked",
+      "before": "—What year was it? —It was nineteen ninety-seven.",
+      "after": "— What year was it?\n— It was nineteen ninety-seven."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.32.stem",
+      "before": "—What's the date today? —It's ____.",
+      "after": "— What's the date today?\n— It's ____."
+    },
+    {
+      "lessonId": "builtin-ad55794e61d684ed",
+      "title": "数词专题 PDF来源练习",
+      "path": "questions.32.worked",
+      "before": "—What's the date today? —It's June the fourth.",
+      "after": "— What's the date today?\n— It's June the fourth."
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "title": "数词知识讲义与课件练习",
+      "path": "questions.4.stem",
+      "before": "— How many people are there in Shaanxi Province? — There are almost ______ people in Shaanxi Province. 课件第23页",
+      "after": "— How many people are there in Shaanxi Province?\n— There are almost ______ people in Shaanxi Province. 课件第23页"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "title": "数词知识讲义与课件练习",
+      "path": "questions.4.worked",
+      "before": "— How many people are there in Shaanxi Province? — There are almost forty million people in Shaanxi Province. 课件第23页",
+      "after": "— How many people are there in Shaanxi Province?\n— There are almost forty million people in Shaanxi Province. 课件第23页"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "title": "数词知识讲义与课件练习",
+      "path": "questions.7.stem",
+      "before": "— How many people are there in this city? — There are about ______ people. 课件第33页",
+      "after": "— How many people are there in this city?\n— There are about ______ people. 课件第33页"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "title": "数词知识讲义与课件练习",
+      "path": "questions.7.worked",
+      "before": "— How many people are there in this city? — There are about twenty million people. 课件第33页",
+      "after": "— How many people are there in this city?\n— There are about twenty million people. 课件第33页"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "title": "数词知识讲义与课件练习",
+      "path": "questions.14.stem",
+      "before": "— When is Children’s Day? — It is ______. 课件第56页",
+      "after": "— When is Children’s Day?\n— It is ______. 课件第56页"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "title": "数词知识讲义与课件练习",
+      "path": "questions.14.worked",
+      "before": "— When is Children’s Day? — It is on the first day of June. 课件第56页",
+      "after": "— When is Children’s Day?\n— It is on the first day of June. 课件第56页"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "title": "数词知识讲义与课件练习",
+      "path": "questions.15.stem",
+      "before": "— What’s the date today? — It’s _____ ( 5 月 8 日 ). 课件第57页",
+      "after": "— What’s the date today?\n— It’s _____ ( 5 月 8 日 ). 课件第57页"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "title": "数词知识讲义与课件练习",
+      "path": "questions.32.stem",
+      "before": "—Do you have enough men to carry these chairs? —No. I think we need ____ men. 课件课堂练习13",
+      "after": "— Do you have enough men to carry these chairs?\n— No. I think we need ____ men. 课件课堂练习13"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "title": "数词知识讲义与课件练习",
+      "path": "questions.32.worked",
+      "before": "—Do you have enough men to carry these chairs? —No.I think we need two more men. 课件课堂练习13",
+      "after": "— Do you have enough men to carry these chairs?\n— No.I think we need two more men. 课件课堂练习13"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "title": "数词知识讲义与课件练习",
+      "path": "questions.38.stem",
+      "before": "—What's the time, please? —It's ____. 课件课堂练习19",
+      "after": "— What's the time, please?\n— It's ____. 课件课堂练习19"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "title": "数词知识讲义与课件练习",
+      "path": "questions.38.worked",
+      "before": "—What's the time, please? —It's nine thirty-five. 课件课堂练习19",
+      "after": "— What's the time, please?\n— It's nine thirty-five. 课件课堂练习19"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "title": "数词知识讲义与课件练习",
+      "path": "questions.39.worked",
+      "before": "Mr.Black left here half an hour ago. 课件课堂练习20",
+      "after": "Mr. Black left here half an hour ago. 课件课堂练习20"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "title": "数词知识讲义与课件练习",
+      "path": "questions.42.stem",
+      "before": "—On which floor do you live? —The ____ floor, and my room number is ____. 课件课堂练习23",
+      "after": "— On which floor do you live?\n— The ____ floor, and my room number is ____. 课件课堂练习23"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "title": "数词知识讲义与课件练习",
+      "path": "questions.42.worked",
+      "before": "—On which floor do you live? —The fifth floor, and my room number is five zero two. 课件课堂练习23",
+      "after": "— On which floor do you live?\n— The fifth floor, and my room number is five zero two. 课件课堂练习23"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "title": "数词知识讲义与课件练习",
+      "path": "questions.43.stem",
+      "before": "—How old is your daughter? — ____.We had a special party for her ____ birthday last week. 课件课堂练习24",
+      "after": "— How old is your daughter?\n— ____. We had a special party for her ____ birthday last week. 课件课堂练习24"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "title": "数词知识讲义与课件练习",
+      "path": "questions.43.worked",
+      "before": "—How old is your daughter? — Nine.We had a special party for her ninth birthday last week. 课件课堂练习24",
+      "after": "— How old is your daughter?\n— Nine. We had a special party for her ninth birthday last week. 课件课堂练习24"
+    },
+    {
+      "lessonId": "builtin-dbe9fbcce74d5e0b",
+      "title": "冠词复习练习",
+      "path": "questions.6.stem",
+      "before": "-Who's the tall man with glasses? -He's my ____ uncle. He works in ____ university.",
+      "after": "— Who's the tall man with glasses?\n— He's my ____ uncle. He works in ____ university."
+    },
+    {
+      "lessonId": "builtin-dbe9fbcce74d5e0b",
+      "title": "冠词复习练习",
+      "path": "questions.6.worked",
+      "before": "-Who's the tall man with glasses? -He's my ∅ uncle. He works in a university.",
+      "after": "— Who's the tall man with glasses?\n— He's my ∅ uncle. He works in a university."
+    },
+    {
+      "lessonId": "builtin-dbe9fbcce74d5e0b",
+      "title": "冠词复习练习",
+      "path": "questions.7.stem",
+      "before": "-Did you see ____ dog just now? -ls it ____ one with two white ears?",
+      "after": "— Did you see ____ dog just now?\n— Is it ____ one with two white ears?"
+    },
+    {
+      "lessonId": "builtin-dbe9fbcce74d5e0b",
+      "title": "冠词复习练习",
+      "path": "questions.7.worked",
+      "before": "-Did you see a dog just now? -ls it the one with two white ears?",
+      "after": "— Did you see a dog just now?\n— Is it the one with two white ears?"
+    },
+    {
+      "lessonId": "builtin-dbe9fbcce74d5e0b",
+      "title": "冠词复习练习",
+      "path": "questions.9.stem",
+      "before": "-Chinese is ____ important international language nowadays. -Yeah. That's why so many foreigners choose it as ____ bridge to a better job.",
+      "after": "— Chinese is ____ important international language nowadays.\n— Yeah. That's why so many foreigners choose it as ____ bridge to a better job."
+    },
+    {
+      "lessonId": "builtin-dbe9fbcce74d5e0b",
+      "title": "冠词复习练习",
+      "path": "questions.9.worked",
+      "before": "-Chinese is an important international language nowadays. -Yeah. That's why so many foreigners choose it as a bridge to a better job.",
+      "after": "— Chinese is an important international language nowadays.\n— Yeah. That's why so many foreigners choose it as a bridge to a better job."
+    },
+    {
+      "lessonId": "builtin-dbe9fbcce74d5e0b",
+      "title": "冠词复习练习",
+      "path": "questions.12.stem",
+      "before": "-Joan, do you know ____ boy in a white shirt? -Yes. He is my new friend Tom, and he's ____ honest waiter.",
+      "after": "— Joan, do you know ____ boy in a white shirt?\n— Yes. He is my new friend Tom, and he's ____ honest waiter."
+    },
+    {
+      "lessonId": "builtin-dbe9fbcce74d5e0b",
+      "title": "冠词复习练习",
+      "path": "questions.12.worked",
+      "before": "-Joan, do you know the boy in a white shirt? -Yes. He is my new friend Tom, and he's an honest waiter.",
+      "after": "— Joan, do you know the boy in a white shirt?\n— Yes. He is my new friend Tom, and he's an honest waiter."
+    },
+    {
+      "lessonId": "builtin-dbe9fbcce74d5e0b",
+      "title": "冠词复习练习",
+      "path": "questions.13.stem",
+      "before": "—Is your brother ____ actor? —Yes, and he likes ____ job.",
+      "after": "— Is your brother ____ actor?\n— Yes, and he likes ____ job."
+    },
+    {
+      "lessonId": "builtin-dbe9fbcce74d5e0b",
+      "title": "冠词复习练习",
+      "path": "questions.13.worked",
+      "before": "—Is your brother an actor? —Yes, and he likes the job.",
+      "after": "— Is your brother an actor?\n— Yes, and he likes the job."
+    },
+    {
+      "lessonId": "builtin-dbe9fbcce74d5e0b",
+      "title": "冠词复习练习",
+      "path": "questions.15.stem",
+      "before": "-How do you like ____ mobile phone in the window? -Cool! Your mother will be happy if you buy her one like this as ____ present",
+      "after": "— How do you like ____ mobile phone in the window?\n— Cool! Your mother will be happy if you buy her one like this as ____ present"
+    },
+    {
+      "lessonId": "builtin-dbe9fbcce74d5e0b",
+      "title": "冠词复习练习",
+      "path": "questions.15.worked",
+      "before": "-How do you like the mobile phone in the window? -Cool! Your mother will be happy if you buy her one like this as a present",
+      "after": "— How do you like the mobile phone in the window?\n— Cool! Your mother will be happy if you buy her one like this as a present"
+    },
+    {
+      "lessonId": "builtin-dbe9fbcce74d5e0b",
+      "title": "冠词复习练习",
+      "path": "questions.17.stem",
+      "before": "-Do you know the Double Ninth Festival? -Yes, I do. It reminds us to respect ____ elderly.",
+      "after": "— Do you know the Double Ninth Festival?\n— Yes, I do. It reminds us to respect ____ elderly."
+    },
+    {
+      "lessonId": "builtin-dbe9fbcce74d5e0b",
+      "title": "冠词复习练习",
+      "path": "questions.17.worked",
+      "before": "-Do you know the Double Ninth Festival? -Yes, I do. It reminds us to respect the elderly.",
+      "after": "— Do you know the Double Ninth Festival?\n— Yes, I do. It reminds us to respect the elderly."
+    },
+    {
+      "lessonId": "builtin-dbe9fbcce74d5e0b",
+      "title": "冠词复习练习",
+      "path": "questions.18.stem",
+      "before": "-What does Carl usually do after supper? -He often takes his dog for ____ walk around the square.",
+      "after": "— What does Carl usually do after supper?\n— He often takes his dog for ____ walk around the square."
+    },
+    {
+      "lessonId": "builtin-dbe9fbcce74d5e0b",
+      "title": "冠词复习练习",
+      "path": "questions.18.worked",
+      "before": "-What does Carl usually do after supper? -He often takes his dog for a walk around the square.",
+      "after": "— What does Carl usually do after supper?\n— He often takes his dog for a walk around the square."
+    },
+    {
+      "lessonId": "builtin-dbe9fbcce74d5e0b",
+      "title": "冠词复习练习",
+      "path": "questions.19.stem",
+      "before": "-Why did you make so many mistakes in the speech? -I'm so sorry. Could you give me ____ second chance?",
+      "after": "— Why did you make so many mistakes in the speech?\n— I'm so sorry. Could you give me ____ second chance?"
+    },
+    {
+      "lessonId": "builtin-dbe9fbcce74d5e0b",
+      "title": "冠词复习练习",
+      "path": "questions.19.worked",
+      "before": "-Why did you make so many mistakes in the speech? -I'm so sorry. Could you give me a second chance?",
+      "after": "— Why did you make so many mistakes in the speech?\n— I'm so sorry. Could you give me a second chance?"
+    },
+    {
+      "lessonId": "builtin-ed5e179afbec29a3",
+      "title": "冠词复习练习",
+      "path": "questions.9.stem",
+      "before": "-Do you know ____ lady in blue? --Yes. She is a teacher of a university.",
+      "after": "— Do you know ____ lady in blue?\n— Yes. She is a teacher of a university."
+    },
+    {
+      "lessonId": "builtin-ed5e179afbec29a3",
+      "title": "冠词复习练习",
+      "path": "questions.9.worked",
+      "before": "-Do you know the lady in blue? --Yes. She is a teacher of a university.",
+      "after": "— Do you know the lady in blue?\n— Yes. She is a teacher of a university."
+    },
+    {
+      "lessonId": "builtin-ed5e179afbec29a3",
+      "title": "冠词复习练习",
+      "path": "questions.10.stem",
+      "before": "-Where's ____ nearest supermarket? --It's over there, just around the corner.",
+      "after": "— Where's ____ nearest supermarket?\n— It's over there, just around the corner."
+    },
+    {
+      "lessonId": "builtin-ed5e179afbec29a3",
+      "title": "冠词复习练习",
+      "path": "questions.10.worked",
+      "before": "-Where's the nearest supermarket? --It's over there, just around the corner.",
+      "after": "— Where's the nearest supermarket?\n— It's over there, just around the corner."
+    },
+    {
+      "lessonId": "builtin-7546ae71200e8169",
+      "title": "冠词图片练习 原题15至30",
+      "path": "questions.14.stem",
+      "before": "—Can you see ____ science book on the desk? —No, it's ____ English book.",
+      "after": "— Can you see ____ science book on the desk?\n— No, it's ____ English book."
+    },
+    {
+      "lessonId": "builtin-7546ae71200e8169",
+      "title": "冠词图片练习 原题15至30",
+      "path": "questions.14.worked",
+      "before": "—Can you see the science book on the desk? —No, it's an English book.",
+      "after": "— Can you see the science book on the desk?\n— No, it's an English book."
+    },
+    {
+      "lessonId": "builtin-330c6468a4bebfae",
+      "title": "冠词图片练习 原题31至45",
+      "path": "questions.9.stem",
+      "before": "—I haven't seen you for ____ long time. Where have you been? —I have been away for ____ holiday with my parents.",
+      "after": "— I haven't seen you for ____ long time. Where have you been?\n— I have been away for ____ holiday with my parents."
+    },
+    {
+      "lessonId": "builtin-330c6468a4bebfae",
+      "title": "冠词图片练习 原题31至45",
+      "path": "questions.9.worked",
+      "before": "—I haven't seen you for a long time. Where have you been? —I have been away for a holiday with my parents.",
+      "after": "— I haven't seen you for a long time. Where have you been?\n— I have been away for a holiday with my parents."
+    },
+    {
+      "lessonId": "builtin-330c6468a4bebfae",
+      "title": "冠词图片练习 原题31至45",
+      "path": "questions.10.stem",
+      "before": "—Excuse me, can you tell me ____ way to ____ Xinhua Bookstore? —Go along this road, turn to ____ right at ____ first crossing, and at ____ end of the street, you can find it.",
+      "after": "— Excuse me, can you tell me ____ way to ____ Xinhua Bookstore?\n— Go along this road, turn to ____ right at ____ first crossing, and at ____ end of the street, you can find it."
+    },
+    {
+      "lessonId": "builtin-330c6468a4bebfae",
+      "title": "冠词图片练习 原题31至45",
+      "path": "questions.10.worked",
+      "before": "—Excuse me, can you tell me the way to the Xinhua Bookstore? —Go along this road, turn to the right at the first crossing, and at the end of the street, you can find it.",
+      "after": "— Excuse me, can you tell me the way to the Xinhua Bookstore?\n— Go along this road, turn to the right at the first crossing, and at the end of the street, you can find it."
+    },
+    {
+      "lessonId": "builtin-330c6468a4bebfae",
+      "title": "冠词图片练习 原题31至45",
+      "path": "questions.11.stem",
+      "before": "—Why not take ____ friend with you? —That's ____ good idea.",
+      "after": "— Why not take ____ friend with you?\n— That's ____ good idea."
+    },
+    {
+      "lessonId": "builtin-330c6468a4bebfae",
+      "title": "冠词图片练习 原题31至45",
+      "path": "questions.11.worked",
+      "before": "—Why not take a friend with you? —That's a good idea.",
+      "after": "— Why not take a friend with you?\n— That's a good idea."
+    },
+    {
+      "lessonId": "builtin-73a337eb6e888cbb",
+      "title": "冠词专题 PDF来源练习",
+      "path": "questions.27.stem",
+      "before": "—In which class is ____ boy in white? —He's in Class 4.",
+      "after": "— In which class is ____ boy in white?\n— He's in Class 4."
+    },
+    {
+      "lessonId": "builtin-73a337eb6e888cbb",
+      "title": "冠词专题 PDF来源练习",
+      "path": "questions.27.worked",
+      "before": "—In which class is the boy in white? —He's in Class 4.",
+      "after": "— In which class is the boy in white?\n— He's in Class 4."
+    },
+    {
+      "lessonId": "builtin-73a337eb6e888cbb",
+      "title": "冠词专题 PDF来源练习",
+      "path": "questions.28.stem",
+      "before": "—Where do you usually have ____ lunch? —At home.",
+      "after": "— Where do you usually have ____ lunch?\n— At home."
+    },
+    {
+      "lessonId": "builtin-73a337eb6e888cbb",
+      "title": "冠词专题 PDF来源练习",
+      "path": "questions.28.worked",
+      "before": "—Where do you usually have ∅ lunch? —At home.",
+      "after": "— Where do you usually have ∅ lunch?\n— At home."
+    },
+    {
+      "lessonId": "builtin-73a337eb6e888cbb",
+      "title": "冠词专题 PDF来源练习",
+      "path": "questions.30.stem",
+      "before": "—Have you seen ____ book? I left it here this morning. —Is it ____ Chinese book? I saw it.",
+      "after": "— Have you seen ____ book? I left it here this morning.\n— Is it ____ Chinese book? I saw it."
+    },
+    {
+      "lessonId": "builtin-73a337eb6e888cbb",
+      "title": "冠词专题 PDF来源练习",
+      "path": "questions.30.worked",
+      "before": "—Have you seen a book? I left it here this morning. —Is it a Chinese book? I saw it.",
+      "after": "— Have you seen a book? I left it here this morning.\n— Is it a Chinese book? I saw it."
+    },
+    {
+      "lessonId": "builtin-73a337eb6e888cbb",
+      "title": "冠词专题 PDF来源练习",
+      "path": "questions.31.stem",
+      "before": "—Did you see my grandmother? —Oh, I saw ____ old woman sitting on a chair by the lake. Maybe it was her.",
+      "after": "— Did you see my grandmother?\n— Oh, I saw ____ old woman sitting on a chair by the lake. Maybe it was her."
+    },
+    {
+      "lessonId": "builtin-73a337eb6e888cbb",
+      "title": "冠词专题 PDF来源练习",
+      "path": "questions.31.worked",
+      "before": "—Did you see my grandmother? —Oh, I saw an old woman sitting on a chair by the lake. Maybe it was her.",
+      "after": "— Did you see my grandmother?\n— Oh, I saw an old woman sitting on a chair by the lake. Maybe it was her."
+    },
+    {
+      "lessonId": "builtin-73a337eb6e888cbb",
+      "title": "冠词专题 PDF来源练习",
+      "path": "questions.45.stem",
+      "before": "—Where is ____ nearest post office, please? —There's one at ____ end of the street.",
+      "after": "— Where is ____ nearest post office, please?\n— There's one at ____ end of the street."
+    },
+    {
+      "lessonId": "builtin-73a337eb6e888cbb",
+      "title": "冠词专题 PDF来源练习",
+      "path": "questions.45.worked",
+      "before": "—Where is the nearest post office, please? —There's one at the end of the street.",
+      "after": "— Where is the nearest post office, please?\n— There's one at the end of the street."
+    },
+    {
+      "lessonId": "builtin-17a19912589b588f",
+      "title": "介词复习练习",
+      "path": "questions.23.stem",
+      "before": "- What does your mother look ____ - She is very tall.",
+      "after": "— What does your mother look ____\n— She is very tall."
+    },
+    {
+      "lessonId": "builtin-17a19912589b588f",
+      "title": "介词复习练习",
+      "path": "questions.23.worked",
+      "before": "- What does your mother look like - She is very tall.",
+      "after": "— What does your mother look like\n— She is very tall."
+    },
+    {
+      "lessonId": "builtin-5a4b49fb6ecc6fb8",
+      "title": "介词复习练习",
+      "path": "questions.20.stem",
+      "before": "-Do you go there ____ bus? -No, we go there ____ a train.",
+      "after": "— Do you go there ____ bus?\n— No, we go there ____ a train."
+    },
+    {
+      "lessonId": "builtin-5a4b49fb6ecc6fb8",
+      "title": "介词复习练习",
+      "path": "questions.20.worked",
+      "before": "-Do you go there by bus? -No, we go there in a train.",
+      "after": "— Do you go there by bus?\n— No, we go there in a train."
+    },
+    {
+      "lessonId": "builtin-107cfe26e15d1d5d",
+      "title": "介词图片练习 原题1至14",
+      "path": "questions.8.stem",
+      "before": "—Wow, the wine is so delicious, and I'd like another glass. —OK. The wine is made ____ grapes.",
+      "after": "— Wow, the wine is so delicious, and I'd like another glass.\n— OK. The wine is made ____ grapes."
+    },
+    {
+      "lessonId": "builtin-107cfe26e15d1d5d",
+      "title": "介词图片练习 原题1至14",
+      "path": "questions.8.worked",
+      "before": "—Wow, the wine is so delicious, and I'd like another glass. —OK. The wine is made from grapes.",
+      "after": "— Wow, the wine is so delicious, and I'd like another glass.\n— OK. The wine is made from grapes."
+    },
+    {
+      "lessonId": "builtin-cbab3d5edc72341e",
+      "title": "介词图片练习 原题30至43",
+      "path": "questions.4.stem",
+      "before": "—How do you improve your spoken English? —____ speaking English every day and listening to the tape.",
+      "after": "— How do you improve your spoken English?\n— ____ speaking English every day and listening to the tape."
+    },
+    {
+      "lessonId": "builtin-cbab3d5edc72341e",
+      "title": "介词图片练习 原题30至43",
+      "path": "questions.4.worked",
+      "before": "—How do you improve your spoken English? —By speaking English every day and listening to the tape.",
+      "after": "— How do you improve your spoken English?\n— By speaking English every day and listening to the tape."
+    },
+    {
+      "lessonId": "builtin-cbab3d5edc72341e",
+      "title": "介词图片练习 原题30至43",
+      "path": "questions.11.stem",
+      "before": "—What's wrong ____ you, Peter? —I have a toothache, and I have to go to the dentist ____ once.",
+      "after": "— What's wrong ____ you, Peter?\n— I have a toothache, and I have to go to the dentist ____ once."
+    },
+    {
+      "lessonId": "builtin-cbab3d5edc72341e",
+      "title": "介词图片练习 原题30至43",
+      "path": "questions.11.worked",
+      "before": "—What's wrong with you, Peter? —I have a toothache, and I have to go to the dentist at once.",
+      "after": "— What's wrong with you, Peter?\n— I have a toothache, and I have to go to the dentist at once."
+    },
+    {
+      "lessonId": "builtin-c94ec63044f91e4c",
+      "title": "连词复习练习",
+      "path": "questions.2.stem",
+      "before": "-I don't like reading ____ watching TV. What about you? -I don't like reading all day, ____ I like watching TV news.",
+      "after": "— I don't like reading ____ watching TV. What about you?\n— I don't like reading all day, ____ I like watching TV news."
+    },
+    {
+      "lessonId": "builtin-c94ec63044f91e4c",
+      "title": "连词复习练习",
+      "path": "questions.2.worked",
+      "before": "-I don't like reading or watching TV. What about you? -I don't like reading all day, but I like watching TV news.",
+      "after": "— I don't like reading or watching TV. What about you?\n— I don't like reading all day, but I like watching TV news."
+    },
+    {
+      "lessonId": "builtin-c94ec63044f91e4c",
+      "title": "连词复习练习",
+      "path": "questions.16.worked",
+      "before": "He had a stomachache,so he couldn't go to the party.",
+      "after": "He had a stomachache, so he couldn't go to the party."
+    },
+    {
+      "lessonId": "builtin-c94ec63044f91e4c",
+      "title": "连词复习练习",
+      "path": "questions.19.stem",
+      "before": "-Have you watched the latest TV program Running Man? -Of course! It's popular with ____ the young ____ the old.",
+      "after": "— Have you watched the latest TV program Running Man?\n— Of course! It's popular with ____ the young ____ the old."
+    },
+    {
+      "lessonId": "builtin-c94ec63044f91e4c",
+      "title": "连词复习练习",
+      "path": "questions.19.worked",
+      "before": "-Have you watched the latest TV program Running Man? -Of course! It's popular with both the young and the old.",
+      "after": "— Have you watched the latest TV program Running Man?\n— Of course! It's popular with both the young and the old."
+    },
+    {
+      "lessonId": "builtin-c94ec63044f91e4c",
+      "title": "连词复习练习",
+      "path": "questions.22.stem",
+      "before": "-What film do you like best? The Martian. It ____ shows a lot of imagination, ____ has a sense of humor.",
+      "after": "— What film do you like best? The Martian. It ____ shows a lot of imagination, ____ has a sense of humor."
+    },
+    {
+      "lessonId": "builtin-c94ec63044f91e4c",
+      "title": "连词复习练习",
+      "path": "questions.22.worked",
+      "before": "-What film do you like best? The Martian. It not only shows a lot of imagination, but also has a sense of humor.",
+      "after": "— What film do you like best? The Martian. It not only shows a lot of imagination, but also has a sense of humor."
+    },
+    {
+      "lessonId": "builtin-4ff84eef5aee2dcc",
+      "title": "连词复习练习",
+      "path": "questions.10.worked",
+      "before": "When you're learning a foreign language, use it,or you will lose it.",
+      "after": "When you're learning a foreign language, use it, or you will lose it."
+    },
+    {
+      "lessonId": "builtin-4ff84eef5aee2dcc",
+      "title": "连词复习练习",
+      "path": "questions.11.stem",
+      "before": "Can you play football? -Yes, I can, ____ I can't play it very well.",
+      "after": "Can you play football?\n— Yes, I can, ____ I can't play it very well."
+    },
+    {
+      "lessonId": "builtin-4ff84eef5aee2dcc",
+      "title": "连词复习练习",
+      "path": "questions.11.worked",
+      "before": "Can you play football? -Yes, I can, but I can't play it very well.",
+      "after": "Can you play football?\n— Yes, I can, but I can't play it very well."
+    },
+    {
+      "lessonId": "builtin-66bb145e88fb69d7",
+      "title": "连词图片练习 原题16至31",
+      "path": "questions.15.stem",
+      "before": "—When shall we leave for the airport? —We'll leave ____ the train arrives.",
+      "after": "— When shall we leave for the airport?\n— We'll leave ____ the train arrives."
+    },
+    {
+      "lessonId": "builtin-66bb145e88fb69d7",
+      "title": "连词图片练习 原题16至31",
+      "path": "questions.15.worked",
+      "before": "—When shall we leave for the airport? —We'll leave as soon as the train arrives.",
+      "after": "— When shall we leave for the airport?\n— We'll leave as soon as the train arrives."
+    },
+    {
+      "lessonId": "builtin-5fb6f9cffe63b4ed",
+      "title": "形容词和副词复习练习",
+      "path": "questions.0.stem",
+      "before": "-Would you like some beer? -No, thanks. I ____ drink beer. I think it's bad for our health.",
+      "after": "— Would you like some beer?\n— No, thanks. I ____ drink beer. I think it's bad for our health."
+    },
+    {
+      "lessonId": "builtin-5fb6f9cffe63b4ed",
+      "title": "形容词和副词复习练习",
+      "path": "questions.0.worked",
+      "before": "-Would you like some beer? -No, thanks. I never drink beer. I think it's bad for our health.",
+      "after": "— Would you like some beer?\n— No, thanks. I never drink beer. I think it's bad for our health."
+    },
+    {
+      "lessonId": "builtin-5fb6f9cffe63b4ed",
+      "title": "形容词和副词复习练习",
+      "path": "questions.3.stem",
+      "before": "—If you do not like the red coat, how about the green one? —OK, but do you have ____ size in green? This one is a bit small for me.",
+      "after": "— If you do not like the red coat, how about the green one?\n— OK, but do you have ____ size in green? This one is a bit small for me."
+    },
+    {
+      "lessonId": "builtin-5fb6f9cffe63b4ed",
+      "title": "形容词和副词复习练习",
+      "path": "questions.3.worked",
+      "before": "—If you do not like the red coat, how about the green one? —OK, but do you have a bigger size in green? This one is a bit small for me.",
+      "after": "— If you do not like the red coat, how about the green one?\n— OK, but do you have a bigger size in green? This one is a bit small for me."
+    },
+    {
+      "lessonId": "builtin-5fb6f9cffe63b4ed",
+      "title": "形容词和副词复习练习",
+      "path": "questions.9.stem",
+      "before": "-What delicious cakes! -They would taste ____ with butter.",
+      "after": "— What delicious cakes!\n— They would taste ____ with butter."
+    },
+    {
+      "lessonId": "builtin-5fb6f9cffe63b4ed",
+      "title": "形容词和副词复习练习",
+      "path": "questions.9.worked",
+      "before": "-What delicious cakes! -They would taste better with butter.",
+      "after": "— What delicious cakes!\n— They would taste better with butter."
+    },
+    {
+      "lessonId": "builtin-5fb6f9cffe63b4ed",
+      "title": "形容词和副词复习练习",
+      "path": "questions.12.stem",
+      "before": "-Mr. Zhou, of all the students in our group, who lives ____? I think Li Lei does.",
+      "after": "— Mr. Zhou, of all the students in our group, who lives ____? I think Li Lei does."
+    },
+    {
+      "lessonId": "builtin-5fb6f9cffe63b4ed",
+      "title": "形容词和副词复习练习",
+      "path": "questions.12.worked",
+      "before": "-Mr. Zhou, of all the students in our group, who lives the farthest? I think Li Lei does.",
+      "after": "— Mr. Zhou, of all the students in our group, who lives the farthest? I think Li Lei does."
+    },
+    {
+      "lessonId": "builtin-5fb6f9cffe63b4ed",
+      "title": "形容词和副词复习练习",
+      "path": "questions.20.stem",
+      "before": "-Is your mother badly ill? 一No,____, only a little cold.",
+      "after": "— Is your mother badly ill?\n— No,____, only a little cold."
+    },
+    {
+      "lessonId": "builtin-5fb6f9cffe63b4ed",
+      "title": "形容词和副词复习练习",
+      "path": "questions.20.worked",
+      "before": "-Is your mother badly ill? 一No,nothing serious, only a little cold.",
+      "after": "— Is your mother badly ill?\n— No, nothing serious, only a little cold."
+    },
+    {
+      "lessonId": "builtin-5893d78aa8979e32",
+      "title": "形容词和副词复习练习",
+      "path": "questions.15.stem",
+      "before": "-Have some ice cream, please. -Mm, it tastes ____",
+      "after": "— Have some ice cream, please.\n— Mm, it tastes ____"
+    },
+    {
+      "lessonId": "builtin-5893d78aa8979e32",
+      "title": "形容词和副词复习练习",
+      "path": "questions.15.worked",
+      "before": "-Have some ice cream, please. -Mm, it tastes good",
+      "after": "— Have some ice cream, please.\n— Mm, it tastes good"
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.1.worked",
+      "before": "You should give up smoking,or you will get ill.",
+      "after": "You should give up smoking, or you will get ill."
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.2.stem",
+      "before": "-Is the man over there Adam? - It ____ be him. He has gone to Hong Kong on vacation.",
+      "after": "— Is the man over there Adam?\n— It ____ be him. He has gone to Hong Kong on vacation."
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.2.worked",
+      "before": "-Is the man over there Adam? - It can't be him. He has gone to Hong Kong on vacation.",
+      "after": "— Is the man over there Adam?\n— It can't be him. He has gone to Hong Kong on vacation."
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.3.stem",
+      "before": "-May I go swimming in the river, Mom? -No, you ____.It's dangerous.",
+      "after": "— May I go swimming in the river, Mom?\n— No, you ____. It's dangerous."
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.3.worked",
+      "before": "-May I go swimming in the river, Mom? -No, you mustn't.It's dangerous.",
+      "after": "— May I go swimming in the river, Mom?\n— No, you mustn't. It's dangerous."
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.4.stem",
+      "before": "-Must I hand in the homework now? No, you ____. But you ____ hand it in tomorrow.",
+      "after": "— Must I hand in the homework now? No, you ____. But you ____ hand it in tomorrow."
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.4.worked",
+      "before": "-Must I hand in the homework now? No, you needn't. But you have to hand it in tomorrow.",
+      "after": "— Must I hand in the homework now? No, you needn't. But you have to hand it in tomorrow."
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.5.stem",
+      "before": "-Must I complete my composition today? -No, you ____",
+      "after": "— Must I complete my composition today?\n— No, you ____"
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.5.worked",
+      "before": "-Must I complete my composition today? -No, you needn't",
+      "after": "— Must I complete my composition today?\n— No, you needn't"
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.6.stem",
+      "before": "-Do you think it is popular to ____ red envelopes (红包) on WeChat during festivals? -Yes. But I prefer giving gifts to family members.",
+      "after": "— Do you think it is popular to ____ red envelopes (红包) on WeChat during festivals?\n— Yes. But I prefer giving gifts to family members."
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.6.worked",
+      "before": "-Do you think it is popular to give out red envelopes (红包) on WeChat during festivals? -Yes. But I prefer giving gifts to family members.",
+      "after": "— Do you think it is popular to give out red envelopes (红包) on WeChat during festivals?\n— Yes. But I prefer giving gifts to family members."
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.7.stem",
+      "before": "-I think this skirt is very nice. -I agree. But it's 500 yuan. I don't think I can ____",
+      "after": "— I think this skirt is very nice.\n— I agree. But it's 500 yuan. I don't think I can ____"
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.7.worked",
+      "before": "-I think this skirt is very nice. -I agree. But it's 500 yuan. I don't think I can afford",
+      "after": "— I think this skirt is very nice.\n— I agree. But it's 500 yuan. I don't think I can afford"
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.11.stem",
+      "before": "-The government is trying to protect the environment now. -Yeah. It is reported that some factories will be ____.",
+      "after": "— The government is trying to protect the environment now.\n— Yeah. It is reported that some factories will be ____."
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.11.worked",
+      "before": "-The government is trying to protect the environment now. -Yeah. It is reported that some factories will be shut down.",
+      "after": "— The government is trying to protect the environment now.\n— Yeah. It is reported that some factories will be shut down."
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.40.stem",
+      "before": "-Do you have to get up early in the morning? -Yes, I ____. I can't be late for school.",
+      "after": "— Do you have to get up early in the morning?\n— Yes, I ____. I can't be late for school."
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.40.worked",
+      "before": "-Do you have to get up early in the morning? -Yes, I do. I can't be late for school.",
+      "after": "— Do you have to get up early in the morning?\n— Yes, I do. I can't be late for school."
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.41.stem",
+      "before": "-There ____ a charity show this weekend. Would you like to join us? -Of course. I'd love to.",
+      "after": "— There ____ a charity show this weekend. Would you like to join us?\n— Of course. I'd love to."
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.41.worked",
+      "before": "-There will be a charity show this weekend. Would you like to join us? -Of course. I'd love to.",
+      "after": "— There will be a charity show this weekend. Would you like to join us?\n— Of course. I'd love to."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.0.stem",
+      "before": "-Can you speak Japanese? -No, I ____.",
+      "after": "— Can you speak Japanese?\n— No, I ____."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.0.worked",
+      "before": "-Can you speak Japanese? -No, I can't.",
+      "after": "— Can you speak Japanese?\n— No, I can't."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.1.stem",
+      "before": "—Must I go with them tomorrow? —No, you ____.",
+      "after": "— Must I go with them tomorrow?\n— No, you ____."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.1.worked",
+      "before": "—Must I go with them tomorrow? —No, you need not.",
+      "after": "— Must I go with them tomorrow?\n— No, you need not."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.2.stem",
+      "before": "-Need you go now?\n-Yes, I ____. / No, I ____.",
+      "after": "— Need you go now?\n— Yes, I ____. / No, I ____."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.2.worked",
+      "before": "-Need you go now?\n-Yes, I must. / No, I needn't.",
+      "after": "— Need you go now?\n— Yes, I must. / No, I needn't."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.3.stem",
+      "before": "-Mum, must I finish my homework today? --No, you ____.You may do it tomorrow.",
+      "after": "— Mum, must I finish my homework today?\n— No, you ____. You may do it tomorrow."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.3.worked",
+      "before": "-Mum, must I finish my homework today? --No, you needn't.You may do it tomorrow.",
+      "after": "— Mum, must I finish my homework today?\n— No, you needn't. You may do it tomorrow."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.4.stem",
+      "before": "-____ I ask you a question?-sure.",
+      "after": "— ____ I ask you a question?\n— sure."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.4.worked",
+      "before": "-May I ask you a question?-sure.",
+      "after": "— May I ask you a question?\n— sure."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.5.stem",
+      "before": "-What is your mother going to do this Saturday? -I'm not sure. She ____ go to see my grandmother.",
+      "after": "— What is your mother going to do this Saturday?\n— I'm not sure. She ____ go to see my grandmother."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.5.worked",
+      "before": "-What is your mother going to do this Saturday? -I'm not sure. She may go to see my grandmother.",
+      "after": "— What is your mother going to do this Saturday?\n— I'm not sure. She may go to see my grandmother."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.7.stem",
+      "before": "-Listen! Is Professor Johnson giving a report in the hall? -No, it ____ be him. He has gone to Japan.",
+      "after": "— Listen! Is Professor Johnson giving a report in the hall?\n— No, it ____ be him. He has gone to Japan."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.7.worked",
+      "before": "-Listen! Is Professor Johnson giving a report in the hall? -No, it can't be him. He has gone to Japan.",
+      "after": "— Listen! Is Professor Johnson giving a report in the hall?\n— No, it can't be him. He has gone to Japan."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.8.stem",
+      "before": "-Could I use your dictionary? - Of course you ____",
+      "after": "— Could I use your dictionary?\n— Of course you ____"
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.8.worked",
+      "before": "-Could l use your dictionary? - Of course you can",
+      "after": "— Could l use your dictionary?\n— Of course you can"
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.9.stem",
+      "before": "-Can you play the piano? -Yes, I ____.I often practice it on weekends.",
+      "after": "— Can you play the piano?\n— Yes, I ____.I often practice it on weekends."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.9.worked",
+      "before": "-Can you play the piano? -Yes, I can.I often practice it on weekends.",
+      "after": "— Can you play the piano?\n— Yes, I can.I often practice it on weekends."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.11.stem",
+      "before": "—Must I be in hospital for a week, Doctor? —No, you ____. You can go back home tomorrow.",
+      "after": "— Must I be in hospital for a week, Doctor?\n— No, you ____. You can go back home tomorrow."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.11.worked",
+      "before": "—Must I be in hospital for a week, Doctor? —No, you need not. You can go back home tomorrow.",
+      "after": "— Must I be in hospital for a week, Doctor?\n— No, you need not. You can go back home tomorrow."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.13.stem",
+      "before": "-May I watch TV for a while? -No, you ____. You have to finish your homework first.",
+      "after": "— May I watch TV for a while?\n— No, you ____. You have to finish your homework first."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.13.worked",
+      "before": "-May I watch TV for a while? -No, you mustn't. You have to finish your homework first.",
+      "after": "— May I watch TV for a while?\n— No, you mustn't. You have to finish your homework first."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.15.stem",
+      "before": "-Is Lucy knocking at the door? -No. It ____ be Lucy. She is in Japan now.",
+      "after": "— Is Lucy knocking at the door?\n— No. It ____ be Lucy. She is in Japan now."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.15.worked",
+      "before": "-Is Lucy knocking at the door? -No. It can't be Lucy. She is in Japan now.",
+      "after": "— Is Lucy knocking at the door?\n— No. It can't be Lucy. She is in Japan now."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.21.stem",
+      "before": "-He ____ be in the classroom, I think.\n-No, he ____ be in the classroom. I saw him go home a minute ago.",
+      "after": "— He ____ be in the classroom, I think.\n— No, he ____ be in the classroom. I saw him go home a minute ago."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.21.worked",
+      "before": "-He may be in the classroom, I think.\n-No, he can't be in the classroom. I saw him go home a minute ago.",
+      "after": "— He may be in the classroom, I think.\n— No, he can't be in the classroom. I saw him go home a minute ago."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.22.stem",
+      "before": "-How nice the building is! What is it for? -lt ____ a hotel, But I am not sure.",
+      "after": "— How nice the building is! What is it for?\n— It ____ a hotel, But I am not sure."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.22.worked",
+      "before": "-How nice the building is! What is it for? -lt may be a hotel, But I am not sure.",
+      "after": "— How nice the building is! What is it for?\n— It may be a hotel, But I am not sure."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.27.stem",
+      "before": "-____ I finish the work right now? -No. you ____ (not).You ____ do it later.",
+      "after": "— ____ I finish the work right now?\n— No. you ____ (not).You ____ do it later."
+    },
+    {
+      "lessonId": "builtin-3622b512096493b5",
+      "title": "情态动词补充",
+      "path": "questions.1.stem",
+      "before": "-____ we meet again and discuss the plan this week? -Will Thursday morning do? I happen to be in town then.",
+      "after": "— ____ we meet again and discuss the plan this week?\n— Will Thursday morning do? I happen to be in town then."
+    },
+    {
+      "lessonId": "builtin-3622b512096493b5",
+      "title": "情态动词补充",
+      "path": "questions.1.worked",
+      "before": "-Shall we meet again and discuss the plan this week? -Will Thursday morning do? I happen to be in town then.",
+      "after": "— Shall we meet again and discuss the plan this week?\n— Will Thursday morning do? I happen to be in town then."
+    },
+    {
+      "lessonId": "builtin-3622b512096493b5",
+      "title": "情态动词补充",
+      "path": "questions.3.stem",
+      "before": "—Excuse me. Is this the right way to the Summer Palace? —Sorry, I am not sure, but it ____ be.",
+      "after": "— Excuse me. Is this the right way to the Summer Palace?\n— Sorry, I am not sure, but it ____ be."
+    },
+    {
+      "lessonId": "builtin-3622b512096493b5",
+      "title": "情态动词补充",
+      "path": "questions.3.worked",
+      "before": "—Excuse me. Is this the right way to the Summer Palace? —Sorry, I am not sure, but it might be.",
+      "after": "— Excuse me. Is this the right way to the Summer Palace?\n— Sorry, I am not sure, but it might be."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.1.stem",
+      "before": "-Who sings best in your class? -Jenny ____",
+      "after": "— Who sings best in your class?\n— Jenny ____"
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.1.worked",
+      "before": "-Who sings best in your class? -Jenny does",
+      "after": "— Who sings best in your class?\n— Jenny does"
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.2.stem",
+      "before": "____ the young girl ____ the old man clean his room every day? —Yes, she does.",
+      "after": "____ the young girl ____ the old man clean his room every day?\n— Yes, she does."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.2.worked",
+      "before": "Does the young girl help the old man clean his room every day? —Yes, she does.",
+      "after": "Does the young girl help the old man clean his room every day?\n— Yes, she does."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.3.stem",
+      "before": "-Can I go to Beijing for my holiday, Dad? - You can when you ____ a bit older.",
+      "after": "— Can I go to Beijing for my holiday, Dad?\n— You can when you ____ a bit older."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.3.worked",
+      "before": "-Can I go to Beijing for my holiday, Dad? - You can when you get a bit older.",
+      "after": "— Can I go to Beijing for my holiday, Dad?\n— You can when you get a bit older."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.4.stem",
+      "before": "-What does Linda often do in the evening? - She often ____ her homework, but on the evening of March 12 she ____ TV.",
+      "after": "— What does Linda often do in the evening?\n— She often ____ her homework, but on the evening of March 12 she ____ TV."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.4.worked",
+      "before": "-What does Linda often do in the evening? - She often does her homework, but on the evening of March 12 she watched TV.",
+      "after": "— What does Linda often do in the evening?\n— She often does her homework, but on the evening of March 12 she watched TV."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.7.stem",
+      "before": "- Don't forget to ask him to write to me. - I won't. As soon as he ____, I'll ask him to write to you.",
+      "after": "— Don't forget to ask him to write to me.\n— I won't. As soon as he ____, I'll ask him to write to you."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.7.worked",
+      "before": "- Don't forget to ask him to write to me. - I won't. As soon as he comes, I'll ask him to write to you.",
+      "after": "— Don't forget to ask him to write to me.\n— I won't. As soon as he comes, I'll ask him to write to you."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.8.stem",
+      "before": "Do you like this silk dress? - Yes, I do. It ____ so soft and comfortable.",
+      "after": "Do you like this silk dress?\n— Yes, I do. It ____ so soft and comfortable."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.8.worked",
+      "before": "Do you like this silk dress? - Yes, I do. It feels so soft and comfortable.",
+      "after": "Do you like this silk dress?\n— Yes, I do. It feels so soft and comfortable."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.11.stem",
+      "before": "-Your telephone number again? I ____ quite catch it. - It's 2567321.",
+      "after": "— Your telephone number again? I ____ quite catch it.\n— It's 2567321."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.11.worked",
+      "before": "-Your telephone number again? I didn't quite catch it. - It's 2567321.",
+      "after": "— Your telephone number again? I didn't quite catch it.\n— It's 2567321."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.12.stem",
+      "before": "-How was your weekend on the farm? - Great! We ____ with the farmers.",
+      "after": "— How was your weekend on the farm?\n— Great! We ____ with the farmers."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.12.worked",
+      "before": "-How was your weekend on the farm? - Great! We went fishing with the farmers.",
+      "after": "— How was your weekend on the farm?\n— Great! We went fishing with the farmers."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.13.stem",
+      "before": "-What did Mr Jones do before he moved here? - He ____ a city bus for over twenty-five years.",
+      "after": "— What did Mr Jones do before he moved here?\n— He ____ a city bus for over twenty-five years."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.13.worked",
+      "before": "-What did Mr Jones do before he moved here? - He drove a city bus for over twenty-five years.",
+      "after": "— What did Mr Jones do before he moved here?\n— He drove a city bus for over twenty-five years."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.15.stem",
+      "before": "-Liu Mei can't come tonight. - Why? But she ____ me she would come.",
+      "after": "— Liu Mei can't come tonight.\n— Why? But she ____ me she would come."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.15.worked",
+      "before": "-Liu Mei can't come tonight. - Why? But she told me she would come.",
+      "after": "— Liu Mei can't come tonight.\n— Why? But she told me she would come."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.17.stem",
+      "before": "-Keep quiet, please. They ____ a meeting. Sorry.",
+      "after": "— Keep quiet, please. They ____ a meeting. Sorry."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.17.worked",
+      "before": "-Keep quiet, please. They are having a meeting. Sorry.",
+      "after": "— Keep quiet, please. They are having a meeting. Sorry."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.18.stem",
+      "before": "-Jimmy is leaving for a holiday. - Really? Where ____ he ____?",
+      "after": "— Jimmy is leaving for a holiday.\n— Really? Where ____ he ____?"
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.18.worked",
+      "before": "-Jimmy is leaving for a holiday. - Really? Where will he go?",
+      "after": "— Jimmy is leaving for a holiday.\n— Really? Where will he go?"
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.21.stem",
+      "before": "- Shall we go shopping now? - Sorry, I can't. I ____ my shirts.",
+      "after": "— Shall we go shopping now?\n— Sorry, I can't. I ____ my shirts."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.21.worked",
+      "before": "- Shall we go shopping now? - Sorry, I can't. I am washing my shirts.",
+      "after": "— Shall we go shopping now?\n— Sorry, I can't. I am washing my shirts."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.22.stem",
+      "before": "-Hurry up! We're all waiting for you. I ____ for an important phone call. Go without me.",
+      "after": "— Hurry up! We're all waiting for you. I ____ for an important phone call. Go without me."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.22.worked",
+      "before": "-Hurry up! We're all waiting for you. I am waiting for an important phone call. Go without me.",
+      "after": "— Hurry up! We're all waiting for you. I am waiting for an important phone call. Go without me."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.23.stem",
+      "before": "-Did you see Tom at the party? -No, he ____ by the time I got there.",
+      "after": "— Did you see Tom at the party?\n— No, he ____ by the time I got there."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.23.worked",
+      "before": "-Did you see Tom at the party? -No, he had left by the time I got there.",
+      "after": "— Did you see Tom at the party?\n— No, he had left by the time I got there."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.24.stem",
+      "before": "-Is this raincoat yours? - No, mine ____ there behind the door.",
+      "after": "— Is this raincoat yours?\n— No, mine ____ there behind the door."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.24.worked",
+      "before": "-Is this raincoat yours? - No, mine is hanging there behind the door.",
+      "after": "— Is this raincoat yours?\n— No, mine is hanging there behind the door."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.25.stem",
+      "before": "—____ you ____ TV at the moment? -No, you can turn it off.",
+      "after": "— ____ you ____ TV at the moment?\n— No, you can turn it off."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.25.worked",
+      "before": "—Are you watching TV at the moment? -No, you can turn it off.",
+      "after": "— Are you watching TV at the moment?\n— No, you can turn it off."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.28.stem",
+      "before": "-I called you at seven yesterday evening, but there was no answer. -Oh, I am sorry. I ____ dinner at my friend's home.",
+      "after": "— I called you at seven yesterday evening, but there was no answer.\n— Oh, I am sorry. I ____ dinner at my friend's home."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.28.worked",
+      "before": "-I called you at seven yesterday evening, but there was no answer. -Oh, I am sorry. I was having dinner at my friend's home.",
+      "after": "— I called you at seven yesterday evening, but there was no answer.\n— Oh, I am sorry. I was having dinner at my friend's home."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.29.stem",
+      "before": "-Do you know Miss Wang? -Yes. I first met her two years ago. She ____ at a radio shop at that time.",
+      "after": "— Do you know Miss Wang?\n— Yes. I first met her two years ago. She ____ at a radio shop at that time."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.29.worked",
+      "before": "-Do you know Miss Wang? -Yes. I first met her two years ago. She was working at a radio shop at that time.",
+      "after": "— Do you know Miss Wang?\n— Yes. I first met her two years ago. She was working at a radio shop at that time."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.31.stem",
+      "before": "-I ____ you at the meeting. Why?\n-I was ill.",
+      "after": "— I ____ you at the meeting. Why?\n— I was ill."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.31.worked",
+      "before": "-I didn't see you at the meeting. Why?\n-I was ill.",
+      "after": "— I didn't see you at the meeting. Why?\n— I was ill."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.35.stem",
+      "before": "—May I speak to Mr Smith? —Sorry, he ____ Australia. But he ____ in two days.",
+      "after": "— May I speak to Mr Smith?\n— Sorry, he ____ Australia. But he ____ in two days."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.35.worked",
+      "before": "—May I speak to Mr Smith? —Sorry, he has gone to Australia. But he will be back in two days.",
+      "after": "— May I speak to Mr Smith?\n— Sorry, he has gone to Australia. But he will be back in two days."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.37.stem",
+      "before": "-What do you think of the film Harry Potter? -It is very nice. I ____ it twice.",
+      "after": "— What do you think of the film Harry Potter?\n— It is very nice. I ____ it twice."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.37.worked",
+      "before": "-What do you think of the film Harry Potter? -It is very nice. I have seen it twice.",
+      "after": "— What do you think of the film Harry Potter?\n— It is very nice. I have seen it twice."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.41.stem",
+      "before": "-I'm sorry to have kept you waiting. -Oh, not at all. I ____ here only a few minutes.",
+      "after": "— I'm sorry to have kept you waiting.\n— Oh, not at all. I ____ here only a few minutes."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.41.worked",
+      "before": "-I'm sorry to have kept you waiting. -Oh, not at all. I have been here only a few minutes.",
+      "after": "— I'm sorry to have kept you waiting.\n— Oh, not at all. I have been here only a few minutes."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.42.stem",
+      "before": "____ my dictionary anywhere? -Yes. I saw it on your desk a moment ago.",
+      "after": "____ my dictionary anywhere?\n— Yes. I saw it on your desk a moment ago."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.42.worked",
+      "before": "Have you seen my dictionary anywhere? -Yes. I saw it on your desk a moment ago.",
+      "after": "Have you seen my dictionary anywhere?\n— Yes. I saw it on your desk a moment ago."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.43.stem",
+      "before": "-I haven't heard from Li Jun for a long time, -What do you think ____ to him?",
+      "after": "— I haven't heard from Li Jun for a long time,\n— What do you think ____ to him?"
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.43.worked",
+      "before": "-I haven't heard from Li Jun for a long time, -What do you think has happened to him?",
+      "after": "— I haven't heard from Li Jun for a long time,\n— What do you think has happened to him?"
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.44.stem",
+      "before": "-Do you know our town at all? --No, this is the first time I ____ here.",
+      "after": "— Do you know our town at all?\n— No, this is the first time I ____ here."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.44.worked",
+      "before": "-Do you know our town at all? --No, this is the first time I have been here.",
+      "after": "— Do you know our town at all?\n— No, this is the first time I have been here."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.46.stem",
+      "before": "-What did you do after school yesterday? ____ basketball with my friends.",
+      "after": "— What did you do after school yesterday? ____ basketball with my friends."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.46.worked",
+      "before": "-What did you do after school yesterday? played basketball with my friends.",
+      "after": "— What did you do after school yesterday? played basketball with my friends."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.49.stem",
+      "before": "-What did your son say in the letter? -He told me that he ____ the Disney World the next day.",
+      "after": "— What did your son say in the letter?\n— He told me that he ____ the Disney World the next day."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.49.worked",
+      "before": "-What did your son say in the letter? -He told me that he would visit the Disney World the next day.",
+      "after": "— What did your son say in the letter?\n— He told me that he would visit the Disney World the next day."
+    },
+    {
+      "lessonId": "builtin-c1c54fc8097a54e4",
+      "title": "时态和语态复习练习",
+      "path": "questions.66.stem",
+      "before": "They played football this morning.(改为一般疑问句并作简略回答 ____ they ____ football this morning? -Yes, they ____./No, they ____",
+      "after": "They played football this morning.(改为一般疑问句并作简略回答 ____ they ____ football this morning?\n— Yes, they ____./No, they ____"
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.0.stem",
+      "before": "-What's the matter with Jerry? He ____ sad. -His pet dog died.",
+      "after": "— What's the matter with Jerry? He ____ sad.\n— His pet dog died."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.0.worked",
+      "before": "-What's the matter with Jerry? He looks sad. -His pet dog died.",
+      "after": "— What's the matter with Jerry? He looks sad.\n— His pet dog died."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.1.stem",
+      "before": "—You have found your lost umbrella, haven't you? —Yes. I ____ it behind the door this afternoon.",
+      "after": "— You have found your lost umbrella, haven't you?\n— Yes. I ____ it behind the door this afternoon."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.1.worked",
+      "before": "—You have found your lost umbrella, haven't you? —Yes. I found it behind the door this afternoon.",
+      "after": "— You have found your lost umbrella, haven't you?\n— Yes. I found it behind the door this afternoon."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.3.stem",
+      "before": "-Are you going to the bank, Laura? No, I ____ to the bank already.",
+      "after": "— Are you going to the bank, Laura? No, I ____ to the bank already."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.3.worked",
+      "before": "-Are you going to the bank, Laura? No, I have been to the bank already.",
+      "after": "— Are you going to the bank, Laura? No, I have been to the bank already."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.7.stem",
+      "before": "-Why didn't you bring your computer here yesterday? Oh, it ____ by my neighbor then.",
+      "after": "— Why didn't you bring your computer here yesterday? Oh, it ____ by my neighbor then."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.7.worked",
+      "before": "-Why didn't you bring your computer here yesterday? Oh, it was being checked by my neighbor then.",
+      "after": "— Why didn't you bring your computer here yesterday? Oh, it was being checked by my neighbor then."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.11.stem",
+      "before": "—I called you at four yesterday afternoon, but no one answered. —Sorry, I ____ with my friends at that time.",
+      "after": "— I called you at four yesterday afternoon, but no one answered.\n— Sorry, I ____ with my friends at that time."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.11.worked",
+      "before": "—I called you at four yesterday afternoon, but no one answered. —Sorry, I was swimming with my friends at that time.",
+      "after": "— I called you at four yesterday afternoon, but no one answered.\n— Sorry, I was swimming with my friends at that time."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.15.stem",
+      "before": "-Where did you get the picture? -It was ____ by my father.",
+      "after": "— Where did you get the picture?\n— It was ____ by my father."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.15.worked",
+      "before": "-Where did you get the picture? -It was given to us by my father.",
+      "after": "— Where did you get the picture?\n— It was given to us by my father."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.16.stem",
+      "before": "-Hurry up! You ____ on the phone -Oh, I'm coming. Thank you.",
+      "after": "— Hurry up! You ____ on the phone\n— Oh, I'm coming. Thank you."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.16.worked",
+      "before": "-Hurry up! You are wanted on the phone -Oh, I'm coming. Thank you.",
+      "after": "— Hurry up! You are wanted on the phone\n— Oh, I'm coming. Thank you."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.17.worked",
+      "before": "The computer is broken.Will it be repaired today?",
+      "after": "The computer is broken. Will it be repaired today?"
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.20.stem",
+      "before": "-Hi, let's go skating. -Sorry, I'm busy right now. I ____ in an application form for a new job.",
+      "after": "— Hi, let's go skating.\n— Sorry, I'm busy right now. I ____ in an application form for a new job."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.20.worked",
+      "before": "-Hi, let's go skating. -Sorry, I'm busy right now.I am filling in an application form for a new job.",
+      "after": "— Hi, let's go skating.\n— Sorry, I'm busy right now.I am filling in an application form for a new job."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.21.stem",
+      "before": "-Do you like the new pen? -Yes, it ____ very well.",
+      "after": "— Do you like the new pen?\n— Yes, it ____ very well."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.21.worked",
+      "before": "-Do you like the new pen? -Yes, it writes very well.",
+      "after": "— Do you like the new pen?\n— Yes, it writes very well."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.22.stem",
+      "before": "-Oh, it's you? I didn't recognize you. -I ____ my hair cut, and I ____ new glasses.",
+      "after": "— Oh, it's you? I didn't recognize you.\n— I ____ my hair cut, and I ____ new glasses."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.22.worked",
+      "before": "-Oh, it's you? I didn't recognize you. -I have had my hair cut, and I am wearing new glasses.",
+      "after": "— Oh, it's you? I didn't recognize you.\n— I have had my hair cut, and I am wearing new glasses."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.24.stem",
+      "before": "-Can I help you, sir? -Yes, I bought this radio yesterday, but it ____.",
+      "after": "— Can I help you, sir?\n— Yes, I bought this radio yesterday, but it ____."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.24.worked",
+      "before": "-Can I help you, sir? -Yes, I bought this radio yesterday, but it doesn't work.",
+      "after": "— Can I help you, sir?\n— Yes, I bought this radio yesterday, but it doesn't work."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.25.stem",
+      "before": "--How are you today? -Oh, I ____ as ill as I do now for a very long time.",
+      "after": "— How are you today?\n— Oh, I ____ as ill as I do now for a very long time."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.25.worked",
+      "before": "--How are you today? -Oh, I haven't felt as ill as I do now for a very long time.",
+      "after": "— How are you today?\n— Oh, I haven't felt as ill as I do now for a very long time."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.30.stem",
+      "before": "-Did you telephone your uncle? 一Yes, he ____ to be back before Sunday.",
+      "after": "— Did you telephone your uncle?\n— Yes, he ____ to be back before Sunday."
+    },
+    {
+      "lessonId": "builtin-00cf5990a500e709",
+      "title": "时态和语态补充",
+      "path": "questions.30.worked",
+      "before": "-Did you telephone your uncle? 一Yes, he expected to be back before Sunday.",
+      "after": "— Did you telephone your uncle?\n— Yes, he expected to be back before Sunday."
+    },
+    {
+      "lessonId": "builtin-897f9b502649d69a",
+      "title": "非谓语动词复习练习",
+      "path": "questions.9.stem",
+      "before": "-I tried to make Alice ____ her mind but I found it difficult. -Well, I saw you ____ that when I went past.",
+      "after": "— I tried to make Alice ____ her mind but I found it difficult.\n— Well, I saw you ____ that when I went past."
+    },
+    {
+      "lessonId": "builtin-897f9b502649d69a",
+      "title": "非谓语动词复习练习",
+      "path": "questions.9.worked",
+      "before": "-I tried to make Alice change her mind but I found it difficult. -Well, I saw you doing that when I went past.",
+      "after": "— I tried to make Alice change her mind but I found it difficult.\n— Well, I saw you doing that when I went past."
+    },
+    {
+      "lessonId": "builtin-f4695babff25647e",
+      "title": "句子的种类复习练习",
+      "path": "questions.1.stem",
+      "before": "-Excuse me! You can't take photos here. The sign says “NO PHOTOS”.\n-Sorry, I ____ it.",
+      "after": "— Excuse me! You can't take photos here. The sign says “NO PHOTOS”.\n— Sorry, I ____ it."
+    },
+    {
+      "lessonId": "builtin-f4695babff25647e",
+      "title": "句子的种类复习练习",
+      "path": "questions.1.worked",
+      "before": "-Excuse me! You can't take photos here. The sign says “NO PHOTOS”.\n-Sorry, I didn't see it.",
+      "after": "— Excuse me! You can't take photos here. The sign says “NO PHOTOS”.\n— Sorry, I didn't see it."
+    },
+    {
+      "lessonId": "builtin-f4695babff25647e",
+      "title": "句子的种类复习练习",
+      "path": "questions.4.stem",
+      "before": "- ____ is your new coat? -It's green.",
+      "after": "— ____ is your new coat?\n— It's green."
+    },
+    {
+      "lessonId": "builtin-f4695babff25647e",
+      "title": "句子的种类复习练习",
+      "path": "questions.4.worked",
+      "before": "- What color is your new coat? -It's green.",
+      "after": "— What color is your new coat?\n— It's green."
+    },
+    {
+      "lessonId": "builtin-f4695babff25647e",
+      "title": "句子的种类复习练习",
+      "path": "questions.6.stem",
+      "before": "—Lucy did not come to school, did she? —____. She was ill and stayed in bed.",
+      "after": "— Lucy did not come to school, did she?\n— ____. She was ill and stayed in bed."
+    },
+    {
+      "lessonId": "builtin-f4695babff25647e",
+      "title": "句子的种类复习练习",
+      "path": "questions.8.stem",
+      "before": "- ____ is the dictionary? -It's $22.95.",
+      "after": "— ____ is the dictionary?\n— It's $22.95."
+    },
+    {
+      "lessonId": "builtin-f4695babff25647e",
+      "title": "句子的种类复习练习",
+      "path": "questions.8.worked",
+      "before": "- How much is the dictionary? -It's $22.95.",
+      "after": "— How much is the dictionary?\n— It's $22.95."
+    },
+    {
+      "lessonId": "builtin-f4695babff25647e",
+      "title": "句子的种类复习练习",
+      "path": "questions.9.stem",
+      "before": "—____ can I get the book if I order it today? —In a week.",
+      "after": "— ____ can I get the book if I order it today?\n— In a week."
+    },
+    {
+      "lessonId": "builtin-f4695babff25647e",
+      "title": "句子的种类复习练习",
+      "path": "questions.9.worked",
+      "before": "—How soon can I get the book if I order it today? —In a week.",
+      "after": "— How soon can I get the book if I order it today?\n— In a week."
+    },
+    {
+      "lessonId": "builtin-f4695babff25647e",
+      "title": "句子的种类复习练习",
+      "path": "questions.10.stem",
+      "before": "-____ does your mother watch the talk show? -Once a week.",
+      "after": "— ____ does your mother watch the talk show?\n— Once a week."
+    },
+    {
+      "lessonId": "builtin-f4695babff25647e",
+      "title": "句子的种类复习练习",
+      "path": "questions.10.worked",
+      "before": "-How often does your mother watch the talk show? -Once a week.",
+      "after": "— How often does your mother watch the talk show?\n— Once a week."
+    },
+    {
+      "lessonId": "builtin-f4695babff25647e",
+      "title": "句子的种类复习练习",
+      "path": "questions.11.stem",
+      "before": "- ____ is her favorite subject? -Her favorite subject is art.",
+      "after": "— ____ is her favorite subject?\n— Her favorite subject is art."
+    },
+    {
+      "lessonId": "builtin-f4695babff25647e",
+      "title": "句子的种类复习练习",
+      "path": "questions.11.worked",
+      "before": "- What is her favorite subject? -Her favorite subject is art.",
+      "after": "— What is her favorite subject?\n— Her favorite subject is art."
+    },
+    {
+      "lessonId": "builtin-f4695babff25647e",
+      "title": "句子的种类复习练习",
+      "path": "questions.13.stem",
+      "before": "- ____ to be a PLA soldier when I was young! -And now you are.",
+      "after": "— ____ to be a PLA soldier when I was young!\n— And now you are."
+    },
+    {
+      "lessonId": "builtin-f4695babff25647e",
+      "title": "句子的种类复习练习",
+      "path": "questions.13.worked",
+      "before": "- How I wanted to be a PLA soldier when I was young! -And now you are.",
+      "after": "— How I wanted to be a PLA soldier when I was young!\n— And now you are."
+    },
+    {
+      "lessonId": "builtin-b793868f63220692",
+      "title": "主谓一致复习练习",
+      "path": "questions.9.stem",
+      "before": "-Physics ____ more difficult than Chinese. Do you think so? -Yes, I think so.",
+      "after": "— Physics ____ more difficult than Chinese. Do you think so?\n— Yes, I think so."
+    },
+    {
+      "lessonId": "builtin-b793868f63220692",
+      "title": "主谓一致复习练习",
+      "path": "questions.9.worked",
+      "before": "-Physics is more difficult than Chinese. Do you think so? -Yes, I think so.",
+      "after": "— Physics is more difficult than Chinese. Do you think so?\n— Yes, I think so."
+    },
+    {
+      "lessonId": "builtin-b793868f63220692",
+      "title": "主谓一致复习练习",
+      "path": "questions.14.stem",
+      "before": "—How much ____ the shoes? —Five dollars ____ enough.",
+      "after": "— How much ____ the shoes?\n— Five dollars ____ enough."
+    },
+    {
+      "lessonId": "builtin-b793868f63220692",
+      "title": "主谓一致复习练习",
+      "path": "questions.14.worked",
+      "before": "—How much are the shoes? —Five dollars is enough.",
+      "after": "— How much are the shoes?\n— Five dollars is enough."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.0.stem",
+      "before": "-I'm sorry I broke your mirror.\n-Oh, really? ____.",
+      "after": "— I'm sorry I broke your mirror.\n— Oh, really? ____."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.0.worked",
+      "before": "-I'm sorry I broke your mirror.\n-Oh, really? It doesn't matter.",
+      "after": "— I'm sorry I broke your mirror.\n— Oh, really? It doesn't matter."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.1.stem",
+      "before": "-Hi, Jack, how do you like the picture in the museum? — ____",
+      "after": "— Hi, Jack, how do you like the picture in the museum?\n— ____"
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.1.worked",
+      "before": "-Hi, Jack, how do you like the picture in the museum? — Very beautiful",
+      "after": "— Hi, Jack, how do you like the picture in the museum?\n— Very beautiful"
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.2.stem",
+      "before": "-Have a nice weekend!\n-____.",
+      "after": "— Have a nice weekend!\n— ____."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.2.worked",
+      "before": "-Have a nice weekend!\n-The same to you.",
+      "after": "— Have a nice weekend!\n— The same to you."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.3.stem",
+      "before": "-Goodbye, John. Come back again sometime.\n-Sure. ____.",
+      "after": "— Goodbye, John. Come back again sometime.\n— Sure. ____."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.3.worked",
+      "before": "-Goodbye, John. Come back again sometime.\n-Sure. I will.",
+      "after": "— Goodbye, John. Come back again sometime.\n— Sure. I will."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.4.stem",
+      "before": "-The trip shouldn't take more than an hour.\n-____. It is at least two hours.",
+      "after": "— The trip shouldn't take more than an hour.\n— ____. It is at least two hours."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.4.worked",
+      "before": "-The trip shouldn't take more than an hour.\n-You must be joking. It is at least two hours.",
+      "after": "— The trip shouldn't take more than an hour.\n— You must be joking. It is at least two hours."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.5.stem",
+      "before": "-Which one of these do you want?\n-____. Either will do.",
+      "after": "— Which one of these do you want?\n— ____. Either will do."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.5.worked",
+      "before": "-Which one of these do you want?\n-I don't mind. Either will do.",
+      "after": "— Which one of these do you want?\n— I don't mind. Either will do."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.6.stem",
+      "before": "-Do you think you could do without help?\n-____. This is not the first time for me.",
+      "after": "— Do you think you could do without help?\n— ____. This is not the first time for me."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.6.worked",
+      "before": "-Do you think you could do without help?\n-Don't worry. This is not the first time for me.",
+      "after": "— Do you think you could do without help?\n— Don't worry. This is not the first time for me."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.7.stem",
+      "before": "-Could I use this dictionary?\n-____. It's a spare one.",
+      "after": "— Could I use this dictionary?\n— ____. It's a spare one."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.7.worked",
+      "before": "-Could I use this dictionary?\n-Just go ahead. It's a spare one.",
+      "after": "— Could I use this dictionary?\n— Just go ahead. It's a spare one."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.8.stem",
+      "before": "-Reading is the best way to pass time on the train.\n-____. I never go traveling without a book.",
+      "after": "— Reading is the best way to pass time on the train.\n— ____. I never go traveling without a book."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.8.worked",
+      "before": "-Reading is the best way to pass time on the train.\n-That's true. I never go traveling without a book.",
+      "after": "— Reading is the best way to pass time on the train.\n— That's true. I never go traveling without a book."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.9.stem",
+      "before": "-How about dinner tonight? It's on me.\n-____.",
+      "after": "— How about dinner tonight? It's on me.\n— ____."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.10.stem",
+      "before": "-What are you going to do on May Day?\n-____. If weather permits, I may go mountain-climbing with my friends.",
+      "after": "— What are you going to do on May Day?\n— ____. If weather permits, I may go mountain-climbing with my friends."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.10.worked",
+      "before": "-What are you going to do on May Day?\n-It depends. If weather permits, I may go mountain-climbing with my friends.",
+      "after": "— What are you going to do on May Day?\n— It depends. If weather permits, I may go mountain-climbing with my friends."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.11.stem",
+      "before": "-Would you like an apple, Rose?\n-____. A pear, please.",
+      "after": "— Would you like an apple, Rose?\n— ____. A pear, please."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.12.stem",
+      "before": "-Lucy, may I use your laptop?\n-Certainly. ____.",
+      "after": "— Lucy, may I use your laptop?\n— Certainly. ____."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.12.worked",
+      "before": "-Lucy, may I use your laptop?\n-Certainly. Here you are.",
+      "after": "— Lucy, may I use your laptop?\n— Certainly. Here you are."
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.13.stem",
+      "before": "-Mum, I got the first prize!\n-You did it? ____",
+      "after": "— Mum, I got the first prize!\n— You did it? ____"
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.13.worked",
+      "before": "-Mum, I got the first prize!\n-You did it? Well done!",
+      "after": "— Mum, I got the first prize!\n— You did it? Well done!"
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.14.stem",
+      "before": "-Dad, I've got a job.\n-____!",
+      "after": "— Dad, I've got a job.\n— ____!"
+    },
+    {
+      "lessonId": "builtin-f6fb5cba7c7803a8",
+      "title": "日常交际复习练习",
+      "path": "questions.14.worked",
+      "before": "-Dad, I've got a job.\n-Congratulations!",
+      "after": "— Dad, I've got a job.\n— Congratulations!"
+    },
+    {
+      "lessonId": "builtin-5ff4a9200a06e034",
+      "title": "完形填空复习练习",
+      "path": "reference.1.text",
+      "before": "One day there was an argument(争论)between the wind and the sun. “ I'm much  ____(1)  than you,\" said the wind.“No, I don't agree with you!\" said the sun. While they were arguing, they saw a man    ____(2)  along the road. He was wearing a heavy coat. The sun said to the wind,“Now, let    ____(3)  see who can make the man take  ____(4)   his coat. Then we will know who is stronger.”First the wind tried. It began to blow very hard. It blew  ____(5)  hard that the man pulled his coat around him. The wind was ____(6)  with the man.Then it said to the sun,“Now, it's your  ____(7)  .” The sun started to  ____(8)   on the man. Soon it got very ____(9)   ! The man took off his coat. The argument was over. We know the ____(10)   was stronger now.",
+      "after": "One day there was an argument(争论)between the wind and the sun. “ I'm much  ____(1)  than you,\" said the wind.“No, I don't agree with you!\" said the sun. While they were arguing, they saw a man    ____(2)  along the road. He was wearing a heavy coat. The sun said to the wind,“Now, let    ____(3)  see who can make the man take  ____(4)   his coat. Then we will know who is stronger.”First the wind tried. It began to blow very hard. It blew  ____(5)  hard that the man pulled his coat around him. The wind was ____(6)  with the man. Then it said to the sun,“Now, it's your  ____(7)  .” The sun started to  ____(8)   on the man. Soon it got very ____(9)   ! The man took off his coat. The argument was over. We know the ____(10)   was stronger now."
+    },
+    {
+      "lessonId": "builtin-5ff4a9200a06e034",
+      "title": "完形填空复习练习",
+      "path": "questions.40.context.0.text",
+      "before": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However,when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time.",
+      "after": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However, when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time."
+    },
+    {
+      "lessonId": "builtin-5ff4a9200a06e034",
+      "title": "完形填空复习练习",
+      "path": "questions.41.context.0.text",
+      "before": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However,when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time.",
+      "after": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However, when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time."
+    },
+    {
+      "lessonId": "builtin-5ff4a9200a06e034",
+      "title": "完形填空复习练习",
+      "path": "questions.41.evidence",
+      "before": "However,when time is   ____(42) it'll never ____(43) .",
+      "after": "However, when time is   ____(42) it'll never ____(43) ."
+    },
+    {
+      "lessonId": "builtin-5ff4a9200a06e034",
+      "title": "完形填空复习练习",
+      "path": "questions.41.worked",
+      "before": "However,when time is   gone it'll never ____(43) .",
+      "after": "However, when time is   gone it'll never ____(43) ."
+    },
+    {
+      "lessonId": "builtin-5ff4a9200a06e034",
+      "title": "完形填空复习练习",
+      "path": "questions.42.context.0.text",
+      "before": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However,when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time.",
+      "after": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However, when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time."
+    },
+    {
+      "lessonId": "builtin-5ff4a9200a06e034",
+      "title": "完形填空复习练习",
+      "path": "questions.42.evidence",
+      "before": "However,when time is   ____(42) it'll never ____(43) .",
+      "after": "However, when time is   ____(42) it'll never ____(43) ."
+    },
+    {
+      "lessonId": "builtin-5ff4a9200a06e034",
+      "title": "完形填空复习练习",
+      "path": "questions.42.worked",
+      "before": "However,when time is   ____(42) it'll never return .",
+      "after": "However, when time is   ____(42) it'll never return ."
+    },
+    {
+      "lessonId": "builtin-5ff4a9200a06e034",
+      "title": "完形填空复习练习",
+      "path": "questions.43.context.0.text",
+      "before": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However,when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time.",
+      "after": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However, when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time."
+    },
+    {
+      "lessonId": "builtin-5ff4a9200a06e034",
+      "title": "完形填空复习练习",
+      "path": "questions.44.context.0.text",
+      "before": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However,when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time.",
+      "after": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However, when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time."
+    },
+    {
+      "lessonId": "builtin-5ff4a9200a06e034",
+      "title": "完形填空复习练习",
+      "path": "questions.45.context.0.text",
+      "before": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However,when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time.",
+      "after": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However, when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time."
+    },
+    {
+      "lessonId": "builtin-5ff4a9200a06e034",
+      "title": "完形填空复习练习",
+      "path": "questions.46.context.0.text",
+      "before": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However,when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time.",
+      "after": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However, when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time."
+    },
+    {
+      "lessonId": "builtin-5ff4a9200a06e034",
+      "title": "完形填空复习练习",
+      "path": "questions.47.context.0.text",
+      "before": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However,when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time.",
+      "after": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However, when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time."
+    },
+    {
+      "lessonId": "builtin-5ff4a9200a06e034",
+      "title": "完形填空复习练习",
+      "path": "questions.48.context.0.text",
+      "before": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However,when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time.",
+      "after": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However, when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time."
+    },
+    {
+      "lessonId": "builtin-5ff4a9200a06e034",
+      "title": "完形填空复习练习",
+      "path": "questions.49.context.0.text",
+      "before": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However,when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time.",
+      "after": "Someone says,“Time is money.” But I think time is ____(41)  important than money. Why? Because when money is spent, we can get it back. However, when time is   ____(42) it'll never ____(43) .That's   ____(44)  we mustn't waste time."
+    },
+    {
+      "lessonId": "builtin-fe5a811f51945646",
+      "title": "综合练习复习练习",
+      "path": "questions.7.stem",
+      "before": "- We are going to have a dancing party tonight. Would you like to join us? — ____",
+      "after": "— We are going to have a dancing party tonight. Would you like to join us?\n— ____"
+    },
+    {
+      "lessonId": "builtin-fe5a811f51945646",
+      "title": "综合练习复习练习",
+      "path": "questions.8.stem",
+      "before": "- What day is it today? — ____",
+      "after": "— What day is it today?\n— ____"
+    },
+    {
+      "lessonId": "builtin-fe5a811f51945646",
+      "title": "综合练习复习练习",
+      "path": "questions.8.worked",
+      "before": "- What day is it today? — It's Sunday",
+      "after": "— What day is it today?\n— It's Sunday"
+    },
+    {
+      "lessonId": "builtin-fe5a811f51945646",
+      "title": "综合练习复习练习",
+      "path": "questions.10.stem",
+      "before": "-What's the date today?\n-It's ____.",
+      "after": "— What's the date today?\n— It's ____."
+    },
+    {
+      "lessonId": "builtin-fe5a811f51945646",
+      "title": "综合练习复习练习",
+      "path": "questions.10.worked",
+      "before": "-What's the date today?\n-It's the fourth of May.",
+      "after": "— What's the date today?\n— It's the fourth of May."
+    },
+    {
+      "lessonId": "builtin-fe5a811f51945646",
+      "title": "综合练习复习练习",
+      "path": "questions.14.stem",
+      "before": "-Can you play football?\n-Yes, I can, ____ I can't play it very well.",
+      "after": "— Can you play football?\n— Yes, I can, ____ I can't play it very well."
+    },
+    {
+      "lessonId": "builtin-fe5a811f51945646",
+      "title": "综合练习复习练习",
+      "path": "questions.14.worked",
+      "before": "-Can you play football?\n-Yes, I can, but I can't play it very well.",
+      "after": "— Can you play football?\n— Yes, I can, but I can't play it very well."
+    },
+    {
+      "lessonId": "builtin-59026736234c6f7c",
+      "title": "2021年高职考试英语整理卷",
+      "path": "questions.7.stem",
+      "before": "—May I drink ____ water? —Sorry, I do not have ____.",
+      "after": "— May I drink ____ water?\n— Sorry, I do not have ____."
+    },
+    {
+      "lessonId": "builtin-59026736234c6f7c",
+      "title": "2021年高职考试英语整理卷",
+      "path": "questions.7.worked",
+      "before": "—May I drink some water? —Sorry, I do not have any.",
+      "after": "— May I drink some water?\n— Sorry, I do not have any."
+    },
+    {
+      "lessonId": "builtin-59026736234c6f7c",
+      "title": "2021年高职考试英语整理卷",
+      "path": "questions.10.stem",
+      "before": "—____ book do you like? —I like Lu Xun's.",
+      "after": "— ____ book do you like?\n— I like Lu Xun's."
+    },
+    {
+      "lessonId": "builtin-59026736234c6f7c",
+      "title": "2021年高职考试英语整理卷",
+      "path": "questions.10.worked",
+      "before": "—Whose book do you like? —I like Lu Xun's.",
+      "after": "— Whose book do you like?\n— I like Lu Xun's."
+    },
+    {
+      "lessonId": "builtin-59026736234c6f7c",
+      "title": "2021年高职考试英语整理卷",
+      "path": "questions.11.stem",
+      "before": "—So can you run all ____ of CNC machine tools? —Yes.",
+      "after": "— So can you run all ____ of CNC machine tools?\n— Yes."
+    },
+    {
+      "lessonId": "builtin-59026736234c6f7c",
+      "title": "2021年高职考试英语整理卷",
+      "path": "questions.11.worked",
+      "before": "—So can you run all kinds of CNC machine tools? —Yes.",
+      "after": "— So can you run all kinds of CNC machine tools?\n— Yes."
+    },
+    {
+      "lessonId": "builtin-59026736234c6f7c",
+      "title": "2021年高职考试英语整理卷",
+      "path": "questions.17.stem",
+      "before": "—____ Lily and her sister ____ breakfast at home? —Yes.",
+      "after": "— ____ Lily and her sister ____ breakfast at home?\n— Yes."
+    },
+    {
+      "lessonId": "builtin-59026736234c6f7c",
+      "title": "2021年高职考试英语整理卷",
+      "path": "questions.17.worked",
+      "before": "—Do Lily and her sister have breakfast at home? —Yes.",
+      "after": "— Do Lily and her sister have breakfast at home?\n— Yes."
+    },
+    {
+      "lessonId": "builtin-59026736234c6f7c",
+      "title": "2021年高职考试英语整理卷",
+      "path": "questions.22.stem",
+      "before": "—Happy New Year to you! —____.",
+      "after": "— Happy New Year to you!\n— ____."
+    },
+    {
+      "lessonId": "builtin-59026736234c6f7c",
+      "title": "2021年高职考试英语整理卷",
+      "path": "questions.22.worked",
+      "before": "—Happy New Year to you! —The same to you.",
+      "after": "— Happy New Year to you!\n— The same to you."
+    },
+    {
+      "lessonId": "builtin-59026736234c6f7c",
+      "title": "2021年高职考试英语整理卷",
+      "path": "questions.24.stem",
+      "before": "—Your dress is very nice at the birthday party! —____.",
+      "after": "— Your dress is very nice at the birthday party!\n— ____."
+    },
+    {
+      "lessonId": "builtin-59026736234c6f7c",
+      "title": "2021年高职考试英语整理卷",
+      "path": "questions.24.worked",
+      "before": "—Your dress is very nice at the birthday party! —Thank you.",
+      "after": "— Your dress is very nice at the birthday party!\n— Thank you."
+    },
+    {
+      "lessonId": "builtin-59026736234c6f7c",
+      "title": "2021年高职考试英语整理卷",
+      "path": "questions.55.stem",
+      "before": "—What does your mother do? —My mother ____ (be) an actress.",
+      "after": "— What does your mother do?\n— My mother ____ (be) an actress."
+    },
+    {
+      "lessonId": "builtin-59026736234c6f7c",
+      "title": "2021年高职考试英语整理卷",
+      "path": "questions.56.stem",
+      "before": "—What are their friends doing? —They ____ (read) a storybook.",
+      "after": "— What are their friends doing?\n— They ____ (read) a storybook."
+    },
+    {
+      "lessonId": "builtin-59026736234c6f7c",
+      "title": "2021年高职考试英语整理卷",
+      "path": "questions.59.stem",
+      "before": "—What do you think of the book? —It is ____ (use).",
+      "after": "— What do you think of the book?\n— It is ____ (use)."
+    },
+    {
+      "lessonId": "builtin-9fbaa83333a55ec7",
+      "title": "2022年高职考试英语整理卷",
+      "path": "questions.6.stem",
+      "before": "—When is your school trip? —It is ____ April 10th.",
+      "after": "— When is your school trip?\n— It is ____ April 10th."
+    },
+    {
+      "lessonId": "builtin-9fbaa83333a55ec7",
+      "title": "2022年高职考试英语整理卷",
+      "path": "questions.6.worked",
+      "before": "—When is your school trip? —It is on April 10th.",
+      "after": "— When is your school trip?\n— It is on April 10th."
+    },
+    {
+      "lessonId": "builtin-9fbaa83333a55ec7",
+      "title": "2022年高职考试英语整理卷",
+      "path": "questions.9.stem",
+      "before": "—What is your favorite ____? —Winter. I really like the snow.",
+      "after": "— What is your favorite ____?\n— Winter. I really like the snow."
+    },
+    {
+      "lessonId": "builtin-9fbaa83333a55ec7",
+      "title": "2022年高职考试英语整理卷",
+      "path": "questions.9.worked",
+      "before": "—What is your favorite season? —Winter. I really like the snow.",
+      "after": "— What is your favorite season?\n— Winter. I really like the snow."
+    },
+    {
+      "lessonId": "builtin-9fbaa83333a55ec7",
+      "title": "2022年高职考试英语整理卷",
+      "path": "questions.11.stem",
+      "before": "—Is May going to be a teacher in the future? —Yes, she ____.",
+      "after": "— Is May going to be a teacher in the future?\n— Yes, she ____."
+    },
+    {
+      "lessonId": "builtin-9fbaa83333a55ec7",
+      "title": "2022年高职考试英语整理卷",
+      "path": "questions.11.worked",
+      "before": "—Is May going to be a teacher in the future? —Yes, she is.",
+      "after": "— Is May going to be a teacher in the future?\n— Yes, she is."
+    },
+    {
+      "lessonId": "builtin-9fbaa83333a55ec7",
+      "title": "2022年高职考试英语整理卷",
+      "path": "questions.16.stem",
+      "before": "—Do you need an apple or a pear? —I really do not mind. ____.",
+      "after": "— Do you need an apple or a pear?\n— I really do not mind. ____."
+    },
+    {
+      "lessonId": "builtin-9fbaa83333a55ec7",
+      "title": "2022年高职考试英语整理卷",
+      "path": "questions.16.worked",
+      "before": "—Do you need an apple or a pear? —I really do not mind. Either.",
+      "after": "— Do you need an apple or a pear?\n— I really do not mind. Either."
+    },
+    {
+      "lessonId": "builtin-9fbaa83333a55ec7",
+      "title": "2022年高职考试英语整理卷",
+      "path": "questions.19.stem",
+      "before": "—Could you please help me with my math this Sunday? —____.",
+      "after": "— Could you please help me with my math this Sunday?\n— ____."
+    },
+    {
+      "lessonId": "builtin-9fbaa83333a55ec7",
+      "title": "2022年高职考试英语整理卷",
+      "path": "questions.19.worked",
+      "before": "—Could you please help me with my math this Sunday? —With pleasure.",
+      "after": "— Could you please help me with my math this Sunday?\n— With pleasure."
+    },
+    {
+      "lessonId": "builtin-9fbaa83333a55ec7",
+      "title": "2022年高职考试英语整理卷",
+      "path": "questions.20.stem",
+      "before": "—Where is Lisa? Is she at home? —Lisa ____ be at home because she phoned me from the office just now.",
+      "after": "— Where is Lisa? Is she at home?\n— Lisa ____ be at home because she phoned me from the office just now."
+    },
+    {
+      "lessonId": "builtin-9fbaa83333a55ec7",
+      "title": "2022年高职考试英语整理卷",
+      "path": "questions.20.worked",
+      "before": "—Where is Lisa? Is she at home? —Lisa can't be at home because she phoned me from the office just now.",
+      "after": "— Where is Lisa? Is she at home?\n— Lisa can't be at home because she phoned me from the office just now."
+    },
+    {
+      "lessonId": "builtin-9fbaa83333a55ec7",
+      "title": "2022年高职考试英语整理卷",
+      "path": "questions.21.stem",
+      "before": "—Excuse me, when did you leave Xi'an for Beijing? —I ____ three years ago.",
+      "after": "— Excuse me, when did you leave Xi'an for Beijing?\n— I ____ three years ago."
+    },
+    {
+      "lessonId": "builtin-9fbaa83333a55ec7",
+      "title": "2022年高职考试英语整理卷",
+      "path": "questions.21.worked",
+      "before": "—Excuse me, when did you leave Xi'an for Beijing? —I left three years ago.",
+      "after": "— Excuse me, when did you leave Xi'an for Beijing?\n— I left three years ago."
+    },
+    {
+      "lessonId": "builtin-9fbaa83333a55ec7",
+      "title": "2022年高职考试英语整理卷",
+      "path": "questions.22.stem",
+      "before": "—____ is your hat, Tom? —It is twenty dollars.",
+      "after": "— ____ is your hat, Tom?\n— It is twenty dollars."
+    },
+    {
+      "lessonId": "builtin-9fbaa83333a55ec7",
+      "title": "2022年高职考试英语整理卷",
+      "path": "questions.22.worked",
+      "before": "—How much is your hat, Tom? —It is twenty dollars.",
+      "after": "— How much is your hat, Tom?\n— It is twenty dollars."
+    },
+    {
+      "lessonId": "builtin-9fbaa83333a55ec7",
+      "title": "2022年高职考试英语整理卷",
+      "path": "questions.24.stem",
+      "before": "—Could you please tell me ____? —Sure. On Friday afternoon.",
+      "after": "— Could you please tell me ____?\n— Sure. On Friday afternoon."
+    },
+    {
+      "lessonId": "builtin-9fbaa83333a55ec7",
+      "title": "2022年高职考试英语整理卷",
+      "path": "questions.24.worked",
+      "before": "—Could you please tell me when the book sale is? —Sure. On Friday afternoon.",
+      "after": "— Could you please tell me when the book sale is?\n— Sure. On Friday afternoon."
+    },
+    {
+      "lessonId": "builtin-ae0e011eba3bb19f",
+      "title": "2023年高职考试英语整理卷",
+      "path": "questions.5.stem",
+      "before": "—Let us go shopping for some orange juice. —____. And we can also buy some coffee for Mum.",
+      "after": "— Let us go shopping for some orange juice.\n— ____. And we can also buy some coffee for Mum."
+    },
+    {
+      "lessonId": "builtin-ae0e011eba3bb19f",
+      "title": "2023年高职考试英语整理卷",
+      "path": "questions.5.worked",
+      "before": "—Let us go shopping for some orange juice. —Good idea. And we can also buy some coffee for Mum.",
+      "after": "— Let us go shopping for some orange juice.\n— Good idea. And we can also buy some coffee for Mum."
+    },
+    {
+      "lessonId": "builtin-ae0e011eba3bb19f",
+      "title": "2023年高职考试英语整理卷",
+      "path": "questions.11.stem",
+      "before": "—Wang Yaping is the first woman ____ taught lessons in space. —It is amazing.",
+      "after": "— Wang Yaping is the first woman ____ taught lessons in space.\n— It is amazing."
+    },
+    {
+      "lessonId": "builtin-ae0e011eba3bb19f",
+      "title": "2023年高职考试英语整理卷",
+      "path": "questions.11.worked",
+      "before": "—Wang Yaping is the first woman that taught lessons in space. —It is amazing.",
+      "after": "— Wang Yaping is the first woman that taught lessons in space.\n— It is amazing."
+    },
+    {
+      "lessonId": "builtin-ae0e011eba3bb19f",
+      "title": "2023年高职考试英语整理卷",
+      "path": "questions.13.stem",
+      "before": "—You play the piano so well. ____ do you take piano lessons? —Twice a week.",
+      "after": "— You play the piano so well. ____ do you take piano lessons?\n— Twice a week."
+    },
+    {
+      "lessonId": "builtin-ae0e011eba3bb19f",
+      "title": "2023年高职考试英语整理卷",
+      "path": "questions.13.worked",
+      "before": "—You play the piano so well. How often do you take piano lessons? —Twice a week.",
+      "after": "— You play the piano so well. How often do you take piano lessons?\n— Twice a week."
+    },
+    {
+      "lessonId": "builtin-ae0e011eba3bb19f",
+      "title": "2023年高职考试英语整理卷",
+      "path": "questions.18.stem",
+      "before": "—Could you tell me ____ we can start a conversation with a stranger? —Talking about weather is a good choice.",
+      "after": "— Could you tell me ____ we can start a conversation with a stranger?\n— Talking about weather is a good choice."
+    },
+    {
+      "lessonId": "builtin-ae0e011eba3bb19f",
+      "title": "2023年高职考试英语整理卷",
+      "path": "questions.18.worked",
+      "before": "—Could you tell me how we can start a conversation with a stranger? —Talking about weather is a good choice.",
+      "after": "— Could you tell me how we can start a conversation with a stranger?\n— Talking about weather is a good choice."
+    },
+    {
+      "lessonId": "builtin-ae0e011eba3bb19f",
+      "title": "2023年高职考试英语整理卷",
+      "path": "questions.19.stem",
+      "before": "—Could you please help me with my Chinese this Sunday? —____.",
+      "after": "— Could you please help me with my Chinese this Sunday?\n— ____."
+    },
+    {
+      "lessonId": "builtin-ae0e011eba3bb19f",
+      "title": "2023年高职考试英语整理卷",
+      "path": "questions.19.worked",
+      "before": "—Could you please help me with my Chinese this Sunday? —With pleasure.",
+      "after": "— Could you please help me with my Chinese this Sunday?\n— With pleasure."
+    },
+    {
+      "lessonId": "builtin-ae0e011eba3bb19f",
+      "title": "2023年高职考试英语整理卷",
+      "path": "questions.21.stem",
+      "before": "—Excuse me, when did you leave Shaanxi Province? —I ____ two years ago.",
+      "after": "— Excuse me, when did you leave Shaanxi Province?\n— I ____ two years ago."
+    },
+    {
+      "lessonId": "builtin-ae0e011eba3bb19f",
+      "title": "2023年高职考试英语整理卷",
+      "path": "questions.21.worked",
+      "before": "—Excuse me, when did you leave Shaanxi Province? —I left two years ago.",
+      "after": "— Excuse me, when did you leave Shaanxi Province?\n— I left two years ago."
+    },
+    {
+      "lessonId": "builtin-ae0e011eba3bb19f",
+      "title": "2023年高职考试英语整理卷",
+      "path": "questions.24.stem",
+      "before": "—Could you please tell me ____? —At the supermarket across from our school.",
+      "after": "— Could you please tell me ____?\n— At the supermarket across from our school."
+    },
+    {
+      "lessonId": "builtin-ae0e011eba3bb19f",
+      "title": "2023年高职考试英语整理卷",
+      "path": "questions.24.worked",
+      "before": "—Could you please tell me where I can buy some masks? —At the supermarket across from our school.",
+      "after": "— Could you please tell me where I can buy some masks?\n— At the supermarket across from our school."
+    },
+    {
+      "lessonId": "builtin-0a1141925f00d9bc",
+      "title": "2025年第一次模拟联考英语整理卷",
+      "path": "questions.6.stem",
+      "before": "—Someone is knocking at the door. Is it Ann? —It ____ be her. She is giving a performance at the theater now.",
+      "after": "— Someone is knocking at the door. Is it Ann?\n— It ____ be her. She is giving a performance at the theater now."
+    },
+    {
+      "lessonId": "builtin-0a1141925f00d9bc",
+      "title": "2025年第一次模拟联考英语整理卷",
+      "path": "questions.6.worked",
+      "before": "—Someone is knocking at the door. Is it Ann? —It can't be her. She is giving a performance at the theater now.",
+      "after": "— Someone is knocking at the door. Is it Ann?\n— It can't be her. She is giving a performance at the theater now."
+    },
+    {
+      "lessonId": "builtin-0a1141925f00d9bc",
+      "title": "2025年第一次模拟联考英语整理卷",
+      "path": "questions.7.stem",
+      "before": "—Lucy is not here today. Is she ill? —____. I saw her at the doctor's this morning.",
+      "after": "— Lucy is not here today. Is she ill?\n— ____. I saw her at the doctor's this morning."
+    },
+    {
+      "lessonId": "builtin-0a1141925f00d9bc",
+      "title": "2025年第一次模拟联考英语整理卷",
+      "path": "questions.7.worked",
+      "before": "—Lucy is not here today. Is she ill? —I'm afraid so. I saw her at the doctor's this morning.",
+      "after": "— Lucy is not here today. Is she ill?\n— I'm afraid so. I saw her at the doctor's this morning."
+    },
+    {
+      "lessonId": "builtin-0a1141925f00d9bc",
+      "title": "2025年第一次模拟联考英语整理卷",
+      "path": "questions.18.stem",
+      "before": "—Have you asked the policeman ____? —Yes. He told me to turn left onto Main Street. It is on the left.",
+      "after": "— Have you asked the policeman ____?\n— Yes. He told me to turn left onto Main Street. It is on the left."
+    },
+    {
+      "lessonId": "builtin-0a1141925f00d9bc",
+      "title": "2025年第一次模拟联考英语整理卷",
+      "path": "questions.18.worked",
+      "before": "—Have you asked the policeman if there is a bank near here? —Yes. He told me to turn left onto Main Street. It is on the left.",
+      "after": "— Have you asked the policeman if there is a bank near here?\n— Yes. He told me to turn left onto Main Street. It is on the left."
+    },
+    {
+      "lessonId": "builtin-c94ec63044f91e4c",
+      "title": "连词复习练习",
+      "path": "questions.16.stem",
+      "before": "He had a stomachache,____ he couldn't go to the party.",
+      "after": "He had a stomachache, ____ he couldn't go to the party."
+    },
+    {
+      "lessonId": "builtin-4ff84eef5aee2dcc",
+      "title": "连词复习练习",
+      "path": "questions.10.stem",
+      "before": "When you're learning a foreign language, use it,____ you will lose it.",
+      "after": "When you're learning a foreign language, use it, ____ you will lose it."
+    },
+    {
+      "lessonId": "builtin-5fb6f9cffe63b4ed",
+      "title": "形容词和副词复习练习",
+      "path": "questions.20.stem",
+      "before": "— Is your mother badly ill?\n— No,____, only a little cold.",
+      "after": "— Is your mother badly ill?\n— No, ____, only a little cold."
+    },
+    {
+      "lessonId": "builtin-17ee15fb2ec56182",
+      "title": "动词及动词短语",
+      "path": "questions.1.stem",
+      "before": "You should ____ smoking,____ you will get ill.",
+      "after": "You should ____ smoking, ____ you will get ill."
+    },
+    {
+      "lessonId": "builtin-a324b7fcb9d5a883",
+      "title": "情态动词复习练习",
+      "path": "questions.52.stem",
+      "before": "You ____ on a honeymoon then,____ you?",
+      "after": "You ____ on a honeymoon then, ____ you?"
+    }
+  ]
+}

@@ -17,7 +17,7 @@ function explanationHTML(q){
  return '<h3>'+(q.invalid?'待确认题目':'参考答案')+'</h3><p class="answer-line">'+esc(q.answer)+(answer?' · '+esc(answer.text):'')+'</p>'+(q.examNote?'<p class="exam-note">'+esc(q.examNote)+'</p>':'')+'<h3>判断依据与解析</h3><p>'+esc(q.reason)+'</p>'+(q.worked?'<h3>代入检查</h3><p class="worked">'+esc(q.worked)+'</p>'+(q.worked.includes('∅')?'<p class="translation">∅ 表示此处不填任何词。</p>':''):'')+(q.optionNotes?.length?'<h3>逐项辨析</h3>'+q.optionNotes.map(o=>'<section class="option-explanation"><strong>'+esc(o.key)+' · '+esc(o.text)+'</strong><p>'+esc(o.reason)+'</p></section>').join(''):'')+(q.essay?'<h3>书面表达参考范文</h3><p>'+esc(q.essay)+'</p>':'')+(q.evidence?'<h3>原文依据</h3><p class="worked">'+esc(q.evidence)+'</p>':'')+(entries?'<h3>规则、用法与例句</h3>'+entries:'');
 }
 showSide=function(view){sideView=view;if(!view){if(explanation.open)explanation.close();return;}
- const q=current();$('explanation-body').innerHTML=view==='context'?blocks(q.context,q.label):explanationHTML(q);$('explanation-title').textContent=(view==='context'?'题目材料':'解析与积累')+' · 原题 '+q.label;$('side').hidden=true;$('layout').classList.remove('with-side');
+ const q=current();$('explanation-body').innerHTML=view==='context'?blocks(q.context,q.label):pageIndices().map(i=>'<section class="page-explanation"><h2>原题 '+esc(lesson.questions[i].label)+'</h2>'+explanationHTML(lesson.questions[i])+'</section>').join('');$('explanation-title').textContent=(view==='context'?'题目材料':'解析与积累')+' · 原题 '+pageIndices().map(i=>lesson.questions[i].label).join('、');$('side').hidden=true;$('layout').classList.remove('with-side');
  $('exp-material').hidden=!q.context.length;$('exp-material').textContent=view==='context'?'查看解析':'题目材料';$('exp-material').onclick=()=>{if(sideView==='context')explain();else showSide('context');};
  if(!explanation.open)explanation.showModal();$('explanation-body').scrollTop=0;$('explanation-body').focus({preventScroll:true});
 };
@@ -31,23 +31,44 @@ function updateNav(){ $('nav-grid').innerHTML=lesson.questions.map((q,i)=>{const
 function toggleNav(open){nav.hidden=!open;$('picker').setAttribute('aria-expanded',String(open));if(open)updateNav();}
 picker=function(){toggleNav(nav.hidden);};$('picker').onclick=picker;$('picker').setAttribute('aria-controls','question-navigation');$('nav-close').onclick=()=>toggleNav(false);
 $('nav-go').onclick=()=>{const n=Number($('nav-number').value);if(Number.isInteger(n)&&n>=1&&n<=lesson.questions.length){index=n-1;render();}};$('nav-number').onkeydown=e=>{if(e.key==='Enter')$('nav-go').click();};
-const originalRender=render;render=function(){if(explanation.open)explanation.close();originalRender();updateNav();};
+const originalRender=render;render=function(){clearPresenterSelection();if(explanation.open)explanation.close();originalRender();updateNav();};
 const originalStats=renderStats;renderStats=function(){originalStats();updateNav();};
 let lastMove=-Infinity,unlockTimer;const originalMove=move;
-move=function(delta){const now=performance.now();if(now-lastMove<800)return;lastMove=now;originalMove(delta);$('next').disabled=true;$('prev').disabled=true;clearTimeout(unlockTimer);unlockTimer=setTimeout(()=>{$('next').disabled=false;$('prev').disabled=index===0;},800);};
+move=function(delta){const now=performance.now();if(now-lastMove<800)return;lastMove=now;originalMove(delta);$('next').disabled=true;$('prev').disabled=true;clearTimeout(unlockTimer);unlockTimer=setTimeout(()=>{$('next').disabled=false;$('prev').disabled=presentationPages[0].includes(index);},800);};
 $('prev').onclick=()=>move(-1);$('next').onclick=()=>move(1);
-// Ignore key repeats and route common presenter keys before the original handler.
+// Presenter buttons use the short Tab / Enter key events; OS window shortcuts remain untouched.
+let selectedPresenterControl=null,lastEnter=-Infinity;
+function clearPresenterSelection(){if(selectedPresenterControl){selectedPresenterControl.classList.remove('presenter-focus');if(document.activeElement===selectedPresenterControl)selectedPresenterControl.blur();}selectedPresenterControl=null;}
+function presenterChoices(){return [...document.querySelectorAll('.option:not(:disabled)')].filter(b=>!b.hidden&&!b.disabled);}
+function focusPresenterChoice(reverse=false){const choices=presenterChoices();if(!choices.length)return;const pos=choices.indexOf(selectedPresenterControl);const next=pos<0?(reverse?choices.length-1:0):(pos+(reverse?-1:1)+choices.length)%choices.length;clearPresenterSelection();selectedPresenterControl=choices[next];selectedPresenterControl.classList.add('presenter-focus');selectedPresenterControl.focus({preventScroll:true});selectedPresenterControl.scrollIntoView({block:'nearest',inline:'nearest'});}
+function enterPresenter(){const now=performance.now();if(now-lastEnter<800)return;lastEnter=now;const selected=selectedPresenterControl;clearPresenterSelection();if(selected&&!selected.disabled){selected.click();return;}const choices=presenterChoices();if(choices.length){focusPresenterChoice();return;}if(current().mode==='choice')return;if(pageIsRevealed())explain();else reveal();}
+$('show-answer').onclick=reveal;
+document.addEventListener('pointerdown',()=>clearPresenterSelection());
+explanation.addEventListener('close',()=>{clearPresenterSelection();const active=document.activeElement;if(active&&active!==document.body&&active.blur)active.blur();});
 document.addEventListener('keydown',e=>{
  if(e.ctrlKey||e.metaKey||e.altKey)return;
- if(!explanation.open&&/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName))return;
- const k=e.key.toLowerCase(),next=['arrowright','arrowdown','pagedown',' ','enter'].includes(k),prev=['arrowleft','arrowup','pageup','backspace'].includes(k);
- if(explanation.open){if(['j','b','.'].includes(k)){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)explanation.close();return;}if(next||prev){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)scrollExp(next?1:-1);}return;}
- if($('dialog').open)return;
+ const active=document.activeElement,k=e.key.toLowerCase();
+ if(/INPUT|TEXTAREA|SELECT/.test(active.tagName)||active.isContentEditable)return;
+ const next=['arrowright','arrowdown','pagedown',' '].includes(k),prev=['arrowleft','arrowup','pageup','backspace'].includes(k);
+ if(explanation.open){
+  if(k==='enter'){
+   // A focused dialog control keeps native activation; Enter on its content returns to the question.
+   if(active.closest('button,a')){if(e.repeat)e.preventDefault();return;}
+   e.preventDefault();e.stopImmediatePropagation();const now=performance.now();if(!e.repeat&&now-lastEnter>=800){lastEnter=now;explanation.close();}return;
+  }
+  if(['j','b','.'].includes(k)){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)explanation.close();return;}
+  if(next||prev){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)scrollExp(next?1:-1);}return;
+ }
+ if($('dialog').open||!nav.hidden)return;
+ if(k==='tab'){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)focusPresenterChoice(e.shiftKey);return;}
+ if(k==='enter'){
+  e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)enterPresenter();return;
+ }
  if(next||prev){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)move(next?1:-1);}
  else if(['j','b','.'].includes(k)){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)explain();}
 },true);
-reference=function(){modal('讲义与说明','<p><strong>修订版操作：</strong>解析与材料以大对话框显示；解析字号独立保存。点击左下角图标展开导航，点击区域外收起。翻页后锁定 0.8 秒，防止连点跳题。支持方向键、PageUp / PageDown、空格及回车型翻页笔；解析窗口打开时仅滚动解析。Esc 关闭窗口。</p>'+ (lesson.reference.length?blocks(lesson.reference):'')+'<h3>来源</h3><p>'+esc(lesson.source)+'</p>'+lesson.notes.map(n=>'<p>'+esc(n)+'</p>').join(''));};$('reference').onclick=reference;
-// Keep the chosen question font; shrink only when “适应屏幕” is explicitly requested.
+reference=function(){modal('讲义与说明','<p><strong>修订版操作：</strong>解析与材料以大对话框显示；解析字号独立保存。点击左下角图标展开导航，点击区域外收起。翻页后锁定 0.8 秒，防止连点跳题。上下翻页键切题；Tab 只轮选当前题可用选项，Enter 确认选项；未轮选时 Enter 仅定位首个选项，不猜选答案。非选择题用 Enter 逐个显示答案，全部显示后再按 Enter 打开解析；长按下翻页键（B/句号）仍开关解析。解析打开时翻页键滚动，Esc 关闭。</p>'+ (lesson.reference.length?blocks(lesson.reference):'')+'<h3>来源</h3><p>'+esc(lesson.source)+'</p>'+lesson.notes.map(n=>'<p>'+esc(n)+'</p>').join(''));};$('reference').onclick=reference;
+// Preserve the chosen question font across questions and window resizes.
 fit=function(reset=true){cancelAnimationFrame(fitFrame);if(reset)setFont(preferred);};
 
 const requested=new URLSearchParams(location.hash.slice(1)).get('q');if(requested){const target=lesson.questions.findIndex(q=>q.label===requested);if(target>=0)index=target;}
