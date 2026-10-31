@@ -118,3 +118,7 @@ Settings → Environment Variables保存后，Deployments → 最新部署 → R
 - 不要把public/app.js设为函数入口；唯一云端函数入口是api/index.mjs。
 
 保存设置后从Git main分支部署最新提交；如果点旧部署的Redeploy，要注意它可能仍使用旧提交。必要时禁用构建缓存后重试。修改后首页应该是HTML，/app.js应该以静态JavaScript返回，/api/session才是API。
+
+## 使用现有免费额度测试
+
+若账号有qwen3.8-flash额度，可将MODEL_ID设为qwen3.8-flash，其余保持MODEL_API_MODE=chat、MODEL_JSON_MODE=false。程序对Qwen3.5—3.8的Flash/Plus/Max系列Chat请求显式关闭思考，以减少同步识别的等待；其他服务商模型请求不添加此参数。实际试卷识别质量仍须验证。额度、有效期以自己控制台显示为准，测试时可开启对应模型的“用完即停”。
