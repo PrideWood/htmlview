@@ -1,0 +1,10 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>课堂演示</title><link rel="stylesheet" href="/legacy/player.css"><link rel="stylesheet" href="/legacy/revision.css"><body class="player">
+<header class="topbar"><a id="home" class="brand" aria-label="返回专题目录">一本通 <span>课堂讲练</span></a><div class="doc-label"><span id="topic"></span><strong id="doc-title"></strong></div><div class="tools"><button id="smaller" aria-label="减小字号">A−</button><input id="font" aria-label="字号" type="range" min="18" max="54" step="1" value="34"><button id="larger" aria-label="增大字号">A+</button><span id="font-value">34</span><button id="fit">适应屏幕</button><button id="fullscreen">全屏</button></div></header>
+<div class="progress-track"><div id="progress"></div></div>
+<main id="workspace"><div class="question-meta"><div><span id="section"></span><span id="question-kind" class="pill"></span></div><button id="picker" title="跳转题目"><span id="position"></span> ▦</button></div>
+<div id="layout" class="layout"><article id="question-panel" class="question-panel" aria-live="polite"><div id="question-content"></div></article><aside id="side" class="side" hidden><div class="side-tabs"><button id="context-tab">题目材料</button><button id="explain-tab">解析与积累</button><button id="close-side" aria-label="收起侧栏">×</button></div><div id="side-content" class="side-content"></div></aside></div>
+<div id="feedback" class="feedback" role="status" aria-live="polite" hidden></div>
+</main>
+<footer class="bottom"><div class="nav-buttons"><button id="prev">← 上一题</button><button id="next" class="primary">下一题 →</button></div><div class="lesson-tools"><button id="material">题目材料</button><button id="explain">查看解析</button><button id="reference">讲义与说明</button><button id="retry">重做</button></div><span id="score"></span></footer>
+<dialog id="dialog"><div class="dialog-heading"><h2 id="dialog-title"></h2><button id="dialog-close" aria-label="关闭">×</button></div><div id="dialog-body"></div></dialog>
+<script id="lesson-data" type="application/json"></script><script type="module" src="/player-boot.js"></script></body></html>

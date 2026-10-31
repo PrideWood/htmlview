@@ -1,0 +1,9 @@
+data/
+.env
+.env.*
+!.env.example
+node_modules/
+test/
+验收截图/
+*.log
+*.zip
