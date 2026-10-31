@@ -17,7 +17,7 @@ before(async()=>{
  app=http.createServer(handler);await new Promise(r=>app.listen(0,'127.0.0.1',r));base=`http://127.0.0.1:${app.address().port}`;
 });
 after(async()=>{await Promise.all([new Promise(r=>app.close(r)),new Promise(r=>model.close(r))]);await rm(process.env.DATA_DIR,{recursive:true,force:true});});
-async function call(url,method='GET',body){const r=await fetch(base+'/api'+url,{method,headers:{'Content-Type':'application/json'},body:body===undefined?undefined:JSON.stringify(body)});return {status:r.status,data:await r.json()};}
+async function call(url,method='GET',body){const r=await fetch(base+'/api'+url,{method,headers:{'Content-Type':'application/json'},body:body===undefined?undefined:JSON.stringify(body)});return {status:r.status,data:await r.json(),serverTiming:r.headers.get('server-timing')};}
 test('选择题必须为一个有效字母，重复题号不通过',()=>{assert.throws(()=>validateLesson({...lesson,questions:[{...lesson.questions[0],answer:'A或B'}]}),/答案必须/);assert.throws(()=>validateLesson({...lesson,questions:[lesson.questions[0],lesson.questions[0]]}),/重复/);});
 test('模型的不确定答案不计分且不自动完成老师校对',()=>{const d=validateLesson({...lesson,questions:[{...lesson.questions[0],reviewStatus:'needs_review',answer:''}]},{fromModel:true});assert.equal(d.questions[0].invalid,true);assert.deepEqual(d.questions[0].accepted,[]);assert.equal(d.questions[0].reviewed,false);});
 test('支持代码围栏JSON，不接受损坏的JSON',()=>{assert.equal(parseModelJSON('```json\n{"title":"a"}\n```').title,'a');assert.throws(()=>parseModelJSON('{"title":'),/完整有效/);});
@@ -28,7 +28,7 @@ test('上传→真实协议请求到本地mock→校对→保存课堂→重新�
  let r=await call('/imports','POST',{title:'流水线测试',topic:'介词',text:'',images:[{name:'page.png',dataUrl:'data:image/png;base64,'+png}]});assert.equal(r.status,201);let d=r.data.lesson;assert.equal(d.status,'uploaded');assert.equal(d.images.length,1);
  r=await call('/lessons/'+d.id,'PUT',{version:d.version,lesson:{...d,title:'上传后可编辑标题',ocrText:'补充过的原文'}});assert.equal(r.status,200);d=r.data.lesson;assert.equal(d.status,'uploaded');assert.equal(d.title,'上传后可编辑标题');
  const image=await fetch(base+d.images[0].url);assert.equal(Buffer.compare(Buffer.from(await image.arrayBuffer()),Buffer.from(png,'base64')),0);
- r=await call('/lessons/'+d.id+'/recognize','POST',{});assert.equal(r.status,200);d=r.data.lesson;assert.equal(d.status,'draft');assert.equal(d.questions[0].reviewed,false);assert.equal(modelRequests,1);
+ r=await call('/lessons/'+d.id+'/recognize','POST',{});assert.equal(r.status,200);d=r.data.lesson;assert.equal(d.status,'draft');assert.equal(d.questions[0].reviewed,false);assert.ok(r.data.timings.modelMs>=0);assert.ok(r.data.timings.imageReadMs>=0);assert.ok(r.data.timings.prepareMs>=0);assert.match(r.serverTiming,/model;dur=/);assert.ok(d.modelInfo.timings.totalMs>=d.modelInfo.timings.modelMs);assert.equal(modelRequests,1);
  r=await call('/lessons/'+d.id+'/publish','POST',{version:d.version});assert.equal(r.status,400);
  d.questions[0].reviewed=true;r=await call('/lessons/'+d.id,'PUT',{version:d.version,lesson:d});assert.equal(r.status,200);d=r.data.lesson;
  r=await call('/lessons/'+d.id+'/publish','POST',{version:d.version});assert.equal(r.status,200);assert.equal(r.data.lesson.status,'ready');
@@ -45,3 +45,10 @@ test('十张图片逐张保存，模型页序决定题目顺序，原上传编�
 });
 test('并发保存只允许一个相同版本成功，不覆盖其他设备修改',async()=>{const d={id:'concurrency-test',...validateLesson(lesson),status:'draft',sourceType:'import',createdAt:new Date().toISOString(),images:[]};const saved=await saveLesson(d,0);const results=await Promise.allSettled([saveLesson({...saved,title:'a'},1),saveLesson({...saved,title:'b'},1)]);assert.equal(results.filter(x=>x.status==='fulfilled').length,1);assert.ok(results.find(x=>x.status==='rejected').reason instanceof Conflict);});
 test('未认证的手机请求无法读取题目或模型密钥',async()=>{let output='';const res={writeHead(s){this.status=s;},end(s){output=s;},setHeader(){}};await handler({url:'/api/lessons',method:'GET',headers:{host:'example.com'},socket:{remoteAddress:'192.168.1.7'}},res);assert.equal(res.status,401);assert.doesNotMatch(output,/fake-test-key/);});
+
+test('首批多图保存保持原始顺序并能读取',async()=>{
+ const png='iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aZ0kAAAAASUVORK5CYII=';
+ const images=['第一页.png','第二页.png','第三页.png'].map(name=>({name,dataUrl:'data:image/png;base64,'+png}));
+ const r=await call('/imports','POST',{title:'首批多图',images});assert.equal(r.status,201);assert.deepEqual(r.data.lesson.images.map(x=>x.name),images.map(x=>x.name));
+ for(const image of r.data.lesson.images){const b=await fetch(base+image.url);assert.equal(b.status,200);assert.deepEqual(Buffer.from(await b.arrayBuffer()),Buffer.from(png,'base64'));}
+});
