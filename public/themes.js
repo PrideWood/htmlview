@@ -1,6 +1,6 @@
 const key='classroom-ui-preferences';
-export const workspaceThemes=[{id:'blue',name:'晴空蓝',bg:'#ffffff',ink:'#26364b',accent:'#1673e6'},{id:'jade',name:'青玉',bg:'#f6fbf9',ink:'#23493f',accent:'#16806b'},{id:'sand',name:'暖纸',bg:'#fffcf5',ink:'#544536',accent:'#a66a32'},{id:'night',name:'深空',bg:'#192334',ink:'#e1e9f5',accent:'#85b7ff'}];
-export const boardThemes=[{id:'light',name:'白板',bg:'#ffffff',ink:'#203650',accent:'#1673e6'},{id:'chalk',name:'电子黑板',bg:'#123d33',ink:'#f0f7ed',accent:'#a4dfca'},{id:'night',name:'夜间',bg:'#141e2c',ink:'#e7edf6',accent:'#9cc8ff'},{id:'paper',name:'护眼纸',bg:'#f7f0de',ink:'#4f4638',accent:'#896433'}];
+export const workspaceThemes=[{id:'blue',name:'晴空蓝',bg:'#ffffff',ink:'#26364b',accent:'#0b60c9'},{id:'jade',name:'青玉',bg:'#f6fbf9',ink:'#23493f',accent:'#086b56'},{id:'sand',name:'暖纸',bg:'#fffcf5',ink:'#544536',accent:'#88501e'},{id:'night',name:'深空',bg:'#192334',ink:'#e1e9f5',accent:'#9cc7ff'}];
+export const boardThemes=[{id:'light',name:'白板',bg:'#ffffff',ink:'#203650',accent:'#0b60c9'},{id:'chalk',name:'电子黑板',bg:'#123d33',ink:'#f0f7ed',accent:'#a4dfca'},{id:'night',name:'夜间',bg:'#141e2c',ink:'#e7edf6',accent:'#9cc8ff'},{id:'paper',name:'护眼纸',bg:'#f7f0de',ink:'#4f4638',accent:'#76511f'}];
 function read(){try{return JSON.parse(localStorage.getItem(key))||{};}catch{return {};}}
 function normalize(p){return {workspace:workspaceThemes.some(t=>t.id===p?.workspace)?p.workspace:'blue',board:boardThemes.some(t=>t.id===p?.board)?p.board:'light'};}
 export function applyThemes(p=read()){const value=normalize(p);document.documentElement.dataset.uiTheme=value.workspace;document.documentElement.dataset.boardTheme=value.board;return value;}
