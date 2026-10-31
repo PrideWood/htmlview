@@ -29,11 +29,11 @@ function renderOptions(){const q=current(),st=state();document.querySelectorAll(
  if(st.result==='bad'&&st.choice===k){b.classList.add('wrong');b.querySelector('.option-mark').textContent='✕';}
  b.disabled=!!(st.result||st.revealed||revealed);b.setAttribute('aria-label',k+' '+q.options.find(o=>o.key===k).text+(b.classList.contains('correct')?'，考试建议答案':b.classList.contains('wrong')?'，选择错误':''));});}
 function choose(k){const q=current(),st=state();if(st.result||st.revealed||revealed||!q.options.some(o=>o.key===k))return;
- const result=q.invalid?'warn':q.accepted.includes(k)?'good':'bad';states[q.label]={choice:k,result};revealed=true;persist();renderOptions();renderFeedback();renderStats();showSide('explain');}
+ const result=q.invalid?'warn':q.accepted.includes(k)?'good':'bad';states[q.label]={choice:k,result};revealed=true;persist();renderOptions();renderFeedback();renderStats();}
 function norm(s){return String(s).toLowerCase().replace(/[’‘]/g,"'").replace(/[.,!?。！？]/g,'').replace(/\s+/g,' ').trim();}
 function submitInput(){const q=current();if(state().result)return;const value=$('response').value;if(!value.trim()){$('response').focus();return;}
- const variants=q.answer.split(/\s*\/\s*/).map(norm),result=variants.includes(norm(value))?'good':'bad';states[q.label]={response:value,result};persist();revealed=true;renderFeedback();renderStats();$('response').disabled=true;$('submit-response').disabled=true;showSide('explain');}
-function reveal(){const q=current();states[q.label]={...state(),revealed:true};revealed=true;persist();renderOptions();renderFeedback();showSide('explain');renderSelfActions();}
+ const variants=q.answer.split(/\s*\/\s*/).map(norm),result=variants.includes(norm(value))?'good':'bad';states[q.label]={response:value,result};persist();revealed=true;renderFeedback();renderStats();$('response').disabled=true;$('submit-response').disabled=true;}
+function reveal(){const q=current();states[q.label]={...state(),revealed:true};revealed=true;persist();renderOptions();renderFeedback();renderSelfActions();}
 function renderSelfActions(){const host=$('self-actions');if(!host)return;host.hidden=!(state().revealed||state().result||revealed);host.innerHTML='<button class="yes" id="self-yes">✓ 已掌握</button><button class="no" id="self-no">✕ 需再练</button>';$('self-yes').onclick=()=>selfAssess('good');$('self-no').onclick=()=>selfAssess('bad');}
 function selfAssess(result){states[current().label]={...state(),result};persist();renderFeedback();renderStats();}
 function renderStats(){const vals=Object.values(states),done=vals.filter(x=>x.result==='good'||x.result==='bad').length,good=vals.filter(x=>x.result==='good').length;$('score').textContent=done?'已作答 '+done+' · 掌握 '+good:'逐题讲练';}

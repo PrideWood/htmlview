@@ -3,7 +3,7 @@
 const root=document.documentElement;
 const explanation=document.createElement('dialog');
 explanation.id='explanation-dialog';explanation.setAttribute('aria-labelledby','explanation-title');
-explanation.innerHTML=`<header class="explanation-header"><h2 id="explanation-title">解析与积累</h2><div class="explanation-tools"><button id="exp-material">题目材料</button><button id="exp-smaller" aria-label="减小解析字号">A−</button><input id="exp-font" aria-label="解析字号" type="range" min="18" max="48"><span id="exp-size"></span><button id="exp-larger" aria-label="增大解析字号">A+</button><button id="exp-close" aria-label="关闭解析">关闭 ×</button></div></header><div id="explanation-body" tabindex="0"></div><footer class="explanation-footer"><span>翻页笔 / PageDown / PageUp：滚动本窗口 · Esc：关闭</span><button id="exp-up">↑ 上一屏</button><button id="exp-down">↓ 下一屏</button></footer>`;
+explanation.innerHTML=`<header class="explanation-header"><h2 id="explanation-title">解析与积累</h2><div class="explanation-tools"><button id="exp-material">题目材料</button><button id="exp-smaller" aria-label="减小解析字号">A−</button><input id="exp-font" aria-label="解析字号" type="range" min="18" max="48"><span id="exp-size"></span><button id="exp-larger" aria-label="增大解析字号">A+</button><button id="exp-close" aria-label="关闭解析">关闭 ×</button></div></header><div id="explanation-body" tabindex="0"></div><footer class="explanation-footer"><span></span><button id="exp-up">↑ 上一屏</button><button id="exp-down">↓ 下一屏</button></footer>`;
 document.body.append(explanation);
 let expFont=Number(store.get('ybt-explanation-font'))||26;
 function changeExp(n){expFont=Math.max(18,Math.min(48,n));root.style.setProperty('--explanation-font',expFont+'px');$('exp-font').value=expFont;$('exp-size').textContent=expFont;store.set('ybt-explanation-font',expFont);}
@@ -39,10 +39,10 @@ document.addEventListener('keydown',e=>{
  if(e.ctrlKey||e.metaKey||e.altKey)return;
  if(!explanation.open&&/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName))return;
  const k=e.key.toLowerCase(),next=['arrowright','arrowdown','pagedown',' ','enter'].includes(k),prev=['arrowleft','arrowup','pageup','backspace'].includes(k);
- if(explanation.open){if(next||prev){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)scrollExp(next?1:-1);}return;}
+ if(explanation.open){if(['j','b','.'].includes(k)){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)explanation.close();return;}if(next||prev){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)scrollExp(next?1:-1);}return;}
  if($('dialog').open)return;
  if(next||prev){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)move(next?1:-1);}
- else if(k==='j'){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)explain();}
+ else if(['j','b','.'].includes(k)){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)explain();}
 },true);
 reference=function(){modal('讲义与说明','<p><strong>修订版操作：</strong>解析与材料以大对话框显示；解析字号独立保存。点击右上题号展开导航。翻页后锁定 0.8 秒，防止连点跳题。支持方向键、PageUp / PageDown、空格及回车型翻页笔；解析窗口打开时仅滚动解析。Esc 关闭窗口。</p>'+ (lesson.reference.length?blocks(lesson.reference):'')+'<h3>来源</h3><p>'+esc(lesson.source)+'</p>'+lesson.notes.map(n=>'<p>'+esc(n)+'</p>').join(''));};$('reference').onclick=reference;
 // Keep the chosen question font; shrink only when “适应屏幕” is explicitly requested.
