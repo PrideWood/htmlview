@@ -21,7 +21,7 @@ Vercel → Add New → Project → 导入 PrideWood/htmlview。
 
 检查Vercel Settings → Environment Variables中是否有名称完全一致的 `DATABASE_URL`。如果集成只生成了其他名称，把其PostgreSQL连接串复制为此变量。连接串通常以 `postgresql://` 开头并带SSL参数，完整复制，不拆分、不加引号。
 
-不需要手工导入1570题，也不需要另建用户表。应用第一次访问资料库时会自动创建：
+不需要手工导入1570题。应用会自动创建题目表、使用记录表和独立的扫码授权表：
 
 ```sql
 CREATE TABLE IF NOT EXISTS classroom_lessons (
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS classroom_lessons (
 
 官方步骤：https://neon.com/docs/guides/vercel-managed-integration
 
-## 3. 私有Vercel Blob：保存上传图片
+## 3. 私有Vercel Blob：保存图片与文档原件
 
 Vercel项目 → Storage → Create Database / Create Store → Blob，创建时选择 **Private**，并连接此项目。
 
@@ -65,18 +65,19 @@ Vercel项目 → Storage → Create Database / Create Store → Blob，创建时
 - https://help.aliyun.com/zh/model-studio/vision
 - https://help.aliyun.com/zh/model-studio/get-api-key
 
-## 5. 访问码与会话密钥
+## 5. 独立手机扫码登录
 
-还必须设置两个独立的环境变量：
+新增 `APP_URL` 环境变量：填讲练正式站点的固定 HTTPS 地址，例如 `https://你的项目.vercel.app`。它决定二维码指向哪里，必须与手机实际访问的站点一致。登录状态不与 PinWall 共用。
 
-- `CLASSROOM_ACCESS_CODE`：8—64位随机字母数字，供自己的手机和白板登录。建议至少16位，勿使用示例或简单密码。
-- `SESSION_SECRET`：至少32字符的独立随机值，建议用密码管理器生成64位随机字母数字。它只给服务器签名使用，不提供给登录用户。
+`CLASSROOM_ACCESS_CODE` 和 `SESSION_SECRET` 已不再用于认证，可从Vercel删除；已有识别码登录会话会失效。保留的旧变量也不会继续允许识别码登录。
 
-当前MVP是共享课堂空间，知道访问码的人可以查看、编辑资料并调用模型。不要将访问码发给学生或公开张贴。公网模型配置通过Vercel环境变量修改，网页中不能修改Key。
+部署后，在可信电脑使用相同云端 `DATABASE_URL` 和 `APP_URL` 生成10分钟有效的一次性绑定二维码，仅用自己的手机扫码确认。此过程无需将数据库密钥提供给手机。具体命令、撤销与更换手机见 [手机扫码登录.md](手机扫码登录.md)。二维码与凭证不应提交到仓库或分享。
+
+电脑/白板打开网站后显示3分钟有效的登录二维码，手机必须核对六位授权码并确认。一次授权只能由发起请求的浏览器领取一次。手机绑定180天，电脑会话12小时；更换手机绑定将撤销原手机及全部电脑会话。云端使用Neon持久保存授权，支持不同Vercel实例之间确认与领取。
 
 ## 6. 保存变量并重新部署
 
-上面共9个变量，其中7个是必要配置，另2个模式变量建议显式填写。给正式测试勾选Production；如要测试Preview，也给Preview配置。数据库和Blob的连接环境同样要勾选对应环境。
+需要数据库、私有Blob、模型地址/密钥/名称和 APP_URL；另两个模式变量建议显式填写。给正式测试勾选Production；如要测试Preview，也给Preview配置。数据库和Blob的连接环境同样要勾选对应环境。
 
 Settings → Environment Variables保存后，Deployments → 最新部署 → Redeploy。环境变量变更不会自动修改已经部署的实例。
 
@@ -84,7 +85,7 @@ Settings → Environment Variables保存后，Deployments → 最新部署 → R
 
 ## 7. 上线后的检查顺序
 
-1. 打开Vercel HTTPS地址，输入课堂访问码。
+1. 首次按扫码登录文档绑定手机，再打开Vercel HTTPS地址，用这部手机扫码授权。
 2. 确认看到原有51份题库，打开一份进入演示。
 3. 上传1张清晰题目照片，确认能识别并保存草稿。
 4. 上传多张题目照片，故意打乱选图顺序，检查建议页序、题号及来源图片。老师确认后再发布。
@@ -94,7 +95,7 @@ Settings → Environment Variables保存后，Deployments → 最新部署 → R
 
 | 现象 | 优先检查 |
 | --- | --- |
-| 无法登录/提示配置访问码与会话密钥 | 两变量长度、环境范围、是否已Redeploy |
+| 无法扫码登录 | APP_URL与正式网址一致、手机已绑定且在同一浏览器打开、二维码未过期、DATABASE_URL正确 |
 | 提示DATABASE_URL未配置 | 变量名称准确、Neon已连接项目 |
 | 数据库连接失败/建表失败 | 使用Neon连接串、SSL参数和数据库权限 |
 | 上传失败/私有存储提示 | 私有Blob已创建，令牌属于该Store且已Redeploy |

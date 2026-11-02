@@ -12,7 +12,7 @@ const {getLesson,saveLesson,Conflict}=await import('../lib/storage.mjs');
 const lesson={title:'测试题',topic:'介词',notes:[],ocrText:'We have lived here ____ five years.',questions:[{label:'1',stem:'We have lived here ____ five years.',mode:'choice',options:[{key:'A',text:'for'},{key:'B',text:'since'}],answer:'A',reviewStatus:'ok',reason:'for后接一段时间。',examNote:'',context:[],enrichment:[],optionNotes:[{key:'A',text:'for',reason:'接时长。'},{key:'B',text:'since',reason:'接起点。'}]}]};
 let app,model,base,modelRequests=0,mockReply=lesson;
 before(async()=>{
- model=http.createServer(async(req,res)=>{const chunks=[];for await(const c of req)chunks.push(c);const b=JSON.parse(Buffer.concat(chunks));modelRequests++;if(b.model==='qwen3.8-flash')assert.equal(b.enable_thinking,false);else assert.equal(b.enable_thinking,undefined);assert.equal(req.url,'/v1/chat/completions');assert.equal(req.headers.authorization,'Bearer fake-test-key');assert.ok(b.messages[1].content.some(c=>c.type==='image_url'&&c.image_url.url.startsWith('data:image/png;base64,')));res.writeHead(200,{'Content-Type':'application/json'});res.end(JSON.stringify({choices:[{finish_reason:'stop',message:{content:JSON.stringify(mockReply)}}]}));});
+ model=http.createServer(async(req,res)=>{const chunks=[];for await(const c of req)chunks.push(c);const b=JSON.parse(Buffer.concat(chunks));modelRequests++;if(b.model==='qwen3.8-flash')assert.equal(b.enable_thinking,false);else assert.equal(b.enable_thinking,undefined);assert.equal(req.url,'/v1/chat/completions');assert.equal(req.headers.authorization,'Bearer fake-test-key');if(b.messages[1].content.some(c=>c.type==='image_url'))assert.ok(b.messages[1].content.some(c=>c.type==='image_url'&&c.image_url.url.startsWith('data:image/png;base64,')));else assert.match(b.messages[1].content[0].text,/文档导入原题/);res.writeHead(200,{'Content-Type':'application/json'});res.end(JSON.stringify({choices:[{finish_reason:'stop',message:{content:JSON.stringify(mockReply)}}]}));});
  await new Promise(r=>model.listen(0,'127.0.0.1',r));process.env.MODEL_BASE_URL=`http://127.0.0.1:${model.address().port}/v1`;process.env.MODEL_API_KEY='fake-test-key';process.env.MODEL_ID='test-vision-model';
  app=http.createServer(handler);await new Promise(r=>app.listen(0,'127.0.0.1',r));base=`http://127.0.0.1:${app.address().port}`;
 });
@@ -53,3 +53,14 @@ test('首批多图保存保持原始顺序并能读取',async()=>{
  for(const image of r.data.lesson.images){const b=await fetch(base+image.url);assert.equal(b.status,200);assert.deepEqual(Buffer.from(await b.arrayBuffer()),Buffer.from(png,'base64'));}
 });
 test('记录内置资料最近使用时间而不改变题库版本',async()=>{const before=await call('/lessons');const id=before.data.lessons.find(d=>d.sourceType==='builtin').id;const original=(await call('/lessons/'+id)).data.lesson;const used=await call('/lessons/'+id+'/use','POST',{});assert.equal(used.status,200);const listed=(await call('/lessons')).data.lessons.find(d=>d.id===id);assert.equal(listed.lastUsedAt,used.data.lastUsedAt);const after=(await call('/lessons/'+id)).data.lesson;assert.deepEqual(after.questions,original.questions);assert.equal(after.version,original.version);});
+
+test('文档上传保存原件、提取文字、调用模型，下载需经过认证',async()=>{
+ const text='# 文档导入原题\nWe have lived here ____ five years.\nA. for B. since';
+ let r=await call('/imports','POST',{images:[],text:'补充材料',document:{name:'英语.md',base64:Buffer.from(text).toString('base64')}});assert.equal(r.status,201);const d=r.data.lesson;
+ assert.equal(d.sourceType,'document');assert.equal(d.title,'英语');assert.equal(d.inputText,text+'\n\n补充材料');assert.equal(d.documents.length,1);assert.equal(d.documents[0].storage,undefined);
+ const raw=await fetch(base+d.documents[0].url);assert.equal(await raw.text(),text);assert.match(raw.headers.get('content-disposition'),/attachment/);
+ const exported=await call('/lessons/'+d.id+'/export');assert.deepEqual(exported.data.documents,[]);
+ let output='';const res={writeHead(status){this.status=status;},end(value){output=value;},setHeader(){}};await handler({url:d.documents[0].url,method:'GET',headers:{host:'example.com'},socket:{remoteAddress:'192.168.1.9'}},res);assert.equal(res.status,401);assert.doesNotMatch(output,/文档导入原题/);
+ r=await call('/lessons/'+d.id+'/recognize','POST',{});assert.equal(r.status,200);assert.equal(r.data.lesson.questions.length,1);assert.equal(r.data.lesson.documents[0].name,'英语.md');assert.equal(r.data.lesson.questions[0].reviewed,false);
+ const invalid=await call('/imports','POST',{images:[],document:{name:'bad.docx',base64:Buffer.from('broken').toString('base64')}});assert.equal(invalid.status,400);
+});
