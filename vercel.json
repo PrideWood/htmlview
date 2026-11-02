@@ -12,6 +12,14 @@
   },
   "rewrites": [
     {
+      "source": "/phone",
+      "destination": "/phone.html"
+    },
+    {
+      "source": "/phone/",
+      "destination": "/phone.html"
+    },
+    {
       "source": "/api/:path*",
       "destination": "/api/index?path=:path*"
     }

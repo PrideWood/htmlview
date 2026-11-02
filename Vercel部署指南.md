@@ -67,7 +67,7 @@ Vercel项目 → Storage → Create Database / Create Store → Blob，创建时
 
 ## 5. 独立手机扫码登录
 
-新增 `APP_URL` 环境变量：填讲练正式站点的固定 HTTPS 地址，例如 `https://你的项目.vercel.app`。它决定二维码指向哪里，必须与手机实际访问的站点一致。登录状态不与 PinWall 共用。
+云端已默认配置正式网址 `https://ppt.dacnote.com`，扫码入口为 `/phone`。无需单独配置APP_URL；若未来更换域名，可用 `APP_URL` 环境变量覆盖为新站点的HTTPS根地址。登录状态不与 PinWall 共用。
 
 `CLASSROOM_ACCESS_CODE` 和 `SESSION_SECRET` 已不再用于认证，可从Vercel删除；已有识别码登录会话会失效。保留的旧变量也不会继续允许识别码登录。
 
@@ -77,7 +77,7 @@ Vercel项目 → Storage → Create Database / Create Store → Blob，创建时
 
 ## 6. 保存变量并重新部署
 
-需要数据库、私有Blob、模型地址/密钥/名称和 APP_URL；另两个模式变量建议显式填写。给正式测试勾选Production；如要测试Preview，也给Preview配置。数据库和Blob的连接环境同样要勾选对应环境。
+需要数据库、私有Blob、模型地址/密钥/名称；APP_URL可选，未设置时使用ppt.dacnote.com。另两个模式变量建议显式填写。给正式测试勾选Production；如要测试Preview，也给Preview配置。数据库和Blob的连接环境同样要勾选对应环境。
 
 Settings → Environment Variables保存后，Deployments → 最新部署 → Redeploy。环境变量变更不会自动修改已经部署的实例。
 
