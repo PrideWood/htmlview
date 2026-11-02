@@ -31,3 +31,13 @@ test('真实显示答案逻辑只揭示参考，不伪造答对或自动打开�
  const player=fs.readFileSync(new URL('../public/legacy/player.js',import.meta.url),'utf8');vm.runInContext(player.slice(0,player.indexOf("$('home').href=lesson.home;"))+`let opened=0;showSide=()=>opened++;render=()=>{renderOptions();renderFeedback();renderStats();};reveal();if(state().result)throw Error('揭示被计分');if(!state().revealed)throw Error('未保存揭示状态');if(opened)throw Error('自动打开解析');`,context);
  assert.match(get('feedback').innerHTML,/参考答案：B · for/);
 });
+test('解析轻触关闭，滑动、滚动、取消触摸及工具按钮不会关闭',()=>{
+ const gestures=source.slice(source.indexOf('let explanationTouch='),source.indexOf('function explanationHTML'));
+ for(const kind of ['tap','drag','scroll','cancel','toolbar','selection']){
+  const handlers={},bodyHandlers={};let closed=0;const target={closest:()=>kind==='toolbar'?{}:null};
+  const context={explanation:{addEventListener:(name,fn)=>handlers[name]=fn,close:()=>closed++},$:()=>({addEventListener:(name,fn)=>bodyHandlers[name]=fn}),window:{getSelection:()=>({type:kind==='selection'?'Range':'Caret'})}};vm.createContext(context);vm.runInContext(gestures,context);
+  const e={button:0,pointerId:1,clientX:10,clientY:10,target,preventDefault(){}};handlers.pointerdown(e);
+  if(kind==='drag')handlers.pointermove({...e,clientY:60});if(kind==='scroll')bodyHandlers.scroll();if(kind==='cancel')handlers.pointercancel();handlers.pointerup(e);
+  assert.equal(closed,kind==='tap'?1:0,kind);
+ }
+});

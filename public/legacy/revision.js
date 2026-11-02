@@ -3,14 +3,31 @@
 const root=document.documentElement;
 const explanation=document.createElement('dialog');
 explanation.id='explanation-dialog';explanation.setAttribute('aria-labelledby','explanation-title');
-explanation.innerHTML=`<header class="explanation-header"><h2 id="explanation-title">解析与积累</h2><div class="explanation-tools"><button id="exp-material">题目材料</button><button id="exp-smaller" aria-label="减小解析字号">A−</button><input id="exp-font" aria-label="解析字号" type="range" min="18" max="48"><span id="exp-size"></span><button id="exp-larger" aria-label="增大解析字号">A+</button><button id="exp-close" aria-label="关闭解析">关闭 ×</button></div></header><div id="explanation-body" tabindex="0"></div><footer class="explanation-footer"><span></span><button id="exp-up">↑ 上一屏</button><button id="exp-down">↓ 下一屏</button></footer>`;
+explanation.innerHTML=`<header class="explanation-header"><h2 id="explanation-title">解析与积累</h2><div class="explanation-tools"><button id="exp-material">题目材料</button><button id="exp-smaller" aria-label="减小解析字号">A−</button><input id="exp-font" aria-label="解析字号" type="range" min="18" max="72"><span id="exp-size"></span><button id="exp-larger" aria-label="增大解析字号">A+</button><button id="exp-close" aria-label="关闭解析">关闭 ×</button></div></header><div id="explanation-body" tabindex="0"></div><footer class="explanation-footer"><span></span><button id="exp-up">↑ 上一屏</button><button id="exp-down">↓ 下一屏</button></footer>`;
 document.body.append(explanation);
-let expFont=Number(store.get('ybt-explanation-font'))||26;
-function changeExp(n){expFont=Math.max(18,Math.min(48,n));root.style.setProperty('--explanation-font',expFont+'px');$('exp-font').value=expFont;$('exp-size').textContent=expFont;store.set('ybt-explanation-font',expFont);}
+let expFont=Number(store.get('ybt-explanation-font'))||32;
+function changeExp(n){expFont=Math.max(18,Math.min(72,n));root.style.setProperty('--explanation-font',expFont+'px');$('exp-font').value=expFont;$('exp-size').textContent=expFont;store.set('ybt-explanation-font',expFont);}
 changeExp(expFont);
 $('exp-smaller').onclick=()=>changeExp(expFont-2);$('exp-larger').onclick=()=>changeExp(expFont+2);$('exp-font').oninput=e=>changeExp(+e.target.value);$('exp-close').onclick=()=>explanation.close();
 function scrollExp(dir){$('explanation-body').scrollBy({top:dir*Math.max(100,$('explanation-body').clientHeight*.8),behavior:'smooth'});}
 $('exp-up').onclick=()=>scrollExp(-1);$('exp-down').onclick=()=>scrollExp(1);
+// Close on a tap, never on a scroll, drag, selection or toolbar interaction.
+let explanationTouch=null;
+explanation.addEventListener('pointerdown',e=>{
+ if(explanationTouch){explanationTouch.moved=true;return;}
+ if(e.button!==0||e.target.closest('button,a,input,select,textarea'))return;
+ explanationTouch={id:e.pointerId,x:e.clientX,y:e.clientY,moved:false};
+});
+explanation.addEventListener('pointermove',e=>{const t=explanationTouch;if(t&&t.id===e.pointerId&&Math.hypot(e.clientX-t.x,e.clientY-t.y)>10)t.moved=true;});
+$('explanation-body').addEventListener('scroll',()=>{if(explanationTouch)explanationTouch.moved=true;},{passive:true});
+explanation.addEventListener('pointercancel',()=>{explanationTouch=null;});
+explanation.addEventListener('pointerup',e=>{
+ const t=explanationTouch;if(!t||t.id!==e.pointerId)return;explanationTouch=null;
+ if(t.moved||Math.hypot(e.clientX-t.x,e.clientY-t.y)>10||e.target.closest('button,a,input,select,textarea')||window.getSelection()?.type==='Range')return;
+ e.preventDefault();explanation.close();
+});
+explanation.addEventListener('close',()=>{explanationTouch=null;});
+
 function explanationHTML(q){
  const answer=q.options.find(o=>o.key===q.answer);
  const entries=q.enrichment.map(e=>'<section class="expression"><h4>'+esc(e.phrase)+'</h4><p>'+esc(e.meaning)+'</p>'+(e.usage&&e.usage!=='结合本题的主语、空格位置及上下文应用上述规则。'?'<p class="usage">'+esc(e.usage)+'</p>':'')+(e.example?'<p class="example">'+esc(e.example)+'</p>':'')+(e.translation?'<p class="translation">'+esc(e.translation)+'</p>':'')+(e.contrast?'<p class="usage">辨析 · '+esc(e.contrast)+'</p>':'')+'</section>').join('');
@@ -49,6 +66,7 @@ document.addEventListener('keydown',e=>{
  if(e.ctrlKey||e.metaKey||e.altKey)return;
  const active=document.activeElement,k=e.key.toLowerCase();
  if(/INPUT|TEXTAREA|SELECT/.test(active.tagName)||active.isContentEditable)return;
+ if(explanation.open===false&&['feedback','feedback-explain'].includes(active.id)&&['enter',' '].includes(k)){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)explain();return;}
  const next=['arrowright','arrowdown','pagedown',' '].includes(k),prev=['arrowleft','arrowup','pageup','backspace'].includes(k);
  if(explanation.open){
   if(k==='enter'){
@@ -67,7 +85,7 @@ document.addEventListener('keydown',e=>{
  if(next||prev){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)move(next?1:-1);}
  else if(['j','b','.'].includes(k)){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)explain();}
 },true);
-reference=function(){modal('讲义与说明','<p><strong>修订版操作：</strong>解析与材料以大对话框显示；解析字号独立保存。点击左下角图标展开导航，点击区域外收起。翻页后锁定 0.8 秒，防止连点跳题。上下翻页键切题；Tab 只轮选当前题可用选项，Enter 确认选项；未轮选时 Enter 仅定位首个选项，不猜选答案。非选择题用 Enter 逐个显示答案，全部显示后再按 Enter 打开解析；长按下翻页键（B/句号）仍开关解析。解析打开时翻页键滚动，Esc 关闭。</p>'+ (lesson.reference.length?blocks(lesson.reference):'')+'<h3>来源</h3><p>'+esc(lesson.source)+'</p>'+lesson.notes.map(n=>'<p>'+esc(n)+'</p>').join(''));};$('reference').onclick=reference;
+reference=function(){modal('讲义与说明','<p><strong>修订版操作：</strong>解析与材料以大对话框显示；解析字号独立保存。点击左下角图标展开导航，点击区域外收起。翻页后锁定 0.8 秒，防止连点跳题。上下翻页键切题；Tab 只轮选当前题可用选项，Enter 确认选项；未轮选时 Enter 仅定位首个选项，不猜选答案。非选择题用 Enter 逐个显示答案，全部显示后再按 Enter 打开解析；长按下翻页键（B/句号）仍开关解析。反馈栏整条可点开解析；解析轻触内容关闭，滑动阅读保持打开。解析打开时翻页键滚动，Esc 关闭。</p>'+ (lesson.reference.length?blocks(lesson.reference):'')+'<h3>来源</h3><p>'+esc(lesson.source)+'</p>'+lesson.notes.map(n=>'<p>'+esc(n)+'</p>').join(''));};$('reference').onclick=reference;
 // Preserve the chosen question font across questions and window resizes.
 fit=function(reset=true){cancelAnimationFrame(fitFrame);if(reset)setFont(preferred);};
 
