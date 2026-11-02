@@ -18,7 +18,8 @@
     "@neondatabase/serverless": "^1.0.2",
     "@vercel/blob": "^2.0.0",
     "mammoth": "^1.13.0",
-    "qrcode": "^1.5.4"
+    "qrcode": "^1.5.4",
+    "word-extractor": "^1.0.4"
   },
   "devDependencies": {
     "jsqr": "^1.4.0",
