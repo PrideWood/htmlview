@@ -162,3 +162,6 @@ subprocess.run(['node','--input-type=module','-e',"import fs from 'node:fs';impo
 report=dict(sourceFiles=[dict(name=p.name,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in [question_pdf,answer_pdf]],newLessons=len(lessons),newQuestions=1000,sections=dict(grammar=600,reading=250,translation=150),totalLessons=len(retained+lessons),totalQuestions=sum(len(d['questions']) for d in retained+lessons),pending=sum(q['invalid'] for d in lessons for q in d['questions']),issues=issues,readingAnswerIssue=reading_issue,unassignedReadingAnswerRows=reading_answers)
 (ROOT/'review/danzhao-2025-import.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({k:v for k,v in report.items() if k not in ['unassignedReadingAnswerRows','issues','sourceFiles']},ensure_ascii=False))
+
+# Reapply the separately maintained 1000 authored explanations after source import.
+subprocess.run(['node','scripts/enrich-danzhao-2025.mjs'],cwd=ROOT,check=True)

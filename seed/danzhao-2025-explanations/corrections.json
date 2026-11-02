@@ -1,0 +1,144 @@
+{
+  "grammar-02": {
+    "27": {
+      "answer": "待确认",
+      "invalid": true,
+      "examNote": "原句缺is；Charis’和Charis’s均可构成以s结尾的人名所有格，B、C均有依据，暂不计分。"
+    },
+    "38": {
+      "answer": "B",
+      "examNote": "原答案D改为B：aren’t后须用能独立作表语的mine。"
+    }
+  },
+  "grammar-03": {
+    "39": {
+      "answer": "待确认",
+      "invalid": true,
+      "examNote": "看到窗外花园的语境通常需look out of/through the window；原选项与所给答案不足以唯一确定合理表达。"
+    }
+  },
+  "grammar-04": {
+    "12": {
+      "answer": "B",
+      "examNote": "按rank表示排名的常用表达改为ranks third；原答案为D。"
+    },
+    "30": {
+      "answer": "待确认",
+      "invalid": true,
+      "examNote": "B为英式数词读法，D为常见美式读法，两者均成立；原答案仅列B，暂不唯一计分。"
+    }
+  },
+  "grammar-08": {
+    "10": {
+      "answer": "B",
+      "examNote": "原答案C改B：保留原句less时应为advise us to go … less；not to go … less与少去的意思冲突。"
+    }
+  },
+  "grammar-13": {
+    "35": {
+      "answer": "待确认",
+      "invalid": true,
+      "examNote": "who和that在本句限定性定语从句中都能指人并作主语，B、C均有依据，暂不唯一计分。"
+    },
+    "8": {
+      "answer": "待确认",
+      "invalid": true,
+      "examNote": "保留考试常用that的提示，但which也能构成此处限定性定语从句，暂不作唯一计分。"
+    },
+    "13": {
+      "answer": "待确认",
+      "invalid": true,
+      "examNote": "保留考试常用that的提示，但which也能构成此处限定性定语从句，暂不作唯一计分。"
+    },
+    "16": {
+      "answer": "待确认",
+      "invalid": true,
+      "examNote": "保留考试常用that的提示，但which也能构成此处限定性定语从句，暂不作唯一计分。"
+    },
+    "20": {
+      "answer": "待确认",
+      "invalid": true,
+      "examNote": "保留考试常用that的提示，但which也能构成此处限定性定语从句，暂不作唯一计分。"
+    },
+    "29": {
+      "answer": "待确认",
+      "invalid": true,
+      "examNote": "保留考试常用that的提示，但which也能构成此处限定性定语从句，暂不作唯一计分。"
+    },
+    "39": {
+      "answer": "待确认",
+      "invalid": true,
+      "examNote": "保留考试常用that的提示，但which也能构成此处限定性定语从句，暂不作唯一计分。"
+    }
+  },
+  "translation-02": {
+    "3": {
+      "answer": "人工智能已经在做人们过去做的工作。",
+      "examNote": "按划线题干范围删去未划线的行业例子。"
+    }
+  },
+  "translation-08": {
+    "3": {
+      "answer": "这些食物能给他足够的能量。",
+      "examNote": "原译文把him误作她，改为他。"
+    }
+  },
+  "translation-09": {
+    "3": {
+      "answer": "They have a great influence on people's lives."
+    },
+    "5": {
+      "answer": "谢谢你送的这份美妙的书籍礼物。",
+      "examNote": "删去原答案附带的未划线冷夜句子。"
+    }
+  },
+  "translation-14": {
+    "1": {
+      "answer": "有妈的孩子像块宝。",
+      "examNote": "仅翻译题干引文，删去未划线说明。"
+    }
+  },
+  "translation-18": {
+    "4": {
+      "answer": "Plastic is everywhere."
+    }
+  },
+  "translation-21": {
+    "1": {
+      "answer": "每一项技术都有优点和缺点，如以下三个例子所示。",
+      "examNote": "原文as these three examples为不完整片段，此译按上下文衔接理解，保留原题文字供核对。"
+    }
+  },
+  "translation-22": {
+    "5": {
+      "answer": "Second, they often encourage others.",
+      "examNote": "原中文为他们经常鼓励别人，原答案祈使句漏译主语，按题干补齐。"
+    }
+  },
+  "translation-24": {
+    "3": {
+      "answer": "Some schools have organized too many exams that are too difficult.",
+      "examNote": "补译太难的程度，避免只译数量太多。"
+    },
+    "4": {
+      "answer": "Schools or classes are not allowed to organize weekly or monthly exams."
+    }
+  },
+  "translation-26": {
+    "2": {
+      "answer": "她的父亲曾任一所中学的校长，并教授数学和物理。",
+      "examNote": "按划线范围删去后文女儿学习情况。"
+    }
+  },
+  "translation-28": {
+    "5": {
+      "answer": "人生苦短，不要陷入困顿。你必须继续前进。",
+      "examNote": "题干包含You have to keep moving，补齐原答案漏译部分。"
+    }
+  },
+  "translation-30": {
+    "5": {
+      "answer": "The Chinese are undoubtedly the ones who know tea culture best."
+    }
+  }
+}

@@ -1,0 +1,2541 @@
+{
+  "authoredExplanations": 1000,
+  "grammar": 600,
+  "reading": 250,
+  "translation": 150,
+  "pending": 20,
+  "changes": [
+    {
+      "lessonId": "builtin-danzhao2025-grammar-02",
+      "label": "27",
+      "before": "B",
+      "after": "待确认",
+      "wasInvalid": false,
+      "invalid": true,
+      "note": "原句缺is；Charis’和Charis’s均可构成以s结尾的人名所有格，B、C均有依据，暂不计分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-02",
+      "label": "38",
+      "before": "D",
+      "after": "B",
+      "wasInvalid": false,
+      "invalid": false,
+      "note": "原答案D改为B：aren’t后须用能独立作表语的mine。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-03",
+      "label": "39",
+      "before": "C",
+      "after": "待确认",
+      "wasInvalid": false,
+      "invalid": true,
+      "note": "看到窗外花园的语境通常需look out of/through the window；原选项与所给答案不足以唯一确定合理表达。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-04",
+      "label": "12",
+      "before": "D",
+      "after": "B",
+      "wasInvalid": false,
+      "invalid": false,
+      "note": "按rank表示排名的常用表达改为ranks third；原答案为D。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-04",
+      "label": "30",
+      "before": "B",
+      "after": "待确认",
+      "wasInvalid": false,
+      "invalid": true,
+      "note": "B为英式数词读法，D为常见美式读法，两者均成立；原答案仅列B，暂不唯一计分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-08",
+      "label": "10",
+      "before": "C",
+      "after": "B",
+      "wasInvalid": false,
+      "invalid": false,
+      "note": "原答案C改B：保留原句less时应为advise us to go … less；not to go … less与少去的意思冲突。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "8",
+      "before": "B",
+      "after": "待确认",
+      "wasInvalid": false,
+      "invalid": true,
+      "note": "保留考试常用that的提示，但which也能构成此处限定性定语从句，暂不作唯一计分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "13",
+      "before": "C",
+      "after": "待确认",
+      "wasInvalid": false,
+      "invalid": true,
+      "note": "保留考试常用that的提示，但which也能构成此处限定性定语从句，暂不作唯一计分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "16",
+      "before": "B",
+      "after": "待确认",
+      "wasInvalid": false,
+      "invalid": true,
+      "note": "保留考试常用that的提示，但which也能构成此处限定性定语从句，暂不作唯一计分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "20",
+      "before": "A",
+      "after": "待确认",
+      "wasInvalid": false,
+      "invalid": true,
+      "note": "保留考试常用that的提示，但which也能构成此处限定性定语从句，暂不作唯一计分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "29",
+      "before": "A",
+      "after": "待确认",
+      "wasInvalid": false,
+      "invalid": true,
+      "note": "保留考试常用that的提示，但which也能构成此处限定性定语从句，暂不作唯一计分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "35",
+      "before": "C",
+      "after": "待确认",
+      "wasInvalid": false,
+      "invalid": true,
+      "note": "who和that在本句限定性定语从句中都能指人并作主语，B、C均有依据，暂不唯一计分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "39",
+      "before": "A",
+      "after": "待确认",
+      "wasInvalid": false,
+      "invalid": true,
+      "note": "保留考试常用that的提示，但which也能构成此处限定性定语从句，暂不作唯一计分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-01",
+      "label": "1",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首段直接说明冰墩墩喜欢且擅长 ice sports，选项C与原文一致。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-01",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首段说明红心形状在冰墩墩的 left hand，即左手，不是雪容融的脸或右手。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-01",
+      "label": "3",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文中说红色象征 hope and good luck，人们希望梦想成真，因此制作红灯笼是寄托好运。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-01",
+      "label": "4",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文中说雪容融能给运动员希望并帮助他们表现出色，等同于 encourage players to do better。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-01",
+      "label": "5",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "全文分别介绍冰墩墩和雪容融两个吉祥物，A能同时覆盖两段；B、C各只涉及其中一届赛事。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-02",
+      "label": "1",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "it 紧接“天宫课堂的开始”之后，指天宫课堂这一授课活动，而非空间站或飞船。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-02",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "按文中叙述，中国是继美国后第二个举办太空课堂的国家，因此文中涉及两个国家；不据此推算现实中的最新数量。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-02",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "先是2013年参加神舟十号c，同年太空授课d，再是2021年进入天宫a、向世界学生授课b，顺序c-d-a-b。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-02",
+      "label": "4",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "末段明确指出天宫课堂将鼓励青年学习科学、技术和太空知识，D完整概括这一目的。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-02",
+      "label": "5",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "全文以授课时间、演示内容、先前经历和未来作用介绍天宫课堂，中心不是飞船着陆或神舟任务通史。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-03",
+      "label": "1",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第一位受访者说雪中停留只有几秒，为的是 feel refreshed；born again、heaven 是感受的比喻，不是目的。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-03",
+      "label": "2",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "原文说低于零下52度才停课，零下51度仍需上学，因此零下50度也仍需上学；B缺少below zero，不能按原样选。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-03",
+      "label": "4",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第三段说很多俄罗斯飞行员原在空军，技术熟练，因此受公司欢迎；A把其他航班取消说反，B把降温后的感受误归为澡堂本身。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-03",
+      "label": "5",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "三问分别澄清雪中降温、极寒上学和飞行员技能等实际情况，C概括俄罗斯的真实情况；并未系统比较两国。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-04",
+      "label": "2",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "pizza 是比萨，属于午餐食物；表格 lunch 一行也提供了类别线索。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-04",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "周二、周三、周四下午均列 table tennis，出现次数最多，可按该安排推断最常进行的是乒乓球。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-04",
+      "label": "4",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Wednesday 列与 evening 行交叉处是 television，表示星期三晚上看电视。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-04",
+      "label": "5",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "本题选不正确项。午餐只有星期一吃pizza，其余四天吃rice，不能说通常吃pizza；其余三项均与表格相符。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-05",
+      "label": "1",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "依次列出绿色出行、减少白色污染、节水、垃圾分类、植树、纸张双面使用，共六条建议。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-05",
+      "label": "2",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "①绿色出行、④用水后关水、⑤正确分类均被提倡；②用塑料袋、③只用单面纸与原文建议相反。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-05",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "植树一段明确说两个新森林区位于 southwestern and northeastern provinces，对应西南和东北。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-05",
+      "label": "4",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文章面向中学生提供多方面环保建议，B涵盖整体目的；A、C各只取其中一条建议。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-05",
+      "label": "5",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "全文围绕如何过低碳生活展开，垃圾分类与绿色出行都是其中措施，不能各自代表全文。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-06",
+      "label": "1",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "开头直接说 modern research shows laughing is good for you，即研究表明笑有益于人。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-06",
+      "label": "2",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文中回顾科学家直到不久前认为笑是仅属于人的行为；此题应按该段观点作答，而非把后面宠物主人的看法代入。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-06",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "quit 紧接“笑声消退”之后，表示停止笑，与 stop 意思最接近。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-06",
+      "label": "4",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "末段用婴儿反复扔玩具的行为与狗的游戏行为比较，说明儿童有时与狗的行为相似。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-06",
+      "label": "5",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首段区分笑的结果与笑的原因，后文讨论笑话、感染性笑声和共享乐趣，核心是为什么会笑。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-07",
+      "label": "1",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "开头说她读完后花 half an hour 写书评，即30分钟；不能把阅读所花的时间加进写作时间。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-07",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "书评情节明确说Alice掉进洞里，落到一片奇异的地方；作者是Lewis Carroll，并非Alice。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-07",
+      "label": "3",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "作者拥有牛津大学数学学位，并在故事里加入数学谜题，说明擅长math。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-07",
+      "label": "4",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "她给了五颗星，评分说明中5 stars对应Fantastic，因此选B。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-07",
+      "label": "5",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "材料包含书名、作者、情节概括、人物评价和星级评分，属于读书报告，而非历史书或时尚读物。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-08",
+      "label": "1",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第二段说自驾者适合motel，因为可以把车停在房间外；这与Mrs. Brown自己开车的条件对应。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-08",
+      "label": "2",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "原文说酒店总共有 over 6,000 books，即六千多册，注意不是六百或六万。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-08",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文中 Artists will feel at home on the 7th floor，绘画兴趣属于艺术，应住七楼。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-08",
+      "label": "4",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "cozy 修饰供阅读、休息的沙发，结合能舒适阅读的用途可知意为comfortable。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-08",
+      "label": "5",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文章先介绍汽车旅馆、青年旅舍、B&B等，再重点举图书馆酒店为例，整体是在介绍不同住宿类型。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-09",
+      "label": "1",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "她在医院照顾病人，所列职业中只有nurse符合；文章未说她开公交、采访或执法。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-09",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "patient 出现在hospital、照料和出院的语境里，作名词表示病人，不是形容词耐心。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-09",
+      "label": "3",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "她没有找到座位，并能把手放在老人肩上阻止起身，可推断站在老人附近；没有证据说站在车中间。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-09",
+      "label": "4",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "结尾老人说已坐过家三站，说明起身原本是为了下车，而非让座。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-09",
+      "label": "5",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "她多次让老人坐回去，最终导致老人坐过站；这是结尾揭示的误会和结果。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-10",
+      "label": "1",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "开头直接说 He likes reading books，Henry喜欢读书。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-10",
+      "label": "2",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "图书馆没有可见的人工助理，只有机器人站在那里并负责取书，选Some robots。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-10",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "同学提醒要先说Excuse me和please，Henry照做后机器人才取书，说明先前请求不礼貌。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-10",
+      "label": "4",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "已经说过Excuse me和please才取来书，最后还需表达感谢才交书；结合礼貌主题可推断说Thanks。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-10",
+      "label": "5",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Henry请求的是 a book on music，最后带回的仍是这本音乐书，并没有更换书籍的情节。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-11",
+      "label": "1",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "两人分别住在相邻楼里，窗户相距只有几英尺，是邻居；作者明确说未曾见面，不是朋友或姐妹。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-11",
+      "label": "2",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首段说对方常坐在窗边 sewing or reading，选项中只有Sewing与原文一致。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-11",
+      "label": "3",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "作者清洁自己的窗户后才看清对面，发现脏的是自己的窗户，不是替邻居清洁了窗户。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-11",
+      "label": "4",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "本题选不正确项。作者开头说 had never met，B称见过多次与之直接矛盾。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-11",
+      "label": "5",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "最后用心灵的脏窗比喻自身偏见，主旨是先清除自己的偏见，再客观看待他人。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-12",
+      "label": "1",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "活动时间为下午4点到7点，相减为3小时；15是走访乞丐的人数，不是小时数。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-12",
+      "label": "2",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "老人流泪并亲口说“第一次感到被尊重”，所以感动的根本原因是获得尊重，不只是收到某一件物品。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-12",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "末段明确称 Sun 为 head of the group，即小组负责人。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-12",
+      "label": "4",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Sun虽说帮助有限，但强调表达尊重与关爱，整体态度是肯定活动的意义，而非否定活动。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-12",
+      "label": "5",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Cai在寒冷夜晚为乞丐送食物、戴手套并握手，体现友善善良，选Kind。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-13",
+      "label": "1",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首句之后作者明确说 software engineers play the most important part，软件工程师最重要。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-13",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第一段说明 mechanical engineer 设计 robot’s body，brain、power、sensors 分属其他工程职责。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-13",
+      "label": "3",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "作者做电气工程师的三年中设计了几个 automatic control systems，与C一致。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-13",
+      "label": "4",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "本题选不正确项。结尾邀请通过email联系，并未提供或邀请电话联系，B将方式改为call。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-13",
+      "label": "5",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文章先介绍各类工程知识，再用自己的学习经历回答如何起步，目的是说明成为机器人工程师需学什么。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-14",
+      "label": "1",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文中分别提到家中电视、手机app及珠峰5G塔覆盖处，三种观看情境都有依据，故All of the above。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-14",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "8K、电视机和观看比赛的语境表明broadcast是把赛事影像传给观众的转播。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-14",
+      "label": "3",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第三段从多角度摄像和app选择视角说明技术怎样服务赛事观看，A概括功能；不是单纯教下载app。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-14",
+      "label": "4",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第四段说网络能承受强风和零下45℃，体现可在严酷环境中工作；A把特定赛区线路夸大为所有线路。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-14",
+      "label": "5",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "全文围绕5G、云技术给冬奥观众带来的高清、多角度和远距离观看体验，A覆盖这些信息。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-15",
+      "label": "1",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "命名介绍之后直接说 This shows China’s wish to explore the universe，即体现探索宇宙的愿望。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-15",
+      "label": "2",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第三段按卫星、神舟、嫦娥的先后列举航天进展，概括中国太空探索的发展，不只是探月。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-15",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "前文提出Mars探测计划，随后称the red planet，语境中的红色星球就是Mars。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-15",
+      "label": "4",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第二段说明火星任务是天问系列第一个任务；Long March 5 是运载火箭，不是探测器名称。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-15",
+      "label": "5",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "前半介绍天问命名和既往探索，后半介绍天问系列未来任务，B同时覆盖命名及中国航天探索。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-16",
+      "label": "1",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "花样滑冰介绍明确写 There are five events，因此小项数是5。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-16",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "冰球说明首句直接写 It’s a team sport played on ice，明确为团队项目。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-16",
+      "label": "3",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "速度滑冰说明写 started in the Netherlands，即起源于荷兰；挪威是跳台滑雪的起源地。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-16",
+      "label": "4",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "跳台滑雪介绍明确列出 speed, power and skills，分别是速度、力量和技巧。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-16",
+      "label": "5",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "四项的起始日期有2月3日、4日、5日，说明不同比赛开始日期不同；A说都2月4日错误。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-17",
+      "label": "1",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "导弹试验把卫星炸成碎片，具体展示太空垃圾可由人造卫星破碎产生；重点是这一来源例子。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-17",
+      "label": "2",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "题给垃圾速度28000km/h、子弹3500km/h，28000÷3500=8，按文中数值约为八倍。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-17",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文章提出两类处理办法：巨大捕捞网和机械臂；鱼叉属于第一类实验的工具，不另算第三种方案。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-17",
+      "label": "5",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文章从碎片危险引出处理问题，并重点介绍网捕与机械臂两种清理方案；A概括问题解决主线，C、D只涉及局部事件。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-18",
+      "label": "1",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首句说人们用手机视频展示 parts of their lives，即生活中的部分内容。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-18",
+      "label": "2",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第二段列出屏幕留言和购买虚拟礼物两种与主播互动的方式，C同时包含二者。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-18",
+      "label": "3",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Nora亲口说有时感到孤独，想和人交流，不能据此推断她只是为了成名或吸粉。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-18",
+      "label": "4",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "后面举被警告使用不当、失礼语言的例子，说明misuse指不当使用或滥用直播。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-18",
+      "label": "5",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "末段既支持直播又提醒了解其两面性，结合不当语言的例子，应得出合理使用直播，而非全盘否定。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-19",
+      "label": "1",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第三段说最初数字谜题来自哪里还不清楚，未知的是origin，即起源。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-19",
+      "label": "2",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文中说纽约和伦敦的一些出版商最初拒绝刊登数独；后来约十年才传播，B称立即流行不符。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-19",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "他并未赚很多钱，却表示不介意，因为做这件事为pleasure，即乐趣。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-19",
+      "label": "4",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文章以Kaji逝世开头，回顾经历、贡献和爱好精神，结尾写人们的悲伤，主要为纪念他。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-19",
+      "label": "5",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "全文重点介绍“数独之父”的生平、贡献和精神，属于人物栏目GREAT MINDS，而不只是教人玩游戏。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-20",
+      "label": "1",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首段从南极难到达转到船只连接全球港口，并点出外来生物，由此引入外来物种威胁这一主题。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-20",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "科学家担忧外来物种挤走本地动植物，意味着南极生态可能受到威胁，不是预测它们都会死亡。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-20",
+      "label": "3",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "约三分之二到访船只是旅游船，按数量最多可推测其带入外来物种的风险最大；题目用probably而非确定统计。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-20",
+      "label": "4",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "harsh 描述南极严酷环境，最接近Very difficult；不是说光线太亮或问题不严重。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-20",
+      "label": "5",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文章介绍南极环境、船运联系和外来物种风险，适合地理杂志；没有天气预报所需的具体天气预测。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-21",
+      "label": "1",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "新闻围绕测量队克服天气影响、成功登顶并采集数据展开；最新高度尚待分析，并未发布。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-21",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "重新测量世界最高峰并采集新数据属于科学新发现类消息，最适合New Discoveries栏目。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-21",
+      "label": "4",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "约凌晨2:10出发，近9小时后到顶，即约上午11:10，最接近About 11:00 a.m.，不要把山顶工作2.5小时加进去。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-21",
+      "label": "5",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首段明确项目目的是重新测量珠峰高度；安装GNSS接收器只是测高过程中的一步，不是整体任务。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-22",
+      "label": "1",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第②段明确以brown and black paints在布上起稿，选棕色和黑色，而非白色或蓝色。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-22",
+      "label": "2",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第③段说白色颜料来自英格兰北部Peak District；阿富汗对应蓝色，墨西哥和南美对应红色。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-22",
+      "label": "3",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第④段说明当时蓝色颜料比黄金更贵，因此用了大量蓝色让研究负责人惊讶。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-22",
+      "label": "4",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第⑤段末句说甚至无法确定女孩是否真实存在，更没有查明她是谁；其他信息在绘画过程介绍中已有说明。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-22",
+      "label": "5",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "①总述研究对象，②③④分别介绍作画步骤、颜料来源、用量，⑤总结研究意义，结构为总—三个并列分述—总，与原图A一致。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-23",
+      "label": "1",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首段说每个人都渴望比其他人投得更精彩，表现出好胜心，对应competitive。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-23",
+      "label": "2",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Little did the friends know 表他们几乎没想到，接着一周10万播放说明首次视频意外走红。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-23",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "go viral 后面用一周10万浏览及节目邀约说明迅速流行，故意为become popular，而非制造病毒。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-23",
+      "label": "4",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文章说仅YouTube年收入约200万美元，另外还有节目、玩具和网店，可推断收入可观。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-23",
+      "label": "5",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "从朋友尝试创意投篮到视频、节目和商店改变生活，主线是创造力带来的变化；不是教视频技术或升学要求。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-24",
+      "label": "1",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首段用amazing形容下半场逆转，且半场0:2落后，3:2获胜令人惊讶，选surprising。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-24",
+      "label": "2",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第二段说她们didn’t lose heart而是fought back，说明没有退缩；A的故意失球、B的教练心情都无依据，D把almost every夸大成every。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-24",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "successors 与come after、in the years to come连用，指未来接续这些球员的年轻后辈。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-24",
+      "label": "4",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "浦玮假称去慢跑，实际去踢球，说明瞒着父亲踢球；文中未说她伤害了父亲。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-24",
+      "label": "5",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "末段直接呼吁给予女足更多关注与支持，前文困难和偏见都服务于这一目的，不只是泛谈足球或所有妇女权利。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-25",
+      "label": "1",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Jenise被称为the only athlete standing for Malta，only表示唯一，即马耳他只有一名参赛运动员。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-25",
+      "label": "2",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Tessa觉得每天选吃什么困难，是因为everything was so good，选择多且都好吃，不是胃痛或不适应。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-25",
+      "label": "3",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Julia Marino明确说最爱的食物是dumplings，并说已吃约200个，人物与食物要对应。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-25",
+      "label": "4",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Jutta把麻辣烫列为最喜欢的食物，并说比汉堡、薯条更健康，可概括为delicious and healthy。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-25",
+      "label": "5",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "四人都表达对中国食物的喜爱；国家、比赛项目不同，Julia是在采访中分享，不全都是网上发布。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-26",
+      "label": "1",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文章提出社会话题并汇集多人的不同意见，符合报纸调查讨论类文章，不是科幻、书评或商业广告。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-26",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Jennifer说互动点赞后faithful friendship seems to become stronger，表示朋友关系更亲近。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-26",
+      "label": "3",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Anne说点赞带来immediate feedback，马上让人因衣着外貌感到受肯定，feedback在此是回应，最接近replies。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-26",
+      "label": "4",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Mike把点赞的满足感比作孩子得到冰激凌，D对应这一比喻；B、C分别来自其他受访者。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-26",
+      "label": "5",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Brook直接主张别只关注点赞数，应关注照片本身；B改善体验是Jack的观点，不能混淆人物。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-27",
+      "label": "1",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第二段明确发布指导意见是为强调不同年龄学生劳动教育的重要性，A完整对应原文目的。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-27",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "后文说许多青少年不重视劳动、仅22%帮家务，说明这种教育近年被overlooked，即忽视。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-27",
+      "label": "3",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "学校应hold activities以提供real-world work experience，D与原文直接对应；原文未说每人发一棵树。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-27",
+      "label": "4",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "末段明确要求家长鼓励孩子学做家务；调查比例是22%，技能是一两项，课程是每周而非每天。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-27",
+      "label": "5",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "全文介绍劳动教育的意义、现状以及学校家庭如何实施，Education of Hard-working Spirit概括最全面。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-28",
+      "label": "1",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文中给出高亭宇男子500米34.32秒的奥运纪录，B对应速度成绩；不要把此处奥运纪录夸大为世界纪录。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-28",
+      "label": "2",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "“It makes everyone skate faster”紧接the rink的反馈，it指冰场及其冰面，而非金牌、纪录或反馈本身。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-28",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文中说液态二氧化碳cooled the ice并把表面温差维持在0.5度内，目的是保持低温和平整。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-28",
+      "label": "4",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "AI测风系统提供实时风向风速数据，帮助判断何时何处起跳；系统测量风，并不能改变或控制风。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-28",
+      "label": "5",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "athlete-centered指以运动员需求为中心，用技术提升表现、照顾运动员，D的people-centered是对此的人本概括。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-29",
+      "label": "1",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Talking helps一栏说上网遇到问题时应知道可以向家长或另一位成人倾诉，正对应Jimmy的困扰。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-29",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Education matters要求家长和孩子了解并遵守学校的屏幕使用规则，B与此对应。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-29",
+      "label": "3",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Sleep matters强调良好睡眠，并建议睡觉时把手机留在卧室外；A直接对应这一建议，D的绝不使用手机过于绝对。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-29",
+      "label": "5",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文中多次说your children、建议看护孩子，并要求孩子能向你倾诉，读者主要是家长。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-30",
+      "label": "1",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "先背稻草人过沟再返回，共2跳；再背Dorothy和Toto并返回，共2跳；最后背铁皮人1跳，总计5次。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-30",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "稻草人主动第一个试跳，体现勇敢；又提出做木筏渡河，体现聪明，故Brave and clever。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-30",
+      "label": "3",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "先砍柴生火b，次日背稻草人过沟d，下午遇河a，造筏后树下过夜c，顺序b-d-a-c。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-30",
+      "label": "4",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "铁皮人砍树造raft，众人要乘它过河，从材料和用途可知是木筏。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-30",
+      "label": "5",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "“Me!”之后稻草人上狮背首先过沟；造筏很费时，飞到翡翠城只是Dorothy的梦，不能当作已发生事实。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-31",
+      "label": "1",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "母亲留言说父亲珍视每月家庭午餐，并抱怨Alan已缺席第五次，说明父母不希望他错过家庭午餐。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-31",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "助理随后核对明天午餐的时间、地点和事项，confirm在此意为确认，与make sure相近。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-31",
+      "label": "3",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Karen明确说 I’m in London until Wednesday，说明留言时人在伦敦；Australia是其公司所在地。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-31",
+      "label": "4",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Karen想谈游戏在自己地区的购买权，并提到用午餐讨论新游戏；world rights是另一位买家的要求。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-31",
+      "label": "5",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "多个商业邀约说明设计受认可，连家庭午餐都反复错过显示忙碌；C将约定的lunch错成dinner。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-32",
+      "label": "1",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首段直接把祝融、嫦娥、天问、北斗并列为space programs，均为中国航天项目名称。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-32",
+      "label": "2",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "后文解释与其他国家和平使用太空、建设共同体，integration对应融合，不是容忍或担当。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-32",
+      "label": "3",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第二段既讲祝融神话形象，又拆解“祝”“融”的寓意，整体解释名称由来，而不只描述外貌。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-32",
+      "label": "4",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "空后such as列举表面组成、天气、环境等研究内容，需要先说调查和采集信息，C与列举项衔接。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-32",
+      "label": "5",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "“融”的解释明确说愿与他国和平使用太空；工作期限是at least三个月，不是only，重量是240千克，不是200。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-33",
+      "label": "1",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首段先说家庭贫穷，因此不得不辍学；帮助父母经营店铺是辍学后的安排，根本原因是负担不起学业。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-33",
+      "label": "2",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "主体用沉迷计算、把草稿当包装纸并追赶顾客这件具体事情表现热爱数学，属于举例。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-33",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "先专心思考b，再误用草稿包物品a，随后发现d，追上顾客取回c，顺序b-a-d-c。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-33",
+      "label": "4",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "数学热爱帮助他处理并战胜困难，overcome difficulties与succeed in dealing with difficulties同义。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-33",
+      "label": "5",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "贫困和辍学没有阻止他自学并成为数学家，说明有决心者能克服困难；并非成功轻而易举。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-34",
+      "label": "1",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文章以巴西说什么语言、太阳有多热两个问题开头，属于raising questions，不是讲故事或列数字。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-34",
+      "label": "2",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "quizmaster负责出题、读题和处理作弊，整体是确保竞赛正确进行的主持管理者；队名和答案由选手填写。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-34",
+      "label": "3",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "每个round都有一组题，整场竞赛可分多个round，语境里表示轮次或回合，不是几何图形。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-34",
+      "label": "4",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "末段明确说用手机或网络搜答案被发现，会lose all your points，即丢掉全部得分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-34",
+      "label": "5",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "酒吧智力竞赛是休闲娱乐活动，并有流行文化习俗背景，主题是Entertainment and Culture。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-35",
+      "label": "1",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "冬奥会2月4日开幕，残奥会a month later，推算为同年3月4日，不是次年2月。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-35",
+      "label": "2",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "冰墩墩全身冰壳、像身穿装备的人，并联系科技未来，astronaut是宇航员。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-35",
+      "label": "3",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "冰墩墩自述红心在my left palm，即左手掌，不在雪容融或颈部。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-35",
+      "label": "4",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "雪容融自述头上有paper cuttings of doves，即鸽子剪纸。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-35",
+      "label": "5",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "全文让冰墩墩和雪容融分别自我介绍，主题为冬奥与冬残奥吉祥物，单独介绍一届赛事不足以概括。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-36",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "段落举出肠道菌群多样性降低与衰老、易生病有关，link在此意为关系或联系。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-36",
+      "label": "3",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "原文寿命范围是three to nine months，at least问下限，应为3个月，不是9个月。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-36",
+      "label": "4",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第四段依次写取幼鱼粪便、放鱼缸、加入老鱼及菌群进入肠道，主要说明实验步骤。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-36",
+      "label": "5",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "材料介绍动物衰老研究的背景、实验与结果，适合科学杂志；不是运动调查、历史或化学专题。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-37",
+      "label": "1",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "开头说王希孟凭《千里江山图》使人惊叹，成名原因是绘画，不是后人创作的舞剧。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-37",
+      "label": "2",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第三段明确说舞剧讲述研究者潜心研究画作并穿越见证创作的故事，D覆盖主人公与情节。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-37",
+      "label": "3",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "该段明确列出作画过程、传统技艺和全新欣赏体验，没有系统呈现整个中国文化的发展历程；题目要求EXCEPT。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-37",
+      "label": "4",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第四段写精心策划、舞者精湛技巧、服装音乐增色，均为正面评价，可推断演出成功。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-37",
+      "label": "5",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首段明确说才华出众的舞者让画作之美以新方式展现；首演是2021年8月，尚存作品只有一幅。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-38",
+      "label": "1",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首段明确空桌及经营困难由COVID-19造成。题干closed不严谨：原文说难以维持、裁员，并未明确说餐馆彻底关闭。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-38",
+      "label": "2",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Andrew拍摄并发布短视频呼吁人们来店，随后视频走红带来顾客，故帮助方式是制作短视频。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-38",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "空前顾客排队、空后旧员工回来服务，需要“随着生意恢复”衔接；fewer customers与后文相反。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-38",
+      "label": "4",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "原文明确爷爷感谢孙子利用互联网帮助经营；没有说孙子在Texas成名或善于管理生意。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-38",
+      "label": "5",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "故事主线是孙子用视频挽救爷爷餐馆，C涵盖人物、行动与结果；其他题目只取片段或过于宽泛。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-39",
+      "label": "1",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第二段明确研究者想帮助小孩子应对危机，纠正误解是实现这一目的的方法，B涵盖对象与目标。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-39",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第五段直接写The ten-page book，涂色书共10页。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-39",
+      "label": "3",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首批750份纸质书给了children in local hospitals，不能混同于之后的全球免费下载。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-39",
+      "label": "4",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "后来电子版上线，世界各地可download it for free，A正确；文中语言为英、西、阿，没有中文。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-39",
+      "label": "5",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文章核心是用涂色书帮儿童理解疫情，Coloring Coronavirus同时体现形式和主题，其他标题过宽。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-40",
+      "label": "1",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第二段明确Since the grandfather had broken a dish or two，打破餐具是换木碗的直接原因，愤怒只是背景。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-40",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "孩子说长大后也给父母做木碗，使父母沉默落泪，struck在此是使震惊、深受触动，而非实际殴打。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-40",
+      "label": "3",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "孩子的话让父母意识到自己的行为会被孩子模仿，带老人回餐桌体现知错改正，并非老人身体突然恢复。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-40",
+      "label": "4",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "木碗串联老人被隔离、孩子模仿和父母反思，是故事中心物件，用A wooden bowl最能突出主题。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-40",
+      "label": "5",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "正是四岁儿子说也给父母做木碗，才使夫妇醒悟并改变待老人的方式。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-41",
+      "label": "1",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "开头圣诞节将近，后文女孩站在雪中，两处线索共同指向冬季。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-41",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首段特意澄清看似乞丐但actually he was an artist，梵高在故事中是画家。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-41",
+      "label": "3",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "店主说不喜欢这幅画，但听说他勤奋，愿意帮助，原因是帮助勤奋的人，而非欣赏画作。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-41",
+      "label": "4",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "他把刚卖画所得的five francs全部放进女孩手里；未描写替她付房租或买东西。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-41",
+      "label": "5",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "自己饥饿且缺房租，仍把仅有的钱给女孩，体现善良；文章没有据此说明富有或成名。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-42",
+      "label": "1",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "先周日演奏收到东西①，次日立牌寻找失主③，Jack来认领②，最后同学询问并解释诚信④。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-42",
+      "label": "2",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第①段直接说周日晚上站在车站门口playing his violin，活动是拉小提琴。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-42",
+      "label": "3",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "次日小板告知Jack误放了重要物品并请来取，目的在寻找彩票主人，不是找彩票本身。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-42",
+      "label": "4",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "tuition 后连着further study in the college，指上大学继续学习要付的学费。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-42",
+      "label": "5",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "结尾明确说失去诚实就无法永远快乐，即使缺钱也归还彩票，主旨是珍视并坚持诚信。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-43",
+      "label": "1",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "“长颈鹿”是对热心、愿帮助他人的人的比喻，四人有这些共同品质；并非外貌像长颈鹿。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-43",
+      "label": "2",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "作者随后直接解释为帮助别人，例子又有收留流浪者、设教育中心，故意为向别人伸援手。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-43",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第四段说这些人物只是该组织已发现并表彰的nearly 1,000人中的几个，应选近1000。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-43",
+      "label": "4",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "组织finds and honors giraffes，即发现并表彰热心助人者，通过榜样鼓励更多善举。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-43",
+      "label": "5",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "全文解释“长颈鹿计划”的意义并举助人事例，主旨是这一计划推动世界更美好；不是科普动物。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-44",
+      "label": "1",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第二段明确The book is from US writer Maya Angelou；Watson是分享者，Belton是活动发起者。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-44",
+      "label": "2",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "开头介绍她出演《哈利·波特》，后文说她爱读书、成立读书会，因此是爱阅读的演员。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-44",
+      "label": "3",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "她写书评、期待听到别人的想法，并和读书会成员每月共读，说明喜欢交流阅读感受。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-44",
+      "label": "4",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "这是免费流通阅读，不需买书；读完应再次留在地铁让他人找到。C表达可免费读而非永久带走，其他选项无原文依据。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-44",
+      "label": "5",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文章借Watson的行动介绍Books on the Underground的做法、起源与发展，D能概括全文。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-45",
+      "label": "1",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首段明确在线学习时难以集中注意力，说明网课学习有困难；家中是母亲加五个男孩，不是五人。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-45",
+      "label": "2",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第二段介绍Kim通过Big Brothers Big Sisters项目成为Zech导师，解释两人“大哥哥”关系的来源。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-45",
+      "label": "3",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Kim建议固定舒适学习位置，Zech据此设置小隔间并在那里做作业，目的是专用学习空间。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-45",
+      "label": "4",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "疫情后停止面对面会面，现在只通过电话或视频交流，对应D。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-45",
+      "label": "5",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "全文用Zech和Kim的关系展示导师项目如何帮助孩子及家庭，目的在介绍有帮助的项目，而非只教网课技巧。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-46",
+      "label": "1",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首段志愿者直接说希望分享不同领域知识，make a difference to the children’s life，即改变孩子生活。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-46",
+      "label": "2",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第二段说明当地孩子从未学过英语，所以从字母和发音等基础开始；不能推断他们不聪明。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-46",
+      "label": "3",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "it 紧接the importance of children’s education，指家长从前不重视孩子教育，不是能力或健康。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-46",
+      "label": "4",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文中直接列出建立足球俱乐部、举办球赛来使生活丰富；其他三类活动未提及。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-46",
+      "label": "5",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "文章围绕复旦学生在西海固支教及学习、家访、体育和设施援助，B覆盖整体，不只家长观念。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-47",
+      "label": "1",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "社区种植园能让人理解食物价值①，且与人交流零废弃生活③；清理垃圾和会议发言属于其他活动。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-47",
+      "label": "2",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "垃圾会污染水和伤害动物，组织捡垃圾是为了对抗这个问题，combat最接近fight against。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-47",
+      "label": "3",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "该段首句说Going to a town hall meeting，随后解释可了解社区问题并发言，标题应为去市民会议。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-47",
+      "label": "4",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "末段明确线上社区虽好却cannot compare to real life support groups，说明线下支持团体更有优势。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-47",
+      "label": "5",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "各小标题提供种植园、清洁行动、市民会议、组织聚会等成为零废弃志愿者的具体途径，D最完整。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-48",
+      "label": "1",
+      "before": "待确认",
+      "after": "D",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首段以接收信息、眼神交流和说话等表现介绍文中的自闭症儿童，重点是人物表现，不是星空或作者爱心。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-48",
+      "label": "2",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "第二段末作者明确认识到这些孩子need a great deal of attention，需要很多关注。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-48",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "作者一行自我介绍时孩子没有立即抬头；后文户外、游戏、美术活动才观察到积极互动，题问不能激发活力的一项。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-48",
+      "label": "4",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "把爱比作种子，在收到捐款时于心中开花，blooming是盛开，属于比喻用法。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-48",
+      "label": "5",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "最后直接号召do our best to understand them，理解是总体建议，捐款和游戏只是前文具体行动。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-49",
+      "label": "1",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "首段明确政策希望reduce schoolwork burden on students，重点是减少学生学业负担，不是延长假期。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-49",
+      "label": "2",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "按材料，初中作业应限时并减少负担，B符合；A把三年级以下扩大为全部小学生，C、D也与文意不符。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-49",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "题意区分学科培训和非学科活动，Math为数学学科，依文中假期禁超前、额外学科教学的表述选B；此处仅按阅读材料作答。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-49",
+      "label": "4",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "两位学生虽发现考试减少，但说not necessarily a good thing，C说他们认为少考试最好，正好相反。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-49",
+      "label": "5",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "最后强调考试能反馈进步与弱点，减负后不能只放松，self-discipline成为关键，故应培养自律。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-50",
+      "label": "1",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "房间物品中明确有books和chair，没有提到dictionary；本题按原文列举作排除。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-50",
+      "label": "2",
+      "before": "待确认",
+      "after": "C",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "This is a picture of them紧接TFBOYS，后句It’s on the wall说明照片在墙上。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-50",
+      "label": "3",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Cindy说自己的夹克是紫色，床上红色那件是妹妹Gina的，选Gina’s。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-50",
+      "label": "4",
+      "before": "待确认",
+      "after": "B",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "后句“孟晚舟回到中国”是她看到的一则消息，news在此意为新闻，而非卡通或电影。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-50",
+      "label": "5",
+      "before": "待确认",
+      "after": "A",
+      "wasInvalid": true,
+      "invalid": false,
+      "note": "Cindy说She is not tidy, but I am，意思妹妹不整洁、自己整洁；A说Cindy不整洁与原文相反。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-translation-02",
+      "label": "3",
+      "before": "人工智能已经在做人们过去做的工作，比如装配汽车、采煤和搬运货物。",
+      "after": "人工智能已经在做人们过去做的工作。",
+      "wasInvalid": false,
+      "invalid": false,
+      "note": "按划线题干范围删去未划线的行业例子。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-translation-08",
+      "label": "3",
+      "before": "这些食物能给她足够的能量。",
+      "after": "这些食物能给他足够的能量。",
+      "wasInvalid": false,
+      "invalid": false,
+      "note": "原译文把him误作她，改为他。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-translation-09",
+      "label": "3",
+      "before": "they have a great influence on people's lives.",
+      "after": "They have a great influence on people's lives.",
+      "wasInvalid": false,
+      "invalid": false,
+      "note": "have a great influence on 表对……有很大影响；people’s lives为人们的生活，注意复数lives不是动词第三人称。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-translation-09",
+      "label": "5",
+      "before": "谢谢你这份美妙的书籍礼物。在这个寒冷孤独的夜晚，它是一个绝佳的朋友。",
+      "after": "谢谢你送的这份美妙的书籍礼物。",
+      "wasInvalid": false,
+      "invalid": false,
+      "note": "删去原答案附带的未划线冷夜句子。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-translation-14",
+      "label": "1",
+      "before": "“有妈的孩子像块宝。”这首歌表明，母亲对孩子来说意味着整个世界。",
+      "after": "有妈的孩子像块宝。",
+      "wasInvalid": false,
+      "invalid": false,
+      "note": "仅翻译题干引文，删去未划线说明。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-translation-18",
+      "label": "4",
+      "before": "plastic is everywhere",
+      "after": "Plastic is everywhere.",
+      "wasInvalid": false,
+      "invalid": false,
+      "note": "plastic在此是塑料的总称，通常不可数，接is；everywhere为无处不在，句首大写Plastic。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-translation-21",
+      "label": "1",
+      "before": "每一项技术都有其优缺点，以下是三个例子。",
+      "after": "每一项技术都有优点和缺点，如以下三个例子所示。",
+      "wasInvalid": false,
+      "invalid": false,
+      "note": "原文as these three examples为不完整片段，此译按上下文衔接理解，保留原题文字供核对。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-translation-22",
+      "label": "5",
+      "before": "Second, encourage others often.",
+      "after": "Second, they often encourage others.",
+      "wasInvalid": false,
+      "invalid": false,
+      "note": "原中文为他们经常鼓励别人，原答案祈使句漏译主语，按题干补齐。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-translation-24",
+      "label": "3",
+      "before": "Some schools have organized too many difficult exams.",
+      "after": "Some schools have organized too many exams that are too difficult.",
+      "wasInvalid": false,
+      "invalid": false,
+      "note": "补译太难的程度，避免只译数量太多。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-translation-24",
+      "label": "4",
+      "before": "schools or classes are not allowed to organize weekly or monthly exams.",
+      "after": "Schools or classes are not allowed to organize weekly or monthly exams.",
+      "wasInvalid": false,
+      "invalid": false,
+      "note": "not be allowed to do表不被允许；schools or classes为复数，用are，weekly or monthly exams为周考或月考。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-translation-26",
+      "label": "2",
+      "before": "她的父亲是一名中学校长，教数学和物理，所以她在学校很喜欢这两门学科，并且成绩 很好。",
+      "after": "她的父亲曾任一所中学的校长，并教授数学和物理。",
+      "wasInvalid": false,
+      "invalid": false,
+      "note": "按划线范围删去后文女儿学习情况。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-translation-28",
+      "label": "5",
+      "before": "人生苦短，别陷入困境。",
+      "after": "人生苦短，不要陷入困顿。你必须继续前进。",
+      "wasInvalid": false,
+      "invalid": false,
+      "note": "题干包含You have to keep moving，补齐原答案漏译部分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-translation-30",
+      "label": "5",
+      "before": "the Chinese are undoubtedly the ones who know tea culture best.",
+      "after": "The Chinese are undoubtedly the ones who know tea culture best.",
+      "wasInvalid": false,
+      "invalid": false,
+      "note": "the Chinese指中国人这一群体，接are；undoubtedly为无疑，who know … best限定ones，best表最了解。"
+    }
+  ],
+  "pendingQuestions": [
+    {
+      "lessonId": "builtin-danzhao2025-grammar-02",
+      "label": "27",
+      "reason": "询问归属应为 Whose is that new car，原题漏 is；Charis 以 s 结尾，其所有格 Charis’ 和 Charis’s 都可接受，B、C 不宜作唯一答案。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-03",
+      "label": "39",
+      "reason": "下文在花园里浇树要求从窗内向外看，常用 look out of/through the window；原答案C over 不能准确表达此意，原选项缺少通常所需答案，保留待核对。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-04",
+      "label": "2",
+      "reason": "前置年龄定语用 ten-year-old，year 用单数并加连字符；A、C 两项完全相同，均成立，不能唯一判分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-04",
+      "label": "8",
+      "reason": "August 1, 1927 和 August 1st, 1927 都是合法日期表达，前面均用 on，因此A、C均可。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-04",
+      "label": "30",
+      "reason": "365的英式读法是 three hundred and sixty-five，美式也可省 and；B、D均属合法读法，不能仅因D无and判错。普通年365天，闰年366天。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "8",
+      "reason": "gift被first修饰，考试常推荐that；但在现代英语限定性定语从句中which也可作received的宾语。A、B均有语法依据，不将推荐用法当唯一规则。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "13",
+      "reason": "place指物，从句visit缺宾语，that、which均可作关系代词；first修饰时考试常推荐that，但A、C不宜机械唯一判分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "16",
+      "reason": "movie指物，从句I’ve seen缺宾语；最高级后考试常推荐that，但which并非一概错误，A、B均有语法依据。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "20",
+      "reason": "city虽受最高级修饰，that、which在限定性从句中仍都可作been to的宾语；考试常推荐A，不能据此一律判B错。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "29",
+      "reason": "thing被first修饰时常推荐that，但which同样能在限定性从句中作attracts的主语；A、B均有语法依据。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "35",
+      "reason": "Chinese 在此指“中国人”，从句 won 缺主语；who 能指人，that 在这一限定性从句中也可指人，原选项B、C均有依据，不作唯一判分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "39",
+      "reason": "way在本句表示被人喜欢的交流方式，like缺宾语，that、which均能补足；best并不使which在现代英语中一概错误，A、B不宜唯一判分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "46",
+      "reason": "those 在此指朋友，关系代词作 make 的主语，who、that 均可指人，所以A、C都成立，保持多解提示。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "49",
+      "reason": "those 指能让你微笑的朋友，who 和 that 均可作从句主语；A、C都成立，不能强行唯一判分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-03",
+      "label": "3",
+      "reason": "表头写 Russian teens，对应A，但署名年龄为23、20、19岁，其中前两位并非teenagers，C也有年龄依据，原题信息自相矛盾，暂不唯一判分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-04",
+      "label": "1",
+      "reason": "表中周一至周五都是7:10起床，概括答案为C weekdays；但A Thursdays、B Wednesdays分别也成立，题目未限定“所有日期”，不作唯一判分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-17",
+      "label": "4",
+      "reason": "若题指“It will use robotic arms”，It为ClearSpace 1，选B；若指“where it will burn up”，it为碎片，选A。原PDF未清楚标出目标it，暂不唯一判分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-21",
+      "label": "3",
+      "reason": "本文只说八名测量队员，没有给出国籍、机构或所属国家；D中国可能是原新闻背景，但不能仅凭所给材料推出，保持待核对。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-29",
+      "label": "4",
+      "reason": "此题需要Ⅰ、Ⅱ、Ⅲ三幅图及其编号对应；所给PDF虽有表格插图，却未清楚标出这三个编号，且B、D的序列完全相同，无法唯一选择，暂不计分。"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-36",
+      "label": "1",
+      "reason": "开头笼统说老鱼吃幼鱼粪便，实验段却明确说don’t eat poop，只是接触和啃咬以传入肠道菌。C可能为命题意图，但“吃”的说法与正文冲突，暂不唯一判分。"
+    }
+  ]
+}
