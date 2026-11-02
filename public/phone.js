@@ -12,10 +12,10 @@ async function start(){
  const state=await api('/status');if(!state.trusted){status('这部手机尚未绑定。请在可信电脑生成绑定二维码，并用手机的同一个浏览器打开。');return;}
  if(!scan){done('这部手机已绑定，可扫码授权电脑登录');return;}
  const ticket=await api('/request',{token:scan});if(ticket.state!=='pending'){status('此授权请求已经处理，请在电脑重新生成二维码');return;}
- status('核对电脑显示的授权码，确认是你正在使用的设备');
- $('phone-actions').innerHTML=`<div class="auth-code">${esc(ticket.code)}</div><p>${esc(ticket.device)}</p><label class="check auth-confirm"><input id="confirm-code" type="checkbox">我已核对电脑上的授权码</label><div class="auth-actions"><button class="primary" id="allow-login" disabled>允许登录</button><button id="deny-login">拒绝</button></div>`;
+ status(ticket.trustRequested?'核对主屏幕应用的授权码，确认是你自己的应用':'核对电脑显示的授权码，确认是你正在使用的设备');
+ $('phone-actions').innerHTML=`<div class="auth-code">${esc(ticket.code)}</div><p>${esc(ticket.device)}</p><label class="check auth-confirm"><input id="confirm-code" type="checkbox">我已核对电脑上的授权码</label>${ticket.trustRequested?'<label class="check auth-confirm"><input id="trust-app" type="checkbox">信任此应用180天，免重复登录</label>':''}<div class="auth-actions"><button class="primary" id="allow-login" disabled>允许登录</button><button id="deny-login">拒绝</button></div>`;
  const allow=$('allow-login'),deny=$('deny-login');$('confirm-code').onchange=e=>allow.disabled=!e.target.checked;
- async function approve(value){allow.disabled=true;deny.disabled=true;try{await api('/approve',{token:scan,code:ticket.code,allow:value});done(value?'已允许登录，请回到电脑继续':'已拒绝此请求');}catch(e){status(e.message);}}
+ async function approve(value){allow.disabled=true;deny.disabled=true;try{await api('/approve',{token:scan,code:ticket.code,allow:value,trustApp:$('trust-app')?.checked===true});done(value?(ticket.trustRequested?'已允许，请切回原来的主屏幕应用继续':'已允许登录，请回到电脑继续'):'已拒绝此请求');}catch(e){status(e.message);}}
  allow.onclick=()=>approve(true);deny.onclick=()=>approve(false);
  expiry=setInterval(()=>{if(Date.now()>=ticket.expiresAt){clearInterval(expiry);if($('allow-login')){allow.disabled=true;deny.disabled=true;status('二维码已过期，请在电脑重新生成');}}},1000);
 }

@@ -10,16 +10,16 @@ process.env.APP_URL='https://classroom.example';
 const {handler}=await import('../lib/api.mjs');
 const {createPairing,revokePhone,hash}=await import('../lib/phone-auth.mjs');
 const {readAuth,updateAuth}=await import('../lib/auth-store.mjs');
-const asCookie=value=>value?.split(';')[0]||'';
+const asCookie=value=>Array.isArray(value)?value.map(x=>x.split(';')[0]).join('; '):value?.split(';')[0]||'';
 async function call(url,{body,cookie='',origin='https://classroom.example',method=body?'POST':'GET'}={}){let raw='',headers={};const response={writeHead(status,values){this.status=status;Object.assign(headers,values);},setHeader(name,value){headers[name]=value;},end(value){raw=value;}};await handler({url:'/api'+url,method,body,headers:{host:'classroom.example',origin,cookie,'x-forwarded-proto':'https:','user-agent':'Macintosh Safari'},socket:{remoteAddress:'192.0.2.10'}},response);return {status:response.status,data:JSON.parse(raw),cookie:asCookie(headers['Set-Cookie']),headers};}
 let phone;
-beforeEach(async()=>{await updateAuth(s=>Object.assign(s,{phone:null,pairings:[],requests:[],sessions:[],throttles:[]}));const pairing=await createPairing();const r=await call('/auth/phone/pair',{body:{token:pairing.token}});assert.equal(r.status,200);phone=r.cookie;});
+beforeEach(async()=>{await updateAuth(s=>Object.assign(s,{phone:null,apps:[],pairings:[],requests:[],sessions:[],throttles:[]}));const pairing=await createPairing();const r=await call('/auth/phone/pair',{body:{token:pairing.token}});assert.equal(r.status,200);phone=r.cookie;});
 after(async()=>rm(process.env.DATA_DIR,{recursive:true,force:true}));
-async function ticket(){const r=await call('/auth/requests',{body:{}});assert.equal(r.status,200);assert.match(r.data.qr,/^data:image\/png;base64,/);const state=await readAuth();const entry=state.requests.find(x=>x.id===r.data.id);return {...r.data,cookie:r.cookie,entry};}
+async function ticket(options={}){const r=await call('/auth/requests',{body:options});assert.equal(r.status,200);assert.match(r.data.qr,/^data:image\/png;base64,/);const state=await readAuth();const entry=state.requests.find(x=>x.id===r.data.id);return {...r.data,cookie:r.cookie,entry};}
 // Recover the scan token only from the actual QR image: tests decode with no API shortcut.
 // The server keeps only its hash; decode using pngjs + jsqr in the test harness below.
 async function scanToken(t){const {PNG}=await import('pngjs');const {default:jsQR}=await import('jsqr');const image=PNG.sync.read(Buffer.from(t.qr.split(',')[1],'base64'));const result=jsQR(new Uint8ClampedArray(image.data),image.width,image.height);assert.ok(result);const url=new URL(result.data);assert.equal(url.origin,process.env.APP_URL);assert.equal(url.pathname,'/phone');return new URLSearchParams(url.hash.slice(1)).get('request');}
-async function approve(t,allow=true){return call('/auth/phone/approve',{cookie:phone,body:{token:await scanToken(t),code:t.code,allow}});}
+async function approve(t,allow=true,trustApp=false){return call('/auth/phone/approve',{cookie:phone,body:{token:await scanToken(t),code:t.code,allow,trustApp}});}
 const identity=t=>({id:t.id,secret:t.secret});
 test('完整扫码：绑定手机核对授权，原电脑领取且仅领取一次',async()=>{const t=await ticket();const token=await scanToken(t);const details=await call('/auth/phone/request',{cookie:phone,body:{token}});assert.equal(details.data.code,t.code);assert.equal(details.data.device,'Mac 电脑');assert.equal((await approve(t)).status,200);const status=await call('/auth/requests/status',{cookie:t.cookie,body:identity(t)});assert.equal(status.data.state,'approved');const claimed=await call('/auth/requests/claim',{cookie:t.cookie,body:identity(t)});assert.equal(claimed.status,200);assert.match(claimed.headers['Set-Cookie'],/HttpOnly; SameSite=Strict; Max-Age=43200; Secure/);assert.equal((await call('/session',{cookie:claimed.cookie})).data.authenticated,true);assert.equal((await call('/auth/requests/claim',{cookie:t.cookie,body:identity(t)})).status,403);assert.equal((await call('/session',{cookie:phone})).data.authenticated,true);});
 test('未绑定手机、错误授权码、其他电脑和未批准领取均被拒绝',async()=>{const t=await ticket(),token=await scanToken(t);assert.equal((await call('/auth/phone/approve',{body:{token,code:t.code,allow:true}})).status,401);assert.equal((await call('/auth/phone/approve',{cookie:phone,body:{token,code:'wrong',allow:true}})).status,400);assert.equal((await call('/auth/requests/claim',{cookie:t.cookie,body:identity(t)})).status,403);assert.equal((await call('/auth/requests/status',{body:identity(t)})).status,410);assert.equal((await call('/auth/requests/status',{cookie:t.cookie,body:{id:t.id,secret:'a'.repeat(64)}})).status,410);});
@@ -38,4 +38,24 @@ test('绑定及撤销CLI可使用私有环境文件，二维码文件仅本机�
   let state=JSON.parse(await readFile(path.join(root,'state/auth.json'),'utf8'));assert.equal(state.data.pairings.length,1);assert.ok(state.data.pairings[0].expires>Date.now());
   execFileSync(process.execPath,[script,'--env-file',envFile,'--revoke'],{cwd:root,env});state=JSON.parse(await readFile(path.join(root,'state/auth.json'),'utf8'));assert.equal(state.data.pairings.length,0);
  }finally{await rm(root,{recursive:true,force:true});}
+});
+
+test('Chrome批准后主屏幕应用长期登录，原Chrome继续作为唯一授权端',async()=>{
+ const t=await ticket({trustApp:true}),scan=await scanToken(t);const info=await call('/auth/phone/request',{cookie:phone,body:{token:scan}});assert.equal(info.data.trustRequested,true);
+ assert.equal((await approve(t,true,true)).status,200);const claim=await call('/auth/requests/claim',{cookie:t.cookie,body:identity(t)});assert.equal(claim.data.trustedApp,true);assert.match(claim.headers['Set-Cookie'],/classroom_app=[a-f0-9]{64};.*Max-Age=15552000/);const app=claim.cookie;
+ assert.equal((await call('/session',{cookie:app})).data.authenticated,true);assert.equal((await call('/auth/phone/status',{cookie:phone})).data.trusted,true);assert.equal((await call('/auth/phone/status',{cookie:app})).data.trusted,false);
+ const other=await ticket();assert.equal((await call('/auth/phone/approve',{cookie:app,body:{token:await scanToken(other),code:other.code,allow:true}})).status,401);assert.equal((await approve(other)).status,200);
+ assert.equal((await call('/auth/requests/claim',{cookie:t.cookie,body:identity(t)})).status,403);
+ const state=await readAuth();assert.equal(state.apps.length,1);assert.equal(state.apps[0].hash,hash(app.split('=')[1]));
+ await call('/logout',{cookie:app,body:{}});assert.equal((await call('/session',{cookie:app})).data.authenticated,false);assert.equal((await call('/session',{cookie:phone})).data.authenticated,true);
+});
+test('长期信任必须由原手机显式批准，普通登录不能升级',async()=>{
+ for(const requested of [true,false]){const t=await ticket({trustApp:requested});await approve(t,true,!requested);const claim=await call('/auth/requests/claim',{cookie:t.cookie,body:{...identity(t),trustApp:true}});assert.equal(claim.status,200);assert.equal(claim.data.trustedApp,false);assert.match(claim.headers['Set-Cookie'],/classroom_session=.*Max-Age=43200/);}
+ assert.equal((await readAuth()).apps.length,0);
+});
+test('主屏幕信任到期、撤销或重新绑定后失效',async()=>{
+ async function enroll(){const t=await ticket({trustApp:true});await approve(t,true,true);return (await call('/auth/requests/claim',{cookie:t.cookie,body:identity(t)})).cookie;}
+ let app=await enroll();await updateAuth(s=>{s.apps.forEach(a=>a.expires=Date.now()-1);});assert.equal((await call('/session',{cookie:app})).data.authenticated,false);
+ app=await enroll();const p=await createPairing();phone=(await call('/auth/phone/pair',{body:{token:p.token}})).cookie;assert.equal((await call('/session',{cookie:app})).data.authenticated,false);
+ app=await enroll();await revokePhone();assert.equal((await call('/session',{cookie:app})).data.authenticated,false);
 });

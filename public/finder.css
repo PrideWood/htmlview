@@ -28,3 +28,4 @@
 .auth-panel .auth-instruction{font-size:14px}.auth-panel #phone-actions{width:100%}.auth-actions{display:flex;gap:12px;justify-content:center;margin-top:20px}.auth-confirm{margin:20px 0;justify-content:center}.auth-link{display:inline-block;margin-top:16px;padding:12px 20px;border-radius:8px;text-decoration:none;background:var(--ui-accent);color:var(--ui-on-accent,#fff)}
 @media(max-width:480px){.login{padding:20px}.login .auth-panel{padding:24px 18px}.auth-panel h1{font-size:24px}}
 .login .auth-panel h1{font-family:inherit}.login .auth-panel button{margin-top:0}.login .auth-panel .auth-actions button{width:auto}
+.login-browser-actions{display:flex;flex-direction:column;gap:12px;width:100%}.login-browser-actions .auth-link{margin-top:0}.login-browser-actions input{width:100%;font-size:13px}
