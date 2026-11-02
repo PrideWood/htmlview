@@ -1,0 +1,1762 @@
+{
+  "title": "25级《英语》课程月考试题",
+  "topic": "月考试题",
+  "notes": [
+    "根据用户提供的原始 DOC 整理；原卷未附参考答案，答案及解析待教师核对。",
+    "第16题无完全准确选项；第29、31题两句互换也可能通顺；第35题原卷漏印题号；第40题原卷未明确显示画线部分。",
+    "阅读 B 末尾出现与故事不相干的英文学习段落，按原卷保留。"
+  ],
+  "reference": [],
+  "materials": [
+    {
+      "id": "reading-1",
+      "title": "阅读理解 A",
+      "context": [
+        {
+          "type": "p",
+          "text": "PPE is short for personal protective equipment. PPE is used to protect employees from serious injury or illness caused by exposure to chemical, radiation, electrical equipment, human equipment, or mechanical equipment. It includes face mask, safety glasses, helmet, safety gloves, safety shoes, ear protector, respirator and safety belt."
+        },
+        {
+          "type": "p",
+          "text": "The purpose of PPE management is to ensure the safety and health of employees in production, and reasonably equip personal protective equipment. Dust, noise, poison, high temperature rays, electromagnetic radiation, ect. can cause serious occupational diseases, such as electric shock, lifting injury, falling object, piercing, or acid-base burns may occur in a dangerous workplace. Each workplace must focus on strengthening the supervision and the management of the use of personal labor protective equipment to ensure the safety and health of employees. In case of damage of failure of production equipment and possible leakage of harmful and toxic gases in the workplace, each workshop shall place necessary anti-toxic protective equipment at the conspicuous part of the site for emergency use."
+        },
+        {
+          "type": "p",
+          "text": "PPE management is mainly responsible for the development of monthly procurement plan, revision of labor protection equipment distribution standards and quality standards, responsible for supervising the equipment and the use of labor insurance supplies."
+        }
+      ],
+      "questionLabels": [
+        "16",
+        "17",
+        "18",
+        "19"
+      ]
+    },
+    {
+      "id": "reading-2",
+      "title": "阅读理解 B",
+      "context": [
+        {
+          "type": "p",
+          "text": "It was the day before Christmas. Della had only one dollar and eighty-seven cents to buy a gift for her husband Jim. She had saved the money for months by carefully saving every coin. She wanted to get him something nice and useful, but she knew it was not enough for a really good gift. They lived in a small old house. Life was hard for them, but they loved each other deeply and cared for each other warmly."
+        },
+        {
+          "type": "p",
+          "text": "Della had long, beautiful brown hair. It was the best thing she had. She took good care of it every day. Jim had a gold watch. It came from his father and grandfather, so it was his greatest and most valuable treasure."
+        },
+        {
+          "type": "p",
+          "text": "Della wanted to buy a special gold chain for Jim's watch. But she had no more money. She thought and thought, and tears came to her eyes. At last, she had a brave idea. She went to a shop and sold her beautiful long hair. With the money, she bought the perfect watch chain at once."
+        },
+        {
+          "type": "p",
+          "text": "When Jim came home, he looked at Della quietly and felt very surprised. \"What's wrong with you?\" Della asked gently."
+        },
+        {
+          "type": "p",
+          "text": "Jim smiled softly and said, \"I sold my watch to buy a set of beautiful combs for your lovely hair.\""
+        },
+        {
+          "type": "p",
+          "text": "They both smiled through tears. They gave up their most favorite things for each other. Their true love and kind hearts were the best Christmas gift of all. Besides this, I often read English stories, jokes and easy novels. They help me understand a lot of things. So to do more reading is an important way to learn English well. And I also write English diaries. English has become a close friend of mine."
+        }
+      ],
+      "questionLabels": [
+        "20",
+        "21",
+        "22",
+        "23"
+      ]
+    },
+    {
+      "id": "reading-3",
+      "title": "阅读理解 C",
+      "context": [
+        {
+          "type": "p",
+          "text": "Manufacturing industry usually adopts the working mode of three shifts, which refers to the early shift, the swing shift and the late shift. Each period lasts for eight hours. These three shifts should fully describe the responsibilities of each shift and establish a strict exchange shift system. The output and quality completed in three shifts should be separately recorded for acceptance and assessment, so as to clarify the responsibilities of workers in each shift and make them concerned. This maximizes production while avoiding long hours for workers."
+        },
+        {
+          "type": "p",
+          "text": "For professionals like doctors, security guards and factory workers, late shift is inevitable (不可避免的). The three shift workers can easily get tired at night and are more likely to make mistakes. They are not only irritable, but also suffers from heart disease. The problem is how to minimise the phenomena of the lack of sleep, and minimize the impact of shifts on life and physical health."
+        }
+      ],
+      "questionLabels": [
+        "24",
+        "25",
+        "26",
+        "27"
+      ]
+    },
+    {
+      "id": "dialogue",
+      "title": "第三题 补全对话",
+      "context": [
+        {
+          "type": "p",
+          "text": "第三题 补全对话（共5小题；每小题2分，满分10分）"
+        },
+        {
+          "type": "p",
+          "text": "阅读下列对话，从所给选项中，选出能够完成对话的最佳选项，选项中有两个多余选项。"
+        },
+        {
+          "type": "p",
+          "text": "A: Long time no see. Where do you work now?"
+        },
+        {
+          "type": "p",
+          "text": "B: 　____ (28)"
+        },
+        {
+          "type": "p",
+          "text": "A: Are you a salesman？"
+        },
+        {
+          "type": "p",
+          "text": "B: No, I'm not. 　____ (29)"
+        },
+        {
+          "type": "p",
+          "text": "A: Is the work heavy?"
+        },
+        {
+          "type": "p",
+          "text": "B: A bit."
+        },
+        {
+          "type": "p",
+          "text": "A: 　____ (30)"
+        },
+        {
+          "type": "p",
+          "text": "B: I think so. How about you?"
+        },
+        {
+          "type": "p",
+          "text": "A: I work in a factory. 　____ (31)"
+        },
+        {
+          "type": "p",
+          "text": "B: Are you busy?"
+        },
+        {
+          "type": "p",
+          "text": "A: Yes. 　____ (32)　  Of course, our salary is very good."
+        },
+        {
+          "type": "p",
+          "text": "B: That's great."
+        }
+      ],
+      "questionLabels": [
+        "28",
+        "29",
+        "30",
+        "31",
+        "32"
+      ]
+    }
+  ],
+  "questionOrder": "number",
+  "questions": [
+    {
+      "label": "1",
+      "blankLabel": "1",
+      "groupId": "",
+      "questionType": "single_choice",
+      "mode": "choice",
+      "section": "第一题 单项选择",
+      "stem": "I want to be _______ electrician in the future.",
+      "options": [
+        {
+          "key": "A",
+          "text": "a"
+        },
+        {
+          "key": "B",
+          "text": "an"
+        },
+        {
+          "key": "C",
+          "text": "the"
+        },
+        {
+          "key": "D",
+          "text": "/"
+        }
+      ],
+      "answer": "B",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "B"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "2",
+      "blankLabel": "2",
+      "groupId": "",
+      "questionType": "single_choice",
+      "mode": "choice",
+      "section": "第一题 单项选择",
+      "stem": "Could you tell me ______ now?",
+      "options": [
+        {
+          "key": "A",
+          "text": "where does he live"
+        },
+        {
+          "key": "B",
+          "text": "where he lives"
+        },
+        {
+          "key": "C",
+          "text": "where did he live"
+        },
+        {
+          "key": "D",
+          "text": "where he lived"
+        }
+      ],
+      "answer": "B",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "B"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "3",
+      "blankLabel": "3",
+      "groupId": "",
+      "questionType": "single_choice",
+      "mode": "choice",
+      "section": "第一题 单项选择",
+      "stem": "A healthy diet can ______ the risk of heart disease.",
+      "options": [
+        {
+          "key": "A",
+          "text": "help"
+        },
+        {
+          "key": "B",
+          "text": "encourage"
+        },
+        {
+          "key": "C",
+          "text": "reduce"
+        },
+        {
+          "key": "D",
+          "text": "support"
+        }
+      ],
+      "answer": "C",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "C"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "4",
+      "blankLabel": "4",
+      "groupId": "",
+      "questionType": "single_choice",
+      "mode": "choice",
+      "section": "第一题 单项选择",
+      "stem": "We heard someone ______ loudly in the next room while we were working.",
+      "options": [
+        {
+          "key": "A",
+          "text": "shout"
+        },
+        {
+          "key": "B",
+          "text": "to shout"
+        },
+        {
+          "key": "C",
+          "text": "shouting"
+        },
+        {
+          "key": "D",
+          "text": "shouted"
+        }
+      ],
+      "answer": "C",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "C"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "5",
+      "blankLabel": "5",
+      "groupId": "",
+      "questionType": "single_choice",
+      "mode": "choice",
+      "section": "第一题 单项选择",
+      "stem": "— It is my first time travelling all by myself. I'm so worried.\n— ______. There is plenty of information online.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Take it easy"
+        },
+        {
+          "key": "B",
+          "text": "Try harder next time"
+        },
+        {
+          "key": "C",
+          "text": "Thank you all the same"
+        },
+        {
+          "key": "D",
+          "text": "I can't agree more"
+        }
+      ],
+      "answer": "A",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "A"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "6",
+      "blankLabel": "6",
+      "groupId": "",
+      "questionType": "single_choice",
+      "mode": "choice",
+      "section": "第一题 单项选择",
+      "stem": "Jack is _______ shy_________ introduce himself to new people.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Not only; but also"
+        },
+        {
+          "key": "B",
+          "text": "enough; to"
+        },
+        {
+          "key": "C",
+          "text": "too; to"
+        },
+        {
+          "key": "D",
+          "text": "so；that"
+        }
+      ],
+      "answer": "C",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "C"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "7",
+      "blankLabel": "7",
+      "groupId": "",
+      "questionType": "single_choice",
+      "mode": "choice",
+      "section": "第一题 单项选择",
+      "stem": "Don't be afraid ________ your mother-in-law.",
+      "options": [
+        {
+          "key": "A",
+          "text": "to meet"
+        },
+        {
+          "key": "B",
+          "text": "meeting"
+        },
+        {
+          "key": "C",
+          "text": "meet"
+        },
+        {
+          "key": "D",
+          "text": "meets"
+        }
+      ],
+      "answer": "A",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "A"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "8",
+      "blankLabel": "8",
+      "groupId": "",
+      "questionType": "single_choice",
+      "mode": "choice",
+      "section": "第一题 单项选择",
+      "stem": "Either you or he ______ to clean the room every day.",
+      "options": [
+        {
+          "key": "A",
+          "text": "has"
+        },
+        {
+          "key": "B",
+          "text": "have"
+        },
+        {
+          "key": "C",
+          "text": "having"
+        },
+        {
+          "key": "D",
+          "text": "had"
+        }
+      ],
+      "answer": "A",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "A"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "9",
+      "blankLabel": "9",
+      "groupId": "",
+      "questionType": "single_choice",
+      "mode": "choice",
+      "section": "第一题 单项选择",
+      "stem": "Great changes ______ in my hometown in the past few years.",
+      "options": [
+        {
+          "key": "A",
+          "text": "have been taken place"
+        },
+        {
+          "key": "B",
+          "text": "have taken place"
+        },
+        {
+          "key": "C",
+          "text": "were taken place"
+        },
+        {
+          "key": "D",
+          "text": "are taken place"
+        }
+      ],
+      "answer": "B",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "B"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "10",
+      "blankLabel": "10",
+      "groupId": "",
+      "questionType": "single_choice",
+      "mode": "choice",
+      "section": "第一题 单项选择",
+      "stem": "_______ we don't work overtime, we_____ finish the task within the date of delivery.",
+      "options": [
+        {
+          "key": "A",
+          "text": "If; won't"
+        },
+        {
+          "key": "B",
+          "text": "When; won't"
+        },
+        {
+          "key": "C",
+          "text": "Unless; won't"
+        },
+        {
+          "key": "D",
+          "text": "Because; won't"
+        }
+      ],
+      "answer": "A",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "A"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "11",
+      "blankLabel": "11",
+      "groupId": "",
+      "questionType": "single_choice",
+      "mode": "choice",
+      "section": "第一题 单项选择",
+      "stem": "Get the_________ food material ready and follow the cooking procedures.",
+      "options": [
+        {
+          "key": "A",
+          "text": "requiring"
+        },
+        {
+          "key": "B",
+          "text": "required"
+        },
+        {
+          "key": "C",
+          "text": "require"
+        },
+        {
+          "key": "D",
+          "text": "requirement"
+        }
+      ],
+      "answer": "B",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "B"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "12",
+      "blankLabel": "12",
+      "groupId": "",
+      "questionType": "single_choice",
+      "mode": "choice",
+      "section": "第一题 单项选择",
+      "stem": "It is because he is ill ______ he can't come to school.",
+      "options": [
+        {
+          "key": "A",
+          "text": "why"
+        },
+        {
+          "key": "B",
+          "text": "which"
+        },
+        {
+          "key": "C",
+          "text": "that"
+        },
+        {
+          "key": "D",
+          "text": "when"
+        }
+      ],
+      "answer": "C",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "C"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "13",
+      "blankLabel": "13",
+      "groupId": "",
+      "questionType": "single_choice",
+      "mode": "choice",
+      "section": "第一题 单项选择",
+      "stem": "If there ______ no buying and selling of animals, there ______ no killing.",
+      "options": [
+        {
+          "key": "A",
+          "text": "is; is"
+        },
+        {
+          "key": "B",
+          "text": "will be; will be"
+        },
+        {
+          "key": "C",
+          "text": "is; will be"
+        },
+        {
+          "key": "D",
+          "text": "will be; is"
+        }
+      ],
+      "answer": "C",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "C"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "14",
+      "blankLabel": "14",
+      "groupId": "",
+      "questionType": "single_choice",
+      "mode": "choice",
+      "section": "第一题 单项选择",
+      "stem": "There is more space in the high-speed train and the travel becomes more ____-",
+      "options": [
+        {
+          "key": "A",
+          "text": "serious"
+        },
+        {
+          "key": "B",
+          "text": "boring"
+        },
+        {
+          "key": "C",
+          "text": "dangerous"
+        },
+        {
+          "key": "D",
+          "text": "comfortable"
+        }
+      ],
+      "answer": "D",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "D"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "15",
+      "blankLabel": "15",
+      "groupId": "",
+      "questionType": "single_choice",
+      "mode": "choice",
+      "section": "第一题 单项选择",
+      "stem": "The factory must strengthen safety education, ________ more safety accidents will arise.",
+      "options": [
+        {
+          "key": "A",
+          "text": "unless"
+        },
+        {
+          "key": "B",
+          "text": "so"
+        },
+        {
+          "key": "C",
+          "text": "or"
+        },
+        {
+          "key": "D",
+          "text": "because"
+        }
+      ],
+      "answer": "C",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "C"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "16",
+      "blankLabel": "16",
+      "groupId": "reading-1",
+      "questionType": "reading",
+      "mode": "choice",
+      "section": "第二题 阅读理解 A",
+      "stem": "According to the passage, what is PPE?",
+      "options": [
+        {
+          "key": "A",
+          "text": "PPE is short for Philosophy，Politics and Economics."
+        },
+        {
+          "key": "B",
+          "text": "PPE is short for protective personal equipment."
+        },
+        {
+          "key": "C",
+          "text": "PPE is short for Polypheylene ethe."
+        },
+        {
+          "key": "D",
+          "text": "PPE is short for Property, Plant and Equipment."
+        }
+      ],
+      "answer": "B",
+      "reason": "原文为 personal protective equipment；B 项将 personal 和 protective 的顺序颠倒，四个选项均不完全准确。",
+      "examNote": "原卷选项没有与原文完全一致的答案；B 为最接近的选项，本题待确认且不计分。",
+      "reviewStatus": "needs_review",
+      "invalid": true,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [],
+      "ambiguous": false
+    },
+    {
+      "label": "17",
+      "blankLabel": "17",
+      "groupId": "reading-1",
+      "questionType": "reading",
+      "mode": "choice",
+      "section": "第二题 阅读理解 A",
+      "stem": "Which one of the following is NOT included in the PPE?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Safety belt"
+        },
+        {
+          "key": "B",
+          "text": "Helmet"
+        },
+        {
+          "key": "C",
+          "text": "Mobile phone"
+        },
+        {
+          "key": "D",
+          "text": "Respirator"
+        }
+      ],
+      "answer": "C",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "C"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "18",
+      "blankLabel": "18",
+      "groupId": "reading-1",
+      "questionType": "reading",
+      "mode": "choice",
+      "section": "第二题 阅读理解 A",
+      "stem": "What can we see is harmful to people's health?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Noise"
+        },
+        {
+          "key": "B",
+          "text": "Dust"
+        },
+        {
+          "key": "C",
+          "text": "High temperature rays"
+        },
+        {
+          "key": "D",
+          "text": "All of above"
+        }
+      ],
+      "answer": "D",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "D"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "19",
+      "blankLabel": "19",
+      "groupId": "reading-1",
+      "questionType": "reading",
+      "mode": "choice",
+      "section": "第二题 阅读理解 A",
+      "stem": "Through the passage, we know PPE management is very ______ for an enterprise.",
+      "options": [
+        {
+          "key": "A",
+          "text": "necessary"
+        },
+        {
+          "key": "B",
+          "text": "dangerous"
+        },
+        {
+          "key": "C",
+          "text": "interesting"
+        },
+        {
+          "key": "D",
+          "text": "impressive"
+        }
+      ],
+      "answer": "A",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "A"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "20",
+      "blankLabel": "20",
+      "groupId": "reading-2",
+      "questionType": "reading",
+      "mode": "choice",
+      "section": "第二题 阅读理解 B",
+      "stem": "When did the story happen?",
+      "options": [
+        {
+          "key": "A",
+          "text": "On Christmas Day"
+        },
+        {
+          "key": "B",
+          "text": "The day after Christmas"
+        },
+        {
+          "key": "C",
+          "text": "The day before Christmas"
+        },
+        {
+          "key": "D",
+          "text": "On New Year's Day"
+        }
+      ],
+      "answer": "C",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "C"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "21",
+      "blankLabel": "21",
+      "groupId": "reading-2",
+      "questionType": "reading",
+      "mode": "choice",
+      "section": "第二题 阅读理解 B",
+      "stem": "How did Della get the money for Jim's gift?",
+      "options": [
+        {
+          "key": "A",
+          "text": "She sold her beautiful hair."
+        },
+        {
+          "key": "B",
+          "text": "She worked in a shop."
+        },
+        {
+          "key": "C",
+          "text": "She asked her friends for help."
+        },
+        {
+          "key": "D",
+          "text": "She saved money for years."
+        }
+      ],
+      "answer": "A",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "A"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "22",
+      "blankLabel": "22",
+      "groupId": "reading-2",
+      "questionType": "reading",
+      "mode": "choice",
+      "section": "第二题 阅读理解 B",
+      "stem": "What was Jim's most valuable treasure?",
+      "options": [
+        {
+          "key": "A",
+          "text": "His lovely house"
+        },
+        {
+          "key": "B",
+          "text": "His gold watch"
+        },
+        {
+          "key": "C",
+          "text": "A set of combs"
+        },
+        {
+          "key": "D",
+          "text": "A gold chain"
+        }
+      ],
+      "answer": "B",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "B"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "23",
+      "blankLabel": "23",
+      "groupId": "reading-2",
+      "questionType": "reading",
+      "mode": "choice",
+      "section": "第二题 阅读理解 B",
+      "stem": "What can we learn from the story?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Money is the most important."
+        },
+        {
+          "key": "B",
+          "text": "We should buy expensive gifts."
+        },
+        {
+          "key": "C",
+          "text": "True love is the best gift."
+        },
+        {
+          "key": "D",
+          "text": "We shouldn't sell our things."
+        }
+      ],
+      "answer": "C",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "C"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "24",
+      "blankLabel": "24",
+      "groupId": "reading-3",
+      "questionType": "reading",
+      "mode": "choice",
+      "section": "第二题 阅读理解 C",
+      "stem": "What does the working mode of three shifts include?",
+      "options": [
+        {
+          "key": "A",
+          "text": "early shift."
+        },
+        {
+          "key": "B",
+          "text": "swing shift."
+        },
+        {
+          "key": "C",
+          "text": "late shift."
+        },
+        {
+          "key": "D",
+          "text": "All of above."
+        }
+      ],
+      "answer": "D",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "D"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "25",
+      "blankLabel": "25",
+      "groupId": "reading-3",
+      "questionType": "reading",
+      "mode": "choice",
+      "section": "第二题 阅读理解 C",
+      "stem": "How long does each shift last?",
+      "options": [
+        {
+          "key": "A",
+          "text": "24 hours."
+        },
+        {
+          "key": "B",
+          "text": "12 hours."
+        },
+        {
+          "key": "C",
+          "text": "8 hours."
+        },
+        {
+          "key": "D",
+          "text": "4 hours."
+        }
+      ],
+      "answer": "C",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "C"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "26",
+      "blankLabel": "26",
+      "groupId": "reading-3",
+      "questionType": "reading",
+      "mode": "choice",
+      "section": "第二题 阅读理解 C",
+      "stem": "What does the working mode of three shifts exist for?",
+      "options": [
+        {
+          "key": "A",
+          "text": "For making more money for workers."
+        },
+        {
+          "key": "B",
+          "text": "For avoiding long hours for workers."
+        },
+        {
+          "key": "C",
+          "text": "For protecting the machines."
+        },
+        {
+          "key": "D",
+          "text": "For needing workers' meet."
+        }
+      ],
+      "answer": "B",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "B"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "27",
+      "blankLabel": "27",
+      "groupId": "reading-3",
+      "questionType": "reading",
+      "mode": "choice",
+      "section": "第二题 阅读理解 C",
+      "stem": "According to the passage, which one of the following is TRUE?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Workers feel more tired when they are on the early shift."
+        },
+        {
+          "key": "B",
+          "text": "The working mode of three shifts only exists in manufacturing industry."
+        },
+        {
+          "key": "C",
+          "text": "Each shift has its own responsibilities."
+        },
+        {
+          "key": "D",
+          "text": "Night shift don't affect workers' life and physical health。"
+        }
+      ],
+      "answer": "C",
+      "reason": "参考答案依据原题与上下文整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "C"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "28",
+      "blankLabel": "28",
+      "groupId": "dialogue",
+      "questionType": "sentence_completion",
+      "mode": "choice",
+      "section": "第三题 补全对话",
+      "stem": "选择填入第 28 空的句子。",
+      "options": [
+        {
+          "key": "A",
+          "text": "I repair the engines of motor vehicles."
+        },
+        {
+          "key": "B",
+          "text": "Are you happy with your work?"
+        },
+        {
+          "key": "C",
+          "text": "I work in an auto 4S shop."
+        },
+        {
+          "key": "D",
+          "text": "I am a mechanic."
+        },
+        {
+          "key": "E",
+          "text": "Thank you very much."
+        },
+        {
+          "key": "F",
+          "text": "We are always busy."
+        },
+        {
+          "key": "G",
+          "text": "No problem"
+        }
+      ],
+      "answer": "C",
+      "reason": "根据前后对话的语义和问答衔接选择；29、31 空的 A、D 互换也可能构成通顺对话，请结合教学要求核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "C"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "29",
+      "blankLabel": "29",
+      "groupId": "dialogue",
+      "questionType": "sentence_completion",
+      "mode": "choice",
+      "section": "第三题 补全对话",
+      "stem": "选择填入第 29 空的句子。",
+      "options": [
+        {
+          "key": "A",
+          "text": "I repair the engines of motor vehicles."
+        },
+        {
+          "key": "B",
+          "text": "Are you happy with your work?"
+        },
+        {
+          "key": "C",
+          "text": "I work in an auto 4S shop."
+        },
+        {
+          "key": "D",
+          "text": "I am a mechanic."
+        },
+        {
+          "key": "E",
+          "text": "Thank you very much."
+        },
+        {
+          "key": "F",
+          "text": "We are always busy."
+        },
+        {
+          "key": "G",
+          "text": "No problem"
+        }
+      ],
+      "answer": "D",
+      "reason": "根据前后对话的语义和问答衔接选择；29、31 空的 A、D 互换也可能构成通顺对话，请结合教学要求核对。",
+      "examNote": "A、D 交换也可能语义通顺，参考答案需教师确认。",
+      "reviewStatus": "needs_review",
+      "invalid": true,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [],
+      "ambiguous": false
+    },
+    {
+      "label": "30",
+      "blankLabel": "30",
+      "groupId": "dialogue",
+      "questionType": "sentence_completion",
+      "mode": "choice",
+      "section": "第三题 补全对话",
+      "stem": "选择填入第 30 空的句子。",
+      "options": [
+        {
+          "key": "A",
+          "text": "I repair the engines of motor vehicles."
+        },
+        {
+          "key": "B",
+          "text": "Are you happy with your work?"
+        },
+        {
+          "key": "C",
+          "text": "I work in an auto 4S shop."
+        },
+        {
+          "key": "D",
+          "text": "I am a mechanic."
+        },
+        {
+          "key": "E",
+          "text": "Thank you very much."
+        },
+        {
+          "key": "F",
+          "text": "We are always busy."
+        },
+        {
+          "key": "G",
+          "text": "No problem"
+        }
+      ],
+      "answer": "B",
+      "reason": "根据前后对话的语义和问答衔接选择；29、31 空的 A、D 互换也可能构成通顺对话，请结合教学要求核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "B"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "31",
+      "blankLabel": "31",
+      "groupId": "dialogue",
+      "questionType": "sentence_completion",
+      "mode": "choice",
+      "section": "第三题 补全对话",
+      "stem": "选择填入第 31 空的句子。",
+      "options": [
+        {
+          "key": "A",
+          "text": "I repair the engines of motor vehicles."
+        },
+        {
+          "key": "B",
+          "text": "Are you happy with your work?"
+        },
+        {
+          "key": "C",
+          "text": "I work in an auto 4S shop."
+        },
+        {
+          "key": "D",
+          "text": "I am a mechanic."
+        },
+        {
+          "key": "E",
+          "text": "Thank you very much."
+        },
+        {
+          "key": "F",
+          "text": "We are always busy."
+        },
+        {
+          "key": "G",
+          "text": "No problem"
+        }
+      ],
+      "answer": "A",
+      "reason": "根据前后对话的语义和问答衔接选择；29、31 空的 A、D 互换也可能构成通顺对话，请结合教学要求核对。",
+      "examNote": "A、D 交换也可能语义通顺，参考答案需教师确认。",
+      "reviewStatus": "needs_review",
+      "invalid": true,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [],
+      "ambiguous": false
+    },
+    {
+      "label": "32",
+      "blankLabel": "32",
+      "groupId": "dialogue",
+      "questionType": "sentence_completion",
+      "mode": "choice",
+      "section": "第三题 补全对话",
+      "stem": "选择填入第 32 空的句子。",
+      "options": [
+        {
+          "key": "A",
+          "text": "I repair the engines of motor vehicles."
+        },
+        {
+          "key": "B",
+          "text": "Are you happy with your work?"
+        },
+        {
+          "key": "C",
+          "text": "I work in an auto 4S shop."
+        },
+        {
+          "key": "D",
+          "text": "I am a mechanic."
+        },
+        {
+          "key": "E",
+          "text": "Thank you very much."
+        },
+        {
+          "key": "F",
+          "text": "We are always busy."
+        },
+        {
+          "key": "G",
+          "text": "No problem"
+        }
+      ],
+      "answer": "F",
+      "reason": "根据前后对话的语义和问答衔接选择；29、31 空的 A、D 互换也可能构成通顺对话，请结合教学要求核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [
+        "F"
+      ],
+      "ambiguous": false
+    },
+    {
+      "label": "33",
+      "blankLabel": "33",
+      "groupId": "",
+      "questionType": "translation",
+      "mode": "input",
+      "section": "第四题 翻译",
+      "stem": "请将句子翻译成汉语。\nWhether or not you need to wear a uniform depends on the company culture.",
+      "options": [],
+      "answer": "是否需要穿制服取决于公司的企业文化。",
+      "reason": "参考答案依据原题整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [],
+      "ambiguous": false
+    },
+    {
+      "label": "34",
+      "blankLabel": "34",
+      "groupId": "",
+      "questionType": "translation",
+      "mode": "input",
+      "section": "第四题 翻译",
+      "stem": "请将句子翻译成汉语。\nTo keep the factory running, we have to work in three shifts.",
+      "options": [],
+      "answer": "为了让工厂保持运转，我们必须实行三班倒。",
+      "reason": "参考答案依据原题整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [],
+      "ambiguous": false
+    },
+    {
+      "label": "35",
+      "blankLabel": "35",
+      "groupId": "",
+      "questionType": "translation",
+      "mode": "input",
+      "section": "第四题 翻译",
+      "stem": "请将句子翻译成汉语。\nCarelessness could lead to a serious accident.",
+      "options": [],
+      "answer": "粗心可能导致严重事故。",
+      "reason": "参考答案依据原题整理，请教师核对。",
+      "examNote": "原卷此句未印题号；按前后顺序补为 35。",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [],
+      "ambiguous": false
+    },
+    {
+      "label": "36",
+      "blankLabel": "36",
+      "groupId": "",
+      "questionType": "translation",
+      "mode": "input",
+      "section": "第四题 翻译",
+      "stem": "昨天一整天都在下雨，所以我们不得不待在家里。\nIt rained all day long yesterday, so we had to _____  _____ home.",
+      "options": [],
+      "answer": "stay at",
+      "reason": "参考答案依据原题整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [],
+      "ambiguous": false
+    },
+    {
+      "label": "37",
+      "blankLabel": "37",
+      "groupId": "",
+      "questionType": "translation",
+      "mode": "input",
+      "section": "第四题 翻译",
+      "stem": "所有工人在车间都必须佩戴安全帽。\nAll workers are required to wear _______  ________ in the workshop.",
+      "options": [],
+      "answer": "safety helmets",
+      "reason": "参考答案依据原题整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [],
+      "ambiguous": false
+    },
+    {
+      "label": "38",
+      "blankLabel": "38",
+      "groupId": "",
+      "questionType": "short_answer",
+      "mode": "input",
+      "section": "第五题 句型转化",
+      "stem": "They are soldering over there.（改为否定句）\nThey __________  _________ soldering over there.",
+      "options": [],
+      "answer": "are not",
+      "reason": "参考答案依据原题整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [],
+      "ambiguous": false
+    },
+    {
+      "label": "39",
+      "blankLabel": "39",
+      "groupId": "",
+      "questionType": "short_answer",
+      "mode": "input",
+      "section": "第五题 句型转化",
+      "stem": "When you finish the work, you should clear up the machine.（改为被动语态）\nWhen you finish the work, the machine should _________  __________ up.",
+      "options": [],
+      "answer": "be cleared",
+      "reason": "参考答案依据原题整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [],
+      "ambiguous": false
+    },
+    {
+      "label": "40",
+      "blankLabel": "40",
+      "groupId": "",
+      "questionType": "short_answer",
+      "mode": "input",
+      "section": "第五题 句型转化",
+      "stem": "The CNC is made in China.（对画线部分提问）\n_________  __________ the machine made?",
+      "options": [],
+      "answer": "Where is",
+      "reason": "参考答案依据原题整理，请教师核对。",
+      "examNote": "原文件未明确显示画线部分；根据 in China 暂按地点提问，须教师核对。",
+      "reviewStatus": "needs_review",
+      "invalid": true,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [],
+      "ambiguous": false
+    },
+    {
+      "label": "41",
+      "blankLabel": "41",
+      "groupId": "",
+      "questionType": "short_answer",
+      "mode": "input",
+      "section": "第五题 句型转化",
+      "stem": "We had a wonderful time last weekend.（改为同义句）\nWe _________  _________ last weekend.",
+      "options": [],
+      "answer": "enjoyed ourselves / had fun",
+      "reason": "参考答案依据原题整理，请教师核对。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [],
+      "ambiguous": false
+    },
+    {
+      "label": "42",
+      "blankLabel": "42",
+      "groupId": "",
+      "questionType": "short_answer",
+      "mode": "input",
+      "section": "第五题 句型转化",
+      "stem": "They are very busy repairing the miller.（改为感叹句）\n_________  ________ they are repairing the miller!",
+      "options": [],
+      "answer": "How busily",
+      "reason": "按原卷给定句式，使用 How + 副词 + 主语 + 谓语；busily 修饰 repairing。",
+      "examNote": "",
+      "reviewStatus": "ok",
+      "invalid": false,
+      "reviewed": false,
+      "context": [],
+      "enrichment": [],
+      "optionNotes": [],
+      "sourcePages": [],
+      "accepted": [],
+      "ambiguous": false
+    }
+  ],
+  "ocrText": "2025级英语月考\n第一题 单项选择（共15小题；每小题2分，满分30分）\n从A、B、C、D四个选项中选出可以填入空白处的最佳选项。\n(    )\t1.I want to be _______ electrician in the future. \nA. a　\t\tB. an　\t\tC. the　\t\t\tD. /\n(    )2.Could you tell me ______ now?\nA. where does he live  B. where he lives\nC. where did he live  D. where he lived\n(    )3.A healthy diet can ______ the risk of heart disease.\nA. help  B. encourage  C. reduce  D. support\n(    )4.We heard someone ______ loudly in the next room while we were working.\nA. shout  B. to shout  C. shouting  D. shouted\t\n(    )5.-It is my first time travelling all by myself. I'm so worried.\n-______. There is plenty of information online.\nA. Take it easy  B. Try harder next time\nC. Thank you all the same  D. I can't agree more\n(    )6.Jack is _______ shy_________ introduce himself to new people.\nA. Not only; but also​B. enough; to ​​C. too; to  D. so；that\n(    )7.Don't be afraid ________ your mother-in-law.\nA. to meet ​B. meeting​  C. meet    D.meets\n(    )8.Either you or he ______ to clean the room every day.\nA. has  B. have  C. having  D. had\n(    )9. Great changes ______ in my hometown in the past few years.\nA. have been taken place     B. have taken place\nC. were taken place       D. are taken place\n(    )10._______ we don't work overtime, we_____ finish the task within the date of delivery.\nA. If; won't ​B. When; won't ​​ C. Unless; won't    D. Because; won't\n(    )11.Get the_________ food material ready and follow the cooking procedures.\n      A. requiring​​​B. required​​     C. require       D requirement\n(    )12.It is because he is ill ______ he can't come to school.\nA. why  B. which  C. that  D. when\n(     )13.If there ______ no buying and selling of animals, there ______ no killing.\nA. is; is     B. will be; will be      C. is; will be       D. will be; is\n(    )14. There is more space in the high-speed train and the travel becomes more ____-     \nA. serious\t   B.boring\t     C. dangerous\t   D.comfortable\t\n(    )15.The factory must strengthen safety education, ________ more safety accidents will  arise.\nA. unless  ​​B. so​​ ​C. or    D. because\n第二题 阅读理解（3篇短文，共12小题；每小题3分，满分36分）\n阅读下列短文，从每题所给的四个选项（A、B、C、D）中，选出最佳选项。\nA\nPPE is short for personal protective equipment. PPE is used to protect employees from serious injury or illness caused by exposure to chemical, radiation, electrical equipment, human equipment, or mechanical equipment. It includes face mask, safety glasses, helmet, safety gloves, safety shoes, ear protector, respirator and safety belt.\nThe purpose of PPE management is to ensure the safety and health of employees in production, and reasonably equip personal protective equipment. Dust, noise, poison, high temperature rays, electromagnetic radiation, ect. can cause serious occupational diseases, such as electric shock, lifting injury, falling object, piercing, or acid-base burns may occur in a dangerous workplace. Each workplace must focus on strengthening the supervision and the management of the use of personal labor protective equipment to ensure the safety and health of employees. In case of damage of failure of production equipment and possible leakage of harmful and toxic gases in the workplace, each workshop shall place necessary anti-toxic protective equipment at the conspicuous part of the site for emergency use.\nPPE management is mainly responsible for the development of monthly procurement plan, revision of labor protection equipment distribution standards and quality standards, responsible for supervising the equipment and the use of labor insurance supplies.\n(     )16.According to the passage, what is PPE?\nA. PPE is short for Philosophy，Politics and Economics.\nB. PPE is short for protective personal equipment.\nC. PPE is short for Polypheylene ethe.\nD. PPE is short for Property, Plant and Equipment.\n(     )17. Which one of the following is NOT included in the PPE?\nA. Safety belt\t\nB. Helmet\nC. Mobile phone\nD. Respirator\n(    )18. What can we see is harmful to people's health?\nA. Noise\nB. Dust\nC. High temperature rays\nD. All of above\n(    )19.  Through the passage, we know PPE management is very ______ for an enterprise.\nA. necessary\nB. dangerous\nC. interesting\nD. impressive\n\nB\nIt was the day before Christmas. Della had only one dollar and eighty-seven cents to buy a gift for her husband Jim. She had saved the money for months by carefully saving every coin. She wanted to get him something nice and useful, but she knew it was not enough for a really good gift. They lived in a small old house. Life was hard for them, but they loved each other deeply and cared for each other warmly.\nDella had long, beautiful brown hair. It was the best thing she had. She took good care of it every day. Jim had a gold watch. It came from his father and grandfather, so it was his greatest and most valuable treasure.\nDella wanted to buy a special gold chain for Jim's watch. But she had no more money. She thought and thought, and tears came to her eyes. At last, she had a brave idea. She went to a shop and sold her beautiful long hair. With the money, she bought the perfect watch chain at once.\nWhen Jim came home, he looked at Della quietly and felt very surprised. \"What's wrong with you?\" Della asked gently.\nJim smiled softly and said, \"I sold my watch to buy a set of beautiful combs for your lovely hair.\"\nThey both smiled through tears. They gave up their most favorite things for each other. Their true love and kind hearts were the best Christmas gift of all.Besides this, I often read English stories, jokes and easy novels. They help me understand a lot of things. So to do more reading is an important way to learn English well. And I also write English diaries. English has become a close friend of mine.\t\n(    )20.When did the story happen?\nA. On Christmas Day\nB. The day after Christmas\nC. The day before Christmas\nD. On New Year's Day\t\n(    )21. How did Della get the money for Jim's gift?\nA. She sold her beautiful hair.\nB. She worked in a shop.\nC. She asked her friends for help.\nD. She saved money for years.\n(    )22.What was Jim's most valuable treasure?\nA. His lovely house\nB. His gold watch\nC. A set of combs\nD. A gold chain\n(    )23.What can we learn from the story?\nA. Money is the most important.\nB. We should buy expensive gifts.\nC. True love is the best gift.\nD. We shouldn't sell our things.\n\nC\n Manufacturing industry usually adopts the working mode of three shifts, which refers to the early shift, the swing shift and the late shift. Each period lasts for eight hours. These three shifts should fully describe the responsibilities of each shift and establish a strict exchange shift system. The output and quality completed in three shifts should be separately recorded for acceptance and assessment, so as to clarify the responsibilities of workers in each shift and make them concerned. This maximizes production while avoiding long hours for workers. \nFor professionals like doctors, security guards and factory workers, late shift is inevitable (不可避免的). The three shift workers can easily get tired at night and are more likely to make mistakes. They are not only irritable, but also suffers from heart disease. The problem is how to minimise the phenomena of the lack of sleep, and minimize the impact of shifts on life and physical health.\n(    )24.What does the working mode of three shifts include?\nA. early shift.\nB. swing shift.\nC. late shift.\nD. All of above.\n(    )25.How long does each shift last?\nA. 24 hours.\nB. 12 hours.\nC. 8 hours.\nD. 4 hours.\n(    )26. What does the working mode of three shifts exist for?\nA. For making more money for workers.                \nB. For avoiding long hours for workers.              \nC. For protecting the machines.            \nD. For needing workers' meet.\n(    )27. According to the passage, which one of the following is TRUE?\nA. Workers feel more tired when they are on the early shift.\nB. The working mode of three shifts only exists in manufacturing industry.\nC. Each shift has its own responsibilities.\nD. Night shift don't affect workers' life and physical health。\n\n第三题 补全对话（共5小题；每小题2分，满分10分）\n阅读下列对话，从所给选项中，选出能够完成对话的最佳选项，选项中有两个多余选项。\nA: Long time no see. Where do you work now?\nB: 　28　\nA: Are you a salesman？\nB: No, I'm not. 　29\nA: Is the work heavy?\nB: A bit.\nA: 　30\nB: I think so. How about you?\nA: I work in a factory. 　31　\nB: Are you busy?\nA: Yes. 　32　  Of course, our salary is very good.\nB: That's great.\n\nA.I repair the engines of motor vehicles.\nB.Are you happy with your work?\nC.I work in an auto 4S shop.\nD.I am a mechanic.\nE.Thank you very much.\nF.We are always busy.\nG.No problem\n28.       \t29.       \t30.       \t31.        \t32.        \n\n\n\n第四题 翻译（共5小题；前三题每题4分，后两题每题1分，满分14分）\nPart A 请将下面的英语句子翻译成汉语。\n33. Whether or not you need to wear a uniform depends on the company culture.\n                                                                               \n34. To keep the factory running, we have to work in three shifts.\n                                                                              \nCarelessness could lead to a serious accident.\n                                                                              \nPart B 请根据所给中文提示，将下列译成英语的句子补充完整，一空一词。\n36．昨天一整天都在下雨,所以我们不得不待在家里。\nIt rained all day long yesterday, so we had to_____  _____ home.\n37．所有工人在车间都必须佩戴安全帽\nAll workers are required to wear _______   ________in the workshop.\n第五题 句型转化（共5小题；每小题两分，满分10分）\n38. They are soldering over there. (改为否定句)\nThey __________　_________soldering over there.\n39. When you finish the work, you should clear up the machine. (改为被动语态)\nWhen you finish the work, the machine should _________ __________ up.\n40. The CNC is made in China. (对画线部分提问)\n _________ __________the machine made?\n41. We had a wonderful time last weekend. (改为同义句)\nWe _________　_________ last weekend.\n42.They are very busy repairing the miller. (改为感叹句)   　   　  　　 　　　\n _________ ________they are repairing the miller！\n",
+  "pageOrder": [],
+  "orderNote": "",
+  "id": "builtin-25-class-english-monthly-exam",
+  "status": "draft",
+  "sourceType": "builtin",
+  "source": "25级《英语》课程月考试题 DOC",
+  "createdAt": "2026-11-02T00:00:00.000Z",
+  "updatedAt": "2026-11-02T00:00:00.000Z",
+  "images": [],
+  "version": 1,
+  "home": "/"
+}
