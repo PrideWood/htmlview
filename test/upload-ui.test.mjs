@@ -1,3 +1,4 @@
+import {phoneFrameHTML,phoneHeaderHTML,phoneLibraryHTML,phoneLibraryRowsHTML,phoneLessonHTML,phoneReaderHTML,phoneQuestionPickerHTML} from '../public/phone-library.js';
 import {hydrateMaterials,compactMaterials,updateSharedMaterial,hasMaterial,needsMaterial} from '../public/lesson-materials.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -7,7 +8,7 @@ import {readFile} from 'node:fs/promises';
 const code=(await readFile(new URL('../public/app.js',import.meta.url),'utf8')).replace(/^import .*;$/gm,'').replace(/^boot\(\)\.catch.*$/m,'');
 function app(){
  const nodes=new Map();const node=id=>{if(!nodes.has(id))nodes.set(id,{innerHTML:'',textContent:'',hidden:false});return nodes.get(id);};
- const context=vm.createContext({hydrateMaterials,compactMaterials,updateSharedMaterial,hasMaterial,needsMaterial,QUESTION_TYPES,OPTION_KEYS,inferQuestionType,selectQuestionType,document:{getElementById:node,querySelectorAll:()=>[],querySelector:()=>null,addEventListener(){}},window:{addEventListener(){}},matchMedia:()=>({matches:true,addEventListener(){}}),location:{hash:''},setInterval:()=>1,clearInterval(){},setTimeout:()=>1,clearTimeout(){},mountLogin(){},stopLogin(){}});
+ const context=vm.createContext({phoneFrameHTML,phoneHeaderHTML,phoneLibraryHTML,phoneLibraryRowsHTML,phoneLessonHTML,phoneReaderHTML,phoneQuestionPickerHTML,hydrateMaterials,compactMaterials,updateSharedMaterial,hasMaterial,needsMaterial,QUESTION_TYPES,OPTION_KEYS,inferQuestionType,selectQuestionType,document:{getElementById:node,querySelectorAll:()=>[],querySelector:()=>null,addEventListener(){}},window:{addEventListener(){}},matchMedia:()=>({matches:true,addEventListener(){}}),location:{hash:''},setInterval:()=>1,clearInterval(){},setTimeout:()=>1,clearTimeout(){},mountLogin(){},stopLogin(){}});
  vm.runInContext(code,context);return {context,node,run:s=>vm.runInContext(s,context)};
 }
 test('电脑与手机都提供 DOC 文件选择和文档清单，上传进度文案适用于文档',()=>{
@@ -16,7 +17,7 @@ test('电脑与手机都提供 DOC 文件选择和文档清单，上传进度文
  assert.doesNotMatch(code,/正在保存图片|DOC 请先另存/);
 });
 test('客户端自动请求后续批次直至完成，不需用户逐批点击',async()=>{
- const a=app();a.run("session={authenticated:true};doc={id:'batch',title:'批次',status:'uploaded',images:[],questions:[]};view='editor';let requests=0;api=async path=>{if(path==='/lessons')return {lessons:[]};requests++;const pending=requests<3;return {pending,progress:{completed:requests,remaining:3-requests},lesson:{id:'batch',title:'批次',status:pending?'uploaded':'draft',images:[],questions:pending?[]:[{label:'1'}]},timings:{}}}");
+ const a=app();a.run("session={authenticated:true};doc={id:'batch',title:'批次',status:'uploaded',images:[],questions:[]};view='editor';let requests=0;api=async path=>{if(path==='/lessons')return {lessons:[]};requests++;const pending=requests<3;return {pending,progress:{completed:requests,remaining:3-requests},lesson:{id:'batch',title:'批次',status:pending?'uploaded':'draft',images:[],questions:pending?[]:[{label:'1',options:[],context:[],enrichment:[]}]},timings:{}}}");
  await a.run('processDoc()');assert.equal(a.run('requests'),3);assert.equal(a.run('doc.status'),'draft');assert.equal(a.run('busy'),false);
 });
 
@@ -33,7 +34,7 @@ test('保存后重新按题号排序仍停留在正在校对的原题，不跳�
  await a.run('saveDraft()');assert.equal(a.run('qi'),2);assert.equal(a.run('doc.questions[qi].label'),'42');assert.equal(a.run('dirty'),false);
 });
 test('补全篇章自动请求后续批次并带上最新版本号，不覆盖小题',async()=>{
- const a=app();a.run("session={authenticated:true};view='editor';doc={id:'repair',title:'篇章补全',version:1,status:'draft',questions:[{label:'1',stem:'original',options:[],context:[]}],images:[]};let versions=[];api=async(path,options)=>{versions.push(options.body.version);const pending=versions.length<3;return {pending,progress:{completed:versions.length,remaining:3-versions.length},lesson:{...doc,version:doc.version+1,materials:[{id:'reading-a',questionLabels:['1'],context:[{type:'p',text:'Complete original passage.'}]}]}}}");
+ const a=app();a.run("session={authenticated:true};view='editor';doc={id:'repair',title:'篇章补全',version:1,status:'draft',questions:[{label:'1',stem:'original',options:[],context:[],enrichment:[]}],images:[]};let versions=[];api=async(path,options)=>{versions.push(options.body.version);const pending=versions.length<3;return {pending,progress:{completed:versions.length,remaining:3-versions.length},lesson:{...doc,version:doc.version+1,materials:[{id:'reading-a',questionLabels:['1'],context:[{type:'p',text:'Complete original passage.'}]}]}}}");
  await a.run('repairMaterials()');assert.equal(a.run('JSON.stringify(versions)'),'[1,2,3]');assert.equal(a.run('doc.questions[0].stem'),'original');assert.equal(a.run('doc.questions[0].context[0].text'),'Complete original passage.');assert.equal(a.run('busy'),false);
 });
 test('回收站详情提供恢复入口，正常资料提供带二次确认的删除入口',()=>{
@@ -54,4 +55,29 @@ test('应用删除弹窗仅明确确认才返回同意，取消与Esc关闭均�
 test('普通单选只显示折叠的附加材料，不显示完整篇章、空号和材料分组字段',()=>{
  const a=app();a.run('doc={questions:[]};qi=0');const html=a.run("questionHTML({label:'Q1',questionType:'single_choice',mode:'choice',section:'阅读理解',options:[{key:'A',text:'one'},{key:'B',text:'two'}],answer:'A',context:[{type:'p',text:'旧标题'}],enrichment:[]})");
  assert.doesNotMatch(html,/完整篇章 \/ 共享题干|id="q-blank-label"|id="q-group"/);assert.match(html,/<details><summary>附加材料（可选）/);assert.match(html,/旧标题/);
+});
+
+test('手机浏览资料只读取原文，不自动复制；编辑入口独立保留',async()=>{
+ const a=app();a.context.history={replaceState(){}};
+ a.run("session={authenticated:true};let calls=[];api=async path=>{calls.push(path);return {lesson:{id:'builtin-phone',title:'手机阅读',topic:'英语',questions:[{label:'1',stem:'Read.',options:[],context:[],enrichment:[]}],status:'ready',sourceType:'builtin'}}}");
+ await a.run("applyPhoneRoute('lesson/builtin-phone')");
+ assert.equal(a.run('view'),'lesson');assert.equal(a.run('doc.id'),'builtin-phone');
+ assert.equal(a.run("calls.some(path=>path.endsWith('/copy'))"),false);
+ assert.match(a.node('app').innerHTML,/复制并编辑/);
+});
+test('手机取消离开编辑页保留未保存内容；忙碌时不允许切页',async()=>{
+ const a=app();a.context.confirm=()=>false;a.context.location.replace=value=>{a.context.location.hash=value;};
+ a.run("session={authenticated:true};view='editor';doc={id:'local',questions:[{label:'1',stem:'Local draft'}]};dirty=true");
+ await a.run("applyPhoneRoute('upload')");
+ assert.equal(a.run('dirty'),true);assert.equal(a.run('view'),'editor');assert.equal(a.run('doc.questions[0].stem'),'Local draft');
+ assert.equal(a.context.location.hash,'#editor/local');
+ a.run('busy=true');await a.run("applyPhoneRoute('library')");assert.equal(a.run('view'),'editor');
+});
+test('手机打开资料期间返回原页，迟到的请求不会覆盖当前页',async()=>{
+ const a=app();a.context.history={replaceState(){}};
+ a.run("session={authenticated:true};view='library';let complete;api=()=>new Promise(resolve=>complete=resolve)");
+ const pending=a.run("applyPhoneRoute('lesson/slow')");assert.equal(a.run('phoneLoading'),true);
+ await a.run("applyPhoneRoute('library')");assert.equal(a.run('phoneLoading'),false);
+ a.run("complete({lesson:{id:'slow',title:'Slow lesson',questions:[]}})");await pending;
+ assert.equal(a.run('view'),'library');assert.equal(a.run('doc'),null);
 });

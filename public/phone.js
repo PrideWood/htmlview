@@ -6,7 +6,7 @@ history.replaceState(null,'',location.pathname);
 async function api(path,body){const r=await fetch('/api/auth/phone'+path,{method:body?'POST':'GET',headers:{'Content-Type':'application/json'},...(body?{body:JSON.stringify(body)}:{})});const d=await r.json();if(!r.ok)throw new Error(d.error||'授权失败');return d;}
 function status(text){$('phone-status').textContent=text;}
 let expiry;
-function done(text){clearInterval(expiry);status(text);$('phone-actions').innerHTML='<a class="primary auth-link" href="/">打开手机上传</a>';}
+function done(text){clearInterval(expiry);status(text);$('phone-actions').innerHTML='<a class="primary auth-link" href="/">打开手机工作台</a>';}
 async function start(){
  if(pair){status('仅绑定你自己的手机；继续后将替换旧手机并退出所有电脑。');$('phone-actions').innerHTML='<button id="pair-phone" class="primary">绑定这部手机</button>';$('pair-phone').onclick=async()=>{const b=$('pair-phone');b.disabled=true;try{await api('/pair',{token:pair});done('手机已绑定，以后可用这部手机扫码授权电脑登录');}catch(e){status(e.message);b.disabled=false;}};return;}
  const state=await api('/status');if(!state.trusted){status('这部手机尚未绑定。请在可信电脑生成绑定二维码，并用手机的同一个浏览器打开。');return;}

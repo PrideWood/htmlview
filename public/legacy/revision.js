@@ -79,7 +79,7 @@ document.addEventListener('keydown',e=>{
  if(next||prev){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)move(next?1:-1);}
  else if(['j','b','.'].includes(k)){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)explain();}
 },true);
-reference=function(){modal('讲义与说明','<p><strong>修订版操作：</strong>解析与材料以全屏内容显示；字号跟随题目页面统一调整。点击左下角图标展开导航，点击区域外收起。翻页后锁定 0.8 秒，防止连点跳题。上下翻页键切题；Tab 只轮选当前题可用选项，Enter 确认选项；未轮选时 Enter 仅定位首个选项，不猜选答案。非选择题用 Enter 逐个显示答案，全部显示后再按 Enter 打开解析；长按下翻页键（B/句号）仍开关解析。反馈栏整条可点开解析；解析轻触内容关闭，滑动阅读保持打开。解析打开时翻页键滚动，Esc 关闭。</p>'+ (lesson.reference.length?blocks(lesson.reference):'')+'<h3>来源</h3><p>'+esc(lesson.source)+'</p>'+lesson.notes.map(n=>'<p>'+esc(n)+'</p>').join(''));};$('reference').onclick=reference;
+reference=function(){modal('讲义与说明','<p><strong>修订版操作：</strong>解析与材料以全屏内容显示；字号跟随题目页面统一调整。点击左下角图标展开导航，点击区域外收起。翻页后锁定 0.8 秒，防止连点跳题。上下翻页键切题；Tab 只轮选当前题可用选项，Enter 确认选项；未轮选时 Enter 仅定位首个选项，不猜选答案。非选择题用 Enter 逐个显示答案，全部显示后再按 Enter 打开解析；长按下翻页键（B/句号）仍开关解析。反馈栏整条可点开解析；长按英文约半秒可查词，也可点击右上角“词典”输入单词查询。解析轻触内容关闭，滑动阅读保持打开。解析打开时翻页键滚动，Esc 关闭。</p>'+ (lesson.reference.length?blocks(lesson.reference):'')+'<h3>来源</h3><p>'+esc(lesson.source)+'</p>'+lesson.notes.map(n=>'<p>'+esc(n)+'</p>').join(''));};$('reference').onclick=reference;
 // Preserve the chosen question font across questions and window resizes.
 fit=function(reset=true){cancelAnimationFrame(fitFrame);if(reset)setFont(preferred);};
 

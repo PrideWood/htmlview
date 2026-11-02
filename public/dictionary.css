@@ -1,0 +1,29 @@
+#dictionary-dialog{--dict-bg:var(--board-bg,var(--ui-bg,#fff));--dict-soft:var(--board-soft,var(--ui-soft,#f5f9ff));--dict-ink:var(--board-ink,var(--ui-ink,#203650));--dict-muted:var(--board-muted,var(--ui-muted,#51647c));--dict-accent:var(--board-accent,var(--ui-accent,#0b60c9));--dict-line:var(--board-line,var(--ui-line,#dce7f5));width:min(520px,calc(100vw - 24px));max-width:calc(100vw - 24px);max-height:calc(100dvh - 32px);padding:24px;margin:auto;border:1px solid var(--dict-line);border-radius:18px;background:var(--dict-bg);color:var(--dict-ink);box-shadow:0 24px 90px #0004;overflow:auto;font:16px/1.6 Arial,"PingFang SC","Microsoft YaHei",sans-serif;overscroll-behavior:contain}
+#dictionary-dialog::backdrop{background:#0006}
+#dictionary-dialog .dictionary-heading{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;margin-bottom:20px}
+#dictionary-dialog .dictionary-heading p{margin:0 0 4px;color:var(--dict-muted);font-size:12px;letter-spacing:.05em}
+#dictionary-dialog h2{font-size:22px;line-height:1.4;margin:0;color:var(--dict-ink)}
+#dictionary-dialog button{color:var(--dict-accent);background:var(--dict-soft);border:1px solid var(--dict-line);font-size:15px;line-height:1.4;padding:10px 16px;border-radius:9px;cursor:pointer}
+#dictionary-dialog button:hover{border-color:var(--dict-accent);background:var(--dict-soft)}
+#dictionary-dialog #dictionary-close{padding:0;width:36px;height:36px;font-size:24px;flex-shrink:0}
+#dictionary-form{display:flex;gap:8px;margin:0 0 20px}
+#dictionary-dialog #dictionary-input{min-width:0;width:100%;font:inherit;font-size:16px;line-height:1.4;padding:10px 12px;border:1px solid var(--dict-line);border-radius:9px;background:var(--dict-soft);color:var(--dict-ink)}
+#dictionary-dialog #dictionary-input::placeholder{color:var(--dict-muted)}
+#dictionary-form button{flex-shrink:0}
+#dictionary-dialog :is(button,input,a,summary):focus-visible{outline:2px solid var(--dict-accent);outline-offset:3px}
+#dictionary-result{min-height:100px}
+#dictionary-dialog .dictionary-entry+.dictionary-entry{border-top:1px solid var(--dict-line);margin-top:20px;padding-top:20px}
+#dictionary-dialog h3{font-size:30px;line-height:1.25;margin:0 0 8px;font-weight:600;overflow-wrap:anywhere;color:var(--dict-ink)}
+#dictionary-dialog .dictionary-label{color:var(--dict-muted);font-size:12px;margin:0 0 8px}
+#dictionary-dialog .dictionary-phonetic{color:var(--dict-accent);margin:0 0 10px}
+#dictionary-dialog .dictionary-tags{color:var(--dict-muted);font-size:12px;margin:0 0 14px}
+#dictionary-dialog :is(.dictionary-translation,.dictionary-definition){white-space:pre-line;margin:0 0 16px;overflow-wrap:anywhere}
+#dictionary-dialog :is(.dictionary-forms,.dictionary-message){color:var(--dict-muted);font-size:14px;margin:0 0 16px;overflow-wrap:anywhere}
+#dictionary-dialog details{font-size:14px;border-top:1px solid var(--dict-line);padding-top:12px}
+#dictionary-dialog summary{cursor:pointer;color:var(--dict-accent);margin-bottom:10px}
+#dictionary-dialog .dictionary-footer{border-top:1px solid var(--dict-line);margin-top:20px;padding-top:14px;display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:space-between;font-size:12px;color:var(--dict-muted)}
+#dictionary-dialog a{color:var(--dict-accent)}
+.dictionary-sr{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+/* Keep native scrolling and selection while suppressing the iOS link/text callout. */
+:is(.stem,.option-text,#passage-content,#explanation-body,#dialog-body,.side-content){-webkit-touch-callout:none}
+@media(max-width:520px){#dictionary-dialog{padding:20px;max-height:calc(100dvh - 24px);border-radius:14px}#dictionary-dialog h3{font-size:28px}}

@@ -10,5 +10,6 @@ try{
  const presentation=presentationMaterials(orderedLesson(data.lesson));
  document.getElementById('lesson-data').textContent=JSON.stringify({...presentation,home:'/',questionTypeLabels:Object.fromEntries(Object.entries(QUESTION_TYPES).map(([k,v])=>[k,v.label])),presentationPages:buildPresentationPages(presentation.questions)});document.title=data.lesson.title+' · 课堂演示';
  for(const file of ['/legacy/player.js','/legacy/revision.js'])await new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=file;s.onload=resolve;s.onerror=reject;document.body.append(s);});
+ await import('./dictionary.js');
  if(data.lesson.status!=='ready'){const badge=document.createElement('span');badge.textContent='草稿预览 · 尚未确认用于课堂';badge.className='draft-badge';document.querySelector('.question-meta>div').append(badge);}
 }catch(e){document.body.className='';document.body.innerHTML='';const p=document.createElement('p');p.style.cssText='padding:40px;font:20px sans-serif';p.textContent=e.message;document.body.append(p);}

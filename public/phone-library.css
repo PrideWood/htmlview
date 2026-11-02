@@ -1,0 +1,108 @@
+/* Mobile workspace shares the desktop palette and typography. */
+@media(max-width:720px){
+ .phone-app{--phone-nav-height:68px;min-height:100dvh;background:var(--ui-bg);color:var(--ui-ink);padding-bottom:calc(var(--phone-nav-height) + env(safe-area-inset-bottom,0px))}
+ .phone-app button,.phone-app select,.phone-app input,.phone-app textarea{font-family:inherit}
+ .phone-app button{min-height:44px;color:var(--ui-accent);border-color:var(--ui-line);background:var(--ui-bg)}
+ .phone-app button:hover:not(:disabled){background:var(--ui-tint);border-color:var(--ui-line)}
+ .phone-app button:focus-visible,.phone-app a:focus-visible,.phone-app input:focus-visible,.phone-app select:focus-visible{outline:2px solid var(--ui-accent);outline-offset:3px}
+ .phone-page{max-width:600px;margin:auto;padding:24px 20px 32px;min-width:0}
+ .phone-page-header{display:flex;align-items:center;gap:13px;margin:0 0 26px;min-width:0}
+ .phone-page-header>img{width:38px;height:38px;border-radius:10px;flex-shrink:0}
+ .phone-page-header>div{min-width:0;flex:1}
+ .phone-page-header h1{font-size:23px;font-weight:650;line-height:1.4;margin:0;color:var(--ui-ink);overflow-wrap:anywhere}
+ .phone-page-header p{color:var(--ui-muted);font-size:12px;line-height:1.6;margin:5px 0 0;overflow-wrap:anywhere}
+ .phone-page-header .phone-back{width:40px;height:44px;padding:0;font-size:32px;background:var(--ui-soft);border:1px solid var(--ui-line);border-radius:11px;flex-shrink:0}
+ .phone-bottom-nav{position:fixed;bottom:0;inset-inline:0;z-index:30;display:grid;grid-template-columns:1fr 1fr;gap:8px;border-top:1px solid var(--ui-line);background:var(--ui-bg);padding:6px max(16px,calc((100vw - 560px)/2)) calc(6px + env(safe-area-inset-bottom,0px));box-shadow:0 -8px 30px #18345508}
+ .phone-bottom-nav button{border:0;background:transparent;border-radius:12px;min-height:55px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:11px;font-weight:550;color:var(--ui-muted);padding:5px 10px}
+ .phone-bottom-nav button[aria-current=page]{background:var(--ui-tint);color:var(--ui-accent)}
+ .phone-bottom-nav svg{width:22px;height:22px}
+ .phone-search{display:flex;align-items:center;gap:10px;padding:0 14px;border:1px solid var(--ui-line);border-radius:12px;background:var(--ui-soft);margin:0 0 18px;color:var(--ui-muted)}
+ .phone-search>span{font-size:27px;line-height:1}
+ .phone-search input{font-size:16px!important;margin:0;padding:13px 0;border:0!important;background:transparent!important;min-width:0;color:var(--ui-ink);width:100%;box-shadow:none}
+ .phone-search input::placeholder{color:var(--ui-muted);font-size:14px}
+ .phone-filters{display:flex;gap:7px;overflow-x:auto;padding:3px 1px 8px;margin-bottom:14px;scrollbar-width:none}
+ .phone-filters button{white-space:nowrap;border-radius:9px;font-size:12px;min-height:38px;padding:8px 12px;flex-shrink:0}
+ .phone-filters button[aria-pressed=true]{color:var(--ui-accent);background:var(--ui-tint);border-color:var(--ui-accent)}
+ .phone-list-caption{margin:16px 0 12px;font-size:12px;color:var(--ui-muted);line-height:1.6}
+ .phone-list{border:1px solid var(--ui-line);border-radius:14px;overflow:hidden;background:var(--ui-bg)}
+ .phone-list .phone-library-row{display:flex;align-items:center;gap:12px;width:100%;min-height:84px;padding:18px 14px;border:0;border-bottom:1px solid var(--ui-line);border-radius:0;text-align:left;background:var(--ui-bg)}
+ .phone-library-row:last-child{border-bottom:0}
+ .phone-row-icon{display:grid;place-items:center;width:38px;height:42px;border-radius:9px;background:var(--ui-soft);color:var(--ui-accent);flex-shrink:0}
+ .phone-row-icon svg{width:23px;height:23px}
+ .phone-row-copy{flex:1;min-width:0;display:block}
+ .phone-row-copy strong{font-size:14px;font-weight:600;line-height:1.65;color:var(--ui-ink);overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+ .phone-row-copy small{font-size:11px;line-height:1.7;margin-top:5px;color:var(--ui-muted);font-weight:400;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}
+ .phone-chevron{font-size:23px;line-height:1;color:var(--ui-muted);font-weight:400;flex-shrink:0}
+ .phone-status{display:inline-block;font-size:10px;line-height:1.6;color:var(--ui-accent);background:var(--ui-tint);padding:4px 7px;border-radius:6px;white-space:nowrap;flex-shrink:0;font-weight:500}
+ .phone-empty{padding:40px 18px;text-align:center;color:var(--ui-muted);font-size:14px;line-height:1.8;border:1px dashed var(--ui-line);border-radius:14px}
+ .phone-empty strong{font-weight:550;color:var(--ui-ink)}
+ .phone-empty p{font-size:13px;margin:10px 0 20px}
+ .phone-lesson-summary{display:flex;align-items:center;gap:12px;font-size:12px;color:var(--ui-muted);margin-bottom:18px}
+ .phone-lesson-actions{display:flex;gap:10px;margin-bottom:28px}
+ .phone-lesson-actions>*{flex:1;text-align:center;font-size:14px;min-height:46px}
+ .phone-app a.phone-primary-link{background:var(--ui-accent);color:var(--ui-on-accent,#fff)!important;border-radius:9px;display:flex;align-items:center;justify-content:center;padding:10px 14px}
+ .phone-reader-tools{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}
+ .phone-reader-tools button{font-size:13px}
+ .phone-question-card,.phone-answer,.phone-reading-material{background:var(--ui-soft);padding:18px;border:1px solid var(--ui-line);border-radius:12px;margin:0 0 18px;font-size:16px;line-height:1.9;overflow-wrap:anywhere}
+ .phone-question-card{background:var(--ui-bg)}
+ .phone-question-stem{font-size:18px;line-height:1.9;white-space:pre-wrap;margin:0;font-weight:550;color:var(--ui-ink)}
+ .phone-question-options{list-style:none;padding:0;margin:22px 0 0;display:grid;gap:10px}
+ .phone-question-options li{display:flex;gap:12px;align-items:baseline;padding:12px;background:var(--ui-soft);border-radius:8px}
+ .phone-question-options b{font-size:14px;font-weight:600;color:var(--ui-accent)}
+ .phone-question-options span{white-space:pre-wrap;min-width:0;font-size:16px}
+ .phone-answer summary,.phone-reading-material summary{cursor:pointer;font-weight:600;font-size:14px;color:var(--ui-accent);min-height:30px;line-height:30px}
+ .phone-answer p,.phone-reading-material p{white-space:pre-wrap;margin:14px 0;font-size:16px}
+ .phone-answer .phone-answer-label{font-size:12px;color:var(--ui-muted);margin-bottom:5px}
+ .phone-answer h3{font-size:15px;margin:20px 0 8px;color:var(--ui-accent)}
+ .phone-answer section{border-top:1px solid var(--ui-line);margin-top:16px}
+ .phone-reading-material img{display:block;width:100%;height:auto;margin:12px 0}
+ .phone-table{overflow:auto;max-width:100%}.phone-table table{width:100%;border-collapse:collapse;font-size:14px}.phone-table td{border:1px solid var(--ui-line);padding:10px;min-width:90px;white-space:pre-wrap}
+ .phone-question-pagination{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:22px 0 4px}
+ .phone-question-pagination button{flex:1;font-size:13px;padding:10px 12px}
+ .phone-question-pagination>span{font-size:12px;color:var(--ui-muted)}
+ .phone-loading{position:fixed;top:16px;left:50%;transform:translateX(-50%);z-index:45;box-shadow:0 4px 30px #0002;padding:12px 20px;border:1px solid var(--ui-line);border-radius:12px;background:var(--ui-bg);color:var(--ui-accent);font-size:14px}
+ .phone-app .phone-capture{min-height:calc(100dvh - 68px);padding-bottom:28px;font-family:inherit}
+ .phone-app .phone-heading h1{font-family:inherit;font-size:28px;font-weight:650}
+ .phone-app .phone-capture header{margin-bottom:34px}
+ .phone-app .capture-main{background:var(--ui-accent);color:var(--ui-on-accent,#fff)}
+ .phone-app .capture-main span,.phone-app .capture-main svg{color:inherit}
+ .phone-app :is(.phone-foot,.phone-sequence,.capture-gallery small,.phone-receipt p,.phone-receipt>span){color:var(--ui-muted)}
+ .phone-app .capture-gallery>span,.phone-app .capture-gallery b{color:var(--ui-accent)}
+ .phone-app .phone-order{background:var(--ui-soft)}
+ .phone-editor{padding-bottom:110px}
+ .phone-editor .editor-top{margin:0 0 22px;padding:0}
+ .phone-editor .editor-top h1{font-size:19px;line-height:1.55;margin:6px 0 12px;overflow-wrap:anywhere}
+ .phone-editor .editor-top .eyebrow{display:none}
+ .phone-editor #save-state{font-size:12px;line-height:1.8}
+ .phone-editor .editor-actions{position:fixed;bottom:calc(68px + env(safe-area-inset-bottom,0px));left:0;right:0;z-index:29;display:flex;gap:10px;padding:12px 20px;margin:0;border-top:1px solid var(--ui-line);background:var(--ui-bg)}
+ .phone-editor .editor-actions button{flex:1;min-height:46px;font-size:13px;padding:10px 12px}
+ .phone-editor .editor-actions :is([data-action=preview],[data-action=export]){display:none}
+ .phone-editor .editor-grid{display:flex;gap:18px;margin:0}
+ .phone-editor .editor-grid>.panel{padding:18px;border-color:var(--ui-line);background:var(--ui-bg);margin:0;box-shadow:none;border-radius:12px}
+ .phone-editor .editor-grid>.source-panel{order:2;max-height:none;overflow:visible}
+ .phone-editor .source-panel>summary{min-height:36px;line-height:36px;color:var(--ui-accent);font-size:14px;cursor:pointer;font-weight:600}
+ .phone-editor .source-panel>details{margin-top:18px}
+ .phone-editor .question-header{flex-wrap:wrap;gap:8px;justify-content:flex-start;align-items:center}
+ .phone-editor .question-header h3{width:100%;font-size:16px;margin:0 0 8px}
+ .phone-editor .question-header button{font-size:11px;padding:9px 10px}
+ .phone-editor .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+ .phone-editor .row>*{min-width:0;max-width:none}
+ .phone-editor label{font-size:12px;line-height:1.7}
+ .phone-editor :is(input,select,textarea){font-size:16px;max-width:100%;border-color:var(--ui-line)}
+ .phone-editor textarea{line-height:1.75}
+ .phone-editor .option-edit{gap:8px;align-items:flex-start}
+ .phone-editor .option-edit strong{line-height:44px;flex-shrink:0}
+ .phone-editor .option-edit textarea{font-size:16px;line-height:1.6;min-height:70px;padding:10px}
+ .phone-editor .option-edit button{flex-shrink:0;width:36px;min-height:44px;padding:4px}
+ .phone-editor .check{align-items:flex-start;font-size:13px;margin-top:18px;line-height:1.8}
+ .phone-editor .check input{margin-top:4px;flex-shrink:0}
+ .phone-edit-picker{margin:16px 0 20px;padding:14px;background:var(--ui-soft);border-radius:10px}
+ .phone-edit-picker label{margin:0 0 8px;display:block;color:var(--ui-muted)}
+ .phone-edit-picker select{width:100%;min-height:44px}
+ .phone-edit-picker .phone-question-pagination{margin-top:12px}
+ .phone-editor details>summary{color:var(--ui-accent);font-size:14px;line-height:1.8;min-height:36px}
+ .phone-editor .material-editor{padding:12px;background:var(--ui-soft);border-color:var(--ui-line)}
+ .phone-editor .material-editor h3{font-size:15px}
+ #toast{bottom:calc(86px + env(safe-area-inset-bottom,0px));font-size:13px!important;padding:12px 16px!important}
+ body:has(.phone-editor) #toast{bottom:calc(156px + env(safe-area-inset-bottom,0px))}
+}

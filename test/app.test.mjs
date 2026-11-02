@@ -18,6 +18,14 @@ before(async()=>{
 });
 after(async()=>{await Promise.all([new Promise(r=>app.close(r)),new Promise(r=>model.close(r))]);await rm(process.env.DATA_DIR,{recursive:true,force:true});});
 async function call(url,method='GET',body){const r=await fetch(base+'/api'+url,{method,headers:{'Content-Type':'application/json'},body:body===undefined?undefined:JSON.stringify(body)});return {status:r.status,data:await r.json(),serverTiming:r.headers.get('server-timing')};}
+test('内置原图及副本保留可读取的静态资源地址，不进入上传照片接口',async()=>{
+ const original=await call('/lessons/builtin-danzhao2025-reading-22');
+ assert.equal(original.data.lesson.images[0].url,'/builtin-assets/danzhao-2025/reading-22-page-075.png');
+ const copy=await call('/lessons/builtin-danzhao2025-reading-22/copy','POST',{});
+ assert.equal(copy.status,201);assert.equal(copy.data.lesson.images[0].url,original.data.lesson.images[0].url);
+ const saved=await call('/lessons/'+copy.data.lesson.id);
+ assert.equal(saved.data.lesson.images[0].url,original.data.lesson.images[0].url);
+});
 test('选择题必须为一个有效字母，重复题号不通过',()=>{assert.throws(()=>validateLesson({...lesson,questions:[{...lesson.questions[0],answer:'A或B'}]}),/答案必须/);assert.throws(()=>validateLesson({...lesson,questions:[lesson.questions[0],lesson.questions[0]]}),/重复/);});
 test('模型的不确定答案不计分且不自动完成老师校对',()=>{const d=validateLesson({...lesson,questions:[{...lesson.questions[0],reviewStatus:'needs_review',answer:''}]},{fromModel:true});assert.equal(d.questions[0].invalid,true);assert.deepEqual(d.questions[0].accepted,[]);assert.equal(d.questions[0].reviewed,false);});
 test('支持代码围栏JSON，不接受损坏的JSON',()=>{assert.equal(parseModelJSON('```json\n{"title":"a"}\n```').title,'a');assert.throws(()=>parseModelJSON('{"title":'),/完整有效/);});
