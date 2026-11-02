@@ -38,5 +38,15 @@ test('补全篇章自动请求后续批次并带上最新版本号，不覆盖�
 });
 test('回收站详情提供恢复入口，正常资料提供带二次确认的删除入口',()=>{
  const a=app();const normal=a.run("libraryDetailHTML({id:'a',title:'课件',status:'draft',topic:'英语',count:2,sourceType:'document',updatedAt:'2026-01-01'})");assert.match(normal,/data-trash="a"/);
- const trashed=a.run("libraryDetailHTML({id:'a',title:'课件',status:'trashed',topic:'英语',count:2,sourceType:'document',updatedAt:'2026-01-01'})");assert.match(trashed,/data-untrash="a"/);assert.doesNotMatch(trashed,/data-play=|data-trash=/);assert.match(code,/confirm\('确定删除/);
+ const trashed=a.run("libraryDetailHTML({id:'a',title:'课件',status:'trashed',topic:'英语',count:2,sourceType:'document',updatedAt:'2026-01-01'})");assert.match(trashed,/data-untrash="a"/);assert.doesNotMatch(trashed,/data-play=|data-trash=/);assert.match(code,/await confirmDeletion/);assert.doesNotMatch(code,/confirm\('确定删除/);
+});
+
+test('应用删除弹窗仅明确确认才返回同意，取消与Esc关闭均不删除',async()=>{
+ for(const result of ['delete','cancel','']){
+  const a=app();const dialog=a.node('delete-dialog');let listener;
+  dialog.addEventListener=(name,fn)=>{listener=fn;};dialog.showModal=()=>{dialog.open=true;};dialog.close=value=>{dialog.returnValue=value;dialog.open=false;listener();};
+  const pending=a.run("confirmDeletion('<script>资料名称</script>')");assert.equal(a.node('delete-dialog-name').textContent,'<script>资料名称</script>');assert.equal(dialog.open,true);
+  if(result==='delete')a.node('delete-dialog-confirm').onclick();else if(result==='cancel')a.node('delete-dialog-cancel').onclick();else dialog.close('');
+  assert.equal(await pending,result==='delete');
+ }
 });

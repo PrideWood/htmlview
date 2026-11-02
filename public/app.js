@@ -12,6 +12,16 @@ let uploadForm={title:'',topic:'',text:''},uploadSession=null;
 const phoneScreen=()=>matchMedia('(max-width:720px)').matches;
 const statusLabel={ready:'可用于课堂',draft:'待校对',uploaded:'待识别',processing:'识别中',error:'识别失败',archived:'已收起',trashed:'回收站'};
 async function api(path,options={}){const r=await fetch('/api'+path,{...options,headers:{'Content-Type':'application/json',...options.headers},body:options.body===undefined?undefined:JSON.stringify(options.body)});let d;try{d=await r.json();}catch{throw new Error('服务未返回有效响应，请检查网络或部署配置。');}if(!r.ok){if(r.status===401){session.authenticated=false;render();}throw new Error(d.error||'操作失败');}return d;}
+function confirmDeletion(title){
+ const dialog=$('delete-dialog');if(dialog.open)return Promise.resolve(false);
+ $('delete-dialog-name').textContent=title;dialog.returnValue='';
+ return new Promise(resolve=>{
+  dialog.addEventListener('close',()=>resolve(dialog.returnValue==='delete'),{once:true});
+  $('delete-dialog-cancel').onclick=()=>dialog.close('cancel');
+  $('delete-dialog-confirm').onclick=()=>dialog.close('delete');
+  dialog.showModal();
+ });
+}
 function toast(msg,error=false){const el=$('toast');el.textContent=msg;el.className=error?'error':'';el.hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.hidden=true,error?8000:4000);}
 async function run(fn){try{await fn();}catch(e){toast(e.message,true);}}
 function nav(next){if(busy){toast('正在保存或识别，请完成后再切换页面。');return;}if(dirty&&!confirm('有尚未保存的修改，确定离开吗？'))return;dirty=false;view=next;location.hash=next;render();if(next==='library')run(refresh);}
@@ -104,7 +114,7 @@ document.addEventListener('click',e=>run(async()=>{
  if(b.dataset.sort){libraryOrder=b.dataset.sort;try{localStorage.setItem('ybt-library-order',libraryOrder);}catch{}document.querySelectorAll('[data-sort]').forEach(el=>el.setAttribute('aria-checked',String(el.dataset.sort===libraryOrder)));$('library-sort-menu').open=false;$('library-sort-menu').querySelector('summary').focus();renderCards();return;}
  if(b.dataset.topic!==undefined){topic=b.dataset.topic;selectedFile=null;renderCards();return;}
  if(b.dataset.nav){nav(b.dataset.nav);return;}if(b.dataset.filter){if(dirty&&!confirm('有未保存修改，确定离开吗？'))return;dirty=false;filter=b.dataset.filter;limit=100;view='library';location.hash='library';render();run(refresh);return;}
- if(b.dataset.trash||b.dataset.untrash){const id=b.dataset.trash||b.dataset.untrash,item=lessons.find(x=>x.id===id);if(!item)throw new Error('资料不存在，请刷新后重试。');if(b.dataset.trash&&!confirm('确定删除“'+item.title+'”？删除后可在回收站恢复。'))return;await api('/lessons/'+id+'/'+(b.dataset.trash?'trash':'untrash'),{method:'POST',body:{version:item.version}});selectedFile=null;await refresh();renderCards();toast(b.dataset.trash?'已移入回收站。':'资料已恢复。');return;}
+ if(b.dataset.trash||b.dataset.untrash){const id=b.dataset.trash||b.dataset.untrash,item=lessons.find(x=>x.id===id);if(!item)throw new Error('资料不存在，请刷新后重试。');if(b.dataset.trash&&!await confirmDeletion(item.title))return;await api('/lessons/'+id+'/'+(b.dataset.trash?'trash':'untrash'),{method:'POST',body:{version:item.version}});selectedFile=null;await refresh();renderCards();toast(b.dataset.trash?'已移入回收站。':'资料已恢复。');return;}
  if(b.dataset.play){window.open('/player.html?id='+encodeURIComponent(b.dataset.play),'_blank','noopener');return;}
  if(b.dataset.edit){await openDoc(b.dataset.edit,builtInId(b.dataset.edit));return;}
  if(b.dataset.photoRemove!==undefined){uploadSession=null;photos.splice(+b.dataset.photoRemove,1);photoList();return;}
@@ -143,7 +153,7 @@ document.addEventListener('click',e=>run(async()=>{
  case 'add-rule':q.enrichment.push({phrase:'',meaning:'',usage:'',example:'',translation:'',contrast:''});q.reviewed=false;markDirty();render();break;
  case 'apply-extra':{let notes;try{notes=JSON.parse($('q-extra').value);}catch{throw new Error('逐项解析JSON格式不正确。');}if(!Array.isArray(notes)||notes.some(n=>!n||typeof n!=='object'))throw new Error('请输入解析对象数组。');q.optionNotes=notes;q.reviewed=false;markDirty();render();toast('逐项解析已应用，记得保存。');break;}
  case 'review-all':doc.questions.forEach(x=>x.reviewed=true);markDirty();render();toast('已标记全部题目，请保存。');break;
- case 'delete-document':if(dirty)throw new Error('请先保存修改，再删除资料。');if(!confirm('确定删除“'+doc.title+'”？删除后可在回收站恢复。'))break;await api('/lessons/'+doc.id+'/trash',{method:'POST',body:{version:doc.version}});dirty=false;doc=null;view='library';filter='all';location.hash='library';render();await refresh();toast('已移入回收站。');break;
+ case 'delete-document':if(dirty)throw new Error('请先保存修改，再删除资料。');if(!await confirmDeletion(doc.title))break;await api('/lessons/'+doc.id+'/trash',{method:'POST',body:{version:doc.version}});dirty=false;doc=null;view='library';filter='all';location.hash='library';render();await refresh();toast('已移入回收站。');break;
  case 'archive':if(dirty)throw new Error('请先保存修改再收起资料。');doc=(await api('/lessons/'+doc.id+'/'+(doc.status==='archived'?'restore':'archive'),{method:'POST',body:{version:doc.version}})).lesson;await refresh();render();toast('已更新资料状态。');break;
  }
 }));
