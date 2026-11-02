@@ -1,16 +1,10 @@
 /* Shared classroom controls. No network or build step required. */
 (()=>{
-const root=document.documentElement;
 const explanation=document.createElement('dialog');
 explanation.id='explanation-dialog';explanation.setAttribute('aria-labelledby','explanation-title');
-explanation.innerHTML=`<header class="explanation-header"><h2 id="explanation-title">解析与积累</h2><div class="explanation-tools"><button id="exp-material">题目材料</button><button id="exp-smaller" aria-label="减小解析字号">A−</button><input id="exp-font" aria-label="解析字号" type="range" min="18" max="72"><span id="exp-size"></span><button id="exp-larger" aria-label="增大解析字号">A+</button><button id="exp-close" aria-label="关闭解析">关闭 ×</button></div></header><div id="explanation-body" tabindex="0"></div><footer class="explanation-footer"><span></span><button id="exp-up">↑ 上一屏</button><button id="exp-down">↓ 下一屏</button></footer>`;
+explanation.innerHTML=`<h2 id="explanation-title" class="explanation-accessible-title">解析与积累</h2><div id="explanation-body" tabindex="0"></div>`;
 document.body.append(explanation);
-let expFont=Number(store.get('ybt-explanation-font'))||32;
-function changeExp(n){expFont=Math.max(18,Math.min(72,n));root.style.setProperty('--explanation-font',expFont+'px');$('exp-font').value=expFont;$('exp-size').textContent=expFont;store.set('ybt-explanation-font',expFont);}
-changeExp(expFont);
-$('exp-smaller').onclick=()=>changeExp(expFont-2);$('exp-larger').onclick=()=>changeExp(expFont+2);$('exp-font').oninput=e=>changeExp(+e.target.value);$('exp-close').onclick=()=>explanation.close();
 function scrollExp(dir){$('explanation-body').scrollBy({top:dir*Math.max(100,$('explanation-body').clientHeight*.8),behavior:'smooth'});}
-$('exp-up').onclick=()=>scrollExp(-1);$('exp-down').onclick=()=>scrollExp(1);
 // Close on a tap, never on a scroll, drag, selection or toolbar interaction.
 let explanationTouch=null;
 explanation.addEventListener('pointerdown',e=>{
@@ -35,7 +29,7 @@ function explanationHTML(q){
 }
 showSide=function(view){sideView=view;if(!view){if(explanation.open)explanation.close();return;}
  const q=current();$('explanation-body').innerHTML=view==='context'?blocks(q.context,q.label):pageIndices().map(i=>'<section class="page-explanation"><h2>原题 '+esc(lesson.questions[i].label)+'</h2>'+explanationHTML(lesson.questions[i])+'</section>').join('');$('explanation-title').textContent=(view==='context'?'题目材料':'解析与积累')+' · 原题 '+pageIndices().map(i=>lesson.questions[i].label).join('、');$('side').hidden=true;$('layout').classList.remove('with-side');
- $('exp-material').hidden=!q.context.length;$('exp-material').textContent=view==='context'?'查看解析':'题目材料';$('exp-material').onclick=()=>{if(sideView==='context')explain();else showSide('context');};
+
  if(!explanation.open)explanation.showModal();$('explanation-body').scrollTop=0;$('explanation-body').focus({preventScroll:true});
 };
 renderSide=function(){ $('material').hidden=!current().context.length;$('side').hidden=true;$('layout').classList.remove('with-side'); };
@@ -85,7 +79,7 @@ document.addEventListener('keydown',e=>{
  if(next||prev){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)move(next?1:-1);}
  else if(['j','b','.'].includes(k)){e.preventDefault();e.stopImmediatePropagation();if(!e.repeat)explain();}
 },true);
-reference=function(){modal('讲义与说明','<p><strong>修订版操作：</strong>解析与材料以大对话框显示；解析字号独立保存。点击左下角图标展开导航，点击区域外收起。翻页后锁定 0.8 秒，防止连点跳题。上下翻页键切题；Tab 只轮选当前题可用选项，Enter 确认选项；未轮选时 Enter 仅定位首个选项，不猜选答案。非选择题用 Enter 逐个显示答案，全部显示后再按 Enter 打开解析；长按下翻页键（B/句号）仍开关解析。反馈栏整条可点开解析；解析轻触内容关闭，滑动阅读保持打开。解析打开时翻页键滚动，Esc 关闭。</p>'+ (lesson.reference.length?blocks(lesson.reference):'')+'<h3>来源</h3><p>'+esc(lesson.source)+'</p>'+lesson.notes.map(n=>'<p>'+esc(n)+'</p>').join(''));};$('reference').onclick=reference;
+reference=function(){modal('讲义与说明','<p><strong>修订版操作：</strong>解析与材料以全屏内容显示；字号跟随题目页面统一调整。点击左下角图标展开导航，点击区域外收起。翻页后锁定 0.8 秒，防止连点跳题。上下翻页键切题；Tab 只轮选当前题可用选项，Enter 确认选项；未轮选时 Enter 仅定位首个选项，不猜选答案。非选择题用 Enter 逐个显示答案，全部显示后再按 Enter 打开解析；长按下翻页键（B/句号）仍开关解析。反馈栏整条可点开解析；解析轻触内容关闭，滑动阅读保持打开。解析打开时翻页键滚动，Esc 关闭。</p>'+ (lesson.reference.length?blocks(lesson.reference):'')+'<h3>来源</h3><p>'+esc(lesson.source)+'</p>'+lesson.notes.map(n=>'<p>'+esc(n)+'</p>').join(''));};$('reference').onclick=reference;
 // Preserve the chosen question font across questions and window resizes.
 fit=function(reset=true){cancelAnimationFrame(fitFrame);if(reset)setFont(preferred);};
 
