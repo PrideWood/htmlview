@@ -39,9 +39,9 @@ $('prev').onclick=()=>move(-1);$('next').onclick=()=>move(1);
 // Presenter buttons use the short Tab / Enter key events; OS window shortcuts remain untouched.
 let selectedPresenterControl=null,lastEnter=-Infinity;
 function clearPresenterSelection(){if(selectedPresenterControl){selectedPresenterControl.classList.remove('presenter-focus');if(document.activeElement===selectedPresenterControl)selectedPresenterControl.blur();}selectedPresenterControl=null;}
-function presenterChoices(){return [...document.querySelectorAll('.option:not(:disabled)')].filter(b=>!b.hidden&&!b.disabled);}
+function presenterChoices(){return [...document.querySelectorAll('.option:not(:disabled),#submit-multiple:not(:disabled)')].filter(b=>!b.hidden&&!b.disabled);}
 function focusPresenterChoice(reverse=false){const choices=presenterChoices();if(!choices.length)return;const pos=choices.indexOf(selectedPresenterControl);const next=pos<0?(reverse?choices.length-1:0):(pos+(reverse?-1:1)+choices.length)%choices.length;clearPresenterSelection();selectedPresenterControl=choices[next];selectedPresenterControl.classList.add('presenter-focus');selectedPresenterControl.focus({preventScroll:true});selectedPresenterControl.scrollIntoView({block:'nearest',inline:'nearest'});}
-function enterPresenter(){const now=performance.now();if(now-lastEnter<800)return;lastEnter=now;const selected=selectedPresenterControl;clearPresenterSelection();if(selected&&!selected.disabled){selected.click();return;}const choices=presenterChoices();if(choices.length){focusPresenterChoice();return;}if(current().mode==='choice')return;if(pageIsRevealed())explain();else reveal();}
+function enterPresenter(){const now=performance.now();if(now-lastEnter<800)return;lastEnter=now;const selected=selectedPresenterControl;clearPresenterSelection();if(selected&&!selected.disabled){selected.click();return;}const choices=presenterChoices();if(choices.length){focusPresenterChoice();return;}if(['choice','multi'].includes(current().mode))return;if(pageIsRevealed())explain();else reveal();}
 $('show-answer').onclick=reveal;
 document.addEventListener('pointerdown',()=>clearPresenterSelection());
 explanation.addEventListener('close',()=>{clearPresenterSelection();const active=document.activeElement;if(active&&active!==document.body&&active.blur)active.blur();});

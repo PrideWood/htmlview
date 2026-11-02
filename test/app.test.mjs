@@ -97,3 +97,15 @@ test('DOC 原件可上传下载并参与模型整理',async()=>{
  assert.match(d.inputText,/英语练习/);assert.equal(d.documents[0].mime,'application/msword');assert.deepEqual(Buffer.from(await (await fetch(base+d.documents[0].url)).arrayBuffer()),bytes);
  try{mockResponder=b=>{assert.match(batchText(b),/We have lived here/);return modelReply(lesson);};r=await call('/lessons/'+d.id+'/recognize','POST',{});assert.equal(r.status,200);assert.equal(r.data.lesson.status,'draft');}finally{mockResponder=null;}
 });
+
+test('模型识别到七选五与多选时，题型、共享选项、原空号和多选答案经 API 完整保存',async()=>{
+ const bank=Array.from('ABCDEFG',key=>({key,text:'Sentence '+key}));const context=[{type:'p',text:'七选五 passage ____ (36) ____ (37) ____ (38) ____ (39) ____ (40)'}];
+ const questions=Array.from('CEBFA',(answer,i)=>({...lesson.questions[0],label:String(36+i),blankLabel:String(36+i),questionType:'sentence_completion',groupId:'Reading A',options:bank,context,answer}));
+ questions.push({...lesson.questions[0],label:'41',questionType:'multiple_choice',mode:'multi',answer:'A,C',options:bank});
+ try{mockResponder=b=>{assert.match(b.messages[0].content,/每个空单独一题/);assert.match(b.messages[0].content,/multiple_choice/);return modelReply({...lesson,questions});};
+ let r=await call('/imports','POST',{images:[],text:'文档导入原题：七选五和多选'});const id=r.data.lesson.id;r=await call('/lessons/'+id+'/recognize','POST',{});assert.equal(r.status,200,JSON.stringify(r.data));
+ assert.equal(r.data.lesson.questions.length,6);const q=r.data.lesson.questions[0];assert.equal(q.questionType,'sentence_completion');assert.equal(q.options.length,7);assert.equal(q.blankLabel,'36');assert.equal(q.groupId,'Reading A');
+ const multiple=r.data.lesson.questions[5];assert.equal(multiple.mode,'multi');assert.deepEqual(multiple.accepted,['A','C']);
+ const stored=(await call('/lessons/'+id)).data.lesson;assert.equal(stored.questions[5].questionType,'multiple_choice');assert.equal(stored.questions[0].context[0].text,context[0].text);
+ }finally{mockResponder=null;}
+});
