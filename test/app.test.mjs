@@ -35,13 +35,13 @@ test('上传→真实协议请求到本地mock→校对→保存课堂→重新�
  const stored=JSON.parse(await readFile(path.join(process.env.DATA_DIR,'lessons',d.id+'.json'),'utf8'));assert.equal(stored.status,'ready');assert.equal((await getLesson(d.id)).ocrText,lesson.ocrText);
  const stale=await call('/lessons/'+d.id,'PUT',{version:1,lesson:d});assert.equal(stale.status,409);
 });
-test('十张图片逐张保存，模型页序决定题目顺序，原上传编号可追溯',async()=>{
+test('十张图片逐张保存，小题按原题号排序，模型页序与原上传编号仍可追溯',async()=>{
  const png='iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aZ0kAAAAASUVORK5CYII=';
  const image={name:'multi.png',dataUrl:'data:image/png;base64,'+png};let r=await call('/imports','POST',{title:'多图排序测试',images:[image]});let d=r.data.lesson;
  for(let i=1;i<10;i++){r=await call('/lessons/'+d.id+'/images','POST',{version:d.version,image});assert.equal(r.status,201);d=r.data.lesson;}
  assert.equal(d.images.length,10);r=await call('/lessons/'+d.id+'/images','POST',{version:d.version,image});assert.equal(r.status,400);
  mockReply={...lesson,pageOrder:[10,9,8,7,6,5,4,3,2,1],orderNote:'根据印刷页码识别为倒序上传。',questions:[{...lesson.questions[0],label:'1',sourcePages:[1]},{...lesson.questions[0],label:'10',sourcePages:[10]},{...lesson.questions[0],label:'5',sourcePages:[5]}]};
- process.env.MODEL_ID='qwen3.8-flash';r=await call('/lessons/'+d.id+'/recognize','POST',{});assert.equal(r.status,200);assert.deepEqual(r.data.lesson.pageOrder,mockReply.pageOrder);process.env.MODEL_ID='test-vision-model';assert.deepEqual(r.data.lesson.questions.map(q=>q.label),['10','5','1']);assert.deepEqual(r.data.lesson.questions[0].sourcePages,[10]);mockReply=lesson;
+ process.env.MODEL_ID='qwen3.8-flash';r=await call('/lessons/'+d.id+'/recognize','POST',{});assert.equal(r.status,200);assert.deepEqual(r.data.lesson.pageOrder,mockReply.pageOrder);process.env.MODEL_ID='test-vision-model';assert.deepEqual(r.data.lesson.questions.map(q=>q.label),['1','5','10']);assert.deepEqual(r.data.lesson.questions[0].sourcePages,[1]);mockReply=lesson;
 });
 test('并发保存只允许一个相同版本成功，不覆盖其他设备修改',async()=>{const d={id:'concurrency-test',...validateLesson(lesson),status:'draft',sourceType:'import',createdAt:new Date().toISOString(),images:[]};const saved=await saveLesson(d,0);const results=await Promise.allSettled([saveLesson({...saved,title:'a'},1),saveLesson({...saved,title:'b'},1)]);assert.equal(results.filter(x=>x.status==='fulfilled').length,1);assert.ok(results.find(x=>x.status==='rejected').reason instanceof Conflict);});
 test('未认证的手机请求无法读取题目或模型密钥',async()=>{let output='';const res={writeHead(s){this.status=s;},end(s){output=s;},setHeader(){}};await handler({url:'/api/lessons',method:'GET',headers:{host:'example.com'},socket:{remoteAddress:'192.168.1.7'}},res);assert.equal(res.status,401);assert.doesNotMatch(output,/fake-test-key/);});
@@ -106,6 +106,34 @@ test('模型识别到七选五与多选时，题型、共享选项、原空号�
  let r=await call('/imports','POST',{images:[],text:'文档导入原题：七选五和多选'});const id=r.data.lesson.id;r=await call('/lessons/'+id+'/recognize','POST',{});assert.equal(r.status,200,JSON.stringify(r.data));
  assert.equal(r.data.lesson.questions.length,6);const q=r.data.lesson.questions[0];assert.equal(q.questionType,'sentence_completion');assert.equal(q.options.length,7);assert.equal(q.blankLabel,'36');assert.equal(q.groupId,'Reading A');
  const multiple=r.data.lesson.questions[5];assert.equal(multiple.mode,'multi');assert.deepEqual(multiple.accepted,['A','C']);
- const stored=(await call('/lessons/'+id)).data.lesson;assert.equal(stored.questions[5].questionType,'multiple_choice');assert.equal(stored.questions[0].context[0].text,context[0].text);
+ const stored=(await call('/lessons/'+id)).data.lesson;assert.equal(stored.questions[5].questionType,'multiple_choice');assert.equal(stored.materials.find(m=>m.id==='Reading A').context[0].text,context[0].text);
  }finally{mockResponder=null;}
+});
+
+test('已校对部分题目时，其他误标选择题及缺失选项不阻止草稿保存',async()=>{
+ const original={...lesson,id:'partial-review-save',status:'draft',sourceType:'document',inputText:'Original paper',images:[],questions:[{...lesson.questions[0],label:'1',reviewed:true},{...lesson.questions[0],label:'42',questionType:'sentence_completion',mode:'choice',options:[],answer:'The machines are being repaired.',stem:'They are busy repairing the machines. ____ ____ are being repaired.'},{...lesson.questions[0],label:'43',options:[],answer:'',reviewed:false}]};
+ await saveLesson(original,0);let r=await call('/lessons/'+original.id);assert.equal(r.data.lesson.questions[1].mode,'input');
+ const doc=r.data.lesson;doc.questions[0].reason='老师已校对的解析';r=await call('/lessons/'+doc.id,'PUT',{version:doc.version,lesson:doc});assert.equal(r.status,200,JSON.stringify(r.data));
+ assert.equal(r.data.lesson.questions[0].reviewed,true);assert.equal(r.data.lesson.questions[0].reason,'老师已校对的解析');assert.equal(r.data.lesson.questions[1].answer,original.questions[1].answer);assert.equal(r.data.lesson.questions[1].mode,'input');assert.equal(r.data.lesson.questions[2].invalid,true);assert.deepEqual(r.data.lesson.questions[2].accepted,[]);
+ const stored=await getLesson(doc.id);assert.equal(stored.questions.length,3);assert.equal(stored.questions[0].reason,'老师已校对的解析');
+});
+test('旧资料补全篇章可分批重试，不改已校对的小题答案与解析，保存完整材料',async()=>{
+ const passage='第一段：原始篇章。\n'+'The complete passage continues. '.repeat(40)+'\n最后一段：文章结束。';
+ const original={...lesson,id:'repair-shared-material',status:'draft',sourceType:'document',inputText:passage,ocrText:'incomplete OCR',images:[],questions:[{...lesson.questions[0],label:'36',questionType:'reading',groupId:'reading-a',reviewed:true,reason:'老师已修改解析'},{...lesson.questions[0],label:'37',questionType:'reading',groupId:'reading-a',reviewed:true}]};
+ let doc=await saveLesson(original,0),requests=0;
+ try{mockResponder=b=>{requests++;assert.match(b.messages[1].content[0].text,/最后一段：文章结束/);assert.match(b.messages[1].content[0].text,/本次只补全/);if(requests===1)return modelReply({},'length');if(requests===3)return {httpStatus:503,error:'temporary'};return modelReply({...lesson,questions:[],materials:[{id:'reading-a',title:'全文',questionLabels:['36','37'],context:[{type:'p',text:passage}]}]});};
+ let r=await call('/lessons/'+doc.id+'/materials','POST',{version:doc.version});assert.equal(r.status,200);assert.equal(r.data.pending,true);assert.equal(r.data.lesson.materialRepairState,undefined);doc=r.data.lesson;
+ r=await call('/lessons/'+doc.id+'/materials','POST',{version:doc.version});assert.equal(r.data.pending,true);doc=r.data.lesson;
+ r=await call('/lessons/'+doc.id+'/materials','POST',{version:doc.version});assert.equal(r.status,500);doc=(await call('/lessons/'+doc.id)).data.lesson;assert.equal(doc.materialRepairProgress.completed,1);
+ r=await call('/lessons/'+doc.id+'/materials','POST',{version:doc.version});assert.equal(r.status,200,JSON.stringify(r.data));assert.equal(r.data.pending,false);doc=r.data.lesson;
+ assert.equal(doc.status,'draft');assert.equal(doc.materials[0].context[0].text,passage);assert.equal(doc.questions[0].reason,'老师已修改解析');assert.equal(doc.questions[0].answer,original.questions[0].answer);assert.equal(doc.questions[0].reviewed,false);assert.equal(doc.questions.length,2);assert.equal(doc.materialRepairState,undefined);assert.equal(doc.materialRepairProgress,undefined);
+ const stored=await getLesson(doc.id);assert.equal(stored.materials[0].context[0].text,passage);assert.deepEqual(stored.questions[0].context,[]);
+ r=await call('/lessons/'+doc.id+'/materials','POST',{version:1});assert.equal(r.status,409);
+ }finally{mockResponder=null;}
+});
+test('乱序小题在读取和保存后按原题号排序，手动顺序明确保存后不被重排',async()=>{
+ const doc=await saveLesson({...lesson,id:'question-order-save',status:'draft',sourceType:'document',images:[],questions:['42','2','34','1'].map(label=>({...lesson.questions[0],label}))},0);
+ let r=await call('/lessons/'+doc.id);assert.deepEqual(r.data.lesson.questions.map(q=>q.label),['1','2','34','42']);
+ r.data.lesson.questionOrder='manual';r.data.lesson.questions.reverse();r=await call('/lessons/'+doc.id,'PUT',{version:r.data.lesson.version,lesson:r.data.lesson});assert.equal(r.status,200);assert.deepEqual(r.data.lesson.questions.map(q=>q.label),['42','34','2','1']);
+ assert.deepEqual((await call('/lessons/'+doc.id)).data.lesson.questions.map(q=>q.label),['42','34','2','1']);
 });

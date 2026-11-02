@@ -12,3 +12,5 @@
 
 .option.selected{outline:3px solid var(--board-accent);outline-offset:-3px}.multi-hint{font-size:.7em;color:var(--board-muted);margin:16px 0 8px}#submit-multiple{font:inherit;font-size:.7em;padding:10px 24px;border:1px solid var(--board-accent);border-radius:12px;background:var(--board-soft);color:var(--board-ink)}#submit-multiple:disabled{opacity:.55}
 #submit-multiple.presenter-focus{outline:3px solid var(--board-accent);outline-offset:3px}
+
+.passage-source-image{width:100%;height:auto;display:block}.passage-content figure{margin:0 0 1em}.material-fallback-note{font-size:.65em;border:1px solid var(--board-line,var(--line));padding:12px;color:var(--board-muted,var(--muted))}

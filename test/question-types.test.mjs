@@ -56,3 +56,10 @@ test('多选先切换选项，确认后才按完整集合计分；漏选和错�
  const h=presenter([q]);h.run("choose('A');choose('A')");assert.equal(h.run('state().choices.length'),0);h.run('submitMultiple()');assert.equal(h.run('state().result'),undefined);
  h.run('reveal()');assert.equal(h.run('state().result'),undefined);assert.equal(h.run('state().revealed'),true);
 });
+
+test('阅读、完形与七选五完整材料在左侧，当前小题和选项在右侧，不把文章混入题干',()=>{
+ const full=[{type:'p',text:'Article title and instructions.'},{type:'p',text:'First paragraph ____ (36).'},{type:'p',text:'Final paragraph and ending.'}];
+ for(const type of ['reading','cloze','sentence_completion']){
+  const q=normalize([{...question,questionType:type,context:full}]).questions[0],h=presenter([q]);h.run('render()');assert.equal(h.get('passage-panel').hidden,false);assert.match(h.get('passage-content').innerHTML,/First paragraph/);assert.match(h.get('passage-content').innerHTML,/Final paragraph and ending/);assert.equal((h.get('passage-content').innerHTML.match(/<p>/g)||[]).length,3);assert.doesNotMatch(h.get('question-content').innerHTML,/Final paragraph and ending/);assert.match(h.get('question-content').innerHTML,/选择填入第36空/);
+ }
+});

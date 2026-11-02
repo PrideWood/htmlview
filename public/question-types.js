@@ -32,3 +32,24 @@ export function multipleAnswerKeys(answer){
  if(!/^[A-Z](?:[A-Z]|[\s,，、;/；]+[A-Z])*$/.test(value))return [];
  const keys=value.match(/[A-Z]/g)||[];return new Set(keys).size===keys.length?keys.sort():[];
 }
+
+// Older imports sometimes tagged free-text exercises as sentence completion.
+// Honor an explicit free-response mode and use missing options + textual answers
+// as evidence to repair the tag, rather than requiring invented choices.
+export function questionPresentation(q){
+ let questionType=inferQuestionType(q);
+ const hint=[q.section,q.stem].join(' '),count=Array.isArray(q.options)?q.options.length:0;
+ const semantic=/翻译/.test(hint)?'translation':/改错|纠错/.test(hint)?'correction':/句型转换|同义句|改写|改为|划线部分提问|画线部分提问/.test(hint)?'short_answer':/所给词|适当形式|语法填空|词形变化/.test(hint)?'fill_blank':'';
+ if(['input','self','study'].includes(q.mode))return {questionType:semantic||questionType,mode:q.mode};
+ if(QUESTION_TYPES[questionType]&&!['choice','multi'].includes(QUESTION_TYPES[questionType].mode))return {questionType,mode:QUESTION_TYPES[questionType].mode};
+ const answer=String(q.answer||'').trim();
+ const textualAnswer=answer&&!/待确认|无法辨认|未知/.test(answer)&&!/^[A-Z](?:[A-Z]|[\s,，、;/；]+[A-Z])*$/.test(answer);
+ if(count<2&&(semantic||textualAnswer))return {questionType:semantic||'fill_blank',mode:'input'};
+ return {questionType,mode:questionType==='multiple_choice'?'multi':q.mode==='multi'?'multi':'choice'};
+}
+export function repairQuestionTypes(lesson){
+ return {...lesson,questions:(lesson.questions||[]).map(q=>{
+  const presentation=questionPresentation(q),changed=q.mode&&q.mode!==presentation.mode;
+  return {...q,...presentation,...(changed?{reviewed:false}:{}),accepted:changed?[]:q.accepted};
+ })};
+}
