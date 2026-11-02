@@ -1,4 +1,4 @@
-import {inferQuestionType} from './question-types.js';
+import {QUESTION_TYPES,inferQuestionType} from './question-types.js';
 export function materialBlocks(value){
  if(!Array.isArray(value))return [];
  return value.flatMap(b=>{
@@ -9,6 +9,7 @@ export function materialBlocks(value){
 export function hasMaterial(context){return materialBlocks(context).length>0;}
 const length=blocks=>JSON.stringify(blocks).length;
 export function needsMaterial(q){
+ if(QUESTION_TYPES[q.questionType])return ['reading','cloze','sentence_completion','matching'].includes(q.questionType);
  return ['reading','cloze','sentence_completion','matching'].includes(inferQuestionType(q))||/阅读|完形|七选五|选句填空|选择填入第.+空/.test([q.section,q.stem].join(' '));
 }
 // Shared material is stored once and hydrated into the legacy per-question shape.
@@ -25,7 +26,7 @@ export function hydrateMaterials(lesson){
   if(!old||(!explicit.has(q.groupId)&&length(context)>length(old.context)))byId.set(q.groupId,{id:q.groupId,title:'',context});
  }
  const questions=(Array.isArray(lesson.questions)?lesson.questions:[]).map(q=>{
-  const material=byId.get(q.groupId)||[...byId.values()].find(m=>Array.isArray(m.questionLabels)&&m.questionLabels.includes(q.label));
+  const material=byId.get(q.groupId)||(!q.materialDetached&&[...byId.values()].find(m=>Array.isArray(m.questionLabels)&&m.questionLabels.includes(q.label)));
   return {...q,groupId:material?.id||q.groupId,context:material?material.context:materialBlocks(q.context)};
  });
  return {...lesson,materials:[...byId.values()],questions};
@@ -43,7 +44,7 @@ export function presentationMaterials(lesson){
 export function updateSharedMaterial(lesson,question,context){
  question.context=materialBlocks(context);
  if(!question.groupId)return;
- const material={id:question.groupId,title:(lesson.materials||[]).find(m=>m.id===question.groupId)?.title||'',context:question.context};
+ const material={...(lesson.materials||[]).find(m=>m.id===question.groupId),id:question.groupId,title:(lesson.materials||[]).find(m=>m.id===question.groupId)?.title||'',context:question.context};
  lesson.materials=[...(lesson.materials||[]).filter(m=>m.id!==question.groupId),material];
  for(const q of Array.isArray(lesson.questions)?lesson.questions:[])if(q.groupId===question.groupId){q.context=question.context;q.reviewed=false;}
 }

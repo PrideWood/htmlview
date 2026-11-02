@@ -2,12 +2,12 @@ import {hydrateMaterials,compactMaterials,updateSharedMaterial,hasMaterial,needs
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
-import {QUESTION_TYPES,OPTION_KEYS,inferQuestionType} from '../public/question-types.js';
+import {QUESTION_TYPES,OPTION_KEYS,inferQuestionType,selectQuestionType} from '../public/question-types.js';
 import {readFile} from 'node:fs/promises';
 const code=(await readFile(new URL('../public/app.js',import.meta.url),'utf8')).replace(/^import .*;$/gm,'').replace(/^boot\(\)\.catch.*$/m,'');
 function app(){
  const nodes=new Map();const node=id=>{if(!nodes.has(id))nodes.set(id,{innerHTML:'',textContent:'',hidden:false});return nodes.get(id);};
- const context=vm.createContext({hydrateMaterials,compactMaterials,updateSharedMaterial,hasMaterial,needsMaterial,QUESTION_TYPES,OPTION_KEYS,inferQuestionType,document:{getElementById:node,querySelectorAll:()=>[],querySelector:()=>null,addEventListener(){}},window:{addEventListener(){}},matchMedia:()=>({matches:true,addEventListener(){}}),location:{hash:''},setInterval:()=>1,clearInterval(){},setTimeout:()=>1,clearTimeout(){},mountLogin(){},stopLogin(){}});
+ const context=vm.createContext({hydrateMaterials,compactMaterials,updateSharedMaterial,hasMaterial,needsMaterial,QUESTION_TYPES,OPTION_KEYS,inferQuestionType,selectQuestionType,document:{getElementById:node,querySelectorAll:()=>[],querySelector:()=>null,addEventListener(){}},window:{addEventListener(){}},matchMedia:()=>({matches:true,addEventListener(){}}),location:{hash:''},setInterval:()=>1,clearInterval(){},setTimeout:()=>1,clearTimeout(){},mountLogin(){},stopLogin(){}});
  vm.runInContext(code,context);return {context,node,run:s=>vm.runInContext(s,context)};
 }
 test('电脑与手机都提供 DOC 文件选择和文档清单，上传进度文案适用于文档',()=>{
@@ -49,4 +49,9 @@ test('应用删除弹窗仅明确确认才返回同意，取消与Esc关闭均�
   if(result==='delete')a.node('delete-dialog-confirm').onclick();else if(result==='cancel')a.node('delete-dialog-cancel').onclick();else dialog.close('');
   assert.equal(await pending,result==='delete');
  }
+});
+
+test('普通单选只显示折叠的附加材料，不显示完整篇章、空号和材料分组字段',()=>{
+ const a=app();a.run('doc={questions:[]};qi=0');const html=a.run("questionHTML({label:'Q1',questionType:'single_choice',mode:'choice',section:'阅读理解',options:[{key:'A',text:'one'},{key:'B',text:'two'}],answer:'A',context:[{type:'p',text:'旧标题'}],enrichment:[]})");
+ assert.doesNotMatch(html,/完整篇章 \/ 共享题干|id="q-blank-label"|id="q-group"/);assert.match(html,/<details><summary>附加材料（可选）/);assert.match(html,/旧标题/);
 });

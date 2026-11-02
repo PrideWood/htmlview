@@ -63,3 +63,7 @@ test('阅读、完形与七选五完整材料在左侧，当前小题和选项�
   const q=normalize([{...question,questionType:type,context:full}]).questions[0],h=presenter([q]);h.run('render()');assert.equal(h.get('passage-panel').hidden,false);assert.match(h.get('passage-content').innerHTML,/First paragraph/);assert.match(h.get('passage-content').innerHTML,/Final paragraph and ending/);assert.equal((h.get('passage-content').innerHTML.match(/<p>/g)||[]).length,3);assert.doesNotMatch(h.get('question-content').innerHTML,/Final paragraph and ending/);assert.match(h.get('question-content').innerHTML,/选择填入第36空/);
  }
 });
+
+test('单选或多选即使残留阅读章节和附加材料，也不会误用阅读分栏',()=>{
+ for(const type of ['single_choice','multiple_choice','fill_blank','translation','writing']){const item=normalize([{...question,questionType:type,section:'七选五',answer:type==='multiple_choice'?'A,C':'A'}]).questions[0],h=presenter([item]);h.run('render()');assert.equal(h.get('passage-panel').hidden,true);if(['single_choice','multiple_choice'].includes(type))assert.match(h.get('question-content').innerHTML,/data-key=/);}
+});

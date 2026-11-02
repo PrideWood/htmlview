@@ -38,6 +38,7 @@ export function multipleAnswerKeys(answer){
 // as evidence to repair the tag, rather than requiring invented choices.
 export function questionPresentation(q){
  let questionType=inferQuestionType(q);
+ if(q.typeSelected&&QUESTION_TYPES[q.questionType])return {questionType:q.questionType,mode:QUESTION_TYPES[q.questionType].mode};
  const hint=[q.section,q.stem].join(' '),count=Array.isArray(q.options)?q.options.length:0;
  const semantic=/翻译/.test(hint)?'translation':/改错|纠错/.test(hint)?'correction':/句型转换|同义句|改写|改为|划线部分提问|画线部分提问/.test(hint)?'short_answer':/所给词|适当形式|语法填空|词形变化/.test(hint)?'fill_blank':'';
  if(['input','self','study'].includes(q.mode))return {questionType:semantic||questionType,mode:q.mode};
@@ -52,4 +53,16 @@ export function repairQuestionTypes(lesson){
   const presentation=questionPresentation(q),changed=q.mode&&q.mode!==presentation.mode;
   return {...q,...presentation,...(changed?{reviewed:false}:{}),accepted:changed?[]:q.accepted};
  })};
+}
+
+export function selectQuestionType(q,type){
+ if(!QUESTION_TYPES[type])return;
+ const previous=QUESTION_TYPES[q.questionType];
+ q.questionType=type;q.mode=QUESTION_TYPES[type].mode;q.typeSelected=true;
+ if(!['reading','cloze','sentence_completion','matching'].includes(type)){q.groupId='';q.materialDetached=true;}else q.materialDetached=false;
+ if(previous&&q.section===previous.label)q.section=QUESTION_TYPES[type].label;
+ q.accepted=[];q.reviewed=false;
+ const keys=q.mode==='multi'?multipleAnswerKeys(q.answer):[];
+ q.invalid=!String(q.answer||'').trim()||(q.mode==='choice'&&!q.options?.some(o=>o.key===q.answer))||(q.mode==='multi'&&(keys.length<2||!keys.every(k=>q.options?.some(o=>o.key===k))));
+ q.reviewStatus=q.invalid?'needs_review':'ok';
 }

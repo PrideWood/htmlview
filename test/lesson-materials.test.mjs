@@ -1,3 +1,4 @@
+import {selectQuestionType,questionPresentation} from '../public/question-types.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {hydrateMaterials,presentationMaterials,updateSharedMaterial} from '../public/lesson-materials.js';
@@ -42,4 +43,15 @@ test('单题题干和选项原文不再被固定字数截断，共享材料压�
  const lesson=validateLesson({materials:[material],questions:[{...q('1'),stem,options:[{key:'A',text:option},{key:'B',text:'No'}]},q('2')]});
  assert.equal(lesson.questions[0].stem,stem);assert.equal(lesson.questions[0].options[0].text,option);
  const compact=compactMaterials(lesson);assert.deepEqual(compact.questions[0].context,[]);assert.equal(compact.materials[0].context.length,72);assert.deepEqual(hydrateMaterials(compact).questions[1].context,context);
+});
+
+test('手动改为单选后不再需要完整篇章，保存和重开不重新关联旧材料，原文答案保留',()=>{
+ const lesson=hydrateMaterials({materials:[material],questions:[q('1'),q('2')]});const item=lesson.questions[0];selectQuestionType(item,'single_choice');
+ assert.equal(item.answer,'A');assert.equal(item.groupId,'');assert.equal(item.materialDetached,true);assert.equal(questionPresentation(item).mode,'choice');
+ const saved=validateLesson(lesson,{draft:true});const reopened=hydrateMaterials(saved);assert.equal(reopened.questions[0].groupId,'');assert.deepEqual(reopened.questions[0].context,context);assert.equal(reopened.questions[1].groupId,'reading-a');
+ updateSharedMaterial(reopened,reopened.questions[1],[{type:'p',text:'changed reading'}]);assert.deepEqual(reopened.questions[0].context,context);
+ selectQuestionType(reopened.questions[0],'reading');assert.equal(hydrateMaterials(reopened).questions[0].groupId,'reading-a');
+});
+test('老师明确选择的题型优先于旧章节和自动推断，不清空待校对答案',()=>{
+ const item={...q('1'),section:'七选五',stem:'改为被动语态',options:[],answer:'be completed'};selectQuestionType(item,'single_choice');assert.equal(questionPresentation(item).questionType,'single_choice');assert.equal(questionPresentation(item).mode,'choice');assert.equal(item.answer,'be completed');assert.equal(item.invalid,true);
 });
