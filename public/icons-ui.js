@@ -10,6 +10,6 @@ function decorate(){document.querySelectorAll('button,a#home').forEach(b=>{
  if(!name||b.querySelector('svg.ui-icon'))return;
  const label=b.textContent.trim()||b.getAttribute('aria-label')||b.title;b.title=b.title||label;b.setAttribute('aria-label',b.getAttribute('aria-label')||label);b.classList.add('icon-button');b.innerHTML=svg(name).replace('<svg ','<svg class="ui-icon" ');
  });
- document.querySelectorAll('.nav button').forEach(b=>{const slot=b.querySelector('b');if(slot&&!slot.querySelector('svg'))slot.innerHTML=svg(b.dataset.nav==='settings'?'gear':b.dataset.nav==='upload'?'upload':b.dataset.filter==='archived'?'archive':'folder');});
+ document.querySelectorAll('.nav button').forEach(b=>{const slot=b.querySelector('b');if(slot&&!slot.querySelector('svg'))slot.innerHTML=svg(b.dataset.nav==='settings'?'gear':b.dataset.nav==='upload'?'upload':b.dataset.filter==='archived'?'archive':b.dataset.filter==='trash'?'trash':'folder');});
 }
 new MutationObserver(decorate).observe(document.body,{childList:true,subtree:true});decorate();

@@ -36,3 +36,7 @@ test('补全篇章自动请求后续批次并带上最新版本号，不覆盖�
  const a=app();a.run("session={authenticated:true};view='editor';doc={id:'repair',title:'篇章补全',version:1,status:'draft',questions:[{label:'1',stem:'original',options:[],context:[]}],images:[]};let versions=[];api=async(path,options)=>{versions.push(options.body.version);const pending=versions.length<3;return {pending,progress:{completed:versions.length,remaining:3-versions.length},lesson:{...doc,version:doc.version+1,materials:[{id:'reading-a',questionLabels:['1'],context:[{type:'p',text:'Complete original passage.'}]}]}}}");
  await a.run('repairMaterials()');assert.equal(a.run('JSON.stringify(versions)'),'[1,2,3]');assert.equal(a.run('doc.questions[0].stem'),'original');assert.equal(a.run('doc.questions[0].context[0].text'),'Complete original passage.');assert.equal(a.run('busy'),false);
 });
+test('回收站详情提供恢复入口，正常资料提供带二次确认的删除入口',()=>{
+ const a=app();const normal=a.run("libraryDetailHTML({id:'a',title:'课件',status:'draft',topic:'英语',count:2,sourceType:'document',updatedAt:'2026-01-01'})");assert.match(normal,/data-trash="a"/);
+ const trashed=a.run("libraryDetailHTML({id:'a',title:'课件',status:'trashed',topic:'英语',count:2,sourceType:'document',updatedAt:'2026-01-01'})");assert.match(trashed,/data-untrash="a"/);assert.doesNotMatch(trashed,/data-play=|data-trash=/);assert.match(code,/confirm\('确定删除/);
+});

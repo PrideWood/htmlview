@@ -137,3 +137,20 @@ test('乱序小题在读取和保存后按原题号排序，手动顺序明确�
  r.data.lesson.questionOrder='manual';r.data.lesson.questions.reverse();r=await call('/lessons/'+doc.id,'PUT',{version:r.data.lesson.version,lesson:r.data.lesson});assert.equal(r.status,200);assert.deepEqual(r.data.lesson.questions.map(q=>q.label),['42','34','2','1']);
  assert.deepEqual((await call('/lessons/'+doc.id)).data.lesson.questions.map(q=>q.label),['42','34','2','1']);
 });
+test('资料移入回收站后保留附件和原状态，恢复时版本冲突不会覆盖修改',async()=>{
+ const r=await call('/import-json','POST',{lesson});let d=r.data.lesson;const id=d.id;d=await saveLesson({...await getLesson(id),status:'ready'},d.version);
+ let x=await call('/lessons/'+id+'/trash','POST',{version:d.version});assert.equal(x.status,200);assert.equal(x.data.lesson.status,'trashed');assert.equal(x.data.lesson.questions.length,1);
+ const trashed=x.data.lesson;x=await call('/lessons/'+id+'/untrash','POST',{version:d.version});assert.equal(x.status,409);
+ x=await call('/lessons/'+id+'/untrash','POST',{version:trashed.version});assert.equal(x.status,200);assert.equal(x.data.lesson.status,'ready');assert.equal(x.data.lesson.questions[0].stem,lesson.questions[0].stem);
+});
+test('内置资料可移入回收站并恢复，原始题库未改变',async()=>{
+ const before=(await call('/lessons')).data.lessons;let builtin=before.find(d=>d.sourceType==='builtin');const id=builtin.id;
+ let r=await call('/lessons/'+id+'/trash','POST',{version:builtin.version});assert.equal(r.status,200);assert.equal(r.data.lesson.status,'trashed');
+ const listed=(await call('/lessons')).data.lessons;assert.equal(listed.find(d=>d.id===id).status,'trashed');assert.equal(listed.filter(d=>d.sourceType==='builtin').length,before.filter(d=>d.sourceType==='builtin').length);assert.equal(listed.some(d=>d.sourceType==='builtin-trash-marker'),false);
+ r=await call('/lessons/'+id+'/untrash','POST',{version:r.data.lesson.version});assert.equal(r.status,200);assert.equal(r.data.lesson.status,builtin.status);assert.equal(r.data.lesson.questions.length,builtin.count);
+});
+test('删除和恢复期间原始文档附件仍可读取',async()=>{
+ const content='Question source';let r=await call('/imports','POST',{images:[],document:{name:'source.txt',base64:Buffer.from(content).toString('base64')}});let d=r.data.lesson;const url=d.documents[0].url;
+ r=await call('/lessons/'+d.id+'/trash','POST',{version:d.version});assert.equal(r.status,200);assert.equal(await (await fetch(base+url)).text(),content);
+ r=await call('/lessons/'+d.id+'/untrash','POST',{version:r.data.lesson.version});assert.equal(r.status,200);assert.equal(await (await fetch(base+url)).text(),content);assert.equal(r.data.lesson.status,'uploaded');
+});

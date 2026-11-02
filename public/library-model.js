@@ -1,6 +1,6 @@
 export function filterLibrary(lessons,{filter='all',search='',topic=''}={}){
  const query=search.trim().toLocaleLowerCase();
- return lessons.filter(d=>filter==='archived'?d.status==='archived':d.status!=='archived').filter(d=>filter==='custom'?d.sourceType!=='builtin':filter==='builtin'?d.sourceType==='builtin':filter==='draft'?['draft','uploaded','error','processing'].includes(d.status):filter==='ready'?d.status==='ready':filter==='recent'?Boolean(d.lastUsedAt):true).filter(d=>(!topic||d.topic===topic)&&(!query||(d.title+' '+d.topic).toLocaleLowerCase().includes(query)));
+ return lessons.filter(d=>filter==='trash'?d.status==='trashed':filter==='archived'?d.status==='archived':!['archived','trashed'].includes(d.status)).filter(d=>filter==='custom'?d.sourceType!=='builtin':filter==='builtin'?d.sourceType==='builtin':filter==='draft'?['draft','uploaded','error','processing'].includes(d.status):filter==='ready'?d.status==='ready':filter==='recent'?Boolean(d.lastUsedAt):true).filter(d=>(!topic||d.topic===topic)&&(!query||(d.title+' '+d.topic).toLocaleLowerCase().includes(query)));
 }
 export function sortLibrary(list,order='recent'){
  return [...list].sort((a,b)=>{if(order==='title')return a.title.localeCompare(b.title,'zh-CN',{numeric:true});const field=order==='updated'?'updatedAt':'lastUsedAt';const delta=(b[field]||'').localeCompare(a[field]||'');return delta||a.topic.localeCompare(b.topic,'zh-CN',{numeric:true})||a.title.localeCompare(b.title,'zh-CN',{numeric:true});});
