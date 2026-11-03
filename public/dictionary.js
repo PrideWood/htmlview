@@ -110,7 +110,7 @@ trigger.title = '打开词典；长按英文约半秒可直接查词';
 trigger.setAttribute('aria-haspopup', 'dialog');
 trigger.setAttribute('aria-controls', dialog.id);
 trigger.addEventListener('click', () => openDictionary());
-document.querySelector('.floating-tools').append(trigger);
+document.querySelector('.floating-tools').insertBefore(trigger, document.getElementById('fullscreen'));
 
 function wordAtPoint(x, y) {
  const hit = document.elementFromPoint(x, y);
