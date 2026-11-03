@@ -1,0 +1,83 @@
+{
+  "year": 2024,
+  "pdfPages": [
+    31,
+    32,
+    33
+  ],
+  "bookPages": [
+    266,
+    267
+  ],
+  "title": "一瓶垃圾挑战",
+  "paragraphs": [
+    "April 22nd is World Earth Day—a day to remind people to protect the earth. On that day this year, our family held an activity “Bottle of Trash Challenge”. That means the trash needs to be put in a 600-milliliter bottle. We made the decision to challenge ourselves and produce as little trash as possible.",
+    "My father worked online all day, so he didn’t produce any waste except paper napkins. He made the least trash in our family.",
+    "My mother cooked dinner and produced plenty of kitchen waste, such as vegetable leaves, eggshells and food bags. What’s worse, she had to deal with all the leftovers we made after dinner. Luckily, she found a way to put it all into the bottle. How amazing!",
+    "My sister, a 16-year-old student, was busy preparing for her exams. She had to use paper to work out math and physics problems. She used only one side of the paper in the past. But that day, she tried to use both sides of the paper because she realized she could challenge herself in that way. She did a good job!",
+    "I was different from my sister. As a boy, I love snacks and drinks. So my trash was almost from them. I was highly alert that I must produce less waste. I hardly had snacks or drinks that day. It was too difficult, but I did it!",
+    "I learnt a lot from this activity. I realized that everyone can produce less trash. We should start with small actions to protect the earth!"
+  ],
+  "questions": [
+    {
+      "label": "16",
+      "stem": "What did the writer’s family do on April 22nd this year?",
+      "options": [
+        "They organized an activity.",
+        "They had a trip.",
+        "They had a picnic.",
+        "They held a party."
+      ],
+      "answer": "A",
+      "reason": "首段明确全家组织Bottle of Trash Challenge活动，没有旅行、野餐或派对。"
+    },
+    {
+      "label": "17",
+      "stem": "On that day, who made the least trash?",
+      "options": [
+        "The writer himself.",
+        "The writer’s father.",
+        "The writer’s mother.",
+        "The writer’s sister."
+      ],
+      "answer": "B",
+      "reason": "父亲只产生了纸巾，第二段直接说He made the least trash。"
+    },
+    {
+      "label": "18",
+      "stem": "The underlined word “leftovers” in Paragraph 3 means ____.",
+      "options": [
+        "food bags that are used to put the vegetable leaves",
+        "food that hasn’t been eaten at the end of a meal",
+        "waste that is produced in the kitchen",
+        "dishes that are cooked by the writer’s mother"
+      ],
+      "answer": "B",
+      "reason": "leftovers出现在吃完饭后需要处理的语境，特指没吃完的剩饭菜，不能泛化为所有厨余。"
+    },
+    {
+      "label": "19",
+      "stem": "What was the writer’s sister busy doing?",
+      "options": [
+        "Cooking dinner.",
+        "Playing computer games.",
+        "Preparing for her exams.",
+        "Working online."
+      ],
+      "answer": "C",
+      "reason": "第四段说姐姐was busy preparing for her exams，妈妈做饭、爸爸在线工作，人物不要混淆。"
+    },
+    {
+      "label": "20",
+      "stem": "According to the passage, which of the following is TRUE?",
+      "options": [
+        "The writer’s sister had less snacks and drinks.",
+        "The writer himself used both sides of the paper.",
+        "The writer’s father ate up all the food of the dinner.",
+        "The writer’s mother dealt with all the leftovers herself."
+      ],
+      "answer": "D",
+      "reason": "妈妈处理了饭后全部剩饭菜；减少零食的是作者，双面用纸的是姐姐，A、B交换了人物。"
+    }
+  ]
+}

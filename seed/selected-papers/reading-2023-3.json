@@ -1,0 +1,81 @@
+{
+  "year": 2023,
+  "pdfPages": [
+    35,
+    36
+  ],
+  "bookPages": [
+    269,
+    270
+  ],
+  "title": "颜色与英语表达",
+  "paragraphs": [
+    "Everyone has his own way of saying things and his own special expressions. Many American everyday expressions are from colors.",
+    "Red is a hot color. Americans often use it to express “heat”. They may say they are red hot about something unfair. When they’re red hot, they are very angry about something. Fast loud music is popular with many people. They may say the music is red hot.",
+    "Pink is a pale red color. People sometimes say they’re in the pink when they are in good health. The expression was first used in America at the beginning of the 20th century. It probably came from many babies who were born with a nice pink color showing good health.",
+    "Blue is a cool color. The traditional blues music in the U.S.A. is the opposite of red hot music. Blues is slow and sad.",
+    "Green is the color of grass or leaves. It is natural for trees and grass. But it’s an unnatural color for humans. A person who is sick may say he feels a little green. A passenger on a boat who is feeling very sick may look green."
+  ],
+  "questions": [
+    {
+      "label": "11",
+      "stem": "According to the passage, many Americans may use “red hot” to express their ____.",
+      "options": [
+        "happiness",
+        "kindness",
+        "anger",
+        "health"
+      ],
+      "answer": "C",
+      "reason": "第二段明确说red hot时对某事very angry，即表达愤怒。"
+    },
+    {
+      "label": "12",
+      "stem": "According to the passage, some Americans use “pink” to express the meaning of being healthy, probably because ____.",
+      "options": [
+        "it’s a traditional expression",
+        "their ancestors did so many years ago",
+        "the color of pink is lighter than the color of red",
+        "many healthy babies were born with a pink color"
+      ],
+      "answer": "D",
+      "reason": "第三段将这种说法与健康新生儿的粉红肤色相联系，D复述该推测来源。"
+    },
+    {
+      "label": "13",
+      "stem": "What’s the opposite of the red hot music?",
+      "options": [
+        "Loud music.",
+        "Fast music.",
+        "Traditional music.",
+        "Blues music."
+      ],
+      "answer": "D",
+      "reason": "第四段直接说traditional blues music是red hot music的相反类型，强调Blues这一音乐类型。"
+    },
+    {
+      "label": "14",
+      "stem": "Which of the following colors is used by some Americans to describe the sick?",
+      "options": [
+        "Red.",
+        "Green.",
+        "Pink.",
+        "Blue."
+      ],
+      "answer": "B",
+      "reason": "末段说生病或晕船的人可描述为a little green，故选绿色。"
+    },
+    {
+      "label": "15",
+      "stem": "The author introduces ____ colors related to everyday expressions in the passage.",
+      "options": [
+        "two",
+        "three",
+        "four",
+        "five"
+      ],
+      "answer": "C",
+      "reason": "文章依次介绍red、pink、blue、green，共四种颜色。"
+    }
+  ]
+}

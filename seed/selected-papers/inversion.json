@@ -1,0 +1,18 @@
+[
+  {
+    "label": "1",
+    "year": 2024,
+    "pdfPages": [
+      22
+    ],
+    "stem": "Not until the early years of the 19th century ____ what heat is.",
+    "options": [
+      "man knew",
+      "didn't man know",
+      "man did know",
+      "did man know"
+    ],
+    "answer": "D",
+    "reason": "Not until时间短语置于句首引出部分倒装，过去语境用did + 主语 + know；否定已由not表达，不再用didn't。"
+  }
+]

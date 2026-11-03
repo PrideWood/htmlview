@@ -1,0 +1,1769 @@
+{
+  "version": 1,
+  "reviewDate": "2026-11-03",
+  "scope": {
+    "lessons": 179,
+    "questions": 2811
+  },
+  "unrecoverable": [
+    {
+      "lessonId": "builtin-3622b512096493b5",
+      "label": "56",
+      "reason": "旧版与修订版HTML及现题库均仅存四个选项，缺少可恢复的原始题干，继续不计分。"
+    }
+  ],
+  "changes": [
+    {
+      "lessonId": "builtin-danzhao2025-grammar-01",
+      "label": "6",
+      "path": "stem",
+      "before": "I usually have_______ egg an some bread for breakfast.",
+      "after": "I usually have ____ egg and some bread for breakfast.",
+      "reason": "修复an误作and的OCR残字，并恢复横线与单词的分隔"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-01",
+      "label": "35",
+      "path": "stem",
+      "before": "— Lisa, are you going to play piano after school this afternoon?\n— No, and I'm going to play football with my sister.",
+      "after": "— Lisa, are you going to play ____ piano after school this afternoon?\n— No, I'm going to play ____ football with my sister.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-01",
+      "label": "36",
+      "path": "stem",
+      "before": "— Where does the story \"Hansel and Gretel\" come from?\n— It comes from European country.",
+      "after": "— Where does the story \"Hansel and Gretel\" come from?\n— It comes from ____ European country.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-01",
+      "label": "42",
+      "path": "stem",
+      "before": "It's very comfortable to take high speed railway called \"Fuxing Hao\", though it moves at ____ high speed.",
+      "after": "It's very comfortable to take ____ high-speed railway called \"Fuxing Hao\", though it moves at ____ high speed.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-01",
+      "label": "47",
+      "path": "stem",
+      "before": "Leap is unusual film about the Chinese women's national volleyball team, ________film is directed by Peter Ho-sun Chan.",
+      "after": "Leap is ____ unusual film about the Chinese women's national volleyball team. ____ film is directed by Peter Ho-sun Chan.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-01",
+      "label": "48",
+      "path": "stem",
+      "before": "Boys and girls, put your time to good use in the coming three months and you are sure to become honor to those who love you and care for you.",
+      "after": "Boys and girls, put ____ time to good use in the coming three months and you are sure to become ____ honor to those who love you and care for you.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-01",
+      "label": "49",
+      "path": "stem",
+      "before": "Boys and girls, please treat this exam with usual mind. Read every sentence carefully and you're sure to get good grades.",
+      "after": "Boys and girls, please treat this exam with ____ usual mind. Read every sentence carefully and you're sure to get good grades.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-02",
+      "label": "14",
+      "path": "stem",
+      "before": "The room is too small, there' s no enough ________for another desk.",
+      "after": "The room is too small. There isn't enough ____ for another desk.",
+      "reason": "修复非考点处no enough的错误搭配与there' s的异常分词"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-02",
+      "label": "16",
+      "path": "stem",
+      "before": "— Which room shall we live in tonight? ? In __________.",
+      "after": "— Which room shall we live in tonight?\n— In ____.",
+      "reason": "删除重复问号，明确对话与作答位置"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-02",
+      "label": "17",
+      "path": "stem",
+      "before": "Let the children go away. They're making to much _______ here.",
+      "after": "Let the children go away. They're making too much ____ here.",
+      "reason": "修复to much的拼写错误"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-02",
+      "label": "27",
+      "path": "stem",
+      "before": "— ______that new car over there?\n— I think it's _______.",
+      "after": "— ____ is that new car over there?\n— I think it's ____.",
+      "reason": "恢复原题漏印的is，保留人名所有格两解状态"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-02",
+      "label": "33",
+      "path": "stem",
+      "before": "It's about twenty bus ride from my home to school.",
+      "after": "It's about twenty ____ bus ride from my home to school.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-02",
+      "label": "34",
+      "path": "stem",
+      "before": "Mr. Srmith is a teacher of _______________. She and her classmates like him very much.",
+      "after": "Mr. Smith is a teacher of ____. She and her classmates like him very much.",
+      "reason": "修复Srmith的拼写错误"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-04",
+      "label": "30",
+      "path": "stem",
+      "before": "There are ________ days in a year.",
+      "after": "There are ____ days in an ordinary year.",
+      "reason": "明确普通年，避免把闰年与365天混为一谈；英美数词读法多解状态保留"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-06",
+      "label": "12",
+      "path": "stem",
+      "before": "Jim and I share ________ tastes and hobbies,\n— No wonder you take part in lots of meaningful social activities together.",
+      "after": "Jim and I share ____ tastes and hobbies.\n— No wonder you take part in lots of meaningful social activities together.",
+      "reason": "修复句尾逗号，保留原对话内容"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-06",
+      "label": "31",
+      "path": "stem",
+      "before": "When I get home, it makes me feel comfortable to find everything in apple-pie order.",
+      "after": "When I get home, it makes me feel comfortable to find everything in apple-pie order.\n句中“in apple-pie order”的意思最接近哪一项？",
+      "reason": "补明词义辨析目标，不把完整句误改成语法填空"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-08",
+      "label": "10",
+      "path": "stem",
+      "before": "Because of COVID-19, the government advised us to the public places less.",
+      "after": "Because of COVID-19, the government advised us ____ to the public places less.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-08",
+      "label": "24",
+      "path": "stem",
+      "before": "The government asks people the rubbish from their daily life in different groups.",
+      "after": "The government asks people ____ the rubbish from their daily life in different groups.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-08",
+      "label": "30",
+      "path": "stem",
+      "before": "The villagers plan a new bridge over the river.",
+      "after": "The villagers plan ____ a new bridge over the river.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-08",
+      "label": "31",
+      "path": "stem",
+      "before": "— Ms. Griffin, what should we do stupid mistakes in the coming exams?\n— Be more careful.",
+      "after": "— Ms. Griffin, what should we do ____ stupid mistakes in the coming exams?\n— Be more careful.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-09",
+      "label": "1",
+      "path": "stem",
+      "before": "— Have you told Dr. Green all our latest achievement in the vaccine research?\n— Not yet. When I , he a speech, so we had no time for a few words.",
+      "after": "— Have you told Dr. Green all our latest achievements in the vaccine research?\n— Not yet. When I ____, he ____ a speech, so we had no time for a few words.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-09",
+      "label": "2",
+      "path": "stem",
+      "before": "— Listen! Amy, who next door?\n— Well, it's Cindy. Her voice always sounds just like a bird.",
+      "after": "— Listen! Amy, who ____ next door?\n— Well, it's Cindy. Her voice always sounds ____ just like a bird.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-09",
+      "label": "3",
+      "path": "stem",
+      "before": "So far, the number of people using 5G mobile phones a lot.",
+      "after": "So far, the number of people using 5G mobile phones ____ a lot.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-09",
+      "label": "4",
+      "path": "stem",
+      "before": "— Have you ever been to Shanghai?\n— Of course. Actually, I there for six years, but now I live in Beijing.",
+      "after": "— Have you ever been to Shanghai?\n— Of course. Actually, I ____ there for six years, but now I live in Beijing.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-09",
+      "label": "9",
+      "path": "stem",
+      "before": "— Jack, how do you like the new movie Hi, Mom! directed（导演） by Jia Ling?\n— Well, it's really a funny movie. I ______ it for three times.",
+      "after": "— Jack, how do you like the new movie Hi, Mom! directed（导演） by Jia Ling?\n— Well, it's really a funny movie. I ____ it three times.",
+      "reason": "删除次数three times前多余的for，保留现在完成时考点"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-09",
+      "label": "15",
+      "path": "stem",
+      "before": "________this bike for three years. I like it so much.",
+      "after": "I ____ this bike for three years. I like it so much.",
+      "reason": "恢复遗漏的主语I，不替考生填写谓语"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-09",
+      "label": "29",
+      "path": "stem",
+      "before": "— What good books did you read recently?\n— I __________ Tales of China since last year, and now the third time.",
+      "after": "— What good books did you read recently?\n— I ____ Tales of China since last year, and now this is the third time.",
+      "reason": "补齐后半句主语与系动词，保留前半句作答空位"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-09",
+      "label": "31",
+      "path": "stem",
+      "before": "You can borrow this film—surely you watching it.",
+      "after": "You can borrow this film—surely you ____ watching it.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-09",
+      "label": "32",
+      "path": "stem",
+      "before": "William six books, and all of them are bestsellers.",
+      "after": "William ____ six books, and all of them are bestsellers.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-09",
+      "label": "33",
+      "path": "stem",
+      "before": "I saw Bob in the garden. He flowers there.",
+      "after": "I saw Bob in the garden. He ____ flowers there.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-09",
+      "label": "42",
+      "path": "stem",
+      "before": "— May I use your dictionary?\n— Sorry, I it now.",
+      "after": "— May I use your dictionary?\n— Sorry, I ____ it now.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-09",
+      "label": "43",
+      "path": "stem",
+      "before": "— Treasure Island is exciting.\n— I agree with you. I it twice.",
+      "after": "— Treasure Island is exciting.\n— I agree with you. I ____ it twice.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-09",
+      "label": "44",
+      "path": "stem",
+      "before": "Look! Many people in the park.",
+      "after": "Look! Many people ____ in the park.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-10",
+      "label": "24",
+      "path": "stem",
+      "before": "The kite in China more than 2,000 years ago.",
+      "after": "The kite ____ in China more than 2,000 years ago.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-10",
+      "label": "34",
+      "path": "stem",
+      "before": "— Krystal, do you know how tea is produced?\n— Yes. When tea leaves are ready, they are picked by hand and then for processing.",
+      "after": "— Krystal, do you know how tea is produced?\n— Yes. When tea leaves are ready, they are picked by hand and then ____ for processing.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-10",
+      "label": "35",
+      "path": "stem",
+      "before": "You lunch at school. So you don't have to bring your own food.",
+      "after": "You ____ lunch at school. So you don't have to bring your own food.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-10",
+      "label": "36",
+      "path": "stem",
+      "before": "— China is getting stronger and stronger.\n— Yes. So Chinese by more and more foreigners.",
+      "after": "— China is getting stronger and stronger.\n— Yes. So Chinese ____ by more and more foreigners.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-11",
+      "label": "1",
+      "path": "stem",
+      "before": "On April 29，China successfully launched the Tianhe at the Wenchang Space Launch Centre in Hainan. exciting news!",
+      "after": "On April 29, China successfully launched the Tianhe at the Wenchang Space Launch Centre in Hainan. ____ exciting news!",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-11",
+      "label": "2",
+      "path": "stem",
+      "before": "to use sunglasses to stop the sun from shining directly in your eyes.",
+      "after": "____ to use sunglasses to stop the sun from shining directly in your eyes.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-11",
+      "label": "13",
+      "path": "stem",
+      "before": "— heavy! I can't move the bag.\n— Don't worry! Let me help you.",
+      "after": "— ____ heavy! I can't move the bag.\n— Don't worry! Let me help you.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-11",
+      "label": "32",
+      "path": "stem",
+      "before": "— Pingtang Bridge has the highest concrete bridge tower in the world. — amazing it is!",
+      "after": "— Pingtang Bridge has the highest concrete bridge tower in the world.\n— ____ amazing it is!",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-11",
+      "label": "37",
+      "path": "stem",
+      "before": "— All of my classmates have passed the English test. — exciting the news is!",
+      "after": "— All of my classmates have passed the English test.\n— ____ exciting the news is!",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-12",
+      "label": "1",
+      "path": "stem",
+      "before": "In Chinese culture, the young won't start dinner the elders take their seats.",
+      "after": "In Chinese culture, the young won't start dinner ____ the elders take their seats.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-12",
+      "label": "2",
+      "path": "stem",
+      "before": "Love your parents they are alive. Don't wait until it is too late.",
+      "after": "Love your parents ____ they are alive. Don't wait until it is too late.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-12",
+      "label": "15",
+      "path": "stem",
+      "before": "I love to listen to rock music I am running.",
+      "after": "I love to listen to rock music ____ I am running.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-12",
+      "label": "22",
+      "path": "stem",
+      "before": "— Do you know the woman wears a blue skirt?\n— Oh, she's my aunt.",
+      "after": "— Do you know the woman ____ wears a blue skirt?\n— Oh, she's my aunt.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-12",
+      "label": "35",
+      "path": "stem",
+      "before": "We should take the rest of the food home we can't finish what we order.",
+      "after": "We should take the rest of the food home ____ we can't finish what we order.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-12",
+      "label": "38",
+      "path": "stem",
+      "before": "— Hurry up, dear! we won't catch up with the train.\n— Don't worry! Time is still enough we can make it.",
+      "after": "— Hurry up, dear! ____ we won't catch up with the train.\n— Don't worry! Time is still enough ____ we can make it.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-12",
+      "label": "39",
+      "path": "stem",
+      "before": "— I'm afraid that we can't the math problem the teacher helps us.\n— That's true. It's too difficult.",
+      "after": "— I'm afraid that we can't ____ the math problem ____ the teacher helps us.\n— That's true. It's too difficult.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "1",
+      "path": "stem",
+      "before": "Rome is an ancient city ______ is hill of places of interest.",
+      "after": "Rome is an ancient city ____ is full of places of interest.",
+      "reason": "修复非考点处hill of的OCR误识别，保留关系代词空位"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "4",
+      "path": "stem",
+      "before": "— Tom, where do you work?\n— I work in a shop sells different kinds of vegetables.",
+      "after": "— Tom, where do you work?\n— I work in a shop ____ sells different kinds of vegetables.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "9",
+      "path": "stem",
+      "before": "— Do you know the woman wears a blue skirt?\n— Oh, she's my aunt.",
+      "after": "— Do you know the woman ____ wears a blue skirt?\n— Oh, she's my aunt.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "11",
+      "path": "stem",
+      "before": "— Do you know the boy is sitting next to Peter?\n— Yes. He's Peter's friend. They are celebrating his birthday.",
+      "after": "— Do you know the boy ____ is sitting next to Peter?\n— Yes. He's Peter's friend. They are celebrating his ____ birthday.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "12",
+      "path": "stem",
+      "before": "The writer and his novel you have just talked about are really well-known.",
+      "after": "The writer and his novel ____ you have just talked about are really well-known.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "13",
+      "path": "stem",
+      "before": "The Sun Island is the first place almost all the travelers would like to visit when they come to Harbin.",
+      "after": "The Sun Island is the first place ____ almost all the travelers would like to visit when they come to Harbin.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "25",
+      "path": "stem",
+      "before": "— Parents' love is deep and endless (无尽的). No matter where we go, the door of love will keep open for us.\n— Their love is just like an umbrella protects us from wind or rain.",
+      "after": "— Parents' love is deep and endless (无尽的). No matter where we go, the door of love will keep open for us.\n— Their love is just like an umbrella ____ protects us from wind or rain.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-13",
+      "label": "46",
+      "path": "stem",
+      "before": "Friends are those make you smile, always open their hearts to you and encourage you to achieve your dreams.",
+      "after": "Friends are those ____ make you smile, always open their hearts to you and encourage you to achieve your dreams.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-14",
+      "label": "26",
+      "path": "stem",
+      "before": "— The 2022 Winter Olympic Games will be held in China. Do you know ？\n— Yes. In Beijing and Zhangjiakou.",
+      "after": "— The 2022 Winter Olympic Games will be held in China. Do you know ____?\n— Yes. In Beijing and Zhangjiakou.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-grammar-14",
+      "label": "27",
+      "path": "stem",
+      "before": "— Jerry, could you remember ?\n— Have you forgotten we agreed to go to the Summer Palace?",
+      "after": "— Jerry, could you remember ____?\n— Have you forgotten we agreed to go to the Summer Palace?",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-0a1141925f00d9bc",
+      "label": "42",
+      "path": "stem",
+      "before": "When the farmer's wife first saw the different-looking goose.",
+      "after": "When the farmer's wife first saw the different-looking goose, ____.",
+      "reason": "原题为用选项补全的时间从句，句末补出主句空位"
+    },
+    {
+      "lessonId": "builtin-3622b512096493b5",
+      "label": "56",
+      "path": "stem",
+      "before": "[原题题干缺失]",
+      "after": "原题56缺少完整题干，现有四个选项不足以还原题意。请补齐原题后作答（本条为缺题记录，不计分）。",
+      "reason": "核对两个旧版HTML后确认原始资料也只有选项，不编造题干；保持缺题记录与不计分状态"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-38",
+      "label": "1",
+      "path": "stem",
+      "before": "Kang Lee closed his sushi restaurant because of",
+      "after": "Kang Lee's sushi restaurant had difficulty staying open because of ____.",
+      "reason": "按篇章修复closed的不准确概括，并补齐原因补全题的横线"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-38",
+      "label": "2",
+      "path": "stem",
+      "before": "Andrew Kim helped his grandfather by",
+      "after": "Andrew Kim helped his grandfather by ____.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-danzhao2025-reading-48",
+      "label": "5",
+      "path": "stem",
+      "before": "In the last paragraph, the writer mainly suggests that we should",
+      "after": "In the last paragraph, the writer mainly suggests that we should ____.",
+      "reason": "补齐原题遗漏的作答空位，保留选项和答案"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "1",
+      "path": "stem",
+      "before": "There are ______ employees and several employers in the company. 课件第8页",
+      "after": "There are ______ employees and several employers in the company.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "2",
+      "path": "stem",
+      "before": "选出 14 的正确拼写 （ ____ ） 。 课件第17页",
+      "after": "选出 14 的正确拼写 （ ____ ） 。",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "3",
+      "path": "stem",
+      "before": "选出 40 的正确拼写 （ ____ ） 。 课件第19页",
+      "after": "选出 40 的正确拼写 （ ____ ） 。",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "4",
+      "path": "stem",
+      "before": "Tom had been away from home for _____ days. 课件第22页",
+      "after": "Tom had been away from home for _____ days.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "5",
+      "path": "stem",
+      "before": "— How many people are there in Shaanxi Province?\n— There are almost ______ people in Shaanxi Province. 课件第23页",
+      "after": "— How many people are there in Shaanxi Province?\n— There are almost ______ people in Shaanxi Province.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "6",
+      "path": "stem",
+      "before": "His mother is in her ____ (80). 课件第29页",
+      "after": "His mother is in her ____ (80).",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "7",
+      "path": "stem",
+      "before": "The Smiths went to Shanghai _____ because they wanted to have a better life. 课件第31页",
+      "after": "The Smiths went to Shanghai _____ because they wanted to have a better life.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "8",
+      "path": "stem",
+      "before": "— How many people are there in this city?\n— There are about ______ people. 课件第33页",
+      "after": "— How many people are there in this city?\n— There are about ______ people.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "9",
+      "path": "stem",
+      "before": "We have been there for ____ ( 上百次 ). 课件第34页",
+      "after": "We have been there for ____ ( 上百次 ).",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "10",
+      "path": "stem",
+      "before": "It’s the ____ time for me to visit the Shunfeng Park. And I want to visit it a sixth time. 课件第50页",
+      "after": "It’s the ____ time for me to visit the Shunfeng Park. And I want to visit it a sixth time.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "11",
+      "path": "stem",
+      "before": "I got a beautiful bike on _____ birthday. I like it very much. 课件第51页",
+      "after": "I got a beautiful bike on _____ birthday. I like it very much.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "12",
+      "path": "stem",
+      "before": "We live in an old apartment with ______ floors and we are on the ______ floor. 课件第52页",
+      "after": "We live in an old apartment with ______ floors and we are on the ______ floor.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "13",
+      "path": "stem",
+      "before": "Today is my daughter’s _______ birthday. I bought a toy car for her. 课件第53页",
+      "after": "Today is my daughter’s _______ birthday. I bought a toy car for her.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "14",
+      "path": "stem",
+      "before": "____ _ ( 为了赶上第一班公交车 ), we are to get up earlier. 课件第54页",
+      "after": "____ ( 为了赶上第一班公交车 ), we are to get up earlier.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "15",
+      "path": "stem",
+      "before": "— When is Children’s Day?\n— It is ______. 课件第56页",
+      "after": "— When is Children’s Day?\n— It is ______.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "16",
+      "path": "stem",
+      "before": "— What’s the date today?\n— It’s _____ ( 5 月 8 日 ). 课件第57页",
+      "after": "— What’s the date today?\n— It’s _____ ( 5 月 8 日 ).",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "17",
+      "path": "stem",
+      "before": "The fridge occupied about ____ (2/5) of the space in my kitchen. 课件第63页",
+      "after": "The fridge occupied about ____ (2/5) of the space in my kitchen.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "18",
+      "path": "stem",
+      "before": "_____ of the land in that district _____ covered with trees and grass. 课件第65页",
+      "after": "_____ of the land in that district _____ covered with trees and grass.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "19",
+      "path": "stem",
+      "before": "Nearly _____ of the earth _____ covered by sea. 课件第66页",
+      "after": "Nearly _____ of the earth _____ covered by sea.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "20",
+      "path": "stem",
+      "before": "______ of my classmates are girls, and the rest are boys. 课件第67页",
+      "after": "______ of my classmates are girls, and the rest are boys.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "21",
+      "path": "stem",
+      "before": "The ____ month of the year is February. 课件课堂练习1",
+      "after": "The ____ month of the year is February.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "22",
+      "path": "stem",
+      "before": "Many beautiful skirts are on show in the shop. Jane only likes one, ____. 课件课堂练习2",
+      "after": "Many beautiful skirts are on show in the shop. Jane only likes one, ____.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "23",
+      "path": "stem",
+      "before": "Which of the following is wrong? 课件课堂练习3",
+      "after": "Which of the following is wrong?",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "24",
+      "path": "stem",
+      "before": "About ____ people are in the People's Park at weekends. 课件课堂练习4",
+      "after": "About ____ people are in the People's Park at weekends.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "25",
+      "path": "stem",
+      "before": "Lincoln was born on ____. 课件课堂练习5",
+      "after": "Lincoln was born on ____.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "26",
+      "path": "stem",
+      "before": "The train from Shanghai will arrive ____. 课件课堂练习6",
+      "after": "The train from Shanghai will arrive ____.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "27",
+      "path": "stem",
+      "before": "____ of the land in this area ____ covered with trees and grass. 课件课堂练习7",
+      "after": "____ of the land in this area ____ covered with trees and grass.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "28",
+      "path": "stem",
+      "before": "About ____ of the workers in my company ____ to work every day. 课件课堂练习8",
+      "after": "About ____ of the workers in my company ____ to work every day.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "29",
+      "path": "stem",
+      "before": "Lin Tao gets up at ____ in the morning. 课件课堂练习9",
+      "after": "Lin Tao gets up at ____ in the morning.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "30",
+      "path": "stem",
+      "before": "December ____ is Christmas. 课件课堂练习10",
+      "after": "December ____ is Christmas.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "31",
+      "path": "stem",
+      "before": "____ of the workers in this factory is about two hundred, and ____ of them are women workers. 课件课堂练习11",
+      "after": "____ of the workers in this factory is about two hundred, and ____ of them are women workers.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "32",
+      "path": "stem",
+      "before": "They lived in a ____ hotel, which is about ____ away. 课件课堂练习12",
+      "after": "They lived in a ____ hotel, which is about ____ away.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "33",
+      "path": "stem",
+      "before": "— Do you have enough men to carry these chairs?\n— No. I think we need ____ men. 课件课堂练习13",
+      "after": "— Do you have enough men to carry these chairs?\n— No. I think we need ____ men.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "34",
+      "path": "stem",
+      "before": "The airport is ____ from my home 课件课堂练习14",
+      "after": "The airport is ____ from my home",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "35",
+      "path": "stem",
+      "before": "The famous professor lives on ____ floor in Block ____. 课件课堂练习15",
+      "after": "The famous professor lives on ____ floor in Block ____.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "36",
+      "path": "stem",
+      "before": "Tom bought ____ for himself yesterday. 课件课堂练习16",
+      "after": "Tom bought ____ for himself yesterday.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "37",
+      "path": "stem",
+      "before": "It took me ____ to finish my homework. 课件课堂练习17",
+      "after": "It took me ____ to finish my homework.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "38",
+      "path": "stem",
+      "before": "Both of the two rulers are broken. I want to buy a ____ one 课件课堂练习18",
+      "after": "Both of the two rulers are broken. I want to buy a ____ one",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "39",
+      "path": "stem",
+      "before": "— What's the time, please?\n— It's ____. 课件课堂练习19",
+      "after": "— What's the time, please?\n— It's ____.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "40",
+      "path": "stem",
+      "before": "Mr. Black left here ____ ago. 课件课堂练习20",
+      "after": "Mr. Black left here ____ ago.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "41",
+      "path": "stem",
+      "before": "Now children, turn to page ____ and look at the ____ picture in Lesson Two. 课件课堂练习21",
+      "after": "Now children, turn to page ____ and look at the ____ picture in Lesson Two.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "42",
+      "path": "stem",
+      "before": "There are ____ days in an ordinary year. 课件课堂练习22",
+      "after": "There are ____ days in an ordinary year.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "43",
+      "path": "stem",
+      "before": "— On which floor do you live?\n— The ____ floor, and my room number is ____. 课件课堂练习23",
+      "after": "— On which floor do you live?\n— The ____ floor, and my room number is ____.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "44",
+      "path": "stem",
+      "before": "— How old is your daughter?\n— ____. We had a special party for her ____ birthday last week. 课件课堂练习24",
+      "after": "— How old is your daughter?\n— ____. We had a special party for her ____ birthday last week.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-81e30e381d884d24",
+      "label": "45",
+      "path": "stem",
+      "before": "The story happened ____. 课件课堂练习25",
+      "after": "The story happened ____.",
+      "reason": "移除混入题干的课件定位文字；原定位仍在修订记录中，合并被拆开的横线"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "1",
+      "path": "context.0.text",
+      "before": "A rich man once took his son on a trip to a village. He wanted his son to know the differences (1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent (2) a few days with a family there.",
+      "after": "A rich man once took his son on a trip to a village. He wanted his son to know the differences ____(1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent ____(2) a few days with a family there.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "1",
+      "path": "context.1.text",
+      "before": "On their way back home, the father (3) about his son’s ideas about the trip. So he asked, “(4) was the trip?”",
+      "after": "On their way back home, the father ____(3) about his son’s ideas about the trip. So he asked, “____(4) was the trip?”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "1",
+      "path": "context.3.text",
+      "before": "“What did you learn from the trip?” the father couldn’t (5) to ask.",
+      "after": "“What did you learn from the trip?” the father couldn’t ____(5) to ask.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "1",
+      "path": "context.4.text",
+      "before": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many (6) swimming in it. We have some expensive lights, but they have (7) stars at night. We buy vegetables in the supermarket, but they (8) vegetables in their garden for themselves. We have walls to protect us, (9) they have friends to keep them safe. Dad, thank you for (10) me how poor we are.”",
+      "after": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many ____(6) swimming in it. We have some expensive lights, but they have ____(7) stars at night. We buy vegetables in the supermarket, but they ____(8) vegetables in their garden for themselves. We have walls to protect us, ____(9) they have friends to keep them safe. Dad, thank you for ____(10) me how poor we are.”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "2",
+      "path": "context.0.text",
+      "before": "A rich man once took his son on a trip to a village. He wanted his son to know the differences (1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent (2) a few days with a family there.",
+      "after": "A rich man once took his son on a trip to a village. He wanted his son to know the differences ____(1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent ____(2) a few days with a family there.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "2",
+      "path": "context.1.text",
+      "before": "On their way back home, the father (3) about his son’s ideas about the trip. So he asked, “(4) was the trip?”",
+      "after": "On their way back home, the father ____(3) about his son’s ideas about the trip. So he asked, “____(4) was the trip?”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "2",
+      "path": "context.3.text",
+      "before": "“What did you learn from the trip?” the father couldn’t (5) to ask.",
+      "after": "“What did you learn from the trip?” the father couldn’t ____(5) to ask.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "2",
+      "path": "context.4.text",
+      "before": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many (6) swimming in it. We have some expensive lights, but they have (7) stars at night. We buy vegetables in the supermarket, but they (8) vegetables in their garden for themselves. We have walls to protect us, (9) they have friends to keep them safe. Dad, thank you for (10) me how poor we are.”",
+      "after": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many ____(6) swimming in it. We have some expensive lights, but they have ____(7) stars at night. We buy vegetables in the supermarket, but they ____(8) vegetables in their garden for themselves. We have walls to protect us, ____(9) they have friends to keep them safe. Dad, thank you for ____(10) me how poor we are.”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "3",
+      "path": "context.0.text",
+      "before": "A rich man once took his son on a trip to a village. He wanted his son to know the differences (1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent (2) a few days with a family there.",
+      "after": "A rich man once took his son on a trip to a village. He wanted his son to know the differences ____(1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent ____(2) a few days with a family there.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "3",
+      "path": "context.1.text",
+      "before": "On their way back home, the father (3) about his son’s ideas about the trip. So he asked, “(4) was the trip?”",
+      "after": "On their way back home, the father ____(3) about his son’s ideas about the trip. So he asked, “____(4) was the trip?”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "3",
+      "path": "context.3.text",
+      "before": "“What did you learn from the trip?” the father couldn’t (5) to ask.",
+      "after": "“What did you learn from the trip?” the father couldn’t ____(5) to ask.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "3",
+      "path": "context.4.text",
+      "before": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many (6) swimming in it. We have some expensive lights, but they have (7) stars at night. We buy vegetables in the supermarket, but they (8) vegetables in their garden for themselves. We have walls to protect us, (9) they have friends to keep them safe. Dad, thank you for (10) me how poor we are.”",
+      "after": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many ____(6) swimming in it. We have some expensive lights, but they have ____(7) stars at night. We buy vegetables in the supermarket, but they ____(8) vegetables in their garden for themselves. We have walls to protect us, ____(9) they have friends to keep them safe. Dad, thank you for ____(10) me how poor we are.”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "4",
+      "path": "context.0.text",
+      "before": "A rich man once took his son on a trip to a village. He wanted his son to know the differences (1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent (2) a few days with a family there.",
+      "after": "A rich man once took his son on a trip to a village. He wanted his son to know the differences ____(1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent ____(2) a few days with a family there.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "4",
+      "path": "context.1.text",
+      "before": "On their way back home, the father (3) about his son’s ideas about the trip. So he asked, “(4) was the trip?”",
+      "after": "On their way back home, the father ____(3) about his son’s ideas about the trip. So he asked, “____(4) was the trip?”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "4",
+      "path": "context.3.text",
+      "before": "“What did you learn from the trip?” the father couldn’t (5) to ask.",
+      "after": "“What did you learn from the trip?” the father couldn’t ____(5) to ask.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "4",
+      "path": "context.4.text",
+      "before": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many (6) swimming in it. We have some expensive lights, but they have (7) stars at night. We buy vegetables in the supermarket, but they (8) vegetables in their garden for themselves. We have walls to protect us, (9) they have friends to keep them safe. Dad, thank you for (10) me how poor we are.”",
+      "after": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many ____(6) swimming in it. We have some expensive lights, but they have ____(7) stars at night. We buy vegetables in the supermarket, but they ____(8) vegetables in their garden for themselves. We have walls to protect us, ____(9) they have friends to keep them safe. Dad, thank you for ____(10) me how poor we are.”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "5",
+      "path": "context.0.text",
+      "before": "A rich man once took his son on a trip to a village. He wanted his son to know the differences (1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent (2) a few days with a family there.",
+      "after": "A rich man once took his son on a trip to a village. He wanted his son to know the differences ____(1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent ____(2) a few days with a family there.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "5",
+      "path": "context.1.text",
+      "before": "On their way back home, the father (3) about his son’s ideas about the trip. So he asked, “(4) was the trip?”",
+      "after": "On their way back home, the father ____(3) about his son’s ideas about the trip. So he asked, “____(4) was the trip?”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "5",
+      "path": "context.3.text",
+      "before": "“What did you learn from the trip?” the father couldn’t (5) to ask.",
+      "after": "“What did you learn from the trip?” the father couldn’t ____(5) to ask.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "5",
+      "path": "context.4.text",
+      "before": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many (6) swimming in it. We have some expensive lights, but they have (7) stars at night. We buy vegetables in the supermarket, but they (8) vegetables in their garden for themselves. We have walls to protect us, (9) they have friends to keep them safe. Dad, thank you for (10) me how poor we are.”",
+      "after": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many ____(6) swimming in it. We have some expensive lights, but they have ____(7) stars at night. We buy vegetables in the supermarket, but they ____(8) vegetables in their garden for themselves. We have walls to protect us, ____(9) they have friends to keep them safe. Dad, thank you for ____(10) me how poor we are.”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "6",
+      "path": "context.0.text",
+      "before": "A rich man once took his son on a trip to a village. He wanted his son to know the differences (1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent (2) a few days with a family there.",
+      "after": "A rich man once took his son on a trip to a village. He wanted his son to know the differences ____(1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent ____(2) a few days with a family there.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "6",
+      "path": "context.1.text",
+      "before": "On their way back home, the father (3) about his son’s ideas about the trip. So he asked, “(4) was the trip?”",
+      "after": "On their way back home, the father ____(3) about his son’s ideas about the trip. So he asked, “____(4) was the trip?”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "6",
+      "path": "context.3.text",
+      "before": "“What did you learn from the trip?” the father couldn’t (5) to ask.",
+      "after": "“What did you learn from the trip?” the father couldn’t ____(5) to ask.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "6",
+      "path": "context.4.text",
+      "before": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many (6) swimming in it. We have some expensive lights, but they have (7) stars at night. We buy vegetables in the supermarket, but they (8) vegetables in their garden for themselves. We have walls to protect us, (9) they have friends to keep them safe. Dad, thank you for (10) me how poor we are.”",
+      "after": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many ____(6) swimming in it. We have some expensive lights, but they have ____(7) stars at night. We buy vegetables in the supermarket, but they ____(8) vegetables in their garden for themselves. We have walls to protect us, ____(9) they have friends to keep them safe. Dad, thank you for ____(10) me how poor we are.”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "7",
+      "path": "context.0.text",
+      "before": "A rich man once took his son on a trip to a village. He wanted his son to know the differences (1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent (2) a few days with a family there.",
+      "after": "A rich man once took his son on a trip to a village. He wanted his son to know the differences ____(1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent ____(2) a few days with a family there.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "7",
+      "path": "context.1.text",
+      "before": "On their way back home, the father (3) about his son’s ideas about the trip. So he asked, “(4) was the trip?”",
+      "after": "On their way back home, the father ____(3) about his son’s ideas about the trip. So he asked, “____(4) was the trip?”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "7",
+      "path": "context.3.text",
+      "before": "“What did you learn from the trip?” the father couldn’t (5) to ask.",
+      "after": "“What did you learn from the trip?” the father couldn’t ____(5) to ask.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "7",
+      "path": "context.4.text",
+      "before": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many (6) swimming in it. We have some expensive lights, but they have (7) stars at night. We buy vegetables in the supermarket, but they (8) vegetables in their garden for themselves. We have walls to protect us, (9) they have friends to keep them safe. Dad, thank you for (10) me how poor we are.”",
+      "after": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many ____(6) swimming in it. We have some expensive lights, but they have ____(7) stars at night. We buy vegetables in the supermarket, but they ____(8) vegetables in their garden for themselves. We have walls to protect us, ____(9) they have friends to keep them safe. Dad, thank you for ____(10) me how poor we are.”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "8",
+      "path": "context.0.text",
+      "before": "A rich man once took his son on a trip to a village. He wanted his son to know the differences (1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent (2) a few days with a family there.",
+      "after": "A rich man once took his son on a trip to a village. He wanted his son to know the differences ____(1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent ____(2) a few days with a family there.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "8",
+      "path": "context.1.text",
+      "before": "On their way back home, the father (3) about his son’s ideas about the trip. So he asked, “(4) was the trip?”",
+      "after": "On their way back home, the father ____(3) about his son’s ideas about the trip. So he asked, “____(4) was the trip?”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "8",
+      "path": "context.3.text",
+      "before": "“What did you learn from the trip?” the father couldn’t (5) to ask.",
+      "after": "“What did you learn from the trip?” the father couldn’t ____(5) to ask.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "8",
+      "path": "context.4.text",
+      "before": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many (6) swimming in it. We have some expensive lights, but they have (7) stars at night. We buy vegetables in the supermarket, but they (8) vegetables in their garden for themselves. We have walls to protect us, (9) they have friends to keep them safe. Dad, thank you for (10) me how poor we are.”",
+      "after": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many ____(6) swimming in it. We have some expensive lights, but they have ____(7) stars at night. We buy vegetables in the supermarket, but they ____(8) vegetables in their garden for themselves. We have walls to protect us, ____(9) they have friends to keep them safe. Dad, thank you for ____(10) me how poor we are.”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "9",
+      "path": "context.0.text",
+      "before": "A rich man once took his son on a trip to a village. He wanted his son to know the differences (1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent (2) a few days with a family there.",
+      "after": "A rich man once took his son on a trip to a village. He wanted his son to know the differences ____(1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent ____(2) a few days with a family there.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "9",
+      "path": "context.1.text",
+      "before": "On their way back home, the father (3) about his son’s ideas about the trip. So he asked, “(4) was the trip?”",
+      "after": "On their way back home, the father ____(3) about his son’s ideas about the trip. So he asked, “____(4) was the trip?”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "9",
+      "path": "context.3.text",
+      "before": "“What did you learn from the trip?” the father couldn’t (5) to ask.",
+      "after": "“What did you learn from the trip?” the father couldn’t ____(5) to ask.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "9",
+      "path": "context.4.text",
+      "before": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many (6) swimming in it. We have some expensive lights, but they have (7) stars at night. We buy vegetables in the supermarket, but they (8) vegetables in their garden for themselves. We have walls to protect us, (9) they have friends to keep them safe. Dad, thank you for (10) me how poor we are.”",
+      "after": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many ____(6) swimming in it. We have some expensive lights, but they have ____(7) stars at night. We buy vegetables in the supermarket, but they ____(8) vegetables in their garden for themselves. We have walls to protect us, ____(9) they have friends to keep them safe. Dad, thank you for ____(10) me how poor we are.”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "10",
+      "path": "context.0.text",
+      "before": "A rich man once took his son on a trip to a village. He wanted his son to know the differences (1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent (2) a few days with a family there.",
+      "after": "A rich man once took his son on a trip to a village. He wanted his son to know the differences ____(1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent ____(2) a few days with a family there.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "10",
+      "path": "context.1.text",
+      "before": "On their way back home, the father (3) about his son’s ideas about the trip. So he asked, “(4) was the trip?”",
+      "after": "On their way back home, the father ____(3) about his son’s ideas about the trip. So he asked, “____(4) was the trip?”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "10",
+      "path": "context.3.text",
+      "before": "“What did you learn from the trip?” the father couldn’t (5) to ask.",
+      "after": "“What did you learn from the trip?” the father couldn’t ____(5) to ask.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2024",
+      "label": "10",
+      "path": "context.4.text",
+      "before": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many (6) swimming in it. We have some expensive lights, but they have (7) stars at night. We buy vegetables in the supermarket, but they (8) vegetables in their garden for themselves. We have walls to protect us, (9) they have friends to keep them safe. Dad, thank you for (10) me how poor we are.”",
+      "after": "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many ____(6) swimming in it. We have some expensive lights, but they have ____(7) stars at night. We buy vegetables in the supermarket, but they ____(8) vegetables in their garden for themselves. We have walls to protect us, ____(9) they have friends to keep them safe. Dad, thank you for ____(10) me how poor we are.”",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "1",
+      "path": "context.0.text",
+      "before": "Li Ming is a middle school student. He is studying in Grade 7. He usually (1) at 7:00 in the morning, (2) today he gets up at 6:30. It is his (3) birthday, and he is 78 years old.",
+      "after": "Li Ming is a middle school student. He is studying in Grade 7. He usually ____(1) at 7:00 in the morning, ____(2) today he gets up at 6:30. It is his ____(3) birthday, and he is 78 years old.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "1",
+      "path": "context.1.text",
+      "before": "He decides to (4) a birthday cake and two CDs of Beijing Opera (京剧) (5) his grandpa. He is sure his grandpa would like (6), because his grandpa likes Beijing Opera.",
+      "after": "He decides to ____(4) a birthday cake and two CDs of Beijing Opera (京剧) ____(5) his grandpa. He is sure his grandpa would like ____(6), because his grandpa likes Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "1",
+      "path": "context.2.text",
+      "before": "When Li Ming (7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea (8) listening to Beijing Opera.",
+      "after": "When Li Ming ____(7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea ____(8) listening to Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "1",
+      "path": "context.3.text",
+      "before": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and (9) it to his grandpa. His grandpa is very happy and eats it.",
+      "after": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and ____(9) it to his grandpa. His grandpa is very happy and eats it.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "1",
+      "path": "context.4.text",
+      "before": "In the evening, Li Ming watches TV with his grandparents together. He is a little (10) but very happy, because he makes his grandparents happy.",
+      "after": "In the evening, Li Ming watches TV with his grandparents together. He is a little ____(10) but very happy, because he makes his grandparents happy.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "2",
+      "path": "context.0.text",
+      "before": "Li Ming is a middle school student. He is studying in Grade 7. He usually (1) at 7:00 in the morning, (2) today he gets up at 6:30. It is his (3) birthday, and he is 78 years old.",
+      "after": "Li Ming is a middle school student. He is studying in Grade 7. He usually ____(1) at 7:00 in the morning, ____(2) today he gets up at 6:30. It is his ____(3) birthday, and he is 78 years old.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "2",
+      "path": "context.1.text",
+      "before": "He decides to (4) a birthday cake and two CDs of Beijing Opera (京剧) (5) his grandpa. He is sure his grandpa would like (6), because his grandpa likes Beijing Opera.",
+      "after": "He decides to ____(4) a birthday cake and two CDs of Beijing Opera (京剧) ____(5) his grandpa. He is sure his grandpa would like ____(6), because his grandpa likes Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "2",
+      "path": "context.2.text",
+      "before": "When Li Ming (7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea (8) listening to Beijing Opera.",
+      "after": "When Li Ming ____(7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea ____(8) listening to Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "2",
+      "path": "context.3.text",
+      "before": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and (9) it to his grandpa. His grandpa is very happy and eats it.",
+      "after": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and ____(9) it to his grandpa. His grandpa is very happy and eats it.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "2",
+      "path": "context.4.text",
+      "before": "In the evening, Li Ming watches TV with his grandparents together. He is a little (10) but very happy, because he makes his grandparents happy.",
+      "after": "In the evening, Li Ming watches TV with his grandparents together. He is a little ____(10) but very happy, because he makes his grandparents happy.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "3",
+      "path": "context.0.text",
+      "before": "Li Ming is a middle school student. He is studying in Grade 7. He usually (1) at 7:00 in the morning, (2) today he gets up at 6:30. It is his (3) birthday, and he is 78 years old.",
+      "after": "Li Ming is a middle school student. He is studying in Grade 7. He usually ____(1) at 7:00 in the morning, ____(2) today he gets up at 6:30. It is his ____(3) birthday, and he is 78 years old.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "3",
+      "path": "context.1.text",
+      "before": "He decides to (4) a birthday cake and two CDs of Beijing Opera (京剧) (5) his grandpa. He is sure his grandpa would like (6), because his grandpa likes Beijing Opera.",
+      "after": "He decides to ____(4) a birthday cake and two CDs of Beijing Opera (京剧) ____(5) his grandpa. He is sure his grandpa would like ____(6), because his grandpa likes Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "3",
+      "path": "context.2.text",
+      "before": "When Li Ming (7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea (8) listening to Beijing Opera.",
+      "after": "When Li Ming ____(7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea ____(8) listening to Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "3",
+      "path": "context.3.text",
+      "before": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and (9) it to his grandpa. His grandpa is very happy and eats it.",
+      "after": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and ____(9) it to his grandpa. His grandpa is very happy and eats it.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "3",
+      "path": "context.4.text",
+      "before": "In the evening, Li Ming watches TV with his grandparents together. He is a little (10) but very happy, because he makes his grandparents happy.",
+      "after": "In the evening, Li Ming watches TV with his grandparents together. He is a little ____(10) but very happy, because he makes his grandparents happy.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "4",
+      "path": "context.0.text",
+      "before": "Li Ming is a middle school student. He is studying in Grade 7. He usually (1) at 7:00 in the morning, (2) today he gets up at 6:30. It is his (3) birthday, and he is 78 years old.",
+      "after": "Li Ming is a middle school student. He is studying in Grade 7. He usually ____(1) at 7:00 in the morning, ____(2) today he gets up at 6:30. It is his ____(3) birthday, and he is 78 years old.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "4",
+      "path": "context.1.text",
+      "before": "He decides to (4) a birthday cake and two CDs of Beijing Opera (京剧) (5) his grandpa. He is sure his grandpa would like (6), because his grandpa likes Beijing Opera.",
+      "after": "He decides to ____(4) a birthday cake and two CDs of Beijing Opera (京剧) ____(5) his grandpa. He is sure his grandpa would like ____(6), because his grandpa likes Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "4",
+      "path": "context.2.text",
+      "before": "When Li Ming (7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea (8) listening to Beijing Opera.",
+      "after": "When Li Ming ____(7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea ____(8) listening to Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "4",
+      "path": "context.3.text",
+      "before": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and (9) it to his grandpa. His grandpa is very happy and eats it.",
+      "after": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and ____(9) it to his grandpa. His grandpa is very happy and eats it.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "4",
+      "path": "context.4.text",
+      "before": "In the evening, Li Ming watches TV with his grandparents together. He is a little (10) but very happy, because he makes his grandparents happy.",
+      "after": "In the evening, Li Ming watches TV with his grandparents together. He is a little ____(10) but very happy, because he makes his grandparents happy.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "5",
+      "path": "context.0.text",
+      "before": "Li Ming is a middle school student. He is studying in Grade 7. He usually (1) at 7:00 in the morning, (2) today he gets up at 6:30. It is his (3) birthday, and he is 78 years old.",
+      "after": "Li Ming is a middle school student. He is studying in Grade 7. He usually ____(1) at 7:00 in the morning, ____(2) today he gets up at 6:30. It is his ____(3) birthday, and he is 78 years old.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "5",
+      "path": "context.1.text",
+      "before": "He decides to (4) a birthday cake and two CDs of Beijing Opera (京剧) (5) his grandpa. He is sure his grandpa would like (6), because his grandpa likes Beijing Opera.",
+      "after": "He decides to ____(4) a birthday cake and two CDs of Beijing Opera (京剧) ____(5) his grandpa. He is sure his grandpa would like ____(6), because his grandpa likes Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "5",
+      "path": "context.2.text",
+      "before": "When Li Ming (7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea (8) listening to Beijing Opera.",
+      "after": "When Li Ming ____(7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea ____(8) listening to Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "5",
+      "path": "context.3.text",
+      "before": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and (9) it to his grandpa. His grandpa is very happy and eats it.",
+      "after": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and ____(9) it to his grandpa. His grandpa is very happy and eats it.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "5",
+      "path": "context.4.text",
+      "before": "In the evening, Li Ming watches TV with his grandparents together. He is a little (10) but very happy, because he makes his grandparents happy.",
+      "after": "In the evening, Li Ming watches TV with his grandparents together. He is a little ____(10) but very happy, because he makes his grandparents happy.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "6",
+      "path": "context.0.text",
+      "before": "Li Ming is a middle school student. He is studying in Grade 7. He usually (1) at 7:00 in the morning, (2) today he gets up at 6:30. It is his (3) birthday, and he is 78 years old.",
+      "after": "Li Ming is a middle school student. He is studying in Grade 7. He usually ____(1) at 7:00 in the morning, ____(2) today he gets up at 6:30. It is his ____(3) birthday, and he is 78 years old.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "6",
+      "path": "context.1.text",
+      "before": "He decides to (4) a birthday cake and two CDs of Beijing Opera (京剧) (5) his grandpa. He is sure his grandpa would like (6), because his grandpa likes Beijing Opera.",
+      "after": "He decides to ____(4) a birthday cake and two CDs of Beijing Opera (京剧) ____(5) his grandpa. He is sure his grandpa would like ____(6), because his grandpa likes Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "6",
+      "path": "context.2.text",
+      "before": "When Li Ming (7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea (8) listening to Beijing Opera.",
+      "after": "When Li Ming ____(7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea ____(8) listening to Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "6",
+      "path": "context.3.text",
+      "before": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and (9) it to his grandpa. His grandpa is very happy and eats it.",
+      "after": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and ____(9) it to his grandpa. His grandpa is very happy and eats it.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "6",
+      "path": "context.4.text",
+      "before": "In the evening, Li Ming watches TV with his grandparents together. He is a little (10) but very happy, because he makes his grandparents happy.",
+      "after": "In the evening, Li Ming watches TV with his grandparents together. He is a little ____(10) but very happy, because he makes his grandparents happy.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "7",
+      "path": "context.0.text",
+      "before": "Li Ming is a middle school student. He is studying in Grade 7. He usually (1) at 7:00 in the morning, (2) today he gets up at 6:30. It is his (3) birthday, and he is 78 years old.",
+      "after": "Li Ming is a middle school student. He is studying in Grade 7. He usually ____(1) at 7:00 in the morning, ____(2) today he gets up at 6:30. It is his ____(3) birthday, and he is 78 years old.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "7",
+      "path": "context.1.text",
+      "before": "He decides to (4) a birthday cake and two CDs of Beijing Opera (京剧) (5) his grandpa. He is sure his grandpa would like (6), because his grandpa likes Beijing Opera.",
+      "after": "He decides to ____(4) a birthday cake and two CDs of Beijing Opera (京剧) ____(5) his grandpa. He is sure his grandpa would like ____(6), because his grandpa likes Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "7",
+      "path": "context.2.text",
+      "before": "When Li Ming (7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea (8) listening to Beijing Opera.",
+      "after": "When Li Ming ____(7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea ____(8) listening to Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "7",
+      "path": "context.3.text",
+      "before": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and (9) it to his grandpa. His grandpa is very happy and eats it.",
+      "after": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and ____(9) it to his grandpa. His grandpa is very happy and eats it.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "7",
+      "path": "context.4.text",
+      "before": "In the evening, Li Ming watches TV with his grandparents together. He is a little (10) but very happy, because he makes his grandparents happy.",
+      "after": "In the evening, Li Ming watches TV with his grandparents together. He is a little ____(10) but very happy, because he makes his grandparents happy.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "8",
+      "path": "context.0.text",
+      "before": "Li Ming is a middle school student. He is studying in Grade 7. He usually (1) at 7:00 in the morning, (2) today he gets up at 6:30. It is his (3) birthday, and he is 78 years old.",
+      "after": "Li Ming is a middle school student. He is studying in Grade 7. He usually ____(1) at 7:00 in the morning, ____(2) today he gets up at 6:30. It is his ____(3) birthday, and he is 78 years old.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "8",
+      "path": "context.1.text",
+      "before": "He decides to (4) a birthday cake and two CDs of Beijing Opera (京剧) (5) his grandpa. He is sure his grandpa would like (6), because his grandpa likes Beijing Opera.",
+      "after": "He decides to ____(4) a birthday cake and two CDs of Beijing Opera (京剧) ____(5) his grandpa. He is sure his grandpa would like ____(6), because his grandpa likes Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "8",
+      "path": "context.2.text",
+      "before": "When Li Ming (7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea (8) listening to Beijing Opera.",
+      "after": "When Li Ming ____(7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea ____(8) listening to Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "8",
+      "path": "context.3.text",
+      "before": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and (9) it to his grandpa. His grandpa is very happy and eats it.",
+      "after": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and ____(9) it to his grandpa. His grandpa is very happy and eats it.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "8",
+      "path": "context.4.text",
+      "before": "In the evening, Li Ming watches TV with his grandparents together. He is a little (10) but very happy, because he makes his grandparents happy.",
+      "after": "In the evening, Li Ming watches TV with his grandparents together. He is a little ____(10) but very happy, because he makes his grandparents happy.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "9",
+      "path": "context.0.text",
+      "before": "Li Ming is a middle school student. He is studying in Grade 7. He usually (1) at 7:00 in the morning, (2) today he gets up at 6:30. It is his (3) birthday, and he is 78 years old.",
+      "after": "Li Ming is a middle school student. He is studying in Grade 7. He usually ____(1) at 7:00 in the morning, ____(2) today he gets up at 6:30. It is his ____(3) birthday, and he is 78 years old.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "9",
+      "path": "context.1.text",
+      "before": "He decides to (4) a birthday cake and two CDs of Beijing Opera (京剧) (5) his grandpa. He is sure his grandpa would like (6), because his grandpa likes Beijing Opera.",
+      "after": "He decides to ____(4) a birthday cake and two CDs of Beijing Opera (京剧) ____(5) his grandpa. He is sure his grandpa would like ____(6), because his grandpa likes Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "9",
+      "path": "context.2.text",
+      "before": "When Li Ming (7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea (8) listening to Beijing Opera.",
+      "after": "When Li Ming ____(7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea ____(8) listening to Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "9",
+      "path": "context.3.text",
+      "before": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and (9) it to his grandpa. His grandpa is very happy and eats it.",
+      "after": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and ____(9) it to his grandpa. His grandpa is very happy and eats it.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "9",
+      "path": "context.4.text",
+      "before": "In the evening, Li Ming watches TV with his grandparents together. He is a little (10) but very happy, because he makes his grandparents happy.",
+      "after": "In the evening, Li Ming watches TV with his grandparents together. He is a little ____(10) but very happy, because he makes his grandparents happy.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "10",
+      "path": "context.0.text",
+      "before": "Li Ming is a middle school student. He is studying in Grade 7. He usually (1) at 7:00 in the morning, (2) today he gets up at 6:30. It is his (3) birthday, and he is 78 years old.",
+      "after": "Li Ming is a middle school student. He is studying in Grade 7. He usually ____(1) at 7:00 in the morning, ____(2) today he gets up at 6:30. It is his ____(3) birthday, and he is 78 years old.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "10",
+      "path": "context.1.text",
+      "before": "He decides to (4) a birthday cake and two CDs of Beijing Opera (京剧) (5) his grandpa. He is sure his grandpa would like (6), because his grandpa likes Beijing Opera.",
+      "after": "He decides to ____(4) a birthday cake and two CDs of Beijing Opera (京剧) ____(5) his grandpa. He is sure his grandpa would like ____(6), because his grandpa likes Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "10",
+      "path": "context.2.text",
+      "before": "When Li Ming (7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea (8) listening to Beijing Opera.",
+      "after": "When Li Ming ____(7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea ____(8) listening to Beijing Opera.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "10",
+      "path": "context.3.text",
+      "before": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and (9) it to his grandpa. His grandpa is very happy and eats it.",
+      "after": "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and ____(9) it to his grandpa. His grandpa is very happy and eats it.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2023",
+      "label": "10",
+      "path": "context.4.text",
+      "before": "In the evening, Li Ming watches TV with his grandparents together. He is a little (10) but very happy, because he makes his grandparents happy.",
+      "after": "In the evening, Li Ming watches TV with his grandparents together. He is a little ____(10) but very happy, because he makes his grandparents happy.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "1",
+      "path": "context.0.text",
+      "before": "Last month I went to Sanya with my family. It was a very (1) trip. We flew there. It was my first time to take a (2), so I felt very excited. When we got there, we found a nice hotel (3) the sea. We stayed there for five days. We (4) early every day. After breakfast, we went to the beach. My brother and I (5) in the sea and played games on the beach. My father took (6) of us. My mother sat on the chair (7) read her favorite books.",
+      "after": "Last month I went to Sanya with my family. It was a very ____(1) trip. We flew there. It was my first time to take a ____(2), so I felt very excited. When we got there, we found a nice hotel ____(3) the sea. We stayed there for five days. We ____(4) early every day. After breakfast, we went to the beach. My brother and I ____(5) in the sea and played games on the beach. My father took ____(6) of us. My mother sat on the chair ____(7) read her favorite books.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "1",
+      "path": "context.1.text",
+      "before": "We visited many beautiful places and (8) a lot of food there. The food was very delicious. We (9) made two friends there. They were very friendly and invited (10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "after": "We visited many beautiful places and ____(8) a lot of food there. The food was very delicious. We ____(9) made two friends there. They were very friendly and invited ____(10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "2",
+      "path": "context.0.text",
+      "before": "Last month I went to Sanya with my family. It was a very (1) trip. We flew there. It was my first time to take a (2), so I felt very excited. When we got there, we found a nice hotel (3) the sea. We stayed there for five days. We (4) early every day. After breakfast, we went to the beach. My brother and I (5) in the sea and played games on the beach. My father took (6) of us. My mother sat on the chair (7) read her favorite books.",
+      "after": "Last month I went to Sanya with my family. It was a very ____(1) trip. We flew there. It was my first time to take a ____(2), so I felt very excited. When we got there, we found a nice hotel ____(3) the sea. We stayed there for five days. We ____(4) early every day. After breakfast, we went to the beach. My brother and I ____(5) in the sea and played games on the beach. My father took ____(6) of us. My mother sat on the chair ____(7) read her favorite books.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "2",
+      "path": "context.1.text",
+      "before": "We visited many beautiful places and (8) a lot of food there. The food was very delicious. We (9) made two friends there. They were very friendly and invited (10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "after": "We visited many beautiful places and ____(8) a lot of food there. The food was very delicious. We ____(9) made two friends there. They were very friendly and invited ____(10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "3",
+      "path": "context.0.text",
+      "before": "Last month I went to Sanya with my family. It was a very (1) trip. We flew there. It was my first time to take a (2), so I felt very excited. When we got there, we found a nice hotel (3) the sea. We stayed there for five days. We (4) early every day. After breakfast, we went to the beach. My brother and I (5) in the sea and played games on the beach. My father took (6) of us. My mother sat on the chair (7) read her favorite books.",
+      "after": "Last month I went to Sanya with my family. It was a very ____(1) trip. We flew there. It was my first time to take a ____(2), so I felt very excited. When we got there, we found a nice hotel ____(3) the sea. We stayed there for five days. We ____(4) early every day. After breakfast, we went to the beach. My brother and I ____(5) in the sea and played games on the beach. My father took ____(6) of us. My mother sat on the chair ____(7) read her favorite books.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "3",
+      "path": "context.1.text",
+      "before": "We visited many beautiful places and (8) a lot of food there. The food was very delicious. We (9) made two friends there. They were very friendly and invited (10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "after": "We visited many beautiful places and ____(8) a lot of food there. The food was very delicious. We ____(9) made two friends there. They were very friendly and invited ____(10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "4",
+      "path": "context.0.text",
+      "before": "Last month I went to Sanya with my family. It was a very (1) trip. We flew there. It was my first time to take a (2), so I felt very excited. When we got there, we found a nice hotel (3) the sea. We stayed there for five days. We (4) early every day. After breakfast, we went to the beach. My brother and I (5) in the sea and played games on the beach. My father took (6) of us. My mother sat on the chair (7) read her favorite books.",
+      "after": "Last month I went to Sanya with my family. It was a very ____(1) trip. We flew there. It was my first time to take a ____(2), so I felt very excited. When we got there, we found a nice hotel ____(3) the sea. We stayed there for five days. We ____(4) early every day. After breakfast, we went to the beach. My brother and I ____(5) in the sea and played games on the beach. My father took ____(6) of us. My mother sat on the chair ____(7) read her favorite books.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "4",
+      "path": "context.1.text",
+      "before": "We visited many beautiful places and (8) a lot of food there. The food was very delicious. We (9) made two friends there. They were very friendly and invited (10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "after": "We visited many beautiful places and ____(8) a lot of food there. The food was very delicious. We ____(9) made two friends there. They were very friendly and invited ____(10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "5",
+      "path": "context.0.text",
+      "before": "Last month I went to Sanya with my family. It was a very (1) trip. We flew there. It was my first time to take a (2), so I felt very excited. When we got there, we found a nice hotel (3) the sea. We stayed there for five days. We (4) early every day. After breakfast, we went to the beach. My brother and I (5) in the sea and played games on the beach. My father took (6) of us. My mother sat on the chair (7) read her favorite books.",
+      "after": "Last month I went to Sanya with my family. It was a very ____(1) trip. We flew there. It was my first time to take a ____(2), so I felt very excited. When we got there, we found a nice hotel ____(3) the sea. We stayed there for five days. We ____(4) early every day. After breakfast, we went to the beach. My brother and I ____(5) in the sea and played games on the beach. My father took ____(6) of us. My mother sat on the chair ____(7) read her favorite books.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "5",
+      "path": "context.1.text",
+      "before": "We visited many beautiful places and (8) a lot of food there. The food was very delicious. We (9) made two friends there. They were very friendly and invited (10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "after": "We visited many beautiful places and ____(8) a lot of food there. The food was very delicious. We ____(9) made two friends there. They were very friendly and invited ____(10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "6",
+      "path": "context.0.text",
+      "before": "Last month I went to Sanya with my family. It was a very (1) trip. We flew there. It was my first time to take a (2), so I felt very excited. When we got there, we found a nice hotel (3) the sea. We stayed there for five days. We (4) early every day. After breakfast, we went to the beach. My brother and I (5) in the sea and played games on the beach. My father took (6) of us. My mother sat on the chair (7) read her favorite books.",
+      "after": "Last month I went to Sanya with my family. It was a very ____(1) trip. We flew there. It was my first time to take a ____(2), so I felt very excited. When we got there, we found a nice hotel ____(3) the sea. We stayed there for five days. We ____(4) early every day. After breakfast, we went to the beach. My brother and I ____(5) in the sea and played games on the beach. My father took ____(6) of us. My mother sat on the chair ____(7) read her favorite books.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "6",
+      "path": "context.1.text",
+      "before": "We visited many beautiful places and (8) a lot of food there. The food was very delicious. We (9) made two friends there. They were very friendly and invited (10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "after": "We visited many beautiful places and ____(8) a lot of food there. The food was very delicious. We ____(9) made two friends there. They were very friendly and invited ____(10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "7",
+      "path": "context.0.text",
+      "before": "Last month I went to Sanya with my family. It was a very (1) trip. We flew there. It was my first time to take a (2), so I felt very excited. When we got there, we found a nice hotel (3) the sea. We stayed there for five days. We (4) early every day. After breakfast, we went to the beach. My brother and I (5) in the sea and played games on the beach. My father took (6) of us. My mother sat on the chair (7) read her favorite books.",
+      "after": "Last month I went to Sanya with my family. It was a very ____(1) trip. We flew there. It was my first time to take a ____(2), so I felt very excited. When we got there, we found a nice hotel ____(3) the sea. We stayed there for five days. We ____(4) early every day. After breakfast, we went to the beach. My brother and I ____(5) in the sea and played games on the beach. My father took ____(6) of us. My mother sat on the chair ____(7) read her favorite books.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "7",
+      "path": "context.1.text",
+      "before": "We visited many beautiful places and (8) a lot of food there. The food was very delicious. We (9) made two friends there. They were very friendly and invited (10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "after": "We visited many beautiful places and ____(8) a lot of food there. The food was very delicious. We ____(9) made two friends there. They were very friendly and invited ____(10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "8",
+      "path": "context.0.text",
+      "before": "Last month I went to Sanya with my family. It was a very (1) trip. We flew there. It was my first time to take a (2), so I felt very excited. When we got there, we found a nice hotel (3) the sea. We stayed there for five days. We (4) early every day. After breakfast, we went to the beach. My brother and I (5) in the sea and played games on the beach. My father took (6) of us. My mother sat on the chair (7) read her favorite books.",
+      "after": "Last month I went to Sanya with my family. It was a very ____(1) trip. We flew there. It was my first time to take a ____(2), so I felt very excited. When we got there, we found a nice hotel ____(3) the sea. We stayed there for five days. We ____(4) early every day. After breakfast, we went to the beach. My brother and I ____(5) in the sea and played games on the beach. My father took ____(6) of us. My mother sat on the chair ____(7) read her favorite books.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "8",
+      "path": "context.1.text",
+      "before": "We visited many beautiful places and (8) a lot of food there. The food was very delicious. We (9) made two friends there. They were very friendly and invited (10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "after": "We visited many beautiful places and ____(8) a lot of food there. The food was very delicious. We ____(9) made two friends there. They were very friendly and invited ____(10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "9",
+      "path": "context.0.text",
+      "before": "Last month I went to Sanya with my family. It was a very (1) trip. We flew there. It was my first time to take a (2), so I felt very excited. When we got there, we found a nice hotel (3) the sea. We stayed there for five days. We (4) early every day. After breakfast, we went to the beach. My brother and I (5) in the sea and played games on the beach. My father took (6) of us. My mother sat on the chair (7) read her favorite books.",
+      "after": "Last month I went to Sanya with my family. It was a very ____(1) trip. We flew there. It was my first time to take a ____(2), so I felt very excited. When we got there, we found a nice hotel ____(3) the sea. We stayed there for five days. We ____(4) early every day. After breakfast, we went to the beach. My brother and I ____(5) in the sea and played games on the beach. My father took ____(6) of us. My mother sat on the chair ____(7) read her favorite books.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "9",
+      "path": "context.1.text",
+      "before": "We visited many beautiful places and (8) a lot of food there. The food was very delicious. We (9) made two friends there. They were very friendly and invited (10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "after": "We visited many beautiful places and ____(8) a lot of food there. The food was very delicious. We ____(9) made two friends there. They were very friendly and invited ____(10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "10",
+      "path": "context.0.text",
+      "before": "Last month I went to Sanya with my family. It was a very (1) trip. We flew there. It was my first time to take a (2), so I felt very excited. When we got there, we found a nice hotel (3) the sea. We stayed there for five days. We (4) early every day. After breakfast, we went to the beach. My brother and I (5) in the sea and played games on the beach. My father took (6) of us. My mother sat on the chair (7) read her favorite books.",
+      "after": "Last month I went to Sanya with my family. It was a very ____(1) trip. We flew there. It was my first time to take a ____(2), so I felt very excited. When we got there, we found a nice hotel ____(3) the sea. We stayed there for five days. We ____(4) early every day. After breakfast, we went to the beach. My brother and I ____(5) in the sea and played games on the beach. My father took ____(6) of us. My mother sat on the chair ____(7) read her favorite books.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    },
+    {
+      "lessonId": "builtin-selected-papers-cloze-2022",
+      "label": "10",
+      "path": "context.1.text",
+      "before": "We visited many beautiful places and (8) a lot of food there. The food was very delicious. We (9) made two friends there. They were very friendly and invited (10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "after": "We visited many beautiful places and ____(8) a lot of food there. The food was very delicious. We ____(9) made two friends there. They were very friendly and invited ____(10) to their homes. The trip was wonderful and we want to go there again next year.",
+      "reason": "为篇章内已编号的作答空补出可显示横线，保留原空号"
+    }
+  ]
+}

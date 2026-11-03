@@ -1,0 +1,82 @@
+[
+  {
+    "label": "1",
+    "year": 2024,
+    "pdfPages": [
+      23
+    ],
+    "stem": "—Can I get you some more fish? —____",
+    "options": [
+      "Yes, please.",
+      "I am sorry.",
+      "That's all right.",
+      "It doesn't matter."
+    ],
+    "answer": "A",
+    "reason": "别人主动提供更多鱼，接受帮助应答Yes, please；其余选项分别用于道歉、回应道歉等语境。"
+  },
+  {
+    "label": "2",
+    "year": 2024,
+    "pdfPages": [
+      23
+    ],
+    "stem": "—Can you meet Bill at the airport tomorrow? —____, but I'm leaving for London this afternoon.",
+    "options": [
+      "No problem",
+      "Certainly",
+      "Of course",
+      "I'd love to"
+    ],
+    "answer": "D",
+    "reason": "but后说明无法去接人，用I'd love to先表示愿意，再委婉说明不能做到；其余三项均直接承诺。"
+  },
+  {
+    "label": "3",
+    "year": 2023,
+    "pdfPages": [
+      23
+    ],
+    "stem": "—Shall we go out for a walk? —____",
+    "options": [
+      "Good idea.",
+      "Good luck.",
+      "Have fun.",
+      "Good bye."
+    ],
+    "answer": "A",
+    "reason": "Shall we …?提出一起散步的建议，Good idea表示赞同；不是祝好运或告别。"
+  },
+  {
+    "label": "4",
+    "year": 2021,
+    "pdfPages": [
+      23
+    ],
+    "stem": "—Your sweater is very beautiful, Joan! —____",
+    "options": [
+      "You are welcome.",
+      "Not at all.",
+      "Just so-so.",
+      "Thank you."
+    ],
+    "answer": "D",
+    "reason": "别人赞美毛衣漂亮，礼貌回应Thank you；You are welcome用于回应感谢。"
+  },
+  {
+    "label": "5",
+    "year": 2021,
+    "pdfPages": [
+      24
+    ],
+    "stem": "—I fell and hurt my leg just now. —____",
+    "options": [
+      "Be careful.",
+      "It doesn't matter.",
+      "I'm sorry to hear that.",
+      "Nothing serious."
+    ],
+    "answer": "C",
+    "reason": "听到对方刚摔伤应表示同情，I'm sorry to hear that贴合已发生的不幸，不宜未经依据断言Nothing serious。"
+  }
+]

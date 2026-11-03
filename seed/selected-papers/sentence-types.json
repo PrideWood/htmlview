@@ -1,0 +1,114 @@
+[
+  {
+    "label": "1",
+    "year": 2024,
+    "pdfPages": [
+      17
+    ],
+    "stem": "It's a fine day. Let's go hiking, ____?",
+    "options": [
+      "do you",
+      "don't you",
+      "can we",
+      "shall we"
+    ],
+    "answer": "D",
+    "reason": "Let's提出包含说话者的共同建议，反意问句通常用shall we。"
+  },
+  {
+    "label": "2",
+    "year": 2023,
+    "pdfPages": [
+      17
+    ],
+    "stem": "____ a wonderful trip he had in China!",
+    "options": [
+      "Where",
+      "How",
+      "That",
+      "What"
+    ],
+    "answer": "D",
+    "reason": "感叹中心是单数名词trip，已有a，用What a wonderful trip + 主语 + 谓语。"
+  },
+  {
+    "label": "3",
+    "year": 2023,
+    "pdfPages": [
+      17
+    ],
+    "stem": "They sent invitations to their relatives and friends, ____?",
+    "options": [
+      "have they",
+      "did they",
+      "haven't they",
+      "didn't they"
+    ],
+    "answer": "D",
+    "reason": "陈述部分为肯定一般过去时sent，反意问句用否定didn't，主语仍为they。"
+  },
+  {
+    "label": "4",
+    "year": 2022,
+    "pdfPages": [
+      17
+    ],
+    "stem": "You never told me his phone number, ____?",
+    "options": [
+      "hadn't you",
+      "didn't you",
+      "had you",
+      "did you"
+    ],
+    "answer": "D",
+    "reason": "never使陈述句具有否定意义，反意问句用肯定；told为过去式，故did you。"
+  },
+  {
+    "label": "5",
+    "year": 2022,
+    "pdfPages": [
+      17
+    ],
+    "stem": "—____ do you go there? —Once a month.",
+    "options": [
+      "How often",
+      "How soon",
+      "How long",
+      "How many"
+    ],
+    "answer": "A",
+    "reason": "Once a month回答频率，每月一次，用How often提问。"
+  },
+  {
+    "label": "6",
+    "year": 2021,
+    "pdfPages": [
+      17
+    ],
+    "stem": "Good news! There ____ fewer people catching this illness now.",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "were"
+    ],
+    "answer": "B",
+    "reason": "now表现在，There be与后面的复数people一致，用are。"
+  },
+  {
+    "label": "7",
+    "year": 2020,
+    "pdfPages": [
+      17
+    ],
+    "stem": "Let's go and play volleyball after class, ____?",
+    "options": [
+      "shall we",
+      "will we",
+      "don't we",
+      "aren't we"
+    ],
+    "answer": "A",
+    "reason": "Let's开头的祈使句表示共同建议，附加问句用shall we。"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "label": "1",
+    "year": 2024,
+    "pdfPages": [
+      18
+    ],
+    "stem": "He will never forget the days ____ he spent with you in Hainan.",
+    "options": [
+      "when",
+      "that",
+      "on which",
+      "in which"
+    ],
+    "answer": "B",
+    "reason": "spent后缺宾语，关系词指days，用that；when只作时间状语，不能补spend的宾语。"
+  },
+  {
+    "label": "2",
+    "year": 2024,
+    "pdfPages": [
+      18
+    ],
+    "stem": "Jim told his daughter that she could have ____ she wanted for Christmas.",
+    "options": [
+      "which",
+      "whatever",
+      "that",
+      "whenever"
+    ],
+    "answer": "B",
+    "reason": "have后为宾语从句，whatever既引导从句又作wanted的宾语，表示她想要的任何东西。"
+  },
+  {
+    "label": "3",
+    "year": 2022,
+    "pdfPages": [
+      18
+    ],
+    "stem": "David couldn't find the bank and asked the policeman ____.",
+    "options": [
+      "where it is",
+      "where it was",
+      "where is it",
+      "where was it"
+    ],
+    "answer": "B",
+    "reason": "asked为过去，从句通常用过去时；宾语从句保持陈述语序where it was，不用where was it。"
+  },
+  {
+    "label": "4",
+    "year": 2022,
+    "pdfPages": [
+      18
+    ],
+    "stem": "Harry got high marks in the test, ____ surprised everyone in our class.",
+    "options": [
+      "which",
+      "that",
+      "this",
+      "it"
+    ],
+    "answer": "A",
+    "reason": "逗号后的非限定性定语从句指前面取得高分这件事，用which作surprised的主语，不能用that。"
+  },
+  {
+    "label": "5",
+    "year": 2021,
+    "pdfPages": [
+      18
+    ],
+    "stem": "This is one of the best books ____ we have ever read this term.",
+    "options": [
+      "which",
+      "of which",
+      "that",
+      "in that"
+    ],
+    "answer": "C",
+    "reason": "books受最高级best修饰，考试通常推荐that作read的宾语；which在现代限定性从句中也可成立，保留A、C多解提示。"
+  },
+  {
+    "label": "6",
+    "year": 2021,
+    "pdfPages": [
+      19
+    ],
+    "stem": "Do you know ____ he will go to Ann's birthday party on Friday or not?",
+    "options": [
+      "that",
+      "how",
+      "when",
+      "whether"
+    ],
+    "answer": "D",
+    "reason": "whether … or not表示是否，询问会不会参加；that不表达不确定的是否。"
+  },
+  {
+    "label": "7",
+    "year": 2020,
+    "pdfPages": [
+      19
+    ],
+    "stem": "After having lived in New York City for thirty years, Tom finally returned to the small town ____ he grew up.",
+    "options": [
+      "which",
+      "where",
+      "that",
+      "when"
+    ],
+    "answer": "B",
+    "reason": "grow up不缺宾语，从句缺地点状语，where指在那个小镇成长。"
+  }
+]

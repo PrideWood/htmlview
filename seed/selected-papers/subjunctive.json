@@ -1,0 +1,18 @@
+[
+  {
+    "label": "1",
+    "year": 2024,
+    "pdfPages": [
+      21
+    ],
+    "stem": "If I were you, I ____ refuse his unreasonable demand.",
+    "options": [
+      "shall",
+      "must",
+      "may",
+      "would"
+    ],
+    "answer": "D",
+    "reason": "If I were you为与现在事实相反的假设，主句用would + 动词原形，表示换作我就会拒绝。"
+  }
+]

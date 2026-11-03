@@ -1,0 +1,78 @@
+{
+  "year": 2023,
+  "pdfPages": [
+    36
+  ],
+  "bookPages": [
+    270
+  ],
+  "title": "睡眠",
+  "paragraphs": [
+    "After a day of work and play, the body needs rest. Enough sleep is necessary for good health. In sleep, the body recovers from the activities of the previous day. The rest that you get while sleeping enables your body to prepare itself for the next day.",
+    "There are four levels of sleep, each being a little deeper than the one before. As you sleep, your muscles relax little by little. Your heart beats more slowly, and your brain slows down. After you reach the fourth level, your body shifts back and forth from one level of sleep to another.",
+    "Although your mind slows down, from time to time you will dream. Scientists who study sleep say that when dreaming occurs, your eyeballs begin to move more quickly (although your eyelids are closed). This stage of sleep is called REM, which stands for Rapid Eye Movement.",
+    "If you have trouble falling asleep, some people recommend that you breathe deeply. Other people believe that drinking warm milk will help make you drowsy. There is also an old suggestion that counting sheep will help you fall asleep."
+  ],
+  "questions": [
+    {
+      "label": "16",
+      "stem": "We can learn from the text that not getting enough sleep might cause people to ____.",
+      "options": [
+        "feel very nervous",
+        "breathe quickly",
+        "dream more often",
+        "have poor health"
+      ],
+      "answer": "D",
+      "reason": "首段强调足够睡眠是健康所必需，由此按文意推断缺觉可能导致健康不佳。"
+    },
+    {
+      "label": "17",
+      "stem": "According to Paragraph 3, during REM, ____.",
+      "options": [
+        "you move restlessly",
+        "your eyeballs move more quickly",
+        "your mind stops working",
+        "you start to dream"
+      ],
+      "answer": "B",
+      "reason": "REM全称Rapid Eye Movement，原文明确此时眼球移动更快；不等于大脑停止工作。"
+    },
+    {
+      "label": "18",
+      "stem": "The underlined word “drowsy” in the last paragraph means “____” in Chinese.",
+      "options": [
+        "醒的",
+        "生病的",
+        "昏昏欲睡的",
+        "无聊的"
+      ],
+      "answer": "C",
+      "reason": "暖牛奶出现在帮助入睡的建议中，drowsy在该语境为困倦、昏昏欲睡。"
+    },
+    {
+      "label": "19",
+      "stem": "One of the ways mentioned in the passage to fall asleep easily is to ____.",
+      "options": [
+        "breathe deeply",
+        "drink cold milk",
+        "get up and run",
+        "look for some sheep"
+      ],
+      "answer": "A",
+      "reason": "末段直接提及深呼吸；牛奶为warm而非cold，羊是数羊而非寻找羊。"
+    },
+    {
+      "label": "20",
+      "stem": "This passage is mainly about ____.",
+      "options": [
+        "rest",
+        "sleep",
+        "health",
+        "dream"
+      ],
+      "answer": "B",
+      "reason": "全文介绍睡眠作用、层次、做梦和入睡建议，sleep覆盖各段主题；dream只涉及一段。"
+    }
+  ]
+}

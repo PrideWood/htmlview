@@ -1,0 +1,85 @@
+{
+  "year": 2024,
+  "pdfPages": [
+    30,
+    31,
+    32
+  ],
+  "bookPages": [
+    265,
+    266
+  ],
+  "title": "一摄氏度的爱",
+  "paragraphs": [
+    "In a cold winter, a couple had to move out of their big house because of bankruptcy (破产). The husband had to work day and night to support the family, so he did not have much time to take good care of his wife. Gradually, she thought that he didn’t love her anymore and he only cared about his work.",
+    "One day, she wanted to take a shower, but her husband stopped her at the door.",
+    "“Let me shower first, OK?”",
+    "“Why not let me first?” she asked.",
+    "“I am tired, sweetie. You can take it later, OK?”",
+    "She was very sad.",
+    "On a rainy day, she had nothing to do and turned on her husband’s computer. A few minutes later, her eyes were full of tears as she read his diary.",
+    "“Today, I was very sad. When she asked me why I was always taking the shower first, I told her that I was tired and she was unhappy. I am not as rich as before. We moved to this small house and it was very cold. I found the room could get a little warmer after one person took the shower. So I rushed to the bathroom first every time. When she took the shower, the room would get warmer by 1°C or 2°C at least. Now I can’t give her a comfortable life or buy expensive dresses for her, but I can give her 1°C love.”"
+  ],
+  "questions": [
+    {
+      "label": "11",
+      "stem": "When did the couple move out of their big house?",
+      "options": [
+        "On a rainy day.",
+        "In a cold winter.",
+        "When the husband was rich.",
+        "When the wife read her husband’s diary."
+      ],
+      "answer": "B",
+      "reason": "首句给出In a cold winter，是搬离大房子的时间；雨天是后来阅读日记的时间。"
+    },
+    {
+      "label": "12",
+      "stem": "In the wife’s opinion, her husband no longer loved her because ____.",
+      "options": [
+        "he didn’t buy her beautiful clothes",
+        "he didn’t have enough money",
+        "he didn’t care about her",
+        "he didn’t look after her parents"
+      ],
+      "answer": "C",
+      "reason": "首段说她觉得丈夫只关心工作、没时间照料自己，所以误以为不再关心她。"
+    },
+    {
+      "label": "13",
+      "stem": "The woman’s eyes were full of tears because ____.",
+      "options": [
+        "she felt sad about her husband’s words",
+        "the rainy day made her sad",
+        "the computer hurt her eyes",
+        "she was moved by what her husband had done for her"
+      ],
+      "answer": "D",
+      "reason": "读日记后知道先洗澡是为了让浴室暖一些，眼泪来自对丈夫体贴行为的感动。"
+    },
+    {
+      "label": "14",
+      "stem": "Why did the man want to take the shower before his wife?",
+      "options": [
+        "Because he was tired and wanted to sleep earlier.",
+        "Because he wanted to make the bathroom warmer.",
+        "Because he wasn’t as strong as before.",
+        "Because he had nothing to do at that time."
+      ],
+      "answer": "B",
+      "reason": "日记明确说先洗完能把室温提高1到2摄氏度，真实目的是让妻子用更暖的浴室。"
+    },
+    {
+      "label": "15",
+      "stem": "We may learn from the passage that ____.",
+      "options": [
+        "the man loved his wife very much",
+        "the woman didn’t love her husband",
+        "the man was poor before",
+        "the woman had no work"
+      ],
+      "answer": "A",
+      "reason": "丈夫虽经济困难仍为妻子设法保暖，体现深爱妻子；并非故事开头说他一直贫穷。"
+    }
+  ]
+}

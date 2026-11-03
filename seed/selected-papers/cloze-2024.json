@@ -1,0 +1,142 @@
+{
+  "year": 2024,
+  "pdfPages": [
+    25,
+    26
+  ],
+  "bookPages": [
+    253,
+    254
+  ],
+  "title": "贫与富的乡村旅行",
+  "paragraphs": [
+    "A rich man once took his son on a trip to a village. He wanted his son to know the differences (1) their life and the villagers’ so that his son could cherish (珍爱) what he had. They spent (2) a few days with a family there.",
+    "On their way back home, the father (3) about his son’s ideas about the trip. So he asked, “(4) was the trip?”",
+    "“It was great, Dad!”",
+    "“What did you learn from the trip?” the father couldn’t (5) to ask.",
+    "The son answered, “We have one dog, but the family has four. We have a swimming pool, but they have a big river with many (6) swimming in it. We have some expensive lights, but they have (7) stars at night. We buy vegetables in the supermarket, but they (8) vegetables in their garden for themselves. We have walls to protect us, (9) they have friends to keep them safe. Dad, thank you for (10) me how poor we are.”",
+    "The father couldn’t say anything, and he just stood there quietly."
+  ],
+  "questions": [
+    {
+      "label": "1",
+      "stem": "选择填入第1空的选项。",
+      "options": [
+        "from",
+        "at",
+        "between",
+        "into"
+      ],
+      "answer": "C",
+      "reason": "differences between A and B表示A与B之间的差异，比较的是两种生活。"
+    },
+    {
+      "label": "2",
+      "stem": "选择填入第2空的选项。",
+      "options": [
+        "quite",
+        "many",
+        "some",
+        "more"
+      ],
+      "answer": "A",
+      "reason": "quite a few表示相当多、好几，a few已在原文中，前面填quite。"
+    },
+    {
+      "label": "3",
+      "stem": "选择填入第3空的选项。",
+      "options": [
+        "wondered",
+        "disliked",
+        "worried",
+        "described"
+      ],
+      "answer": "A",
+      "reason": "父亲想知道儿子对旅程的看法，wonder about表示想知道，对应后面询问。"
+    },
+    {
+      "label": "4",
+      "stem": "选择填入第4空的选项。",
+      "options": [
+        "When",
+        "Where",
+        "How",
+        "What"
+      ],
+      "answer": "C",
+      "reason": "回答It was great是在评价旅行感受，应问How was the trip，而非时间或地点。"
+    },
+    {
+      "label": "5",
+      "stem": "选择填入第5空的选项。",
+      "options": [
+        "wait",
+        "seem",
+        "decide",
+        "try"
+      ],
+      "answer": "A",
+      "reason": "couldn’t wait to ask表示迫不及待想问，是固定搭配。"
+    },
+    {
+      "label": "6",
+      "stem": "选择填入第6空的选项。",
+      "options": [
+        "pigs",
+        "hens",
+        "birds",
+        "ducks"
+      ],
+      "answer": "D",
+      "reason": "河里游泳的动物在这些选项中应为ducks，鸭子，与swimming in it相符。"
+    },
+    {
+      "label": "7",
+      "stem": "选择填入第7空的选项。",
+      "options": [
+        "few",
+        "a little",
+        "a lot",
+        "lots of"
+      ],
+      "answer": "D",
+      "reason": "stars为复数，lots of stars表很多星星；a lot单独不能直接修饰名词，a little修饰不可数名词。"
+    },
+    {
+      "label": "8",
+      "stem": "选择填入第8空的选项。",
+      "options": [
+        "order",
+        "grow",
+        "sell",
+        "serve"
+      ],
+      "answer": "B",
+      "reason": "与去超市购买形成对比，村民在花园里自己种菜，grow vegetables表示种蔬菜。"
+    },
+    {
+      "label": "9",
+      "stem": "选择填入第9空的选项。",
+      "options": [
+        "so",
+        "because",
+        "but",
+        "if"
+      ],
+      "answer": "C",
+      "reason": "墙保护我们与朋友保护他们形成对照，but连接两种不同的安全保障方式。"
+    },
+    {
+      "label": "10",
+      "stem": "选择填入第10空的选项。",
+      "options": [
+        "show",
+        "showing",
+        "shows",
+        "showed"
+      ],
+      "answer": "B",
+      "reason": "thank you for doing表示因做某事感谢你，for后接动名词showing。"
+    }
+  ]
+}

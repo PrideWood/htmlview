@@ -1,0 +1,370 @@
+[
+  {
+    "label": "1",
+    "year": 2024,
+    "pdfPages": [
+      12
+    ],
+    "stem": "He ____ to the training center to practice his skills every Tuesday.",
+    "options": [
+      "goes",
+      "went",
+      "go",
+      "is going"
+    ],
+    "answer": "A",
+    "reason": "every Tuesday表示习惯动作，用一般现在时；主语He为第三人称单数，填goes。"
+  },
+  {
+    "label": "2",
+    "year": 2024,
+    "pdfPages": [
+      12
+    ],
+    "stem": "The best way to keep fit is to ____ healthy eating habits.",
+    "options": [
+      "find",
+      "compare",
+      "develop",
+      "prepare"
+    ],
+    "answer": "C",
+    "reason": "develop healthy eating habits表示养成健康饮食习惯，develop与habits搭配。"
+  },
+  {
+    "label": "3",
+    "year": 2024,
+    "pdfPages": [
+      12
+    ],
+    "stem": "The employee's demand for a pay rise was turned ____ by his boss.",
+    "options": [
+      "down",
+      "out",
+      "over",
+      "up"
+    ],
+    "answer": "A",
+    "reason": "加薪要求被老板拒绝，用turn down；turn in为上交，turn over为翻转或移交，turn up为出现或调大。"
+  },
+  {
+    "label": "4",
+    "year": 2024,
+    "pdfPages": [
+      12
+    ],
+    "stem": "Peter ____ his old friend yesterday while he was shopping at the supermarket.",
+    "options": [
+      "looked into",
+      "dealt with",
+      "took after",
+      "came across"
+    ],
+    "answer": "D",
+    "reason": "购物时偶遇老朋友用come across，过去式came across；look into为调查，take after为像某人。"
+  },
+  {
+    "label": "5",
+    "year": 2024,
+    "pdfPages": [
+      12
+    ],
+    "stem": "Great changes ____ in our country for the past ten years.",
+    "options": [
+      "took place",
+      "were taken place",
+      "have taken place",
+      "have been taken place"
+    ],
+    "answer": "C",
+    "reason": "for the past ten years联系现在，用现在完成时；take place无被动语态，复数changes接have。"
+  },
+  {
+    "label": "6",
+    "year": 2024,
+    "pdfPages": [
+      12
+    ],
+    "stem": "The plan ____ good, but you should discuss it with your parents first.",
+    "options": [
+      "sounds",
+      "feels",
+      "tastes",
+      "smells"
+    ],
+    "answer": "A",
+    "reason": "评价计划听起来不错，用sounds good；taste、smell针对味道或气味，feel不对应听取计划的语境。"
+  },
+  {
+    "label": "7",
+    "year": 2023,
+    "pdfPages": [
+      12
+    ],
+    "stem": "On Monday mornings it usually ____ me an hour to drive to work.",
+    "options": [
+      "take",
+      "takes",
+      "is taking",
+      "will take"
+    ],
+    "answer": "B",
+    "reason": "usually表示日常习惯，It takes sb time to do表示做某事花时间，形式主语it接takes。"
+  },
+  {
+    "label": "8",
+    "year": 2023,
+    "pdfPages": [
+      12
+    ],
+    "stem": "You ____ drive so fast! It is dangerous.",
+    "options": [
+      "may not",
+      "couldn't",
+      "shouldn't",
+      "won't"
+    ],
+    "answer": "C",
+    "reason": "指出危险并劝告不要开太快，用shouldn't表示不应当；couldn't表过去不能。"
+  },
+  {
+    "label": "9",
+    "year": 2023,
+    "pdfPages": [
+      12
+    ],
+    "stem": "There was a thick fog this morning, so the planes did not ____ as scheduled.",
+    "options": [
+      "get through",
+      "take off",
+      "pull out",
+      "break away"
+    ],
+    "answer": "B",
+    "reason": "飞机受浓雾影响未按时起飞，take off表示起飞，did not后用原形。"
+  },
+  {
+    "label": "10",
+    "year": 2023,
+    "pdfPages": [
+      12
+    ],
+    "stem": "You'd better ____ a copy of the whole article for yourself.",
+    "options": [
+      "make",
+      "making",
+      "to make",
+      "made"
+    ],
+    "answer": "A",
+    "reason": "had better后接动词原形，make a copy表示复制一份。"
+  },
+  {
+    "label": "11",
+    "year": 2023,
+    "pdfPages": [
+      12
+    ],
+    "stem": "Lucy will go home for a vacation as soon as she ____ her exams.",
+    "options": [
+      "finishes",
+      "will finish",
+      "finished",
+      "had finished"
+    ],
+    "answer": "A",
+    "reason": "as soon as引导将来时间从句，主将从现；主语she接finishes。"
+  },
+  {
+    "label": "12",
+    "year": 2023,
+    "pdfPages": [
+      12
+    ],
+    "stem": "The car ____ on the highway and the driver tried to repair it.",
+    "options": [
+      "broke down",
+      "broke out",
+      "broke in",
+      "broke through"
+    ],
+    "answer": "A",
+    "reason": "后句说司机尝试修车，说明汽车发生故障，用broke down。"
+  },
+  {
+    "label": "13",
+    "year": 2023,
+    "pdfPages": [
+      12
+    ],
+    "stem": "In order to protect the river, the villagers didn't allow us to ____ a factory there.",
+    "options": [
+      "set up",
+      "give up",
+      "take up",
+      "look up"
+    ],
+    "answer": "A",
+    "reason": "建立工厂用set up；give up为放弃，look up为查阅，take up为开始从事或占用。"
+  },
+  {
+    "label": "14",
+    "year": 2022,
+    "pdfPages": [
+      12
+    ],
+    "stem": "The old lady spoke in such a low voice that I did not ____ what she said.",
+    "options": [
+      "catch",
+      "accept",
+      "take",
+      "receive"
+    ],
+    "answer": "A",
+    "reason": "声音太低导致没听清，catch what sb said表示听清某人的话，不是接受或收到信息的accept、receive。"
+  },
+  {
+    "label": "15",
+    "year": 2022,
+    "pdfPages": [
+      12
+    ],
+    "stem": "We'll go to the park for a picnic if the weather ____ fine tomorrow.",
+    "options": [
+      "will stay",
+      "stays",
+      "stayed",
+      "is staying"
+    ],
+    "answer": "B",
+    "reason": "if引导将来条件从句用一般现在时；weather为单数，stay作系动词表示保持，填stays。"
+  },
+  {
+    "label": "16",
+    "year": 2022,
+    "pdfPages": [
+      13
+    ],
+    "stem": "You ____ leave at six o'clock, or you'll be late for work.",
+    "options": [
+      "can",
+      "may",
+      "must",
+      "dare"
+    ],
+    "answer": "C",
+    "reason": "否则上班迟到说明六点离开是必要的，用must，不是仅表示许可的may。"
+  },
+  {
+    "label": "17",
+    "year": 2022,
+    "pdfPages": [
+      13
+    ],
+    "stem": "We didn't expect the manager to ____ at the party. We thought he was still in hospital.",
+    "options": [
+      "turn on",
+      "turn up",
+      "turn over",
+      "turn down"
+    ],
+    "answer": "B",
+    "reason": "原以为经理住院，没想到出现在聚会上，用turn up表示出现。"
+  },
+  {
+    "label": "18",
+    "year": 2022,
+    "pdfPages": [
+      13
+    ],
+    "stem": "Sorry, but we cannot go to New York. Our friends ____ to see us next Sunday.",
+    "options": [
+      "come",
+      "are coming",
+      "have come",
+      "came"
+    ],
+    "answer": "B",
+    "reason": "next Sunday表示将来安排，come可用现在进行时are coming表达已安排的来访。"
+  },
+  {
+    "label": "19",
+    "year": 2022,
+    "pdfPages": [
+      13
+    ],
+    "stem": "It is ____ that he is the richest man in our town.",
+    "options": [
+      "saying",
+      "to say",
+      "said",
+      "being said"
+    ],
+    "answer": "C",
+    "reason": "It is said that … 为据说的固定被动结构，空中用过去分词said。"
+  },
+  {
+    "label": "20",
+    "year": 2022,
+    "pdfPages": [
+      13
+    ],
+    "stem": "Last Thursday Peter ____ to give a speech at the opening ceremony.",
+    "options": [
+      "invite",
+      "invited",
+      "have invited",
+      "was invited"
+    ],
+    "answer": "D",
+    "reason": "Last Thursday表过去，Peter是被邀请者，用was invited。"
+  },
+  {
+    "label": "21",
+    "year": 2021,
+    "pdfPages": [
+      13
+    ],
+    "stem": "Yesterday several young men ____ the bank of a large sum of money.",
+    "options": [
+      "stole",
+      "robbed",
+      "took",
+      "got"
+    ],
+    "answer": "B",
+    "reason": "rob sb/a place of sth表示从某人或某地抢走财物；steal应接被偷的物品，不用此处结构。"
+  },
+  {
+    "label": "22",
+    "year": 2021,
+    "pdfPages": [
+      13
+    ],
+    "stem": "By the end of last week, we ____ 2,000 words.",
+    "options": [
+      "would learn",
+      "have learned",
+      "had learned",
+      "were learning"
+    ],
+    "answer": "C",
+    "reason": "截至上周末是过去的参照点，此前已学完用过去完成时had learned。"
+  },
+  {
+    "label": "23",
+    "year": 2021,
+    "pdfPages": [
+      13
+    ],
+    "stem": "They will have a picnic if it ____ fine next Saturday.",
+    "options": [
+      "will be",
+      "would be",
+      "was",
+      "is"
+    ],
+    "answer": "D",
+    "reason": "if引导将来条件从句，主句will have，从句用一般现在时is。"
+  }
+]

@@ -1,0 +1,326 @@
+{
+  "collection": "精选真题",
+  "sourceBook": "陕西省职教高考总复习指导与同步练：英语",
+  "sourcePdf": "Images 261103 162421.pdf",
+  "sourceSha256": "e4ca724652ff199c394fddf3418814a44bda2430955d54dff9ead6ca8f8dfbe1",
+  "pdfPages": 41,
+  "contentsPages": [
+    1,
+    2,
+    3
+  ],
+  "duplicatePagePairs": [
+    [
+      14,
+      15
+    ],
+    [
+      31,
+      32
+    ]
+  ],
+  "lessons": 33,
+  "questions": 199,
+  "counts": {
+    "grammar": 81,
+    "communication": 5,
+    "cloze": 30,
+    "reading": 40,
+    "correction": 40,
+    "writing": 3
+  },
+  "pending": 2,
+  "years": [
+    2024,
+    2023,
+    2022,
+    2021,
+    2020
+  ],
+  "sourcePolicy": "年份、真题标签按教材印刷内容；无真题标签的同步练不冒充真题；手写答案不作为官方标准。",
+  "materials": [
+    {
+      "id": "builtin-selected-papers-nouns",
+      "title": "精选真题 · 01 名词",
+      "count": 4,
+      "pdfPages": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-pronouns",
+      "title": "精选真题 · 02 代词",
+      "count": 4,
+      "pdfPages": [
+        6
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-numbers",
+      "title": "精选真题 · 03 数词",
+      "count": 1,
+      "pdfPages": [
+        7
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-prepositions",
+      "title": "精选真题 · 04 介词",
+      "count": 4,
+      "pdfPages": [
+        8
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-articles",
+      "title": "精选真题 · 05 冠词",
+      "count": 4,
+      "pdfPages": [
+        9
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-conjunctions",
+      "title": "精选真题 · 06 连词",
+      "count": 3,
+      "pdfPages": [
+        10
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-adjectives",
+      "title": "精选真题 · 07 形容词和副词",
+      "count": 9,
+      "pdfPages": [
+        11
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-verbs",
+      "title": "精选真题 · 08 动词",
+      "count": 23,
+      "pdfPages": [
+        12,
+        13
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-nonfinite",
+      "title": "精选真题 · 09 非谓语动词",
+      "count": 12,
+      "pdfPages": [
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-sentence-types",
+      "title": "精选真题 · 11 句子的种类",
+      "count": 7,
+      "pdfPages": [
+        17
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-complex-sentences",
+      "title": "精选真题 · 12 复合句",
+      "count": 7,
+      "pdfPages": [
+        18,
+        19
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-agreement",
+      "title": "精选真题 · 13 主谓一致",
+      "count": 1,
+      "pdfPages": [
+        20
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-subjunctive",
+      "title": "精选真题 · 14 虚拟语气",
+      "count": 1,
+      "pdfPages": [
+        21
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-inversion",
+      "title": "精选真题 · 16 倒装",
+      "count": 1,
+      "pdfPages": [
+        22
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-communication",
+      "title": "精选真题 · 情景交际",
+      "count": 5,
+      "pdfPages": [
+        23,
+        24
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-cloze-2024",
+      "title": "精选真题 · 2024 完形填空 · 贫与富的乡村旅行",
+      "count": 10,
+      "pdfPages": [
+        25,
+        26
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-cloze-2023",
+      "title": "精选真题 · 2023 完形填空 · 爷爷的生日",
+      "count": 10,
+      "pdfPages": [
+        26,
+        27
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-cloze-2022",
+      "title": "精选真题 · 2022 完形填空 · 三亚之旅",
+      "count": 10,
+      "pdfPages": [
+        27
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-reading-2024-1",
+      "title": "精选真题 · 2024 阅读理解 1 · 茶与咖啡",
+      "count": 5,
+      "pdfPages": [
+        28,
+        29
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-reading-2024-2",
+      "title": "精选真题 · 2024 阅读理解 2 · 电影放映信息",
+      "count": 5,
+      "pdfPages": [
+        29,
+        30
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-reading-2024-3",
+      "title": "精选真题 · 2024 阅读理解 3 · 一摄氏度的爱",
+      "count": 5,
+      "pdfPages": [
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-reading-2024-4",
+      "title": "精选真题 · 2024 阅读理解 4 · 一瓶垃圾挑战",
+      "count": 5,
+      "pdfPages": [
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-reading-2023-1",
+      "title": "精选真题 · 2023 阅读理解 1 · 马克·吐温的假期",
+      "count": 5,
+      "pdfPages": [
+        33,
+        34
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-reading-2023-2",
+      "title": "精选真题 · 2023 阅读理解 2 · 香港旅游套餐",
+      "count": 5,
+      "pdfPages": [
+        34,
+        35
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-reading-2023-3",
+      "title": "精选真题 · 2023 阅读理解 3 · 颜色与英语表达",
+      "count": 5,
+      "pdfPages": [
+        35,
+        36
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-reading-2023-4",
+      "title": "精选真题 · 2023 阅读理解 4 · 睡眠",
+      "count": 5,
+      "pdfPages": [
+        36
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-correction-2024",
+      "title": "精选真题 · 2024 短文改错",
+      "count": 10,
+      "pdfPages": [
+        37
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-correction-2023",
+      "title": "精选真题 · 2023 短文改错",
+      "count": 10,
+      "pdfPages": [
+        37
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-correction-2022",
+      "title": "精选真题 · 2022 短文改错",
+      "count": 10,
+      "pdfPages": [
+        38
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-correction-2021",
+      "title": "精选真题 · 2021 短文改错",
+      "count": 10,
+      "pdfPages": [
+        38
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-writing-2024",
+      "title": "精选真题 · 2024 书面表达 · The Person I Respect Most",
+      "count": 1,
+      "pdfPages": [
+        39,
+        40
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-writing-2023",
+      "title": "精选真题 · 2023 书面表达 · The Traditional Chinese Festival I Like Best",
+      "count": 1,
+      "pdfPages": [
+        40
+      ]
+    },
+    {
+      "id": "builtin-selected-papers-writing-2022",
+      "title": "精选真题 · 2022 书面表达 · My Dream",
+      "count": 1,
+      "pdfPages": [
+        40,
+        41
+      ]
+    }
+  ]
+}

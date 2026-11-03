@@ -1,0 +1,66 @@
+[
+  {
+    "label": "1",
+    "year": 2024,
+    "pdfPages": [
+      6
+    ],
+    "stem": "He knows ____ about the city, for he has never been there before.",
+    "options": [
+      "everything",
+      "something",
+      "anything",
+      "nothing"
+    ],
+    "answer": "D",
+    "reason": "后句说从未去过那座城市，for引出原因，因此对城市一无所知，选nothing。"
+  },
+  {
+    "label": "2",
+    "year": 2024,
+    "pdfPages": [
+      6
+    ],
+    "stem": "Do you want to change this lamp for ____ or do you want your money back?",
+    "options": [
+      "other",
+      "another",
+      "others",
+      "the others"
+    ],
+    "answer": "B",
+    "reason": "更换另一盏同类灯用another，省略单数lamp；other不能独立表示另一件，others表复数。"
+  },
+  {
+    "label": "3",
+    "year": 2022,
+    "pdfPages": [
+      6
+    ],
+    "stem": "We haven't enough books for ____; some of you will have to share.",
+    "options": [
+      "somebody",
+      "anybody",
+      "everybody",
+      "nobody"
+    ],
+    "answer": "C",
+    "reason": "书不够供所有人使用，所以部分人须共用；not enough … for everybody为部分否定，不等于谁都没有。"
+  },
+  {
+    "label": "4",
+    "year": 2021,
+    "pdfPages": [
+      6
+    ],
+    "stem": "I find ____ a little difficult to remember the Chinese words.",
+    "options": [
+      "that",
+      "it",
+      "this",
+      "them"
+    ],
+    "answer": "B",
+    "reason": "find it + 形容词 + to do中it作形式宾语，真正宾语是记住这些汉语词汇。"
+  }
+]

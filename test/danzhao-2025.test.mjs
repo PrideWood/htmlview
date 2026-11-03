@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {restoreQuestionBankLessonBeforeRepairs} from '../lib/question-text-repairs.mjs';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -7,7 +8,7 @@ import {getLesson,publicLesson} from '../lib/storage.mjs';
 import {presentationMaterials} from '../public/lesson-materials.js';
 const docs=JSON.parse(fs.readFileSync(new URL('../seed/lessons.json',import.meta.url)));
 const added=docs.filter(d=>d.id.startsWith('builtin-danzhao2025-'));
-test('原51份1570项保持完整',()=>{const original=docs.filter(d=>!d.id.startsWith('builtin-danzhao2025-'));assert.equal(createHash('sha256').update(JSON.stringify(original)).digest('hex'),'d498edf4a9570e2fdb6d79adc023ffa8be5bca1690321dc01a5ac55aef818f5b');});
+test('原51份1570项保持完整',()=>{const original=docs.filter(d=>!d.id.startsWith('builtin-danzhao2025-')).map(restoreQuestionBankLessonBeforeRepairs);assert.equal(createHash('sha256').update(JSON.stringify(original)).digest('hex'),'d498edf4a9570e2fdb6d79adc023ffa8be5bca1690321dc01a5ac55aef818f5b');});
 test('1000题按14语法专题、50阅读篇章、30翻译篇章完整导入，原题号连续',()=>{
  assert.equal(added.length,94);assert.equal(new Set(docs.map(d=>d.id)).size,145);
  for(const [kind,count,questions] of [['grammar',14,600],['reading',50,250],['translation',30,150]]){
@@ -32,8 +33,8 @@ test('阅读保留全文，翻译保留划线题干和150条参考译文，图�
  const graphic=added.find(d=>d.id.endsWith('reading-22')).questions[4];assert.deepEqual(graphic.options.map(o=>o.key),['A','B','C','D']);
 });
 
-test('1000题均有补编解析，题干选项篇章保持原样，补编可重复应用',async()=>{
- const content=added.map(d=>({id:d.id,questions:d.questions.map(({label,stem,options,context,mode,questionType,materialFallback})=>({label,stem,options,context,mode,questionType,materialFallback}))}));
+test('1000题均有补编解析，题干已登记修订可追溯，选项篇章保持完整，补编可重复应用',async()=>{
+ const content=added.map(restoreQuestionBankLessonBeforeRepairs).map(d=>({id:d.id,questions:d.questions.map(({label,stem,options,context,mode,questionType,materialFallback})=>({label,stem,options,context,mode,questionType,materialFallback}))}));
  assert.equal(createHash('sha256').update(JSON.stringify(content)).digest('hex'),'e6ca53854e003663bf499876e8c6540202a45767b8f8c6b99be82eb6a31b2865');
  const questions=added.flatMap(d=>d.questions);assert.equal(questions.length,1000);
  for(const q of questions){assert.equal(q.reasonSource,'本项目逐题补编');assert.ok(q.reason.length>=12);assert.doesNotMatch(q.reason,/原答案文件未提供逐题解析|请补充解析|答案PDF的阅读选择部分只有46行/);assert.equal(typeof q.originalAnswer,'string');}

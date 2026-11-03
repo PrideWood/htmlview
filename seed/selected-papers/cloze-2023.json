@@ -1,0 +1,141 @@
+{
+  "year": 2023,
+  "pdfPages": [
+    26,
+    27
+  ],
+  "bookPages": [
+    254,
+    255
+  ],
+  "title": "爷爷的生日",
+  "paragraphs": [
+    "Li Ming is a middle school student. He is studying in Grade 7. He usually (1) at 7:00 in the morning, (2) today he gets up at 6:30. It is his (3) birthday, and he is 78 years old.",
+    "He decides to (4) a birthday cake and two CDs of Beijing Opera (京剧) (5) his grandpa. He is sure his grandpa would like (6), because his grandpa likes Beijing Opera.",
+    "When Li Ming (7) home at noon, his mother is making noodles with his grandma. They are talking about something and laughing happily. His grandpa is drinking tea (8) listening to Beijing Opera.",
+    "Li Ming says, “Happy birthday, Grandpa!” Then he cuts a piece of cake and (9) it to his grandpa. His grandpa is very happy and eats it.",
+    "In the evening, Li Ming watches TV with his grandparents together. He is a little (10) but very happy, because he makes his grandparents happy."
+  ],
+  "questions": [
+    {
+      "label": "1",
+      "stem": "选择填入第1空的选项。",
+      "options": [
+        "goes to bed",
+        "goes to school",
+        "watches TV",
+        "gets up"
+      ],
+      "answer": "D",
+      "reason": "后半句说今天6:30起床，前面比较平常7:00起床，填gets up。"
+    },
+    {
+      "label": "2",
+      "stem": "选择填入第2空的选项。",
+      "options": [
+        "but",
+        "because",
+        "so",
+        "or"
+      ],
+      "answer": "A",
+      "reason": "平时7点起床与今天6:30起床形成转折，填but。"
+    },
+    {
+      "label": "3",
+      "stem": "选择填入第3空的选项。",
+      "options": [
+        "mother’s",
+        "father’s",
+        "grandpa’s",
+        "grandma’s"
+      ],
+      "answer": "C",
+      "reason": "后文给爷爷买礼物并祝爷爷生日快乐，78岁的寿星是grandpa，填grandpa’s。"
+    },
+    {
+      "label": "4",
+      "stem": "选择填入第4空的选项。",
+      "options": [
+        "borrow",
+        "sell",
+        "make",
+        "buy"
+      ],
+      "answer": "D",
+      "reason": "蛋糕与两张京剧CD并列作为礼物，统一搭配buy；不能把制作蛋糕的make直接用于购买CD的语境。"
+    },
+    {
+      "label": "5",
+      "stem": "选择填入第5空的选项。",
+      "options": [
+        "to",
+        "for",
+        "with",
+        "at"
+      ],
+      "answer": "B",
+      "reason": "buy sth for sb表示为某人买某物，for引出受益者grandpa。"
+    },
+    {
+      "label": "6",
+      "stem": "选择填入第6空的选项。",
+      "options": [
+        "it",
+        "her",
+        "me",
+        "him"
+      ],
+      "answer": "A",
+      "reason": "四项中it是唯一可指京剧内容或这份礼物的代词；不能用him指物。若泛指蛋糕和两张CD这一复数组合应为them，原题未提供该项，应结合后半句京剧语境理解it。"
+    },
+    {
+      "label": "7",
+      "stem": "选择填入第7空的选项。",
+      "options": [
+        "gets",
+        "arrives at",
+        "leaves",
+        "goes to"
+      ],
+      "answer": "A",
+      "reason": "home作方向副词，不接at或to，get home表示到家；后文是在家给爷爷庆生。"
+    },
+    {
+      "label": "8",
+      "stem": "选择填入第8空的选项。",
+      "options": [
+        "or",
+        "but",
+        "while",
+        "so"
+      ],
+      "answer": "C",
+      "reason": "爷爷喝茶的同时听京剧，while表示同时进行，非选择or、转折but或因果so。"
+    },
+    {
+      "label": "9",
+      "stem": "选择填入第9空的选项。",
+      "options": [
+        "give",
+        "gives",
+        "gave",
+        "given"
+      ],
+      "answer": "B",
+      "reason": "与cuts并列叙述动作，主语he为第三人称单数，填gives。"
+    },
+    {
+      "label": "10",
+      "stem": "选择填入第10空的选项。",
+      "options": [
+        "sad",
+        "tired",
+        "worried",
+        "excited"
+      ],
+      "answer": "B",
+      "reason": "忙碌一天有点疲倦但很开心，tired与but very happy构成合理转折。"
+    }
+  ]
+}

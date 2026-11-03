@@ -1,0 +1,63 @@
+{
+  "year": 2021,
+  "pdfPages": [
+    38
+  ],
+  "bookPages": [
+    284
+  ],
+  "intro": "What is the best way to go to work in London?",
+  "ending": "this way and I feel good.",
+  "lines": [
+    {
+      "text": "If you take a bus, you have wait for about half an hour. Also,",
+      "answer": "have后加to",
+      "reason": "have to do表示不得不或必须，wait前缺to。"
+    },
+    {
+      "text": "the bus move slowly. As for the underground, it is quick",
+      "answer": "move改moves",
+      "reason": "bus为单数第三人称，一般现在时谓语用moves。"
+    },
+    {
+      "text": "but very expensive and often crowded. I am used to go to",
+      "answer": "删去am",
+      "reason": "下文回顾过去坐公交上班的习惯，应为I used to go；be used to后则需doing，但不合后面的过去叙述。"
+    },
+    {
+      "text": "work by bus, and I often arrived late and tiring. Later,",
+      "answer": "tiring改tired",
+      "reason": "描述人到达时感到疲倦，用tired；tiring指令人疲倦的事物。"
+    },
+    {
+      "text": "a friend of me suggested that I should go to work by bike.",
+      "answer": "me改mine",
+      "reason": "a friend of mine为双重所有格，of后用名词性物主代词mine。"
+    },
+    {
+      "text": "It's cheaper and quicker by bike. I follow his advice.",
+      "answer": "follow改followed",
+      "reason": "接受建议发生在过去，接续后面的Since then经历，填过去式followed。"
+    },
+    {
+      "text": "Since then, I always arrived for time even if I was not in a hurry.",
+      "answer": "for改on",
+      "reason": "on time表示准时到达，for time不构成此义的固定搭配。"
+    },
+    {
+      "text": "It takes fifty minute to get there by bus while riding a bike",
+      "answer": "minute改minutes",
+      "reason": "fifty大于一，时间名词minute要用复数minutes。"
+    },
+    {
+      "text": "takes only half an hour. So in my opinion, riding a bike is",
+      "answer": "正确",
+      "reason": "动名词短语riding a bike为单数意义主语，谓语is正确；half an hour也正确。"
+    },
+    {
+      "text": "the best way to go to work. Actually, I've saved a few money",
+      "answer": "few改little",
+      "reason": "money不可数，表示省了一点钱用a little money；a few修饰复数可数名词。"
+    }
+  ]
+}

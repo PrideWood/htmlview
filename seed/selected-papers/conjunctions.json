@@ -1,0 +1,50 @@
+[
+  {
+    "label": "1",
+    "year": 2023,
+    "pdfPages": [
+      10
+    ],
+    "stem": "Not only I but also Johnny and Rose ____ fond of swimming and fishing.",
+    "options": [
+      "are",
+      "is",
+      "be",
+      "am"
+    ],
+    "answer": "A",
+    "reason": "not only … but also连接主语时谓语就近一致，靠近谓语的是Johnny and Rose两人，用are。"
+  },
+  {
+    "label": "2",
+    "year": 2023,
+    "pdfPages": [
+      10
+    ],
+    "stem": "You are not going out ____ you have finished your homework.",
+    "options": [
+      "while",
+      "or",
+      "until",
+      "but"
+    ],
+    "answer": "C",
+    "reason": "not … until表示直到完成作业才出去，until引出时间条件。"
+  },
+  {
+    "label": "3",
+    "year": 2021,
+    "pdfPages": [
+      10
+    ],
+    "stem": "I will lend you my dictionary ____ you keep it clean.",
+    "options": [
+      "even if",
+      "in case",
+      "so far as",
+      "as long as"
+    ],
+    "answer": "D",
+    "reason": "保持词典干净是借出的条件，用as long as表只要；even if表即使，in case表以防。"
+  }
+]

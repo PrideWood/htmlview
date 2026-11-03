@@ -1,0 +1,66 @@
+[
+  {
+    "label": "1",
+    "year": 2024,
+    "pdfPages": [
+      4
+    ],
+    "stem": "I'm hungry. Give me ____, please.",
+    "options": [
+      "a bread",
+      "some breads",
+      "a piece of bread",
+      "two pieces of breads"
+    ],
+    "answer": "C",
+    "reason": "bread为不可数名词，一片面包用a piece of bread；复数应变化piece，不能把bread写成breads。"
+  },
+  {
+    "label": "2",
+    "year": 2022,
+    "pdfPages": [
+      5
+    ],
+    "stem": "Mary and Joe usually go for ____ after supper.",
+    "options": [
+      "walk",
+      "the walk",
+      "walks",
+      "a walk"
+    ],
+    "answer": "D",
+    "reason": "go for a walk是散步的固定搭配，walk在这里为一次散步的可数用法。"
+  },
+  {
+    "label": "3",
+    "year": 2022,
+    "pdfPages": [
+      5
+    ],
+    "stem": "The new nurse does not have much ____ in attending patients.",
+    "options": [
+      "experience",
+      "regret",
+      "desire",
+      "memory"
+    ],
+    "answer": "A",
+    "reason": "照料病人的工作经验用experience，作经验时不可数，可由much修饰；regret为遗憾，desire为愿望。"
+  },
+  {
+    "label": "4",
+    "year": 2020,
+    "pdfPages": [
+      5
+    ],
+    "stem": "When they finished dinner, Mr. Smith asked the waiter to bring him the ____.",
+    "options": [
+      "tip",
+      "dish",
+      "menu",
+      "bill"
+    ],
+    "answer": "D",
+    "reason": "吃完晚饭后向服务员索取的是账单bill；menu为菜单，tip为小费，dish为菜肴或盘子。"
+  }
+]

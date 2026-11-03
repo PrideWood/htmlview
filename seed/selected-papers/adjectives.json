@@ -1,0 +1,146 @@
+[
+  {
+    "label": "1",
+    "year": 2023,
+    "pdfPages": [
+      11
+    ],
+    "stem": "It is known that the Yellow River is the second ____ river in China.",
+    "options": [
+      "long",
+      "longer",
+      "longest",
+      "the longest"
+    ],
+    "answer": "C",
+    "reason": "the second + 最高级表示第二……，the已经给出，空中只填longest。"
+  },
+  {
+    "label": "2",
+    "year": 2023,
+    "pdfPages": [
+      11
+    ],
+    "stem": "Do you think online teaching will ____ take the place of classroom teaching?",
+    "options": [
+      "especially",
+      "rarely",
+      "hardly",
+      "finally"
+    ],
+    "answer": "D",
+    "reason": "题意问网络教学最终是否取代课堂教学，finally表示最终；rarely、hardly表示很少或几乎不，尤其especially不合问句预测语境。"
+  },
+  {
+    "label": "3",
+    "year": 2022,
+    "pdfPages": [
+      11
+    ],
+    "stem": "Of all the things we eat and drink, water is the ____ important.",
+    "options": [
+      "most",
+      "more",
+      "much",
+      "less"
+    ],
+    "answer": "A",
+    "reason": "Of all给出全部比较范围，the most important表示最重要，空中填most。"
+  },
+  {
+    "label": "4",
+    "year": 2021,
+    "pdfPages": [
+      11
+    ],
+    "stem": "Everyone is ____ to find that the little boy can play the piano so well.",
+    "options": [
+      "interested",
+      "surprised",
+      "worried",
+      "frustrated"
+    ],
+    "answer": "B",
+    "reason": "小男孩钢琴弹得如此好使人惊讶，surprised描述人的惊讶状态，符合to find后面的内容。"
+  },
+  {
+    "label": "5",
+    "year": 2021,
+    "pdfPages": [
+      11
+    ],
+    "stem": "I ____ learn English by watching English-language videos.",
+    "options": [
+      "sometimes",
+      "sometime",
+      "some time",
+      "some times"
+    ],
+    "answer": "A",
+    "reason": "sometimes为频率副词“有时”，适合描述学习习惯；sometime指某个时候，some time指一段时间。"
+  },
+  {
+    "label": "6",
+    "year": 2021,
+    "pdfPages": [
+      11
+    ],
+    "stem": "Alice is taller than ____ girl in the class.",
+    "options": [
+      "any",
+      "other",
+      "any other",
+      "another"
+    ],
+    "answer": "C",
+    "reason": "Alice属于班内女生，比较时排除她本人，用any other + 单数girl表示其他任何一个女生。"
+  },
+  {
+    "label": "7",
+    "year": 2020,
+    "pdfPages": [
+      11
+    ],
+    "stem": "It is ____ dangerous to play on the road. A car may hit you.",
+    "options": [
+      "as",
+      "too",
+      "or",
+      "to"
+    ],
+    "answer": "B",
+    "reason": "too dangerous表示太危险；此处to play说明危险的行为，too修饰形容词dangerous。"
+  },
+  {
+    "label": "8",
+    "year": 2020,
+    "pdfPages": [
+      11
+    ],
+    "stem": "Young people are ____ interested in pop music than old ones.",
+    "options": [
+      "more",
+      "most",
+      "the most",
+      "the more"
+    ],
+    "answer": "A",
+    "reason": "than提示比较级，interested的比较形式是more interested，前面不加the。"
+  },
+  {
+    "label": "9",
+    "year": 2020,
+    "pdfPages": [
+      11
+    ],
+    "stem": "India is an Asian country with a ____ population.",
+    "options": [
+      "much",
+      "rich",
+      "broad",
+      "large"
+    ],
+    "answer": "D",
+    "reason": "描述人口数量多用large population，不能用much直接修饰单数population。"
+  }
+]

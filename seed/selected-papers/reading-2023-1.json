@@ -1,0 +1,81 @@
+{
+  "year": 2023,
+  "pdfPages": [
+    33,
+    34
+  ],
+  "bookPages": [
+    267,
+    268
+  ],
+  "title": "马克·吐温的假期",
+  "paragraphs": [
+    "Mark Twain was a famous American writer. He loved writing, hunting and fishing very much. Once he went to Maine on vacation and spent three happy weeks there.",
+    "When he decided to get back, Mark Twain went to the station with his baggage (行李). After putting it on the train, he sat in a comfortable seat. A few minutes later, a man came over and sat next to him. Mark Twain looked at the man and found that he was unhappy. He thought it would be impolite to say nothing at that moment, so he said good morning to the man first and began to chat with him. They talked about the weather and then Maine. The man said, “We have some beautiful woods in Maine, and I guess you have been there, haven’t you?”",
+    "“Yes, I have,” answered Mark Twain, “I have just spent three pleasant weeks there, and I’d like to tell you something: Though fishing isn’t allowed in Maine this season, I’ve got two hundred pounds of beautiful fish. I like eating fish, so I put them on ice to take them home. May I know something about you, sir?”",
+    "The man looked at Mark Twain for several seconds and answered, “I’m a policeman. My job is to catch people who hunt and fish during the wrong season. And what do you do?”",
+    "Mark Twain answered, “Well, sir, I’m the man who tells the biggest lie in America.”"
+  ],
+  "questions": [
+    {
+      "label": "1",
+      "stem": "How long did Mark Twain stay in Maine?",
+      "options": [
+        "Two weeks.",
+        "Two months.",
+        "Three weeks.",
+        "Three months."
+      ],
+      "answer": "C",
+      "reason": "开头写spent three happy weeks，后面再次说three pleasant weeks，均为三周。"
+    },
+    {
+      "label": "2",
+      "stem": "How did Mark Twain go home?",
+      "options": [
+        "On foot.",
+        "By train.",
+        "By car.",
+        "By plane."
+      ],
+      "answer": "B",
+      "reason": "他把行李放上train并坐下，说明乘火车回家。"
+    },
+    {
+      "label": "3",
+      "stem": "The man in the passage was ____.",
+      "options": [
+        "a writer",
+        "a policeman",
+        "a fisherman",
+        "a hunter"
+      ],
+      "answer": "B",
+      "reason": "对话中陌生男子自称I’m a policeman，writer是马克·吐温，不是邻座男子。"
+    },
+    {
+      "label": "4",
+      "stem": "Mark Twain’s vacation in Maine is ____.",
+      "options": [
+        "enjoyable",
+        "forgettable",
+        "unpleasant",
+        "terrible"
+      ],
+      "answer": "A",
+      "reason": "three happy weeks和three pleasant weeks直接说明假期愉快，选enjoyable。"
+    },
+    {
+      "label": "5",
+      "stem": "Which of the following is NOT true about Maine?",
+      "options": [
+        "It’s a good place for vacation.",
+        "It has beautiful woods.",
+        "There is a railway station there.",
+        "Fishing is allowed in Maine all year round."
+      ],
+      "answer": "D",
+      "reason": "文中明确当季不允许捕鱼，所以D的全年允许与原文矛盾。"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "label": "1",
+    "year": 2022,
+    "pdfPages": [
+      20
+    ],
+    "stem": "Jim and I ____ sitting in the front of the bus when the accident happened.",
+    "options": [
+      "was",
+      "were",
+      "am",
+      "are"
+    ],
+    "answer": "B",
+    "reason": "Jim and I为复数主语，事故发生时正在坐车，用过去进行时were sitting。"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "label": "1",
+    "year": 2024,
+    "pdfPages": [
+      9
+    ],
+    "stem": "It will take about ____ hour to get here.",
+    "options": [
+      "/",
+      "the",
+      "an",
+      "a"
+    ],
+    "answer": "C",
+    "reason": "hour的h不发音，以元音音素开头，泛指一小时用an hour。"
+  },
+  {
+    "label": "2",
+    "year": 2023,
+    "pdfPages": [
+      9
+    ],
+    "stem": "____ Browns were having dinner when the telephone rang.",
+    "options": [
+      "/",
+      "A",
+      "An",
+      "The"
+    ],
+    "answer": "D",
+    "reason": "the + 姓氏复数表示一家人，The Browns即布朗一家。"
+  },
+  {
+    "label": "3",
+    "year": 2021,
+    "pdfPages": [
+      9
+    ],
+    "stem": "Tom is unwilling to speak in ____ public.",
+    "options": [
+      "the",
+      "a",
+      "an",
+      "/"
+    ],
+    "answer": "D",
+    "reason": "in public为“公开地、当众”的固定短语，public前不加冠词。"
+  },
+  {
+    "label": "4",
+    "year": 2020,
+    "pdfPages": [
+      9
+    ],
+    "stem": "I wonder if there is ____ university in your hometown.",
+    "options": [
+      "a",
+      "an",
+      "/",
+      "the"
+    ],
+    "answer": "A",
+    "reason": "university起始音为辅音/j/，不是元音音素，泛指一所大学用a。"
+  }
+]

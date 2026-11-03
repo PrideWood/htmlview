@@ -1,0 +1,18 @@
+[
+  {
+    "label": "1",
+    "year": 2021,
+    "pdfPages": [
+      7
+    ],
+    "stem": "The bridge in my hometown is about ____ meters long.",
+    "options": [
+      "two thousand of",
+      "two thousands of",
+      "two thousand",
+      "two thousands"
+    ],
+    "answer": "C",
+    "reason": "表示确切的两千时，two后用单数thousand，不加s、不接of；thousands of用于不确切的大量。"
+  }
+]

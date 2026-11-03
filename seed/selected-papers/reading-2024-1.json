@@ -1,0 +1,80 @@
+{
+  "year": 2024,
+  "pdfPages": [
+    28,
+    29
+  ],
+  "bookPages": [
+    263,
+    264
+  ],
+  "title": "茶与咖啡",
+  "paragraphs": [
+    "Tea and coffee are two of the most popular drinks in the world. However, these drinks are used differently in different cultures.",
+    "Tea-drinking started in China over 4,000 years ago. Tea is made from leaves. These days, some people drink tea to relieve (缓解) stress or lose weight. However, most people in tea-drinking countries think of tea as more than just a drink. In fact, tea-drinking in some countries is a part of the culture. In Turkey, tea is always there when people meet. Whether in someone’s home or a company, tea is always offered as a way of welcome. In the U.K., afternoon tea is common in homes and offices. Tea and other dishes are served at tea time. It is a way of relaxing with friends or co-workers.",
+    "Coffee came just over 1,000 years ago, much later than tea. Coffee is made from coffee beans. Something in the beans makes a person feel active. Most people do not drink coffee to relax. Instead, they drink coffee to get going. Many people drink coffee in the morning to help them stay awake. Others also drink coffee during short breaks in the afternoon to keep going through the working days. Some people may visit coffee shops just to meet and talk with friends. However, many people in coffee shops drink coffee while working on their computers.",
+    "Is tea or coffee popular in your country? Which one do you like to drink more?"
+  ],
+  "questions": [
+    {
+      "label": "1",
+      "stem": "Tea-drinking started in ____.",
+      "options": [
+        "the U.S.",
+        "China",
+        "Turkey",
+        "the U.K."
+      ],
+      "answer": "B",
+      "reason": "第二段首句明确饮茶始于四千多年前的China，即中国。"
+    },
+    {
+      "label": "2",
+      "stem": "What is tea made from?",
+      "options": [
+        "Leaves.",
+        "Sugar.",
+        "Dishes.",
+        "Beans."
+      ],
+      "answer": "A",
+      "reason": "第二段Tea is made from leaves直接说明茶由叶子制成；beans对应咖啡。"
+    },
+    {
+      "label": "3",
+      "stem": "We can learn from Paragraph 2 that people in the U.K. ____.",
+      "options": [
+        "drink tea to get fat",
+        "drink tea before saying goodbye",
+        "drink tea to get going",
+        "drink tea to relax themselves"
+      ],
+      "answer": "D",
+      "reason": "英国下午茶被说明为与朋友、同事放松的方式，对应relax themselves。"
+    },
+    {
+      "label": "4",
+      "stem": "Which of the following is NOT true according to Paragraph 3?",
+      "options": [
+        "Coffee came much earlier than tea.",
+        "Many people drink coffee to help them stay awake.",
+        "Drinking coffee makes people feel active.",
+        "Some people meet and talk with friends in coffee shops."
+      ],
+      "answer": "A",
+      "reason": "原文说咖啡比茶晚出现，A将much later改成much earlier；其余三项均在第三段提及。"
+    },
+    {
+      "label": "5",
+      "stem": "What is the proper title of the passage?",
+      "options": [
+        "Smells of Tea and Coffee",
+        "Prices of Tea and Coffee",
+        "Uses of Tea and Coffee",
+        "Ways of Making Tea and Coffee"
+      ],
+      "answer": "C",
+      "reason": "文章比较两种饮品在文化、放松、提神和社交中的用途，并未重点介绍价格、气味或制作步骤。"
+    }
+  ]
+}

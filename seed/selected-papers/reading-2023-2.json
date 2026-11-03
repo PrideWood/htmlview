@@ -1,0 +1,80 @@
+{
+  "year": 2023,
+  "pdfPages": [
+    34,
+    35
+  ],
+  "bookPages": [
+    268,
+    269
+  ],
+  "title": "香港旅游套餐",
+  "paragraphs": [
+    "Now it is the best time for Hong Kong shopping lovers, as most shops are having their seasonal sales. With the same amount of money, people can buy more goods in the city. Women, young and old, can hardly resist the temptation (抵制诱惑) of this shopping paradise (乐园) at this time of year. Lovers will surely have an exciting Christmas and New Year’s Eve celebration at Times Square or in the western style bars. Spending your holiday in Hong Kong will be easy too, as several package tours are available from CZL Travel Service, with four-day tours for less than 15,000 yuan.",
+    "Tour Package 1 (3,200 yuan): a 4-day tour including three nights’ accommodation (住宿), helicopter flight, night ferry (游船) tour of Victoria Harbor and shuttle bus to the park to view the city at night.",
+    "Tour Package 2 (1,880 yuan): a 4-day-shopping tour including three nights’ accommodation, tour to Golden Beach and Vexork Museum, shuttle bus to the Peak and shopping malls.",
+    "Tour Package 3 (1,480 yuan): a 4-day-DIY tour including three nights’ accommodation in a four-star hotel and total freedom to do what you want and to go where you wish."
+  ],
+  "questions": [
+    {
+      "label": "6",
+      "stem": "This advertisement is made by ____.",
+      "options": [
+        "a travel service",
+        "a tour guide",
+        "a shopping mall",
+        "a hotel"
+      ],
+      "answer": "A",
+      "reason": "套餐明确由CZL Travel Service提供，是旅行服务机构的广告，不是导游个人或酒店发布。"
+    },
+    {
+      "label": "7",
+      "stem": "According to the text, if you want to visit Victoria Harbor at night, you can choose Tour Package ____.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "1 and 2"
+      ],
+      "answer": "A",
+      "reason": "套餐1直接包含night ferry tour of Victoria Harbor，即维多利亚港夜游。"
+    },
+    {
+      "label": "8",
+      "stem": "If you are a shopping lover and you want to go to Golden Beach, you can choose Tour Package ____.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "1 and 3"
+      ],
+      "answer": "B",
+      "reason": "套餐2同时列出shopping和Golden Beach，与两个需求都对应。"
+    },
+    {
+      "label": "9",
+      "stem": "According to the text, if you want to plan your tour by yourself, you can choose Tour Package ____.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "2 and 3"
+      ],
+      "answer": "C",
+      "reason": "套餐3为DIY tour并给出total freedom，适合自行安排行程。"
+    },
+    {
+      "label": "10",
+      "stem": "The tour packages are designed ____.",
+      "options": [
+        "at Christmas",
+        "on New Year’s Day",
+        "before Christmas and New Year’s Day",
+        "between Christmas and New Year’s Day"
+      ],
+      "answer": "C",
+      "reason": "广告预告旅客将享受圣诞和跨年庆祝，说明推出套餐时在两个节日之前。"
+    }
+  ]
+}

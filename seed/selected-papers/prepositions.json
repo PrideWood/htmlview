@@ -1,0 +1,66 @@
+[
+  {
+    "label": "1",
+    "year": 2023,
+    "pdfPages": [
+      8
+    ],
+    "stem": "The accident is reported to have occurred ____ 20 February.",
+    "options": [
+      "at",
+      "on",
+      "in",
+      "to"
+    ],
+    "answer": "B",
+    "reason": "20 February为具体日期，前面用on；at用于时刻，in用于月份或年份。"
+  },
+  {
+    "label": "2",
+    "year": 2023,
+    "pdfPages": [
+      8
+    ],
+    "stem": "It's very kind ____ you to invite me to your birthday party.",
+    "options": [
+      "of",
+      "from",
+      "by",
+      "for"
+    ],
+    "answer": "A",
+    "reason": "kind评价人的行为品质，用It is kind of sb to do；for sb通常说明某事对某人如何。"
+  },
+  {
+    "label": "3",
+    "year": 2022,
+    "pdfPages": [
+      8
+    ],
+    "stem": "You shouldn't drive for more than two hours ____ taking a break.",
+    "options": [
+      "without",
+      "with",
+      "besides",
+      "except"
+    ],
+    "answer": "A",
+    "reason": "句意是连续驾驶超过两小时不能不休息，without taking a break表示不休息，without后接动名词。"
+  },
+  {
+    "label": "4",
+    "year": 2021,
+    "pdfPages": [
+      8
+    ],
+    "stem": "When you come out of the lift, my office is the third door ____ the left.",
+    "options": [
+      "by",
+      "in",
+      "on",
+      "for"
+    ],
+    "answer": "C",
+    "reason": "on the left是“在左边”的固定方位表达。"
+  }
+]

@@ -1,0 +1,136 @@
+{
+  "year": 2022,
+  "pdfPages": [
+    27
+  ],
+  "bookPages": [
+    255
+  ],
+  "title": "三亚之旅",
+  "paragraphs": [
+    "Last month I went to Sanya with my family. It was a very (1) trip. We flew there. It was my first time to take a (2), so I felt very excited. When we got there, we found a nice hotel (3) the sea. We stayed there for five days. We (4) early every day. After breakfast, we went to the beach. My brother and I (5) in the sea and played games on the beach. My father took (6) of us. My mother sat on the chair (7) read her favorite books.",
+    "We visited many beautiful places and (8) a lot of food there. The food was very delicious. We (9) made two friends there. They were very friendly and invited (10) to their homes. The trip was wonderful and we want to go there again next year."
+  ],
+  "questions": [
+    {
+      "label": "1",
+      "stem": "选择填入第1空的选项。",
+      "options": [
+        "exciting",
+        "difficult",
+        "dangerous",
+        "terrible"
+      ],
+      "answer": "A",
+      "reason": "结尾说旅程很精彩还想再去，前面应积极评价为exciting，即令人兴奋的。"
+    },
+    {
+      "label": "2",
+      "stem": "选择填入第2空的选项。",
+      "options": [
+        "bus",
+        "train",
+        "plane",
+        "boat"
+      ],
+      "answer": "C",
+      "reason": "前句We flew there明确乘飞机，take a plane与fly同义。"
+    },
+    {
+      "label": "3",
+      "stem": "选择填入第3空的选项。",
+      "options": [
+        "in",
+        "by",
+        "on",
+        "of"
+      ],
+      "answer": "B",
+      "reason": "hotel by the sea表示海边的旅馆，by为在……旁边。"
+    },
+    {
+      "label": "4",
+      "stem": "选择填入第4空的选项。",
+      "options": [
+        "came up",
+        "came on",
+        "got up",
+        "got on"
+      ],
+      "answer": "C",
+      "reason": "每天早起后吃早餐再去海滩，got up表示起床。"
+    },
+    {
+      "label": "5",
+      "stem": "选择填入第5空的选项。",
+      "options": [
+        "slept",
+        "grew",
+        "studied",
+        "swam"
+      ],
+      "answer": "D",
+      "reason": "在海里进行的活动为swam游泳，与后面的海滩游戏并列。"
+    },
+    {
+      "label": "6",
+      "stem": "选择填入第6空的选项。",
+      "options": [
+        "messages",
+        "photos",
+        "lessons",
+        "seats"
+      ],
+      "answer": "B",
+      "reason": "take photos of sb表示给某人拍照，与旅游场景相符。"
+    },
+    {
+      "label": "7",
+      "stem": "选择填入第7空的选项。",
+      "options": [
+        "so",
+        "but",
+        "and",
+        "yet"
+      ],
+      "answer": "C",
+      "reason": "妈妈坐在椅子上并读书，两个动作并列，用and。"
+    },
+    {
+      "label": "8",
+      "stem": "选择填入第8空的选项。",
+      "options": [
+        "tasted",
+        "visited",
+        "made",
+        "showed"
+      ],
+      "answer": "A",
+      "reason": "后句评价食物美味，说明品尝了食物，用tasted。"
+    },
+    {
+      "label": "9",
+      "stem": "选择填入第9空的选项。",
+      "options": [
+        "too",
+        "nor",
+        "neither",
+        "also"
+      ],
+      "answer": "D",
+      "reason": "also用于主语后、实义动词made前表示也；too通常放句末，nor、neither表否定。"
+    },
+    {
+      "label": "10",
+      "stem": "选择填入第10空的选项。",
+      "options": [
+        "them",
+        "us",
+        "her",
+        "him"
+      ],
+      "answer": "B",
+      "reason": "邀请的是叙述者一家，即we的宾格us，作invited的宾语。"
+    }
+  ]
+}

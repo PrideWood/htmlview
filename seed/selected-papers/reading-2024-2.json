@@ -1,0 +1,81 @@
+{
+  "year": 2024,
+  "pdfPages": [
+    29,
+    30
+  ],
+  "bookPages": [
+    264,
+    265
+  ],
+  "title": "电影放映信息",
+  "paragraphs": [
+    "FILMS (May 19th–May 26th)",
+    "WANNER VILLAGE\nFilm: Harry Potter (3 hours)\nDate: Sunday\nTime: 2:00 p.m.\nPrice: £4.20 (adults); £3.50 (children under 18)\nTel.: 0115-845616",
+    "HOLLYWOOD THEATER\nFilm: Catch Me If You Can (2 hours and 35 minutes)\nDate: Saturday and Sunday\nTime: 4:00 p.m.\nPrice: £3.00\nTel.: 0115-806163",
+    "THE KING’S CINEMA\nFilm: The Twins (1 hour and 40 minutes)\nDate: Monday to Friday\nTime: 2:30 p.m.\nPrice: £2.00 (free tickets for children under 10)\nTel.: 0115-831931",
+    "THE ROYAL THEATER\nFilm: I Spy (2 hours)\nDate: Monday to Friday\nTime: 9:00 a.m.\nPrice: £2.00\nTel.: 0115-873420"
+  ],
+  "questions": [
+    {
+      "label": "6",
+      "stem": "Which film is the shortest?",
+      "options": [
+        "Harry Potter.",
+        "Catch Me If You Can.",
+        "The Twins.",
+        "I Spy."
+      ],
+      "answer": "C",
+      "reason": "四部时长分别为180、155、100、120分钟，最短的是100分钟的The Twins。"
+    },
+    {
+      "label": "7",
+      "stem": "You can see the film Harry Potter on ____.",
+      "options": [
+        "Saturday",
+        "Sunday",
+        "Friday",
+        "Saturday and Sunday"
+      ],
+      "answer": "B",
+      "reason": "Harry Potter信息中的Date为Sunday，不是周六或整个周末。"
+    },
+    {
+      "label": "8",
+      "stem": "If you want to book a ticket for the film Catch Me If You Can, you can dial ____.",
+      "options": [
+        "0115-845616",
+        "0115-831931",
+        "0115-873420",
+        "0115-806163"
+      ],
+      "answer": "D",
+      "reason": "对应HOLLYWOOD THEATER的订票电话为0115-806163，须匹配影片而非其他影院。"
+    },
+    {
+      "label": "9",
+      "stem": "If Mr Green and his 9-year-old son go to see the film The Twins, they need to pay ____.",
+      "options": [
+        "£4.20",
+        "£4.00",
+        "£3.00",
+        "£2.00"
+      ],
+      "answer": "D",
+      "reason": "The Twins成人票£2，十岁以下免费，9岁儿子不收费，总计£2。"
+    },
+    {
+      "label": "10",
+      "stem": "If you want to see a film in the morning, you can only go to ____.",
+      "options": [
+        "THE ROYAL THEATER",
+        "HOLLYWOOD THEATER",
+        "THE KING’S CINEMA",
+        "WANNER VILLAGE"
+      ],
+      "answer": "A",
+      "reason": "只有THE ROYAL THEATER在上午9点放映，其他三场均为下午。"
+    }
+  ]
+}

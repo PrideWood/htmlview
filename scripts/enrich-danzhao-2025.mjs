@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import {repairQuestionBankLesson} from '../lib/question-text-repairs.mjs';
 import {fileURLToPath} from 'node:url';
 import {cleanLessonText} from '../public/content-format.js';
 const root=new URL('../',import.meta.url);
@@ -45,7 +46,7 @@ export function enrichDanzhao(docs){
   const notes=doc.notes.filter(t=>!t.includes('未提供逐题解析')&&!t.includes('只有46行答案')&&!t.startsWith('本批解析')&&!t.startsWith('本资料'));
   notes.push('本批解析为本项目逐题补编，语法解释具体选词与句型，阅读说明本篇原文依据，翻译解释本句关键表达；不是原书解析。');
   notes.push(`本资料${pending?'有'+pending+'题因原题歧义或缺少判定依据标为待核对，暂不计分。':'题目已逐题配有解析。'}阅读答案依据原文独立核对，不机械套用无篇号答案表；翻译答案允许其他准确表达。`);
-  return cleanLessonText({...doc,notes,questions,version:2,updatedAt:'2026-11-02T09:00:00.000Z'});
+  return cleanLessonText(repairQuestionBankLesson({...doc,notes,questions,version:2,updatedAt:'2026-11-02T09:00:00.000Z'}));
  });
  if(authored!==1000)throw Error(`应有1000题解析，实际${authored}`);
  return {docs:enriched,changes};

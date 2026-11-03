@@ -1,0 +1,202 @@
+[
+  {
+    "label": "1",
+    "year": 2024,
+    "pdfPages": [
+      14,
+      15
+    ],
+    "stem": "His parents won't allow him ____ out late.",
+    "options": [
+      "stay",
+      "to stay",
+      "stayed",
+      "staying"
+    ],
+    "answer": "B",
+    "reason": "allow sb to do表示允许某人做某事，故用to stay；out late说明很晚仍在外。"
+  },
+  {
+    "label": "2",
+    "year": 2024,
+    "pdfPages": [
+      14,
+      15
+    ],
+    "stem": "I'm looking forward to ____ in your company after graduation.",
+    "options": [
+      "work",
+      "worked",
+      "works",
+      "working"
+    ],
+    "answer": "D",
+    "reason": "look forward to中的to为介词，后接动名词working，不接动词原形。"
+  },
+  {
+    "label": "3",
+    "year": 2024,
+    "pdfPages": [
+      14,
+      15
+    ],
+    "stem": "Helen has spent three hours ____ her term paper and now she is tired.",
+    "options": [
+      "revise",
+      "revising",
+      "to revise",
+      "revised"
+    ],
+    "answer": "B",
+    "reason": "spend time doing表示花时间做，revise变为revising，表示修改学期论文。"
+  },
+  {
+    "label": "4",
+    "year": 2023,
+    "pdfPages": [
+      14,
+      15
+    ],
+    "stem": "I don't feel like ____ abroad to study, since I have to take care of my aging parents.",
+    "options": [
+      "go",
+      "going",
+      "went",
+      "gone"
+    ],
+    "answer": "B",
+    "reason": "feel like doing表示想做某事，否定后为不想出国，填going。"
+  },
+  {
+    "label": "5",
+    "year": 2023,
+    "pdfPages": [
+      14,
+      15
+    ],
+    "stem": "____ aloud can be a good way to improve your English.",
+    "options": [
+      "Read",
+      "Reading",
+      "Having read",
+      "Have read"
+    ],
+    "answer": "B",
+    "reason": "一般读书行为作主语用动名词Reading；Having read带先完成含义，不对应概述朗读这一方法。"
+  },
+  {
+    "label": "6",
+    "year": 2023,
+    "pdfPages": [
+      14,
+      15
+    ],
+    "stem": "The telephone was invented in 1876 by a man ____ Alexander Graham Bell.",
+    "options": [
+      "named",
+      "naming",
+      "that names",
+      "which named"
+    ],
+    "answer": "A",
+    "reason": "man与name为被动关系，named … 为过去分词短语作定语，意为名叫……的人。"
+  },
+  {
+    "label": "7",
+    "year": 2022,
+    "pdfPages": [
+      14,
+      15
+    ],
+    "stem": "My mother often tells me ____ at others.",
+    "options": [
+      "don't laugh",
+      "not to laugh",
+      "to not laugh",
+      "not laugh"
+    ],
+    "answer": "B",
+    "reason": "tell sb not to do是本题通常采用的否定不定式结构，表示告诉我不要嘲笑别人；C为分裂不定式，现代英语也可能成立，保留语法差异提示。"
+  },
+  {
+    "label": "8",
+    "year": 2022,
+    "pdfPages": [
+      14,
+      15
+    ],
+    "stem": "It's no use ____ about it. Let's go and ask the teacher for help.",
+    "options": [
+      "worry",
+      "worried",
+      "to worry",
+      "worrying"
+    ],
+    "answer": "D",
+    "reason": "It's no use doing表示做某事无用，worry要用worrying。"
+  },
+  {
+    "label": "9",
+    "year": 2022,
+    "pdfPages": [
+      16
+    ],
+    "stem": "It was so noisy that I couldn't make myself ____ clearly.",
+    "options": [
+      "hear",
+      "heard",
+      "hearing",
+      "being heard"
+    ],
+    "answer": "B",
+    "reason": "make oneself heard表示使自己的声音被听到，myself与hear为被动关系，用过去分词heard。"
+  },
+  {
+    "label": "10",
+    "year": 2021,
+    "pdfPages": [
+      16
+    ],
+    "stem": "If you have trouble ____ the way to the railway station, please ask the police for help.",
+    "options": [
+      "finding",
+      "to find",
+      "finds",
+      "found"
+    ],
+    "answer": "A",
+    "reason": "have trouble doing表示做某事有困难，故为finding the way。"
+  },
+  {
+    "label": "11",
+    "year": 2021,
+    "pdfPages": [
+      16
+    ],
+    "stem": "Susan, I'd like to have these materials ____ by ten o'clock.",
+    "options": [
+      "printed",
+      "to print",
+      "print",
+      "printing"
+    ],
+    "answer": "A",
+    "reason": "have sth done表示让某事被完成，materials是被印刷的，填printed。"
+  },
+  {
+    "label": "12",
+    "year": 2020,
+    "pdfPages": [
+      16
+    ],
+    "stem": "Peter thought it was worth ____ a hundred miles to watch the basketball game.",
+    "options": [
+      "drive",
+      "driving",
+      "to drive",
+      "driven"
+    ],
+    "answer": "B",
+    "reason": "be worth doing表示值得做某事，驱车一百英里用driving。"
+  }
+]

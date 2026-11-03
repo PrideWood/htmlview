@@ -1,0 +1,63 @@
+{
+  "year": 2023,
+  "pdfPages": [
+    37
+  ],
+  "bookPages": [
+    283
+  ],
+  "intro": "",
+  "ending": "",
+  "lines": [
+    {
+      "text": "Once there was a boy who he liked reading books",
+      "answer": "删去he",
+      "reason": "关系代词who已经作liked的主语，再加he形成重复主语。"
+    },
+    {
+      "text": "very much. Because he was so poor to buy any books, he",
+      "answer": "so改too",
+      "reason": "too … to … 表太穷而买不起书；so后若表达结果需接that从句。"
+    },
+    {
+      "text": "had no books of him own. But that could not stop him from",
+      "answer": "him改his",
+      "reason": "of his own表示他自己的，own前须形容词性物主代词his。"
+    },
+    {
+      "text": "reading. He decided borrow books from his friend Tom,",
+      "answer": "decided后加to",
+      "reason": "decide to do表示决定做，borrow前需to。"
+    },
+    {
+      "text": "who lived far away to the boy's home. The boy always",
+      "answer": "to改from",
+      "reason": "far away from表示远离，地点距离用from而非to。"
+    },
+    {
+      "text": "tried his best to finish read the books and then returned",
+      "answer": "read改reading",
+      "reason": "finish后接动名词，完成阅读用finish reading。"
+    },
+    {
+      "text": "them to his friends in time. That was the reason why",
+      "answer": "friends改friend",
+      "reason": "前面明确只向朋友Tom借书，归还对象是同一个单数friend。"
+    },
+    {
+      "text": "Tom was glad to lend him any of his books.",
+      "answer": "正确",
+      "reason": "be glad to do和lend sb sth均正确，any of his books表示自己的任何一本书。"
+    },
+    {
+      "text": "The many books the boy read, the more knowledge he",
+      "answer": "many改more",
+      "reason": "the + 比较级，the + 比较级表越……越……，many需用more。"
+    },
+    {
+      "text": "learned. And late he became a great writer.",
+      "answer": "late改later",
+      "reason": "叙述后来成为作家用later；late表示迟到或时间晚，不表示后来的先后关系。"
+    }
+  ]
+}
