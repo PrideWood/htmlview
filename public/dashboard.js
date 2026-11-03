@@ -1,0 +1,15 @@
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const stamp=s=>new Date(s).toLocaleString('zh-CN',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'});
+export function resumeURL(record){const query=new URLSearchParams({id:record.lessonId});if(record.classId)query.set('classId',record.classId);return '/player.html?'+query+'#'+new URLSearchParams({q:record.lastQuestion.label,i:record.lastQuestion.index});}
+export function dashboardHTML(records,lessons,{loading=false,error='',classes=[],classId=''}={}){
+ const name=classes.find(c=>c.id===classId)?.name||'未分班';
+ const available=r=>{const lesson=lessons.find(l=>l.id===r.lessonId);return lesson&&lesson.status!=='trashed'&&lesson.count>0;};
+ const history=records.filter(r=>(r.classId||'')===classId);
+ return `<section class="dashboard-page"><header class="dashboard-heading"><h1>班级进度</h1><div class="dashboard-actions"><button class="primary" data-action="continue-class">继续上课</button><button data-action="refresh-dashboard">刷新</button><details class="add-class"><summary>＋ 添加班级</summary><form id="add-class-form"><label for="class-name">班级名称</label><div><input id="class-name" name="name" required maxlength="40" placeholder="例如：高一（1）班" autocomplete="off"><button type="submit" class="primary">添加</button></div></form></details></div></header>
+ <nav class="class-tabs" aria-label="选择班级">${[...classes,{id:'',name:'未分班'}].map(c=>`<button data-study-class="${esc(c.id)}" aria-pressed="${c.id===classId}">${esc(c.name)}</button>`).join('')}</nav>
+ ${error?`<p class="notice" role="alert">${esc(error)} <button data-action="refresh-dashboard">重试</button></p>`:''}
+ ${loading?'<p class="muted" role="status">正在读取学习记录…</p>':''}
+ <div class="section-title"><div><h2>${esc(name)} ${classId?`<button class="class-rename" data-rename-class="${esc(classId)}">编辑名称</button>`:''}</h2><p class="muted">最近 30 次课堂记录</p></div><button data-nav="library">选择资料上课 →</button></div>
+ ${history.length?`<ol class="study-history">${history.map(r=>`<li class="study-record"><div class="study-record-heading"><div><time datetime="${esc(r.startedAt)}">${stamp(r.startedAt)}</time><h3>${esc(r.title)}</h3><p class="study-position">停留在第 ${r.lastQuestion.index+1} / ${r.total} 题 · 原题 ${esc(r.lastQuestion.label)}</p><p class="study-stem">${esc(r.lastQuestion.stem||r.lastQuestion.section)}</p></div>${available(r)?`<a class="dashboard-link" href="${esc(resumeURL(r))}" target="_blank" rel="noopener noreferrer">从此处继续 ↗</a>`:'<span class="muted">资料已移除或暂无题目</span>'}</div><details class="study-questions"><summary>本次浏览：原题 ${esc(r.visited.slice(0,8).map(q=>q.label).join('、'))}${r.visited.length>8?' 等':''}</summary><ul>${r.visited.map(q=>`<li><b>${esc(q.label)}</b><span>${esc(q.stem||q.section||'题目内容为空')}</span></li>`).join('')}</ul></details></li>`).join('')}</ol>`:!loading&&!error?`<div class="dashboard-empty"><p>${classId?'这个班级还没有课堂记录。':'尚无未分班记录，可添加班级分别保存进度。'}</p><button data-nav="library">选择资料</button></div>`:''}
+ </section>`;
+}

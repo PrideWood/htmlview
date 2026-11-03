@@ -10,7 +10,7 @@
     "start": "node server.mjs",
     "dev": "node --watch server.mjs",
     "test": "node --test test/*.test.mjs",
-    "check": "node --check server.mjs && node --check lib/api.mjs && node --check public/app.js && node --check public/dictionary.js && node --check public/dictionary-data.js && node --check public/player-boot.js && node --check public/phone-library.js",
+    "check": "node --check server.mjs && node --check lib/api.mjs && node --check public/app.js && node --check public/dictionary.js && node --check public/dictionary-data.js && node --check public/player-boot.js && node --check public/phone-library.js && node --check public/dashboard.js && node --check public/study-progress.js && node --check lib/storage.mjs && node --check public/legacy/player.js && node --check public/legacy/revision.js",
     "phone:pair": "node scripts/pair-phone.mjs",
     "phone:revoke": "node scripts/pair-phone.mjs --revoke"
   },

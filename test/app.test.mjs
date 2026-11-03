@@ -162,3 +162,35 @@ test('删除和恢复期间原始文档附件仍可读取',async()=>{
  r=await call('/lessons/'+d.id+'/trash','POST',{version:d.version});assert.equal(r.status,200);assert.equal(await (await fetch(base+url)).text(),content);
  r=await call('/lessons/'+d.id+'/untrash','POST',{version:r.data.lesson.version});assert.equal(r.status,200);assert.equal(await (await fetch(base+url)).text(),content);assert.equal(r.data.lesson.status,'uploaded');
 });
+
+test('课堂进度接口支持内置资料、独立课堂历史和原题快照，越界请求被拒绝',async()=>{
+ const id=(await call('/lessons')).data.lessons.find(d=>d.sourceType==='builtin'&&d.count>2).id;
+ const original=(await call('/lessons/'+id)).data.lesson;
+ let result=await call('/lessons/'+id+'/progress','POST',{sessionId:'api-class-1',sequence:1,index:1,visited:[0,1]});
+ assert.equal(result.status,200);assert.equal(result.data.session.lastQuestion.label,original.questions[1].label);
+ await call('/lessons/'+id+'/progress','POST',{sessionId:'api-class-2',sequence:1,index:2,visited:[2]});
+ const history=await call('/study-sessions');assert.equal(history.status,200);assert.equal(history.data.sessions.length,2);
+ result=await call('/lessons/'+id+'/progress','POST',{sessionId:'api-class-1',sequence:2,index:999999,visited:[0]});assert.equal(result.status,400);
+ assert.deepEqual((await call('/lessons/'+id)).data.lesson,original);
+ let output='';const response={writeHead(status){this.status=status;},end(value){output=value;},setHeader(){}};
+ await handler({url:'/api/study-sessions',method:'GET',headers:{host:'example.com'},socket:{remoteAddress:'192.168.1.7'}},response);assert.equal(response.status,401);assert.doesNotMatch(output,/api-class/);
+});
+
+test('班级接口创建并持久查询，进度列表按班级筛选且拒绝无效班级',async()=>{
+ const a=await call('/classes','POST',{name:'测试一班'}),b=await call('/classes','POST',{name:'测试二班'});assert.equal(a.status,201);assert.equal(b.status,201);
+ const classes=await call('/classes');assert.ok(classes.data.classes.some(c=>c.id===a.data.class.id));assert.equal((await call('/classes','POST',{name:''})).status,400);
+ const id=(await call('/lessons')).data.lessons.find(d=>d.sourceType==='builtin'&&d.count>2).id;
+ for(const [group,index] of [[a,0],[b,2]])assert.equal((await call('/lessons/'+id+'/progress','POST',{sessionId:'session-'+group.data.class.id,classId:group.data.class.id,sequence:1,index,visited:[index]})).status,200);
+ const history=await call('/study-sessions?classId='+a.data.class.id);assert.equal(history.data.sessions.length,1);assert.equal(history.data.sessions[0].lastQuestion.index,0);
+ assert.equal((await call('/lessons/'+id+'/progress','POST',{sessionId:'invalid-group',classId:'unknown',sequence:1,index:0,visited:[0]})).status,400);
+ let output='';const response={writeHead(status){this.status=status;},end(value){output=value;},setHeader(){}};
+ await handler({url:'/api/classes',method:'GET',headers:{host:'example.com'},socket:{remoteAddress:'192.168.1.7'}},response);assert.equal(response.status,401);assert.doesNotMatch(output,/测试一班/);
+});
+
+test('班级改名接口保留ID，名称验证与认证生效',async()=>{
+ const created=(await call('/classes','POST',{name:'改名前'})).data.class;
+ let result=await call('/classes/'+created.id,'PATCH',{name:'改名后'});assert.equal(result.status,200);assert.equal(result.data.class.id,created.id);assert.equal(result.data.class.name,'改名后');
+ assert.equal((await call('/classes/'+created.id,'PATCH',{name:''})).status,400);assert.equal((await call('/classes/missing','PATCH',{name:'新班'})).status,404);
+ const response={writeHead(status){this.status=status;},end(){},setHeader(){}};
+ await handler({url:'/api/classes/'+created.id,method:'PATCH',body:{name:'不允许'},headers:{host:'example.com'},socket:{remoteAddress:'192.168.1.7'}},response);assert.equal(response.status,401);
+});

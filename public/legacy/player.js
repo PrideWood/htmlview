@@ -1,7 +1,7 @@
 const lesson=JSON.parse(document.getElementById('lesson-data').textContent);
 const $=id=>document.getElementById(id), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const store={get(k){try{return JSON.parse(localStorage.getItem(k))}catch{return null}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch{}}};
-const key='ybt-classroom-v2:'+lesson.id;let saved=store.get(key)||{};
+const key='ybt-classroom-v2:'+lesson.id+(lesson.classId?':class:'+lesson.classId:'');let saved=store.get(key)||{};
 let index=Number.isInteger(saved.index)?Math.max(0,Math.min(lesson.questions.length-1,saved.index)):0;
 let states=saved.states||{},preferred=store.get('ybt-font')||42,sideView='',revealed=false,fitFrame=0;
 const current=()=>lesson.questions[index],state=()=>states[current().label]||{};
@@ -9,7 +9,8 @@ const presentationPages=lesson.presentationPages||lesson.questions.map((_,i)=>[i
 const pageIndices=()=>presentationPages.find(page=>page.includes(index))||[index];
 const pageIsRevealed=()=>pageIndices().every(i=>states[lesson.questions[i].label]?.revealed||states[lesson.questions[i].label]?.result);
 const answerText=q=>q.essay||q.answer||'待确认';
-function persist(){store.set(key,{index,states});}
+function persist(){store.set(key,{index,states});if(typeof window!=='undefined'&&typeof CustomEvent!=='undefined')window.dispatchEvent?.(new CustomEvent('classroom-progress',{detail:{index,indices:pageIndices()}}));}
+if(typeof window!=='undefined')window.addEventListener?.('classroom-progress-request',persist);
 function rich(s){return esc(s).replace(/_{2,}/g,'<span class="blank" aria-label="填空"></span>').replace(/\[([a-zA-Z]+)\]/g,'<span class="phonetic">$1</span>');}
 function blocks(items,activeLabel){let content=(items||[]).map(t=>t.type==='table'?'<div class="table-wrap"><table>'+t.rows.map(r=>'<tr>'+r.map(c=>'<td>'+rich(c)+'</td>').join('')+'</tr>').join('')+'</table></div>':'<p>'+rich(t.text)+'</p>').join('');if(activeLabel){const label=String(activeLabel).replace(/[.*+?^${}()|[\]\\]/g,'\\$&');content=content.replace(new RegExp('(?:<span class="blank" aria-label="填空"></span>\\s*)?(?:\\('+label+'\\)|（'+label+'）|\\['+label+'\\]|(?<=span>)'+label+'(?=<|_|\\s))','g'),'<mark class="current-blank">$&</mark>');}return content;}
 function passageKind(q){if(['single_choice','multiple_choice','fill_blank','correction','translation','short_answer','writing','study'].includes(q.questionType))return ''; if(['reading','cloze','sentence_completion','matching'].includes(q.questionType)&&!q.context?.length&&!q.materialFallback)return ''; if((!q.context?.some(b=>b.type==='table'?b.rows?.length:String(b.text||'').trim())&&!q.materialFallback)||q.mode==='study')return '';const hint=[q.section,q.stem,lesson.title,lesson.topic].join(' ');if(q.questionType==='matching')return 'matching';if(q.questionType==='cloze')return 'cloze';if(q.questionType==='sentence_completion'||/七选五|[七7]\s*选\s*[五5]|选句填空/i.test(hint))return 'sentence_completion';if(/完形|cloze|选择填入第.+空/i.test(hint))return 'cloze';if(['choice','multi'].includes(q.mode)||/阅读|reading/i.test(hint))return 'reading';return 'material';}

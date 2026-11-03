@@ -83,6 +83,6 @@ reference=function(){modal('讲义与说明','<p><strong>修订版操作：</str
 // Preserve the chosen question font across questions and window resizes.
 fit=function(reset=true){cancelAnimationFrame(fitFrame);if(reset)setFont(preferred);};
 
-const requested=new URLSearchParams(location.hash.slice(1)).get('q');if(requested){const target=lesson.questions.findIndex(q=>q.label===requested);if(target>=0)index=target;}
+const resumeParams=new URLSearchParams(location.hash.slice(1));if(!resumeParams.has('q')&&lesson.resumeQuestion){resumeParams.set('q',lesson.resumeQuestion.label);resumeParams.set('i',lesson.resumeQuestion.index);}const requested=resumeParams.get('q'),requestedIndex=Number(resumeParams.get('i'));if(requested!==null){const target=resumeParams.has('i')&&Number.isInteger(requestedIndex)&&lesson.questions[requestedIndex]?.label===requested?requestedIndex:lesson.questions.findIndex(q=>q.label===requested);if(target>=0)index=target;}
 render();
 })();
