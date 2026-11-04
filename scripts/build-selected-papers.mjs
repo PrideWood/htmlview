@@ -12,7 +12,7 @@ const docs=[];
 function source(r){const printed=r.bookPages||[...new Set(r.pdfPages.map(n=>pageInfo(n).bookPage))];return {collection:'精选真题',examYear:r.year,sourceBook:book,sourceBookPages:printed,sourcePdf:file,sourcePdfPages:r.pdfPages,attributionBasis:'年份与真题身份按扫描教材印刷标注记录，未另行假定教材页码等于PDF页码'};}
 function makeQuestion(r,type,context=[]){
  const s=source(r),invalid=r.invalid||r.answer==='?';
- return {...s,label:String(r.label),stem:r.stem,options:(r.options||[]).map((text,i)=>({key:'ABCD'[i],text})),mode:type==='writing'?'self':type==='correction'?'input':'choice',questionType:type,context,section:r.section||'',answer:invalid?'待确认':r.answer,accepted:!invalid&&r.options?[r.answer]:[],invalid,ambiguous:false,reviewed:!invalid,reviewStatus:invalid?'needs_review':'ok',reason:r.reason+'\n真题来源：'+r.year+'年真题（'+book+'，教材第'+s.sourceBookPages.join('、')+'页；扫描PDF第'+r.pdfPages.join('、')+'页）。',examNote:invalid?r.reason:'',enrichment:[],reasonSource:'本项目按题意补编，非官方答案',sourcePages:[]};
+ return {...s,label:String(r.label),stem:r.stem,options:(r.options||[]).map((text,i)=>({key:'ABCD'[i],text})),mode:type==='writing'?'self':type==='correction'?'input':'choice',questionType:type,context,section:r.section||'',answer:invalid?'待确认':r.answer,accepted:!invalid&&r.options?[r.answer]:[],invalid,ambiguous:false,reviewed:!invalid,reviewStatus:invalid?'needs_review':'ok',reason:r.reason,examNote:invalid?r.reason:'',enrichment:[],reasonSource:'本项目按题意补编，非官方答案',sourcePages:[]};
 }
 function add(name,title,topic,questions,extra={}){
  const pages=[...new Set(questions.flatMap(q=>q.sourcePdfPages))].sort((a,b)=>a-b);

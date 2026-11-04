@@ -12,52 +12,52 @@
     {
       "text": "My classmate, Jack, have been sick in hospital for a week.",
       "answer": "have改has",
-      "reason": "主语是单数Jack，现在完成时助动词应为has，插入语不改变主谓一致。"
+      "reason": "将have改为has。主语My classmate指Jack，是单数第三人称；逗号间的Jack是同位语，不会把主语变成复数。for a week表示从过去持续到现在，保留现在完成时，只把助动词改成has，成为has been sick。"
     },
     {
       "text": "Yesterday our class decided send him some flowers and",
       "answer": "decided后加to",
-      "reason": "decide to do表示决定做某事，send前缺不定式标记to。"
+      "reason": "在decided后加to，成为decided to send。decide to do sth表示决定做某事，不能把send原形直接接在decided后。Yesterday已由decided表达过去时，后面的不定式send不再改过去式。"
     },
     {
       "text": "asked me to buy the flowers. I have had a hard time get them",
       "answer": " get改getting",
-      "reason": "have a hard time doing表示做某事有困难，get须用动名词getting。"
+      "reason": "将get改为getting。have a hard time (in) doing sth表示做某事遇到困难，in可省略，但动词仍用-ing形式。them回指flowers，完整结构为have had a hard time getting them，不是have a hard time to get。"
     },
     {
       "text": "since then. Yesterday afternoon, I went to town immediate after",
       "answer": "immediate改immediately",
-      "reason": "修饰went或after class这一时间关系需副词immediately，不用形容词immediate。"
+      "reason": "将immediate改为immediately。句意是昨天下午一下课就进城，immediately after class整体说明时间。immediate是形容词，不能在这里独立修饰行动或与after组成副词性时间表达；用副词immediately。"
     },
     {
       "text": "class, only to find the flowers shop there already closed.",
       "answer": "flowers改flower",
-      "reason": "名词作前置定语通常用单数，花店用flower shop，不是flowers shop。"
+      "reason": "将flowers改为flower。flower shop表示花店，flower作前置名词定语通常用单数，即使店里卖很多花也不写flowers shop。这里不改后面的closed，它用来说明花店处于已关门的状态。"
     },
     {
       "text": "Therefore, I called the shop many times at this morning,",
       "answer": "删去at",
-      "reason": "this morning前不再加at，表示今天上午这一时间状语。"
+      "reason": "删去at，成为many times this morning。带this的时间短语this morning可直接作时间状语，前面通常不用at/in/on。many times表示拨打多次，与this morning并列说明次数和时间，本行只需去掉多余介词。"
     },
     {
       "text": "but the line was always busy. While I finally got through at noon,",
       "answer": "While改When",
-      "reason": "got through是接通的瞬间动作，此处用When引出接通电话时的情况。"
+      "reason": "将While改为When。finally got through表示电话终于接通这一瞬间，宜用When引出那时接线员所说的话。while引导时间从句通常强调一段持续过程，不适合把got through这个瞬间动作作为此处的时间背景。"
     },
     {
       "text": "a lady said she was a new shop assistant and can not tell the prices.",
       "answer": "can改could",
-      "reason": "said和was为过去语境，转述当时不能报价格，用could not。"
+      "reason": "将can改为could。a lady said和she was都处于过去的转述语境，不能说出价格也是接电话时的能力，用could not。这里只调整情态动词以衔接过去时，不需要把tell改成过去式，因为情态动词后仍接原形。"
     },
     {
       "text": "Luckily, I haven't some classes this afternoon, and I have to go",
       "answer": "some改any",
-      "reason": "haven't构成否定句，此处不定数量用any classes；英式have可直接作否定动词。"
+      "reason": "将some改为any。haven't在这里是否定谓语，指今天下午没有课，通常用any classes。some也可出现在特定语境的否定句中，但本句只是一般的不定数量否定；英式表达可保留haven't any classes，不必额外改动have。"
     },
     {
       "text": "to town again. I must get the flowers for Jack today.",
       "answer": "正确",
-      "reason": "must后用原形get，get the flowers for Jack表示给Jack买到花，本行无须修改。"
+      "reason": "本行正确。must get是“情态动词+动词原形”，get the flowers for Jack表示给Jack买到花，today说明必须完成的时间。前面的to town again接续上一行go，跨行连读为go to town again，不应单独删去行首to。"
     }
   ]
 }

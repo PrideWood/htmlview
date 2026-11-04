@@ -28,7 +28,7 @@
         "into"
       ],
       "answer": "C",
-      "reason": "differences between A and B表示A与B之间的差异，比较的是两种生活。"
+      "reason": "选C：between。differences between A and B是“A与B之间的差异”，A为their life，B为the villagers'，后者省略life。已有and连接两方，between恰好与之呼应；from、at、into均不能组成此处结构。"
     },
     {
       "label": "2",
@@ -40,7 +40,7 @@
         "more"
       ],
       "answer": "A",
-      "reason": "quite a few表示相当多、好几，a few已在原文中，前面填quite。"
+      "reason": "选A：quite。空后已有a few days，quite a few合起来表示好几天、相当多天。many/some不能直接叠加在a few前，more通常构成a few more days；判断时须把空格后的a few一起考虑。"
     },
     {
       "label": "3",
@@ -52,7 +52,7 @@
         "described"
       ],
       "answer": "A",
-      "reason": "父亲想知道儿子对旅程的看法，wonder about表示想知道，对应后面询问。"
+      "reason": "选A：wondered。后文So he asked说明父亲想知道儿子对旅程的看法，wonder about意为想了解、对……感到好奇。worry about是担忧，原文没有忧虑线索；dislike和describe也不与about构成所需的询问动机。"
     },
     {
       "label": "4",
@@ -64,7 +64,7 @@
         "What"
       ],
       "answer": "C",
-      "reason": "回答It was great是在评价旅行感受，应问How was the trip，而非时间或地点。"
+      "reason": "选C：How。儿子回答It was great是在评价旅程怎么样，对应How was the trip?。When问时间，Where问地点，What问事物或内容，都不能引出这里对旅行感受的直接回答。"
     },
     {
       "label": "5",
@@ -76,7 +76,7 @@
         "try"
       ],
       "answer": "A",
-      "reason": "couldn’t wait to ask表示迫不及待想问，是固定搭配。"
+      "reason": "选A：wait。couldn't wait to ask意为迫不及待地问，符合父亲急切想知道儿子收获的情境。couldn't后用原形wait；seem、decide、try虽然可接不定式，却不能构成“迫不及待”的惯用表达。"
     },
     {
       "label": "6",
@@ -88,7 +88,7 @@
         "ducks"
       ],
       "answer": "D",
-      "reason": "河里游泳的动物在这些选项中应为ducks，鸭子，与swimming in it相符。"
+      "reason": "选D：ducks。many ____ swimming in it说明大河里有许多正在游泳的动物，结合乡村景象，四项中ducks最贴切。hens是母鸡，birds泛指鸟，pigs是猪；不能只看到动物名词就忽略swimming和river的具体线索。"
     },
     {
       "label": "7",
@@ -100,7 +100,7 @@
         "lots of"
       ],
       "answer": "D",
-      "reason": "stars为复数，lots of stars表很多星星；a lot单独不能直接修饰名词，a little修饰不可数名词。"
+      "reason": "选D：lots of。stars为复数可数名词，lots of stars表示很多星星，与自家几盏昂贵的灯形成对照。a little修饰不可数名词；a lot须加of才能直接修饰stars；few虽可修饰复数，但“很少星星”不合此处突出乡村丰富资源的对比。"
     },
     {
       "label": "8",
@@ -112,7 +112,7 @@
         "serve"
       ],
       "answer": "B",
-      "reason": "与去超市购买形成对比，村民在花园里自己种菜，grow vegetables表示种蔬菜。"
+      "reason": "选B：grow。前半句说我们去超市买菜，but后相对的是村民在自家园中“种菜”，grow vegetables与in their garden、for themselves共同对应。order是订购，sell是出售，serve是供应，均不能体现自给自足。"
     },
     {
       "label": "9",
@@ -124,7 +124,7 @@
         "if"
       ],
       "answer": "C",
-      "reason": "墙保护我们与朋友保护他们形成对照，but连接两种不同的安全保障方式。"
+      "reason": "选C：but。“我们靠墙保护自己”与“他们靠朋友保障安全”是两种生活方式的对照，用but。它们不是前因后果，也非假设条件，因此不选so、because或if；前文多组We have … but they have …也提供了结构线索。"
     },
     {
       "label": "10",
@@ -136,7 +136,7 @@
         "showed"
       ],
       "answer": "B",
-      "reason": "thank you for doing表示因做某事感谢你，for后接动名词showing。"
+      "reason": "选B：showing。thank you for doing sth表示感谢对方做了某事，for是介词，后接动名词showing。me是show的宾语，how poor we are是所展示的内容；show/shows/showed是谓语形式，均不能直接跟在此处for后。"
     }
   ]
 }

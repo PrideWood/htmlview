@@ -27,7 +27,7 @@
         "health"
       ],
       "answer": "C",
-      "reason": "第二段明确说red hot时对某事very angry，即表达愤怒。"
+      "reason": "选C：anger。第二段以对不公平之事red hot为例，随即解释they are very angry，明确对应愤怒。red hot在音乐语境另有热烈含义，但题目此处给出的情绪选项中只有anger符合文中的直接释义。"
     },
     {
       "label": "12",
@@ -39,7 +39,7 @@
         "many healthy babies were born with a pink color"
       ],
       "answer": "D",
-      "reason": "第三段将这种说法与健康新生儿的粉红肤色相联系，D复述该推测来源。"
+      "reason": "选D：many healthy babies were born with a pink color。第三段用It probably came from说明in the pink可能源于健康婴儿出生时粉红的肤色。问的是这种表达的可能来源，不是只把pink解释为浅红色，也不能把“传统用法”当成原因。"
     },
     {
       "label": "13",
@@ -51,7 +51,7 @@
         "Blues music."
       ],
       "answer": "D",
-      "reason": "第四段直接说traditional blues music是red hot music的相反类型，强调Blues这一音乐类型。"
+      "reason": "选D：Blues music。第四段直接称traditional blues music是red hot music的opposite，并用slow and sad说明其特点。traditional music范围太宽；fast、loud反而对应前面red hot music的特征。"
     },
     {
       "label": "14",
@@ -63,7 +63,7 @@
         "Blue."
       ],
       "answer": "B",
-      "reason": "末段说生病或晕船的人可描述为a little green，故选绿色。"
+      "reason": "选B：Green。最后一段说生病的人会feel a little green，晕船者可能look green，用green描述身体不适。pink表健康，与生病相反；blue在本文主要解释慢而忧伤的布鲁斯音乐，不是此题的生病表达。"
     },
     {
       "label": "15",
@@ -75,7 +75,7 @@
         "five"
       ],
       "answer": "C",
-      "reason": "文章依次介绍red、pink、blue、green，共四种颜色。"
+      "reason": "选C：four。全文分别介绍red、pink、blue、green四种颜色。red hot是red的一种表达，不能再算成第五种颜色；开头泛称colors也不是一个额外分类。按各段实际出现的颜色去重计数即可。"
     }
   ]
 }

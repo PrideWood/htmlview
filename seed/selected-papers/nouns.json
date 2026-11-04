@@ -13,7 +13,7 @@
       "two pieces of breads"
     ],
     "answer": "C",
-    "reason": "bread为不可数名词，一片面包用a piece of bread；复数应变化piece，不能把bread写成breads。"
+    "reason": "选C：a piece of bread（一片面包）。bread表示面包时不可数，不能直接加a，也不能变为breads。表示数量须借助piece；两片应写two pieces of bread，只把计量词piece变复数。"
   },
   {
     "label": "2",
@@ -29,7 +29,7 @@
       "a walk"
     ],
     "answer": "D",
-    "reason": "go for a walk是散步的固定搭配，walk在这里为一次散步的可数用法。"
+    "reason": "选D：go for a walk，意为“去散步”。题干usually说明晚饭后的习惯，go for a walk是完整搭配，空格须填a walk；不能漏掉a，也不能无缘由地用the特指某次散步。"
   },
   {
     "label": "3",
@@ -45,7 +45,7 @@
       "memory"
     ],
     "answer": "A",
-    "reason": "照料病人的工作经验用experience，作经验时不可数，可由much修饰；regret为遗憾，desire为愿望。"
+    "reason": "选A：experience。新护士在照顾病人方面没有多少“经验”，in attending patients限定了经验的领域。experience表经验不可数，可受much修饰；表一次具体“经历”时才可用an experience。"
   },
   {
     "label": "4",
@@ -61,6 +61,6 @@
       "bill"
     ],
     "answer": "D",
-    "reason": "吃完晚饭后向服务员索取的是账单bill；menu为菜单，tip为小费，dish为菜肴或盘子。"
+    "reason": "选D：bill（账单）。finished dinner表明用餐已结束，此时请服务员拿来的是结账用的账单。menu是点餐前看的菜单，dish是菜肴或餐具，tip是顾客付的小费，均不合此处时间顺序。"
   }
 ]

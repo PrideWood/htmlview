@@ -24,7 +24,7 @@
         "have poor health"
       ],
       "answer": "D",
-      "reason": "首段强调足够睡眠是健康所必需，由此按文意推断缺觉可能导致健康不佳。"
+      "reason": "选D：have poor health。首段说Enough sleep is necessary for good health，由“充足睡眠对健康必要”可推知不足可能损害健康。feel nervous、breathe quickly、dream more often都不是文中给出的缺觉后果，不能凭日常印象补充。"
     },
     {
       "label": "17",
@@ -36,7 +36,7 @@
         "you start to dream"
       ],
       "answer": "B",
-      "reason": "REM全称Rapid Eye Movement，原文明确此时眼球移动更快；不等于大脑停止工作。"
+      "reason": "选B：your eyeballs move more quickly。第三段明确写做梦时眼球活动加快，并解释REM为Rapid Eye Movement。D的start to dream加入了“开始”的时间点，原文只说明做梦发生时的现象；B是最直接、精确的对应信息。"
     },
     {
       "label": "18",
@@ -48,7 +48,7 @@
         "无聊的"
       ],
       "answer": "C",
-      "reason": "暖牛奶出现在帮助入睡的建议中，drowsy在该语境为困倦、昏昏欲睡。"
+      "reason": "选C：昏昏欲睡的。末段讨论难入睡的办法，喝温牛奶是为了帮助入睡，因此make you drowsy应表示使人困倦、想睡。醒着、生病、无聊都不符合这条建议想达到的效果，可由上下文推断词义。"
     },
     {
       "label": "19",
@@ -60,7 +60,7 @@
         "look for some sheep"
       ],
       "answer": "A",
-      "reason": "末段直接提及深呼吸；牛奶为warm而非cold，羊是数羊而非寻找羊。"
+      "reason": "选A：breathe deeply。末段直接建议深呼吸。B把warm milk偷换成cold milk，D把counting sheep数羊偷换成look for寻找羊；C的起身跑步未被提出。题目要求文中提到的方法，必须核对动词和修饰词。"
     },
     {
       "label": "20",
@@ -72,7 +72,7 @@
         "dream"
       ],
       "answer": "B",
-      "reason": "全文介绍睡眠作用、层次、做梦和入睡建议，sleep覆盖各段主题；dream只涉及一段。"
+      "reason": "选B：sleep。文章依次讲睡眠对健康的作用、睡眠层次、做梦时的眼动和入睡办法，各段都围绕睡眠。rest与health只覆盖引入部分，dream只覆盖其中一段，sleep才能统摄全文。"
     }
   ]
 }

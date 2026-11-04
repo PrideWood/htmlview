@@ -13,7 +13,7 @@
       "the longest"
     ],
     "answer": "C",
-    "reason": "the second + 最高级表示第二……，the已经给出，空中只填longest。"
+    "reason": "选C：longest。the + 序数词 + 最高级表示“第几……”，the second longest river即第二长的河流。the已在空格前，不能再填the longest；long和longer都不构成这一排名结构。"
   },
   {
     "label": "2",
@@ -29,7 +29,7 @@
       "finally"
     ],
     "answer": "D",
-    "reason": "题意问网络教学最终是否取代课堂教学，finally表示最终；rarely、hardly表示很少或几乎不，尤其especially不合问句预测语境。"
+    "reason": "选D：finally（最终）。题目询问网络教学将来是否“最终取代”课堂教学，finally与will表达的预测相配。especially表示尤其，rarely表示很少，hardly表示几乎不；它们都不是此处所问的最终结果。"
   },
   {
     "label": "3",
@@ -45,7 +45,7 @@
       "less"
     ],
     "answer": "A",
-    "reason": "Of all给出全部比较范围，the most important表示最重要，空中填most。"
+    "reason": "选A：most。Of all the things we eat and drink把水与所有饮食之物比较，应用最高级the most important。空前已有the，只填most；more/less用于比较级，much不能组成此处的最高级。"
   },
   {
     "label": "4",
@@ -61,7 +61,7 @@
       "frustrated"
     ],
     "answer": "B",
-    "reason": "小男孩钢琴弹得如此好使人惊讶，surprised描述人的惊讶状态，符合to find后面的内容。"
+    "reason": "选B：surprised。发现一个小男孩钢琴弹得如此好，人的反应是“惊讶”。be surprised to find表示惊讶地发现；interested是感兴趣，worried是担忧，frustrated是受挫，均不及surprised贴合so well所引出的意外表现。"
   },
   {
     "label": "5",
@@ -77,7 +77,7 @@
       "some times"
     ],
     "answer": "A",
-    "reason": "sometimes为频率副词“有时”，适合描述学习习惯；sometime指某个时候，some time指一段时间。"
+    "reason": "选A：sometimes（有时），作频率副词修饰learn，说明学习方式偶尔如此。sometime指某个不确定的时间，some time是一段时间，some times表示几次；后三项均不表示此处的学习频率。"
   },
   {
     "label": "6",
@@ -93,7 +93,7 @@
       "another"
     ],
     "answer": "C",
-    "reason": "Alice属于班内女生，比较时排除她本人，用any other + 单数girl表示其他任何一个女生。"
+    "reason": "选C：any other。Alice也是班里女生之一，比较时须把她本人排除，用taller than any other girl表示比班内其他任何女生都高。any girl会把她自己也算进去；other通常不能单独修饰这里的单数girl。"
   },
   {
     "label": "7",
@@ -109,7 +109,7 @@
       "to"
     ],
     "answer": "B",
-    "reason": "too dangerous表示太危险；此处to play说明危险的行为，too修饰形容词dangerous。"
+    "reason": "选B：too。too修饰dangerous，强调在路上玩“太危险”，后句汽车可能撞到你说明危险程度。这里to play on the road是It形式主语后的真正主语，并不是too … to … 中表示“不能”的结果不定式。"
   },
   {
     "label": "8",
@@ -125,7 +125,7 @@
       "the more"
     ],
     "answer": "A",
-    "reason": "than提示比较级，interested的比较形式是more interested，前面不加the。"
+    "reason": "选A：more。than明确要求比较级，interested的比较形式是more interested。句意比较年轻人与老年人对流行音乐的兴趣程度；most是最高级，此处也没有需要the more的特指比较结构。"
   },
   {
     "label": "9",
@@ -141,6 +141,6 @@
       "large"
     ],
     "answer": "D",
-    "reason": "描述人口数量多用large population，不能用much直接修饰单数population。"
+    "reason": "选D：large。英语用a large/small population表示人口多/少，不能按汉语把“多”机械译成much。much通常修饰不可数名词，不能与a population这样搭配；rich和broad分别偏向富裕和宽阔，不表示人口数量。"
   }
 ]

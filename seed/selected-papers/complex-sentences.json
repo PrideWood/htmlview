@@ -13,7 +13,7 @@
       "in which"
     ],
     "answer": "B",
-    "reason": "spent后缺宾语，关系词指days，用that；when只作时间状语，不能补spend的宾语。"
+    "reason": "选B：that。先行词days虽表示时间，但从句he spent ____ with you缺的是spent的宾语，关系词须用代词that。when/on which只能作时间状语，不能补这个宾语；判断关系词要先看从句成分。"
   },
   {
     "label": "2",
@@ -29,7 +29,7 @@
       "whenever"
     ],
     "answer": "B",
-    "reason": "have后为宾语从句，whatever既引导从句又作wanted的宾语，表示她想要的任何东西。"
+    "reason": "选B：whatever。could have后接宾语从句，wanted后也缺宾语；whatever既引导从句，又表示“她想要的任何东西”。whenever只能表示时间，that不充当wanted的宾语，which在此也不表达任意选择。"
   },
   {
     "label": "3",
@@ -45,7 +45,7 @@
       "where was it"
     ],
     "answer": "B",
-    "reason": "asked为过去，从句通常用过去时；宾语从句保持陈述语序where it was，不用where was it。"
+    "reason": "选B：where it was。asked后的宾语从句用陈述语序“主语+谓语”，先排除where is it和where was it。主句couldn't find、asked均叙述过去，当时问银行在哪儿，从句用was，与过去语境一致。"
   },
   {
     "label": "4",
@@ -61,7 +61,7 @@
       "it"
     ],
     "answer": "A",
-    "reason": "逗号后的非限定性定语从句指前面取得高分这件事，用which作surprised的主语，不能用that。"
+    "reason": "选A：which。逗号后的从句补充说明“Harry取得高分这件事让全班惊讶”，which代指前面整件事并作surprised的主语。that不能引导这种非限定性定语从句；this或it直接接在逗号后会造成句子连接错误。"
   },
   {
     "label": "5",
@@ -77,7 +77,7 @@
       "in that"
     ],
     "answer": "C",
-    "reason": "books受最高级best修饰，考试通常推荐that作read的宾语；which在现代限定性从句中也可成立，保留A、C多解提示。"
+    "reason": "常规考试推荐C：that。先行词books由最高级best修饰，学校语法常优先用that；that在从句中作read的宾语。A的which也可用于限定性定语从句，不能断言其语法上绝对错误；B、D不合read直接带宾语的结构，本题保留多解、不唯一计分。"
   },
   {
     "label": "6",
@@ -93,7 +93,7 @@
       "whether"
     ],
     "answer": "D",
-    "reason": "whether … or not表示是否，询问会不会参加；that不表达不确定的是否。"
+    "reason": "选D：whether。whether … or not表示“是否”，问的是他会不会参加生日聚会。that只陈述事实，不表达是否；how问方式、when问时间，而on Friday已说明时间，它们都不能与此处or not构成所需的选择意义。"
   },
   {
     "label": "7",
@@ -109,6 +109,6 @@
       "when"
     ],
     "answer": "B",
-    "reason": "grow up不缺宾语，从句缺地点状语，where指在那个小镇成长。"
+    "reason": "选B：where。从句he grew up主谓完整，缺的是“在那个小镇”的地点状语，where相当于in which。which/that作为关系代词不能直接补地点状语；when用于时间，和先行词town不符。"
   }
 ]

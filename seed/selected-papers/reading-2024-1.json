@@ -26,7 +26,7 @@
         "the U.K."
       ],
       "answer": "B",
-      "reason": "第二段首句明确饮茶始于四千多年前的China，即中国。"
+      "reason": "选B：China。题目问饮茶的起源地点，定位第二段首句“Tea-drinking started in China”，与China直接对应。Turkey和the U.K.出现在后面对待客与下午茶习俗的介绍中，不能把后来饮茶的国家当成起源地。"
     },
     {
       "label": "2",
@@ -38,7 +38,7 @@
         "Beans."
       ],
       "answer": "A",
-      "reason": "第二段Tea is made from leaves直接说明茶由叶子制成；beans对应咖啡。"
+      "reason": "选A：Leaves。第二段“Tea is made from leaves”直接给出茶的原料，made from对应题干made from。第三段的coffee beans是咖啡的原料，不能混淆两种饮品；sugar、dishes也没有被说明为制茶原料。"
     },
     {
       "label": "3",
@@ -50,7 +50,7 @@
         "drink tea to relax themselves"
       ],
       "answer": "D",
-      "reason": "英国下午茶被说明为与朋友、同事放松的方式，对应relax themselves。"
+      "reason": "选D：drink tea to relax themselves。第二段英国下午茶部分用“It is a way of relaxing with friends or co-workers”说明其放松功能。get going在第三段描述喝咖啡后提神；get fat和告别前喝茶均无原文支持。"
     },
     {
       "label": "4",
@@ -62,7 +62,7 @@
         "Some people meet and talk with friends in coffee shops."
       ],
       "answer": "A",
-      "reason": "原文说咖啡比茶晚出现，A将much later改成much earlier；其余三项均在第三段提及。"
+      "reason": "选A。题目要求选NOT true，即错误说法。第三段用much later than tea说明咖啡出现得比茶晚，A却写much earlier，方向正好相反。保持清醒、使人活跃和在咖啡馆会友，均能在该段找到对应信息。"
     },
     {
       "label": "5",
@@ -74,7 +74,7 @@
         "Ways of Making Tea and Coffee"
       ],
       "answer": "C",
-      "reason": "文章比较两种饮品在文化、放松、提神和社交中的用途，并未重点介绍价格、气味或制作步骤。"
+      "reason": "选C：Uses of Tea and Coffee。首段提出两种饮品在不同文化中用途不同，后文分别讲茶的待客、放松作用和咖啡的提神、社交用途。C能涵盖全文；气味、价格和制作方法都没有成为各段展开的核心，不能用局部原料介绍代替全文主旨。"
     }
   ]
 }

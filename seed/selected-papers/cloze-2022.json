@@ -22,7 +22,7 @@
         "terrible"
       ],
       "answer": "A",
-      "reason": "结尾说旅程很精彩还想再去，前面应积极评价为exciting，即令人兴奋的。"
+      "reason": "选A：exciting。后文first time、excited以及结尾wonderful、want to go … again都说明这是愉快而令人兴奋的旅行。difficult、dangerous、terrible分别带困难、危险、糟糕的负面评价，与全文情感不符；exciting修饰trip，excited描述人的感受。"
     },
     {
       "label": "2",
@@ -34,7 +34,7 @@
         "boat"
       ],
       "answer": "C",
-      "reason": "前句We flew there明确乘飞机，take a plane与fly同义。"
+      "reason": "选C：plane。前句We flew there中的flew是fly的过去式，明确他们飞往三亚；take a plane与fly表达同一种交通方式。bus、train、boat分别是公交车、火车、船，均不对应flew，不能仅按常见旅游工具猜测。"
     },
     {
       "label": "3",
@@ -46,7 +46,7 @@
         "of"
       ],
       "answer": "B",
-      "reason": "hotel by the sea表示海边的旅馆，by为在……旁边。"
+      "reason": "选B：by。a hotel by the sea表示海边的旅馆，by在此意为“在……旁边”。in the sea会成为旅馆在海里，on the sea也不是这里表示沿海位置的常用搭配；后文去海滩游玩支持住在海边。"
     },
     {
       "label": "4",
@@ -58,7 +58,7 @@
         "got on"
       ],
       "answer": "C",
-      "reason": "每天早起后吃早餐再去海滩，got up表示起床。"
+      "reason": "选C：got up。后一句After breakfast表明早餐前的日常活动是早早起床，get up表示起床，过去式got。come up是出现/走近，come on是快点/开始，get on是上车等，均不对应每天早晨的作息。"
     },
     {
       "label": "5",
@@ -70,7 +70,7 @@
         "swam"
       ],
       "answer": "D",
-      "reason": "在海里进行的活动为swam游泳，与后面的海滩游戏并列。"
+      "reason": "选D：swam。in the sea限定活动场所，swam是swim的过去式，与后面的played games并列，表示孩子们在海里游泳、在沙滩玩游戏。slept、grew、studied的含义与这一海滨游玩场景不符。"
     },
     {
       "label": "6",
@@ -82,7 +82,7 @@
         "seats"
       ],
       "answer": "B",
-      "reason": "take photos of sb表示给某人拍照，与旅游场景相符。"
+      "reason": "选B：photos。take photos of sb是给某人拍照的固定搭配，符合父亲在旅行中为孩子拍照的情境。take messages是捎口信，take lessons是上课，take seats是入座，都不能与of us组成此处所需含义。"
     },
     {
       "label": "7",
@@ -94,7 +94,7 @@
         "yet"
       ],
       "answer": "C",
-      "reason": "妈妈坐在椅子上并读书，两个动作并列，用and。"
+      "reason": "选C：and。sat on the chair与read her favorite books是妈妈同时或相连进行的两项活动，用and并列。“坐着”与“读书”不构成转折，也不是因果，因此不选but/yet或so。"
     },
     {
       "label": "8",
@@ -106,7 +106,7 @@
         "showed"
       ],
       "answer": "A",
-      "reason": "后句评价食物美味，说明品尝了食物，用tasted。"
+      "reason": "选A：tasted。空后宾语是a lot of food，后句又评价The food was very delicious，说明他们品尝了当地食物。visit通常接地点或人，show是展示，make是制作；原文重在旅游中尝美食，用tasted最连贯。"
     },
     {
       "label": "9",
@@ -118,7 +118,7 @@
         "also"
       ],
       "answer": "D",
-      "reason": "also用于主语后、实义动词made前表示也；too通常放句末，nor、neither表否定。"
+      "reason": "选D：also。空格位于主语We之后、实义动词made之前，also可在这个位置表示“也”。too表“也”通常放句末；nor和neither表示否定，与后面交到友好朋友的肯定叙述不符。"
     },
     {
       "label": "10",
@@ -130,7 +130,7 @@
         "him"
       ],
       "answer": "B",
-      "reason": "邀请的是叙述者一家，即we的宾格us，作invited的宾语。"
+      "reason": "选B：us。They指新结识的两位朋友，被邀请到其家中的是叙述者一家，即we，作invited的宾语要用宾格us。them会指另一群人，her/him为单数，都不能承接本文持续使用的第一人称复数视角。"
     }
   ]
 }

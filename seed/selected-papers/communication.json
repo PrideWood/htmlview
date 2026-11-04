@@ -13,7 +13,7 @@
       "It doesn't matter."
     ],
     "answer": "A",
-    "reason": "别人主动提供更多鱼，接受帮助应答Yes, please；其余选项分别用于道歉、回应道歉等语境。"
+    "reason": "选A：Yes, please。Can I get you some more fish?是主人主动提出再给客人添鱼，接受时用Yes, please，婉拒则可说No, thank you。I'm sorry用于道歉，That's all right和It doesn't matter多用于宽慰或回应道歉，均没有直接接受添菜。"
   },
   {
     "label": "2",
@@ -29,7 +29,7 @@
       "I'd love to"
     ],
     "answer": "D",
-    "reason": "but后说明无法去接人，用I'd love to先表示愿意，再委婉说明不能做到；其余三项均直接承诺。"
+    "reason": "选D：I'd love to。后面but说明今天下午就要去伦敦，无法答应明天接机；I'd love to先表达愿意，再委婉说明不能成行。No problem、Certainly、Of course都是直接肯定承诺，与后面的现实限制衔接不如D自然。"
   },
   {
     "label": "3",
@@ -45,7 +45,7 @@
       "Good bye."
     ],
     "answer": "A",
-    "reason": "Shall we …?提出一起散步的建议，Good idea表示赞同；不是祝好运或告别。"
+    "reason": "选A：Good idea。Shall we go out for a walk?是在提议共同去散步，Good idea表示赞成这个建议。Good luck用于祝好运，Have fun常祝对方玩得开心，Good bye用于告别，均未直接回应共同活动的提议。"
   },
   {
     "label": "4",
@@ -61,7 +61,7 @@
       "Thank you."
     ],
     "answer": "D",
-    "reason": "别人赞美毛衣漂亮，礼貌回应Thank you；You are welcome用于回应感谢。"
+    "reason": "选D：Thank you。对方称赞毛衣漂亮，礼貌回应应接受赞美并道谢。You are welcome和Not at all常回答别人的感谢；Just so-so表示一般般，在此否认赞美，不如Thank you自然得体。"
   },
   {
     "label": "5",
@@ -77,6 +77,6 @@
       "Nothing serious."
     ],
     "answer": "C",
-    "reason": "听到对方刚摔伤应表示同情，I'm sorry to hear that贴合已发生的不幸，不宜未经依据断言Nothing serious。"
+    "reason": "选C：I'm sorry to hear that。对方刚摔倒伤腿，应先表达遗憾和同情。Be careful更像提醒今后小心；It doesn't matter淡化伤情，Nothing serious又在没有判断依据时断言不严重，都不如C符合对已发生不幸的关切。"
   }
 ]

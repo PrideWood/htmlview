@@ -8,7 +8,7 @@ import {getLesson,publicLesson} from '../lib/storage.mjs';
 import {presentationMaterials} from '../public/lesson-materials.js';
 const docs=JSON.parse(fs.readFileSync(new URL('../seed/lessons.json',import.meta.url)));
 const added=docs.filter(d=>d.id.startsWith('builtin-danzhao2025-'));
-test('原51份1570项保持完整',()=>{const original=docs.filter(d=>!d.id.startsWith('builtin-danzhao2025-')).map(restoreQuestionBankLessonBeforeRepairs);assert.equal(createHash('sha256').update(JSON.stringify(original)).digest('hex'),'d498edf4a9570e2fdb6d79adc023ffa8be5bca1690321dc01a5ac55aef818f5b');});
+test('原51份1570项保持完整，解析修订可还原原记录',()=>{const revisions=JSON.parse(fs.readFileSync(new URL('../seed/legacy-explanation-revisions.json',import.meta.url)));const original=docs.filter(d=>!d.id.startsWith('builtin-danzhao2025-')).map(d=>{const restored=restoreQuestionBankLessonBeforeRepairs(d);for(const edit of revisions.filter(e=>e.lessonId===d.id)){const q=restored.questions.find(q=>q.label===edit.label);assert.equal(q.reason,edit.after);q.reason=edit.before;}return restored;});assert.equal(createHash('sha256').update(JSON.stringify(original)).digest('hex'),'d498edf4a9570e2fdb6d79adc023ffa8be5bca1690321dc01a5ac55aef818f5b');});
 test('1000题按14语法专题、50阅读篇章、30翻译篇章完整导入，原题号连续',()=>{
  assert.equal(added.length,94);assert.equal(new Set(docs.map(d=>d.id)).size,145);
  for(const [kind,count,questions] of [['grammar',14,600],['reading',50,250],['translation',30,150]]){

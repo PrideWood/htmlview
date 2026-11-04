@@ -13,7 +13,7 @@
       "am"
     ],
     "answer": "A",
-    "reason": "not only … but also连接主语时谓语就近一致，靠近谓语的是Johnny and Rose两人，用are。"
+    "reason": "选A：are。not only … but also … 连接两个主语时，谓语通常与最近的主语一致。最近的是Johnny and Rose，两人构成复数，故用are fond of；不能只看句首I而选am。"
   },
   {
     "label": "2",
@@ -29,7 +29,7 @@
       "but"
     ],
     "answer": "C",
-    "reason": "not … until表示直到完成作业才出去，until引出时间条件。"
+    "reason": "选C：until。not … until … 表示“直到……才……”，即作业完成前不许外出。until引导时间状语从句，have finished强调完成作业这一时间界限；while表示同时，or和but不能表达这个界限。"
   },
   {
     "label": "3",
@@ -45,6 +45,6 @@
       "as long as"
     ],
     "answer": "D",
-    "reason": "保持词典干净是借出的条件，用as long as表只要；even if表即使，in case表以防。"
+    "reason": "选D：as long as（只要）。“保持词典干净”是愿意借出的条件，而非让步或预防。even if表示即使，in case表示以防，so far as表示就……而言；只有as long as符合有条件借书的语义。"
   }
 ]

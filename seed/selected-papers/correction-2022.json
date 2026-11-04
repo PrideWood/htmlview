@@ -12,52 +12,52 @@
     {
       "text": "Mr. Black see a boy reading a picture book and said,",
       "answer": "see改saw",
-      "reason": "整篇在叙述过去的英语课，与said并列的see应为过去式saw。"
+      "reason": "将see改为saw。开头One day与were having设定过去的课堂情景，see与后面的said是并列发生的过去动作，须用过去式saw。saw a boy reading表示看见男孩当时正在看书，reading不必改。"
     },
     {
       "text": "\"Tom, how do you usually do after lunch?\" Tom",
       "answer": "how改what",
-      "reason": "问午饭后通常做什么，do后缺宾语，用what；how问做事方式。"
+      "reason": "将how改为what。问句“你午饭后通常做什么”中，do缺少宾语，应用what补上。how只问方式，不能充当do的宾语；usually说明习惯，do you通常现在时形式保持。"
     },
     {
       "text": "got up nervous from his seat. He did not know how",
       "answer": "nervous改nervously",
-      "reason": "修饰got up这一动作需要副词nervously，表示紧张地起身。"
+      "reason": "将nervous改为nervously。got up表示起身这一动作，需用副词nervously说明他紧张地起身。nervous是形容词，若表达状态可用was nervous，但不能直接用在本句got up后替代动作方式副词。"
     },
     {
       "text": "to answer it. He thought for while and said,",
       "answer": "for后加a",
-      "reason": "for a while是“一会儿”的固定短语，while前不能省a。"
+      "reason": "在for后加a，成为for a while，表示一会儿。while在此是表示一段时间的名词，固定短语中要有a；不要把它误当连接从句的while而省去冠词。thought for a while即想了一会儿。"
     },
     {
       "text": "\"Wait for supper.\" The teacher is unhappy, and",
       "answer": "is改was",
-      "reason": "当时老师不高兴，叙述过去用was，与上下文过去时保持一致。"
+      "reason": "将is改为was。老师当时因Tom回答“等晚饭”而不高兴，仍在叙述那一天的过去事件，be动词用was。后面he saw、He was angry同样是过去时，保持叙述时间一致。"
     },
     {
       "text": "at that moments he saw Rose sleeping. He was angry",
       "answer": "moments改moment",
-      "reason": "at that moment表示在那个时刻，that后接单数moment。"
+      "reason": "将moments改为moment。at that moment意为在那个时刻，that指特定的单个时刻，后接单数moment。若为多个时刻须是those moments，不能只见到at就忽略限定词that与名词数的一致。"
     },
     {
       "text": "but he tried not to show for it. Then he asked, \"And you,",
       "answer": "删去for",
-      "reason": "show为及物动词，show it表示流露情绪，it前无需for。"
+      "reason": "删去for。show在这里是及物动词，show it表示表现出它，it回指angry所表达的怒气。宾语可直接跟在show后，不需要for；保留tried not to，表示努力不流露情绪。"
     },
     {
       "text": "Rose?\" Rose woke up but did not hear the question. She",
       "answer": "正确",
-      "reason": "woke up与did not hear均为过去时，叙述Rose醒来却未听到问题，结构正确。"
+      "reason": "本行正确。Rose woke up but did not hear the question说明她醒了，却没听到老师的问题，两个过去动作由but连接。did not后hear已用原形，不能再改heard；woke是wake的正确过去式。"
     },
     {
       "text": "asked hers desk-mate, who dared not say anything. Then",
       "answer": "hers改her",
-      "reason": "desk-mate前要形容词性物主代词her；hers不能直接修饰名词。"
+      "reason": "将hers改为her。desk-mate是名词，前面需要形容词性物主代词her来限定。hers是名词性物主代词，相当于her + 名词，通常独立使用，不能再直接放到desk-mate前。"
     },
     {
       "text": "Rose stood up and replied in a loudly voice,",
       "answer": "loudly改loud",
-      "reason": "voice是名词，前用形容词loud；loudly为副词。"
+      "reason": "将loudly改为loud。in a loud voice表示大声地，voice是名词，须用形容词loud修饰。loudly是副词，可说replied loudly，却不能说a loudly voice；本句保留原短语结构，只改词性。"
     }
   ]
 }

@@ -13,7 +13,7 @@
       "nothing"
     ],
     "answer": "D",
-    "reason": "后句说从未去过那座城市，for引出原因，因此对城市一无所知，选nothing。"
+    "reason": "选D：nothing。for引出理由“他以前从未去过那里”，因此前半句表示他对这座城市一无所知。knows nothing本身已是否定含义，不再加not；everything表示全都知道，与理由相反。"
   },
   {
     "label": "2",
@@ -29,7 +29,7 @@
       "the others"
     ],
     "answer": "B",
-    "reason": "更换另一盏同类灯用another，省略单数lamp；other不能独立表示另一件，others表复数。"
+    "reason": "选B：another。对方可以把这盏灯换成“另一盏”，或要求退款。another可单独代指另一个同类单数物品；other通常需接名词，others和the others均指复数，与this lamp的一对一更换不符。"
   },
   {
     "label": "3",
@@ -45,7 +45,7 @@
       "nobody"
     ],
     "answer": "C",
-    "reason": "书不够供所有人使用，所以部分人须共用；not enough … for everybody为部分否定，不等于谁都没有。"
+    "reason": "选C：everybody。后句“有些人只好合用”说明书不够供每一个人使用。not … enough … for everybody是“不能满足所有人”，属于部分否定；不是nobody所表示的一个人也不能用。"
   },
   {
     "label": "4",
@@ -61,6 +61,6 @@
       "them"
     ],
     "answer": "B",
-    "reason": "find it + 形容词 + to do中it作形式宾语，真正宾语是记住这些汉语词汇。"
+    "reason": "选B：it。结构为find it + 形容词 + to do，it是形式宾语，真正宾语是后面的to remember the Chinese words。difficult评价的是“记住汉字”这件事，them若代指words则不能承担这一形式宾语作用。"
   }
 ]

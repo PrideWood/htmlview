@@ -12,52 +12,52 @@
     {
       "text": "If you take a bus, you have wait for about half an hour. Also,",
       "answer": "have后加to",
-      "reason": "have to do表示不得不或必须，wait前缺to。"
+      "reason": "在have后加to。have to wait表示必须等候，have to后接动词原形。主句you have wait缺少不定式标记，不能把have当成助动词直接接wait；改后为you have to wait for about half an hour。"
     },
     {
       "text": "the bus move slowly. As for the underground, it is quick",
       "answer": "move改moves",
-      "reason": "bus为单数第三人称，一般现在时谓语用moves。"
+      "reason": "将move改为moves。the bus是第三人称单数，句子描述伦敦公交车通常开得慢，用一般现在时，谓语加-s。不要受上一句条件句you take a bus的主语you影响；本句主语已经换成the bus。"
     },
     {
       "text": "but very expensive and often crowded. I am used to go to",
       "answer": "删去am",
-      "reason": "下文回顾过去坐公交上班的习惯，应为I used to go；be used to后则需doing，但不合后面的过去叙述。"
+      "reason": "删去am，成为I used to go to work by bus，表示过去常坐公交上班。后文I often arrived late、Later …等延续过去经历。be used to表示习惯于时后面须接doing，不能保留am而直接接go。"
     },
     {
       "text": "work by bus, and I often arrived late and tiring. Later,",
       "answer": "tiring改tired",
-      "reason": "描述人到达时感到疲倦，用tired；tiring指令人疲倦的事物。"
+      "reason": "将tiring改为tired。arrived late and tired表示到达时又迟又累，tired描述人的疲倦感，作伴随状态。tiring表示使人疲倦的，可形容旅程等造成疲劳的事物，不适合说明“我”当时的感受。"
     },
     {
       "text": "a friend of me suggested that I should go to work by bike.",
       "answer": "me改mine",
-      "reason": "a friend of mine为双重所有格，of后用名词性物主代词mine。"
+      "reason": "将me改为mine。a friend of mine是双重所有格，表示我的一位朋友，of后用名词性物主代词mine。me只是人称代词宾格，不能表达这个所属关系；也不能写a friend of my，因为my后还需名词。"
     },
     {
       "text": "It's cheaper and quicker by bike. I follow his advice.",
       "answer": "follow改followed",
-      "reason": "接受建议发生在过去，接续后面的Since then经历，填过去式followed。"
+      "reason": "将follow改为followed。前文friend suggested叙述过去建议，这句说自己当时接受了建议并改骑自行车，仍用一般过去时。It's cheaper and quicker是对骑车的一般评价，不要求随后这项过去行动也用现在时。"
     },
     {
       "text": "Since then, I always arrived for time even if I was not in a hurry.",
       "answer": "for改on",
-      "reason": "on time表示准时到达，for time不构成此义的固定搭配。"
+      "reason": "将for改为on。arrive on time表示准时到达，符合骑车比坐公交更快的对比。in time表示及时、赶在来不及之前，含义不同；本句原有for time不表示准时，按给定答案改成on time。"
     },
     {
       "text": "It takes fifty minute to get there by bus while riding a bike",
       "answer": "minute改minutes",
-      "reason": "fifty大于一，时间名词minute要用复数minutes。"
+      "reason": "将minute改为minutes。fifty后接复数可数时间名词，表示50分钟；take fifty minutes to get there说明到达所需时间。这里不是fifty-minute这类带连字符的前置定语，因此不能保留单数minute。"
     },
     {
       "text": "takes only half an hour. So in my opinion, riding a bike is",
       "answer": "正确",
-      "reason": "动名词短语riding a bike为单数意义主语，谓语is正确；half an hour也正确。"
+      "reason": "本行正确。riding a bike是动名词短语作主语，视为单数，后面is正确。行首takes接上一行riding a bike，是比较骑车与公交的耗时；half an hour表示半小时也正确，跨行阅读可避免误改。"
     },
     {
       "text": "the best way to go to work. Actually, I've saved a few money",
       "answer": "few改little",
-      "reason": "money不可数，表示省了一点钱用a little money；a few修饰复数可数名词。"
+      "reason": "将few改为little。money是不可数名词，表示省下一点钱要用a little money。a few修饰复数可数名词，不能直接修饰money；本题应保留a，删a后的little反而偏向几乎没钱，改变积极语气。"
     }
   ]
 }

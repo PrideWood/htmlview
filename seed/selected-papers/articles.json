@@ -13,7 +13,7 @@
       "a"
     ],
     "answer": "C",
-    "reason": "hour的h不发音，以元音音素开头，泛指一小时用an hour。"
+    "reason": "选C：an。hour中的h不发音，开头是元音音素/aʊə(r)/，泛指“一小时”要用an hour。冠词a/an取决于发音而非首字母；about只表示“大约”，不会代替hour所需的冠词。"
   },
   {
     "label": "2",
@@ -29,7 +29,7 @@
       "The"
     ],
     "answer": "D",
-    "reason": "the + 姓氏复数表示一家人，The Browns即布朗一家。"
+    "reason": "选D：The。the + 姓氏复数表示“一家人”，The Browns即布朗一家，作复数主语，与were having一致。这里不是泛指一个姓布朗的人，因此不能用A或An。"
   },
   {
     "label": "3",
@@ -45,7 +45,7 @@
       "/"
     ],
     "answer": "D",
-    "reason": "in public为“公开地、当众”的固定短语，public前不加冠词。"
+    "reason": "选D：不填。in public是固定介词短语，意为“当众、公开地”，全句说Tom不愿当众讲话。这里public不是指某个具体公共场所，不加the；也不作可数单数名词使用，不能加a/an。"
   },
   {
     "label": "4",
@@ -61,6 +61,6 @@
       "the"
     ],
     "answer": "A",
-    "reason": "university起始音为辅音/j/，不是元音音素，泛指一所大学用a。"
+    "reason": "选A：a。university虽然以元音字母u开头，但起始音素是辅音/j/，泛指“一所大学”应用a university。句中还没有确定哪所大学，不能用the；单数可数名词也不能直接裸用。"
   }
 ]

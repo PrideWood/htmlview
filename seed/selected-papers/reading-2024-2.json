@@ -27,7 +27,7 @@
         "I Spy."
       ],
       "answer": "C",
-      "reason": "四部时长分别为180、155、100、120分钟，最短的是100分钟的The Twins。"
+      "reason": "选C：The Twins。把各影片时长换为分钟：Harry Potter为180，Catch Me If You Can为155，The Twins为100，I Spy为120。100分钟最短；题目比较时长，不是票价或放映开始的时间。"
     },
     {
       "label": "7",
@@ -39,7 +39,7 @@
         "Saturday and Sunday"
       ],
       "answer": "B",
-      "reason": "Harry Potter信息中的Date为Sunday，不是周六或整个周末。"
+      "reason": "选B：Sunday。在WANNER VILLAGE下定位Harry Potter，其Date一项为Sunday。Saturday and Sunday属于Catch Me If You Can，Monday to Friday属于另两部影片；须核对同一影片栏目，不能横向串行。"
     },
     {
       "label": "8",
@@ -51,7 +51,7 @@
         "0115-806163"
       ],
       "answer": "D",
-      "reason": "对应HOLLYWOOD THEATER的订票电话为0115-806163，须匹配影片而非其他影院。"
+      "reason": "选D：0115-806163。先定位Catch Me If You Can所在的HOLLYWOOD THEATER，再读同一栏Tel.。其余号码分别属于别的影院；题目不要求任选售票电话，而是要与指定影片一致。"
     },
     {
       "label": "9",
@@ -63,7 +63,7 @@
         "£2.00"
       ],
       "answer": "D",
-      "reason": "The Twins成人票£2，十岁以下免费，9岁儿子不收费，总计£2。"
+      "reason": "选D：£2.00。The Twins票价为£2，且children under 10免费。父亲付£2，9岁儿子属于10岁以下，不收费，总计£2；不能按两张普通票算£4，也不能套用Harry Potter的儿童票价。"
     },
     {
       "label": "10",
@@ -75,7 +75,7 @@
         "WANNER VILLAGE"
       ],
       "answer": "A",
-      "reason": "只有THE ROYAL THEATER在上午9点放映，其他三场均为下午。"
+      "reason": "选A：THE ROYAL THEATER。它的Time为9:00 a.m.，属于上午；其他影院分别为2:00 p.m.、4:00 p.m.、2:30 p.m.，均是下午。关键是辨别a.m./p.m.，不是只比较钟面数字大小。"
     }
   ]
 }

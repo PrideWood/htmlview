@@ -12,52 +12,52 @@
     {
       "text": "Once there was a boy who he liked reading books",
       "answer": "删去he",
-      "reason": "关系代词who已经作liked的主语，再加he形成重复主语。"
+      "reason": "删去he。who引导定语从句修饰boy，并已作liked的主语；who he liked会出现重复主语。删后为a boy who liked reading books，liked仍与过去叙事一致，reading作like的宾语也无需改动。"
     },
     {
       "text": "very much. Because he was so poor to buy any books, he",
       "answer": "so改too",
-      "reason": "too … to … 表太穷而买不起书；so后若表达结果需接that从句。"
+      "reason": "将so改为too，成为too poor to buy any books，意为太穷而买不起书。too + 形容词 + to do表达因程度过高而不能做；so若表示同样结果，通常须用so … that … can't/couldn't，而不是直接接此处to buy。"
     },
     {
       "text": "had no books of him own. But that could not stop him from",
       "answer": "him改his",
-      "reason": "of his own表示他自己的，own前须形容词性物主代词his。"
+      "reason": "将him改为his。of one's own表示某人自己的，own前须用所有格his，而him是人称代词宾格。no books of his own即没有属于自己的书，不能因前面有of就机械地选宾格him。"
     },
     {
       "text": "reading. He decided borrow books from his friend Tom,",
       "answer": "decided后加to",
-      "reason": "decide to do表示决定做，borrow前需to。"
+      "reason": "在decided后加to。decide to do sth是不定式作宾语的固定结构，句意是决定向Tom借书。borrow books from sb表示从某人处借入，from与动作方向一致，无需改成lend。"
     },
     {
       "text": "who lived far away to the boy's home. The boy always",
       "answer": "to改from",
-      "reason": "far away from表示远离，地点距离用from而非to。"
+      "reason": "将to改为from。far away from a place表示离某地很远，from引出作为距离参照的地点。to通常表示朝向某地，不能构成这里“Tom住得离男孩家很远”的固定表达。"
     },
     {
       "text": "tried his best to finish read the books and then returned",
       "answer": "read改reading",
-      "reason": "finish后接动名词，完成阅读用finish reading。"
+      "reason": "将read改为reading。finish后接动名词作宾语，finish reading the books表示读完这些书。try his best to finish中的to属于前面的try结构，不会让finish后面的read也保持原形。"
     },
     {
       "text": "them to his friends in time. That was the reason why",
       "answer": "friends改friend",
-      "reason": "前面明确只向朋友Tom借书，归还对象是同一个单数friend。"
+      "reason": "将friends改为friend。前文只说从Tom这一位朋友处借书，归还对象仍是同一个人，故用单数his friend。returned them中的them指借来的多本书，不代表借书的朋友也必须为复数。"
     },
     {
       "text": "Tom was glad to lend him any of his books.",
       "answer": "正确",
-      "reason": "be glad to do和lend sb sth均正确，any of his books表示自己的任何一本书。"
+      "reason": "本行正确。Tom was glad to lend him any of his books表示Tom乐意把自己的任何一本书借给他，lend sb sth的双宾语结构和any of + 复数名词都成立。本句是肯定语境，any仍可表达任意一本，不必改成some。"
     },
     {
       "text": "The many books the boy read, the more knowledge he",
       "answer": "many改more",
-      "reason": "the + 比较级，the + 比较级表越……越……，many需用more。"
+      "reason": "将many改为more。the more …, the more …表示越……越……，两部分都须使用比较级。many修饰books合语法，但在本句成对的比较结构中要变成more，成为读书越多、学到知识越多。"
     },
     {
       "text": "learned. And late he became a great writer.",
       "answer": "late改later",
-      "reason": "叙述后来成为作家用later；late表示迟到或时间晚，不表示后来的先后关系。"
+      "reason": "将late改为later。句意是“后来他成为一位伟大的作家”，later用作副词表示此后。late表示晚、迟，不能准确表达叙事中的先后发展；became已是过去式，不需要再调整谓语。"
     }
   ]
 }

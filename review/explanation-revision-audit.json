@@ -1,0 +1,1213 @@
+{
+  "date": "2026-11-04",
+  "baselineCommit": "51dad930f1da302d37b8cb6c2770544c30cbf215",
+  "revised": 296,
+  "banks": {
+    "lessons": {
+      "questions": 2570,
+      "revised": 55,
+      "immutableSha256": "b32036cbd01c55187ba8acf964e43f4d25e88d0a0ef4a97b3103f25d00f24bb7",
+      "changes": [
+        {
+          "lessonId": "builtin-71ac3e46734e3665",
+          "label": "16"
+        },
+        {
+          "lessonId": "builtin-71ac3e46734e3665",
+          "label": "34"
+        },
+        {
+          "lessonId": "builtin-71ac3e46734e3665",
+          "label": "37"
+        },
+        {
+          "lessonId": "builtin-63344d8cd215cf5a",
+          "label": "19"
+        },
+        {
+          "lessonId": "builtin-63344d8cd215cf5a",
+          "label": "20"
+        },
+        {
+          "lessonId": "builtin-63344d8cd215cf5a",
+          "label": "22"
+        },
+        {
+          "lessonId": "builtin-63344d8cd215cf5a",
+          "label": "23"
+        },
+        {
+          "lessonId": "builtin-63344d8cd215cf5a",
+          "label": "28"
+        },
+        {
+          "lessonId": "builtin-0d18b69d0a62662c",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-0d18b69d0a62662c",
+          "label": "12"
+        },
+        {
+          "lessonId": "builtin-0d18b69d0a62662c",
+          "label": "14"
+        },
+        {
+          "lessonId": "builtin-0d18b69d0a62662c",
+          "label": "15"
+        },
+        {
+          "lessonId": "builtin-0d18b69d0a62662c",
+          "label": "22"
+        },
+        {
+          "lessonId": "builtin-0d18b69d0a62662c",
+          "label": "28"
+        },
+        {
+          "lessonId": "builtin-0d18b69d0a62662c",
+          "label": "31"
+        },
+        {
+          "lessonId": "builtin-0d18b69d0a62662c",
+          "label": "46"
+        },
+        {
+          "lessonId": "builtin-0d18b69d0a62662c",
+          "label": "48"
+        },
+        {
+          "lessonId": "builtin-0d18b69d0a62662c",
+          "label": "49"
+        },
+        {
+          "lessonId": "builtin-0d18b69d0a62662c",
+          "label": "50"
+        },
+        {
+          "lessonId": "builtin-0fbbfdedc8dda503",
+          "label": "8"
+        },
+        {
+          "lessonId": "builtin-299a30abb671b3f6",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-299a30abb671b3f6",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-299a30abb671b3f6",
+          "label": "10"
+        },
+        {
+          "lessonId": "builtin-e923f4bd1d468998",
+          "label": "17"
+        },
+        {
+          "lessonId": "builtin-e923f4bd1d468998",
+          "label": "26"
+        },
+        {
+          "lessonId": "builtin-1e21c2c4ccde457f",
+          "label": "28"
+        },
+        {
+          "lessonId": "builtin-1e21c2c4ccde457f",
+          "label": "32"
+        },
+        {
+          "lessonId": "builtin-1e21c2c4ccde457f",
+          "label": "36"
+        },
+        {
+          "lessonId": "builtin-1e21c2c4ccde457f",
+          "label": "40"
+        },
+        {
+          "lessonId": "builtin-74d7af69a6b4b6ce",
+          "label": "41"
+        },
+        {
+          "lessonId": "builtin-74d7af69a6b4b6ce",
+          "label": "44"
+        },
+        {
+          "lessonId": "builtin-f5c1a943bd148587",
+          "label": "8"
+        },
+        {
+          "lessonId": "builtin-f5c1a943bd148587",
+          "label": "40"
+        },
+        {
+          "lessonId": "builtin-f5c1a943bd148587",
+          "label": "41"
+        },
+        {
+          "lessonId": "builtin-f5c1a943bd148587",
+          "label": "59"
+        },
+        {
+          "lessonId": "builtin-f5c1a943bd148587",
+          "label": "63"
+        },
+        {
+          "lessonId": "builtin-f5c1a943bd148587",
+          "label": "71"
+        },
+        {
+          "lessonId": "builtin-a324b7fcb9d5a883",
+          "label": "5"
+        },
+        {
+          "lessonId": "builtin-a324b7fcb9d5a883",
+          "label": "6"
+        },
+        {
+          "lessonId": "builtin-a324b7fcb9d5a883",
+          "label": "10"
+        },
+        {
+          "lessonId": "builtin-a324b7fcb9d5a883",
+          "label": "14"
+        },
+        {
+          "lessonId": "builtin-a324b7fcb9d5a883",
+          "label": "15"
+        },
+        {
+          "lessonId": "builtin-a324b7fcb9d5a883",
+          "label": "25"
+        },
+        {
+          "lessonId": "builtin-a324b7fcb9d5a883",
+          "label": "30"
+        },
+        {
+          "lessonId": "builtin-3622b512096493b5",
+          "label": "52"
+        },
+        {
+          "lessonId": "builtin-c1c54fc8097a54e4",
+          "label": "24"
+        },
+        {
+          "lessonId": "builtin-c1c54fc8097a54e4",
+          "label": "29"
+        },
+        {
+          "lessonId": "builtin-c1c54fc8097a54e4",
+          "label": "31"
+        },
+        {
+          "lessonId": "builtin-c1c54fc8097a54e4",
+          "label": "33"
+        },
+        {
+          "lessonId": "builtin-c1c54fc8097a54e4",
+          "label": "34"
+        },
+        {
+          "lessonId": "builtin-c1c54fc8097a54e4",
+          "label": "57"
+        },
+        {
+          "lessonId": "builtin-c1c54fc8097a54e4",
+          "label": "60"
+        },
+        {
+          "lessonId": "builtin-c1c54fc8097a54e4",
+          "label": "63"
+        },
+        {
+          "lessonId": "builtin-c1c54fc8097a54e4",
+          "label": "65"
+        },
+        {
+          "lessonId": "builtin-00cf5990a500e709",
+          "label": "61"
+        }
+      ]
+    },
+    "english-monthly-exam": {
+      "questions": 42,
+      "revised": 42,
+      "immutableSha256": "3b0379f4de4b30529c7226bb0423bc6c50143cd098fe57c5a1f5774b2d2a8e6c",
+      "changes": [
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "5"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "6"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "7"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "8"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "9"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "10"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "11"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "12"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "13"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "14"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "15"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "16"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "17"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "18"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "19"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "20"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "21"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "22"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "23"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "24"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "25"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "26"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "27"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "28"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "29"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "30"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "31"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "32"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "33"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "34"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "35"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "36"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "37"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "38"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "39"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "40"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "41"
+        },
+        {
+          "lessonId": "builtin-25-class-english-monthly-exam",
+          "label": "42"
+        }
+      ]
+    },
+    "selected-papers": {
+      "questions": 199,
+      "revised": 199,
+      "immutableSha256": "892bb2423d6415e0e6871fd5711282656120387d8e13e289300892ed270867c5",
+      "changes": [
+        {
+          "lessonId": "builtin-selected-papers-nouns",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-nouns",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-nouns",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-nouns",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-pronouns",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-pronouns",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-pronouns",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-pronouns",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-numbers",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-prepositions",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-prepositions",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-prepositions",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-prepositions",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-articles",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-articles",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-articles",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-articles",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-conjunctions",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-conjunctions",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-conjunctions",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-adjectives",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-adjectives",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-adjectives",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-adjectives",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-adjectives",
+          "label": "5"
+        },
+        {
+          "lessonId": "builtin-selected-papers-adjectives",
+          "label": "6"
+        },
+        {
+          "lessonId": "builtin-selected-papers-adjectives",
+          "label": "7"
+        },
+        {
+          "lessonId": "builtin-selected-papers-adjectives",
+          "label": "8"
+        },
+        {
+          "lessonId": "builtin-selected-papers-adjectives",
+          "label": "9"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "5"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "6"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "7"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "8"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "9"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "10"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "11"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "12"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "13"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "14"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "15"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "16"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "17"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "18"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "19"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "20"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "21"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "22"
+        },
+        {
+          "lessonId": "builtin-selected-papers-verbs",
+          "label": "23"
+        },
+        {
+          "lessonId": "builtin-selected-papers-nonfinite",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-nonfinite",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-nonfinite",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-nonfinite",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-nonfinite",
+          "label": "5"
+        },
+        {
+          "lessonId": "builtin-selected-papers-nonfinite",
+          "label": "6"
+        },
+        {
+          "lessonId": "builtin-selected-papers-nonfinite",
+          "label": "7"
+        },
+        {
+          "lessonId": "builtin-selected-papers-nonfinite",
+          "label": "8"
+        },
+        {
+          "lessonId": "builtin-selected-papers-nonfinite",
+          "label": "9"
+        },
+        {
+          "lessonId": "builtin-selected-papers-nonfinite",
+          "label": "10"
+        },
+        {
+          "lessonId": "builtin-selected-papers-nonfinite",
+          "label": "11"
+        },
+        {
+          "lessonId": "builtin-selected-papers-nonfinite",
+          "label": "12"
+        },
+        {
+          "lessonId": "builtin-selected-papers-sentence-types",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-sentence-types",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-sentence-types",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-sentence-types",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-sentence-types",
+          "label": "5"
+        },
+        {
+          "lessonId": "builtin-selected-papers-sentence-types",
+          "label": "6"
+        },
+        {
+          "lessonId": "builtin-selected-papers-sentence-types",
+          "label": "7"
+        },
+        {
+          "lessonId": "builtin-selected-papers-complex-sentences",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-complex-sentences",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-complex-sentences",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-complex-sentences",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-complex-sentences",
+          "label": "5"
+        },
+        {
+          "lessonId": "builtin-selected-papers-complex-sentences",
+          "label": "6"
+        },
+        {
+          "lessonId": "builtin-selected-papers-complex-sentences",
+          "label": "7"
+        },
+        {
+          "lessonId": "builtin-selected-papers-agreement",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-subjunctive",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-inversion",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-communication",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-communication",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-communication",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-communication",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-communication",
+          "label": "5"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2024",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2024",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2024",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2024",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2024",
+          "label": "5"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2024",
+          "label": "6"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2024",
+          "label": "7"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2024",
+          "label": "8"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2024",
+          "label": "9"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2024",
+          "label": "10"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2023",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2023",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2023",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2023",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2023",
+          "label": "5"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2023",
+          "label": "6"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2023",
+          "label": "7"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2023",
+          "label": "8"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2023",
+          "label": "9"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2023",
+          "label": "10"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2022",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2022",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2022",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2022",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2022",
+          "label": "5"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2022",
+          "label": "6"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2022",
+          "label": "7"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2022",
+          "label": "8"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2022",
+          "label": "9"
+        },
+        {
+          "lessonId": "builtin-selected-papers-cloze-2022",
+          "label": "10"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-1",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-1",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-1",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-1",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-1",
+          "label": "5"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-2",
+          "label": "6"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-2",
+          "label": "7"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-2",
+          "label": "8"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-2",
+          "label": "9"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-2",
+          "label": "10"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-3",
+          "label": "11"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-3",
+          "label": "12"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-3",
+          "label": "13"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-3",
+          "label": "14"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-3",
+          "label": "15"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-4",
+          "label": "16"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-4",
+          "label": "17"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-4",
+          "label": "18"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-4",
+          "label": "19"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2024-4",
+          "label": "20"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-1",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-1",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-1",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-1",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-1",
+          "label": "5"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-2",
+          "label": "6"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-2",
+          "label": "7"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-2",
+          "label": "8"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-2",
+          "label": "9"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-2",
+          "label": "10"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-3",
+          "label": "11"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-3",
+          "label": "12"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-3",
+          "label": "13"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-3",
+          "label": "14"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-3",
+          "label": "15"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-4",
+          "label": "16"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-4",
+          "label": "17"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-4",
+          "label": "18"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-4",
+          "label": "19"
+        },
+        {
+          "lessonId": "builtin-selected-papers-reading-2023-4",
+          "label": "20"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2024",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2024",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2024",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2024",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2024",
+          "label": "5"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2024",
+          "label": "6"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2024",
+          "label": "7"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2024",
+          "label": "8"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2024",
+          "label": "9"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2024",
+          "label": "10"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2023",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2023",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2023",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2023",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2023",
+          "label": "5"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2023",
+          "label": "6"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2023",
+          "label": "7"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2023",
+          "label": "8"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2023",
+          "label": "9"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2023",
+          "label": "10"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2022",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2022",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2022",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2022",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2022",
+          "label": "5"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2022",
+          "label": "6"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2022",
+          "label": "7"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2022",
+          "label": "8"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2022",
+          "label": "9"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2022",
+          "label": "10"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2021",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2021",
+          "label": "2"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2021",
+          "label": "3"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2021",
+          "label": "4"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2021",
+          "label": "5"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2021",
+          "label": "6"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2021",
+          "label": "7"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2021",
+          "label": "8"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2021",
+          "label": "9"
+        },
+        {
+          "lessonId": "builtin-selected-papers-correction-2021",
+          "label": "10"
+        },
+        {
+          "lessonId": "builtin-selected-papers-writing-2024",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-writing-2023",
+          "label": "1"
+        },
+        {
+          "lessonId": "builtin-selected-papers-writing-2022",
+          "label": "1"
+        }
+      ]
+    }
+  },
+  "policy": "逐题编写答题依据及相关辨析，不以来源、页码或通用提醒充当解析；来源仍保存于原字段。所有非reason字段逐一与基线比较一致。"
+}

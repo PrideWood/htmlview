@@ -14,7 +14,7 @@
       "staying"
     ],
     "answer": "B",
-    "reason": "allow sb to do表示允许某人做某事，故用to stay；out late说明很晚仍在外。"
+    "reason": "选B：to stay。allow sb to do sth表示允许某人做某事，him是宾语，to stay out late是不定式宾语补足语。不要与allow doing混淆：若直接以行为作宾语可用doing，但本题him后须用to do。"
   },
   {
     "label": "2",
@@ -31,7 +31,7 @@
       "working"
     ],
     "answer": "D",
-    "reason": "look forward to中的to为介词，后接动名词working，不接动词原形。"
+    "reason": "选D：working。look forward to中的to是介词，后接名词或动名词，所以应为look forward to working。不能把这个to误当作不定式标记而接work；after graduation说明所期待工作的时间。"
   },
   {
     "label": "3",
@@ -48,7 +48,7 @@
       "revised"
     ],
     "answer": "B",
-    "reason": "spend time doing表示花时间做，revise变为revising，表示修改学期论文。"
+    "reason": "选B：revising。spend + 时间 + (in) doing sth表示花时间做某事，in可以省略。three hours是所花时间，revising her term paper是耗时的活动；不能在spend后套用take sb time to do的结构。"
   },
   {
     "label": "4",
@@ -65,7 +65,7 @@
       "gone"
     ],
     "answer": "B",
-    "reason": "feel like doing表示想做某事，否定后为不想出国，填going。"
+    "reason": "选B：going。feel like doing sth表示想要做某事，like在此搭配中后接动名词。后半句要照顾年迈父母，解释不想出国读书的原因；go、went、gone都不能直接作feel like的这一宾语。"
   },
   {
     "label": "5",
@@ -82,7 +82,7 @@
       "Have read"
     ],
     "answer": "B",
-    "reason": "一般读书行为作主语用动名词Reading；Having read带先完成含义，不对应概述朗读这一方法。"
+    "reason": "选B：Reading。Reading aloud是动名词短语作主语，指“大声朗读”这种一般活动，与can be a good way呼应。Read原形不能在此充当普通陈述句主语；Having read强调先已读完，不合日常学习方法的含义。"
   },
   {
     "label": "6",
@@ -99,7 +99,7 @@
       "which named"
     ],
     "answer": "A",
-    "reason": "man与name为被动关系，named … 为过去分词短语作定语，意为名叫……的人。"
+    "reason": "选A：named。a man与name之间是被动关系，“名叫……”可用过去分词named作后置定语，相当于who was named。naming表示主动命名；that names和which named也没有正确表达这个被动关系。"
   },
   {
     "label": "7",
@@ -116,7 +116,7 @@
       "not laugh"
     ],
     "answer": "B",
-    "reason": "tell sb not to do是本题通常采用的否定不定式结构，表示告诉我不要嘲笑别人；C为分裂不定式，现代英语也可能成立，保留语法差异提示。"
+    "reason": "常规作答为B：not to laugh。tell sb not to do sth表示告诉某人不要做某事，否定词通常放在不定式to前；A的don't不能直接置于tell me后。C的to not laugh在现代用法中也可能成立，因此本题保留多解提示，不作唯一判分。"
   },
   {
     "label": "8",
@@ -133,7 +133,7 @@
       "worrying"
     ],
     "answer": "D",
-    "reason": "It's no use doing表示做某事无用，worry要用worrying。"
+    "reason": "选D：worrying。It is no use doing sth表示做某事没有用，it是形式主语，动名词短语是实际讨论的行为。后句建议向老师求助，意思是只担心无益；不能因空前有is就把worried当作表语填入。"
   },
   {
     "label": "9",
@@ -149,7 +149,7 @@
       "being heard"
     ],
     "answer": "B",
-    "reason": "make oneself heard表示使自己的声音被听到，myself与hear为被动关系，用过去分词heard。"
+    "reason": "选B：heard。make oneself heard表示使自己的话被听见，myself与hear是被动关系，因此用过去分词。背景是环境太吵，无法让别人听清自己的话；hearing表示自己听，being heard也不用于这个make复合宾语结构。"
   },
   {
     "label": "10",
@@ -165,7 +165,7 @@
       "found"
     ],
     "answer": "A",
-    "reason": "have trouble doing表示做某事有困难，故为finding the way。"
+    "reason": "选A：finding。have trouble (in) doing sth表示做某事有困难，介词in常省略。trouble后的行为是找到去火车站的路，用finding；不要误写为have trouble to find。"
   },
   {
     "label": "11",
@@ -181,7 +181,7 @@
       "printing"
     ],
     "answer": "A",
-    "reason": "have sth done表示让某事被完成，materials是被印刷的，填printed。"
+    "reason": "选A：printed。have + 宾语 + 过去分词表示安排某事被完成，these materials是被打印的对象，用printed。by ten o'clock是完成期限；printing表示主动进行，to print和print不表达这里“让人把材料打印好”的结构。"
   },
   {
     "label": "12",
@@ -197,6 +197,6 @@
       "driven"
     ],
     "answer": "B",
-    "reason": "be worth doing表示值得做某事，驱车一百英里用driving。"
+    "reason": "选B：driving。be worth doing表示值得做某事，worth后接动名词主动形式。driving a hundred miles是为看球赛付出的行动，不能写worth to drive；driven是过去分词，也不符合该搭配。"
   }
 ]

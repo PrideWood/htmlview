@@ -27,7 +27,7 @@
         "gets up"
       ],
       "answer": "D",
-      "reason": "后半句说今天6:30起床，前面比较平常7:00起床，填gets up。"
+      "reason": "选D：gets up。后半句today he gets up at 6:30与平时7:00形成直接对比，因此同一动作都是起床。usually说明习惯，主语He用第三人称单数gets；不是拿上学时间与起床时间作无提示的比较。"
     },
     {
       "label": "2",
@@ -39,7 +39,7 @@
         "or"
       ],
       "answer": "A",
-      "reason": "平时7点起床与今天6:30起床形成转折，填but。"
+      "reason": "选A：but。平时7点起床，今天却6点半起床，两个时间安排不同，用but表示转折。because和so分别表达原因、结果，or表达选择，都不符合这里“通常如此，今天却不同”的衔接。"
     },
     {
       "label": "3",
@@ -51,7 +51,7 @@
         "grandma’s"
       ],
       "answer": "C",
-      "reason": "后文给爷爷买礼物并祝爷爷生日快乐，78岁的寿星是grandpa，填grandpa’s。"
+      "reason": "选C：grandpa's。后文出现for his grandpa和Happy birthday, Grandpa，明确当天是爷爷生日，78 years old也与此照应。birthday前用名词所有格表示谁的生日，不能把he就近误读为七年级学生78岁。"
     },
     {
       "label": "4",
@@ -63,7 +63,7 @@
         "buy"
       ],
       "answer": "D",
-      "reason": "蛋糕与两张京剧CD并列作为礼物，统一搭配buy；不能把制作蛋糕的make直接用于购买CD的语境。"
+      "reason": "选D：buy。a birthday cake和two CDs是decides to后同一动词的两个并列宾语，都是为爷爷买的礼物。make虽可搭配蛋糕，却不合购买两张京剧CD的情境；borrow是借入，sell是卖出，均不合赠礼目的。"
     },
     {
       "label": "5",
@@ -75,7 +75,7 @@
         "at"
       ],
       "answer": "B",
-      "reason": "buy sth for sb表示为某人买某物，for引出受益者grandpa。"
+      "reason": "选B：for。buy sth for sb表示为某人买某物，for引出受益者his grandpa。若把人放在前面也可说buy his grandpa a cake；本句物品已先出现，不能照搬give sth to sb而误用to。"
     },
     {
       "label": "6",
@@ -87,7 +87,7 @@
         "him"
       ],
       "answer": "A",
-      "reason": "四项中it是唯一可指京剧内容或这份礼物的代词；不能用him指物。若泛指蛋糕和两张CD这一复数组合应为them，原题未提供该项，应结合后半句京剧语境理解it。"
+      "reason": "本题在所给选项中取A：it。because his grandpa likes Beijing Opera说明喜欢的是京剧内容，可据此把it理解为这项内容或所送礼物；her/me/him都指人。若明确回指蛋糕和两张CD这一整体的复数物品，应为them，因此原句指代不够严密，不能把it说成回指复数CDs的标准用法。"
     },
     {
       "label": "7",
@@ -99,7 +99,7 @@
         "goes to"
       ],
       "answer": "A",
-      "reason": "home作方向副词，不接at或to，get home表示到家；后文是在家给爷爷庆生。"
+      "reason": "选A：gets。get home意为到家，home在这里是方向副词，前面不用to或at，所以arrives at home、goes to home都不合这一常用结构。后文他与爷爷奶奶在家庆生，说明是中午回到家，而非leaves home离家。"
     },
     {
       "label": "8",
@@ -111,7 +111,7 @@
         "so"
       ],
       "answer": "C",
-      "reason": "爷爷喝茶的同时听京剧，while表示同时进行，非选择or、转折but或因果so。"
+      "reason": "选C：while。is drinking tea与listening to Beijing Opera描述爷爷同时做的两件事，while表示“在……的同时”，后面省略重复的he is。or表选择，but表转折，so表结果，都不能准确表达同时喝茶听京剧。"
     },
     {
       "label": "9",
@@ -123,7 +123,7 @@
         "given"
       ],
       "answer": "B",
-      "reason": "与cuts并列叙述动作，主语he为第三人称单数，填gives。"
+      "reason": "选B：gives。cuts a piece of cake和gives it to his grandpa是and连接的并列谓语，文章此处用一般现在时讲述，主语he为第三人称单数，两动词形式保持一致。give原形、gave过去式和given分词均不匹配cuts。"
     },
     {
       "label": "10",
@@ -135,7 +135,7 @@
         "excited"
       ],
       "answer": "B",
-      "reason": "忙碌一天有点疲倦但很开心，tired与but very happy构成合理转折。"
+      "reason": "选B：tired。为爷爷准备礼物、过完生日后“有点累，但很开心”，tired与but very happy形成自然对比。sad是难过，worried是担忧，文中没有对应原因；excited与happy都偏积极，不能体现忙碌后疲倦的转折。"
     }
   ]
 }

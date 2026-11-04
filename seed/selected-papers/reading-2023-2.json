@@ -26,7 +26,7 @@
         "a hotel"
       ],
       "answer": "A",
-      "reason": "套餐明确由CZL Travel Service提供，是旅行服务机构的广告，不是导游个人或酒店发布。"
+      "reason": "选A：a travel service。首段明确介绍CZL Travel Service提供的package tours，后面是三种旅游套餐及价格，说明广告发布者是旅行社。广告虽提购物、住宿，却并非单个商场或酒店只推销自身服务。"
     },
     {
       "label": "7",
@@ -38,7 +38,7 @@
         "1 and 2"
       ],
       "answer": "A",
-      "reason": "套餐1直接包含night ferry tour of Victoria Harbor，即维多利亚港夜游。"
+      "reason": "选A：Tour Package 1。套餐1明确包含night ferry tour of Victoria Harbor，与题目“夜游维多利亚港”同时在地点和时间上对应。套餐2虽有景点和购物，但未列这项夜游；不能因都是四日游就混选。"
     },
     {
       "label": "8",
@@ -50,7 +50,7 @@
         "1 and 3"
       ],
       "answer": "B",
-      "reason": "套餐2同时列出shopping和Golden Beach，与两个需求都对应。"
+      "reason": "选B：Tour Package 2。套餐2同时写明shopping tour和tour to Golden Beach，满足购物与去黄金海滩两个条件。只满足其中一个一般兴趣不够；套餐1、3没有明确列出这两项组合。"
     },
     {
       "label": "9",
@@ -62,7 +62,7 @@
         "2 and 3"
       ],
       "answer": "C",
-      "reason": "套餐3为DIY tour并给出total freedom，适合自行安排行程。"
+      "reason": "选C：Tour Package 3。该项称为DIY tour，并承诺total freedom to do what you want and to go where you wish，对应自己规划行程。套餐1、2安排了具体游览项目，自由安排不是它们的主要卖点。"
     },
     {
       "label": "10",
@@ -74,7 +74,7 @@
         "between Christmas and New Year’s Day"
       ],
       "answer": "C",
-      "reason": "广告预告旅客将享受圣诞和跨年庆祝，说明推出套餐时在两个节日之前。"
+      "reason": "选C：before Christmas and New Year's Day。广告说游客“will … have”圣诞和跨年庆祝，语境是在节日前招徕游客，非已经到节日当天。C是依据招徕未来假期的语气作出的推断；原文没有提供更精确的发布日期。"
     }
   ]
 }

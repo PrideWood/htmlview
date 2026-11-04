@@ -29,7 +29,7 @@
         "They held a party."
       ],
       "answer": "A",
-      "reason": "首段明确全家组织Bottle of Trash Challenge活动，没有旅行、野餐或派对。"
+      "reason": "选A：They organized an activity。首段说全家在4月22日举行“Bottle of Trash Challenge”，并说明要把垃圾控制在一个瓶子内。held an activity与organized an activity同义；旅行、野餐、派对均不是这次活动的内容。"
     },
     {
       "label": "17",
@@ -41,7 +41,7 @@
         "The writer’s sister."
       ],
       "answer": "B",
-      "reason": "父亲只产生了纸巾，第二段直接说He made the least trash。"
+      "reason": "选B：The writer's father。第二段直接说“He made the least trash in our family”，he指全天在线工作的父亲，除纸巾外未产生其他垃圾。题目问最少垃圾的家庭成员，不是最积极挑战自己或最难减少垃圾的人。"
     },
     {
       "label": "18",
@@ -53,7 +53,7 @@
         "dishes that are cooked by the writer’s mother"
       ],
       "answer": "B",
-      "reason": "leftovers出现在吃完饭后需要处理的语境，特指没吃完的剩饭菜，不能泛化为所有厨余。"
+      "reason": "选B：food that hasn't been eaten at the end of a meal。leftovers出现在after dinner需要处理的语境中，指吃剩的饭菜。C的所有厨余范围过宽，还包括蛋壳、菜叶等；A的包装袋和D的全部菜肴也不等于剩饭菜。"
     },
     {
       "label": "19",
@@ -65,7 +65,7 @@
         "Working online."
       ],
       "answer": "C",
-      "reason": "第四段说姐姐was busy preparing for her exams，妈妈做饭、爸爸在线工作，人物不要混淆。"
+      "reason": "选C：Preparing for her exams。第四段直接说明姐姐was busy preparing for her exams，后面算数学、物理题解释了她为何用纸。做晚饭的是母亲，在线工作的是父亲；作答要把活动与对应家庭成员配对。"
     },
     {
       "label": "20",
@@ -77,7 +77,7 @@
         "The writer’s mother dealt with all the leftovers herself."
       ],
       "answer": "D",
-      "reason": "妈妈处理了饭后全部剩饭菜；减少零食的是作者，双面用纸的是姐姐，A、B交换了人物。"
+      "reason": "选D：The writer's mother dealt with all the leftovers herself。第三段明确母亲处理了饭后所有剩饭菜。A把作者少吃零食喝饮料的行动移给姐姐；B把姐姐双面用纸的行动移给作者；C所说父亲吃光饭菜也无依据。"
     }
   ]
 }

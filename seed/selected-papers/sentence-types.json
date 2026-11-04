@@ -13,7 +13,7 @@
       "shall we"
     ],
     "answer": "D",
-    "reason": "Let's提出包含说话者的共同建议，反意问句通常用shall we。"
+    "reason": "选D：shall we。Let's go hiking是邀请对方一起行动，包含说话者本人，反意问句通常用shall we。它不同于请求允许的Let us …，后者可用will you；本句不是对you能力作提问。"
   },
   {
     "label": "2",
@@ -29,7 +29,7 @@
       "What"
     ],
     "answer": "D",
-    "reason": "感叹中心是单数名词trip，已有a，用What a wonderful trip + 主语 + 谓语。"
+    "reason": "选D：What。感叹的中心是名词短语a wonderful trip，结构是What + a/an + 形容词 + 单数名词 + 主语 + 谓语。a已经在空后，只填What；若用How须改为How wonderful a trip …等不同语序。"
   },
   {
     "label": "3",
@@ -45,7 +45,7 @@
       "didn't they"
     ],
     "answer": "D",
-    "reason": "陈述部分为肯定一般过去时sent，反意问句用否定didn't，主语仍为they。"
+    "reason": "选D：didn't they。sent是send的过去式，陈述部分为肯定一般过去时，附加问句改为否定didn't，主语用they。没有have助动词，也不是现在完成时，不能仅因动作完成就选haven't。"
   },
   {
     "label": "4",
@@ -61,7 +61,7 @@
       "did you"
     ],
     "answer": "D",
-    "reason": "never使陈述句具有否定意义，反意问句用肯定；told为过去式，故did you。"
+    "reason": "选D：did you。never使陈述部分具有否定含义，因此附加问句用肯定。told为一般过去时，用did而非had；只有had told这样的过去完成时结构才相应使用had。"
   },
   {
     "label": "5",
@@ -77,7 +77,7 @@
       "How many"
     ],
     "answer": "A",
-    "reason": "Once a month回答频率，每月一次，用How often提问。"
+    "reason": "选A：How often。Once a month表示“每月一次”的频率，应问多久发生一次。How soon问过多久，常答in a month；How long问持续多久，How many问数量，都不对应once a month。"
   },
   {
     "label": "6",
@@ -93,7 +93,7 @@
       "were"
     ],
     "answer": "B",
-    "reason": "now表现在，There be与后面的复数people一致，用are。"
+    "reason": "选B：are。There be句型中be与后面的存在主体一致，people是复数；now又表明当前情况，所以用are。catching this illness修饰people，不改变people的复数性质，也不是谓语was/were的过去语境。"
   },
   {
     "label": "7",
@@ -109,6 +109,6 @@
       "aren't we"
     ],
     "answer": "A",
-    "reason": "Let's开头的祈使句表示共同建议，附加问句用shall we。"
+    "reason": "选A：shall we。Let's表示“我们一起……吧”，后接shall we征询对方对共同建议的意见。不能把祈使句当作普通we陈述句而用don't we或aren't we；will we也不是此处惯用附加问句。"
   }
 ]

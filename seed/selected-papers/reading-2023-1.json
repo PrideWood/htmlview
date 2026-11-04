@@ -27,7 +27,7 @@
         "Three months."
       ],
       "answer": "C",
-      "reason": "开头写spent three happy weeks，后面再次说three pleasant weeks，均为三周。"
+      "reason": "选C：Three weeks。首段说Mark Twain在Maine度过three happy weeks，后面对话又重复three pleasant weeks，两处都对应三周。不要把weeks误读为months，也不要把后文捕鱼的two hundred当作停留时长。"
     },
     {
       "label": "2",
@@ -39,7 +39,7 @@
         "By plane."
       ],
       "answer": "B",
-      "reason": "他把行李放上train并坐下，说明乘火车回家。"
+      "reason": "选B：By train。第二段依次写到车站、把行李放上火车、坐到舒适座位，证据共同指向坐火车回家。题目问回程交通方式，不是他在度假地如何出游；其余交通方式均未被描述。"
     },
     {
       "label": "3",
@@ -51,7 +51,7 @@
         "a hunter"
       ],
       "answer": "B",
-      "reason": "对话中陌生男子自称I’m a policeman，writer是马克·吐温，不是邻座男子。"
+      "reason": "选B：a policeman。男子在对话中直接说明“I'm a policeman”，职责是抓捕禁猎禁渔季节违规的人。writer是Mark Twain的身份，fisherman/hunter是与故事活动有关的干扰项，不能因谈到捕鱼就给男子套上该职业。"
     },
     {
       "label": "4",
@@ -63,7 +63,7 @@
         "terrible"
       ],
       "answer": "A",
-      "reason": "three happy weeks和three pleasant weeks直接说明假期愉快，选enjoyable。"
+      "reason": "选A：enjoyable。首段three happy weeks和后文three pleasant weeks都说明假期愉快，enjoyable与happy/pleasant意义对应。返程遇警察时的尴尬不等于整个假期不愉快；unpleasant、terrible与两处明确评价相反。"
     },
     {
       "label": "5",
@@ -75,7 +75,7 @@
         "Fishing is allowed in Maine all year round."
       ],
       "answer": "D",
-      "reason": "文中明确当季不允许捕鱼，所以D的全年允许与原文矛盾。"
+      "reason": "选D：Fishing is allowed … all year round。题目选NOT true，原文却说某个季节fishing isn't allowed，故“全年都允许”夸大了范围。愉快度假、美丽树林及车站均在文中出现，是有依据的正确信息。"
     }
   ]
 }
