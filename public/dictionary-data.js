@@ -1,9 +1,12 @@
 // Static, self-hosted dictionary shards; no third-party request is made during lookup.
 export function normalizeWord(value) {
- return String(value || '').trim().replace(/[’‘]/g, "'").toLowerCase();
+ return String(value || '').trim().replace(/\s+/g, ' ').replace(/[’‘]/g, "'").toLowerCase();
 }
 export function validWord(value) {
  return value.length <= 80 && /^[a-z]+(?:['-][a-z]+)*$/.test(value);
+}
+export function validQuery(value) {
+ return value.length <= 80 && value.split(' ').length <= 5 && value.split(' ').every(validWord);
 }
 const inflight = new Map();
 async function shard(letter) {
@@ -23,7 +26,7 @@ function unpack(row) {
 }
 export async function lookupWord(value) {
  const query = normalizeWord(value);
- if (!validWord(query)) return {query, invalid: true, entries: []};
+ if (!validQuery(query)) return {query, invalid: true, entries: []};
  const data = await shard(query[0]);
  const row = Object.hasOwn(data.entries, query) ? data.entries[query] : null;
  const base = row?.[4].split('/').find(part => part.startsWith('0:'))?.slice(2).split(',')[0];

@@ -27,3 +27,5 @@
 /* Keep native scrolling and selection while suppressing the iOS link/text callout. */
 :is(.stem,.option-text,#passage-content,#explanation-body,#dialog-body,.side-content){-webkit-touch-callout:none}
 @media(max-width:520px){#dictionary-dialog{padding:20px;max-height:calc(100dvh - 24px);border-radius:14px}#dictionary-dialog h3{font-size:28px}}
+
+#dictionary-expand{margin:0 0 18px;padding:12px;border-radius:9px;background:var(--dict-soft)}#dictionary-expand p{font-size:12px;color:var(--dict-muted);margin:0 0 8px}#dictionary-dialog #dictionary-expand button{font-size:13px;min-height:44px;padding:8px 12px}#dictionary-dialog #dictionary-expand button:disabled{opacity:.45;cursor:default}

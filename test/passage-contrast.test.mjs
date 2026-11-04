@@ -10,3 +10,12 @@ function ratio(a,b){const x=luminance(a),y=luminance(b);return (Math.max(x,y)+.0
 const css=fs.readFileSync(new URL('../public/themes.css',import.meta.url),'utf8');
 test('全部工作台主题的正文、辅助文字、强调文字及主按钮保持可读对比度',()=>{for(const name of ['blue','jade','sand','night']){const p=declarations(css,[':root',`:root[data-ui-theme=${name}]`]);for(const fg of ['--ui-ink','--ui-muted','--ui-accent'])for(const bg of ['--ui-bg','--ui-soft','--ui-side','--ui-tint'])assert.ok(ratio(p[fg],p[bg])>=4.5,`${name} ${fg}/${bg}: ${ratio(p[fg],p[bg]).toFixed(2)}`);assert.ok(ratio(p['--ui-on-accent'],p['--ui-accent'])>=4.5,name+' primary');assert.ok(ratio(p['--ui-error'],p['--ui-bg'])>=4.5,name+' error');}});
 test('全部演示主题的文章、解析、正确错误状态和高亮保持可读对比度',()=>{for(const name of ['light','chalk','night','paper']){const p=declarations(css,['html[data-board-theme]',`html[data-board-theme=${name}]`]);for(const fg of ['--board-ink','--board-muted','--board-accent'])for(const bg of ['--board-bg','--board-soft'])assert.ok(ratio(p[fg],p[bg])>=4.5,`${name} ${fg}/${bg}: ${ratio(p[fg],p[bg]).toFixed(2)}`);for(const [fg,bg] of [['--board-good','--board-good-bg'],['--board-bad','--board-bad-bg'],['--board-warn','--board-warn-bg'],['--board-mark-ink','--board-mark-bg']])assert.ok(ratio(p[fg],p[bg])>=4.5,`${name} ${fg}/${bg}: ${ratio(p[fg],p[bg]).toFixed(2)}`);}});
+
+test('完形切题时只滚动文章容器，当前空号已可见时不跳动',()=>{
+ const h=setup([{mode:'choice',questionType:'cloze',label:'20',context:[{type:'p',text:'____(20)'}]}]);
+ const content=h.get('passage-content');content.clientHeight=400;content.scrollTop=200;content.getBoundingClientRect=()=>({top:100,bottom:500});
+ let rect={top:700,bottom:720,height:20};content.querySelector=()=>({getBoundingClientRect:()=>rect});
+ h.run('followCurrentBlank()');assert.equal(content.scrollTop,610);
+ rect={top:240,bottom:260,height:20};h.run('followCurrentBlank()');assert.equal(content.scrollTop,610);
+ rect={top:40,bottom:60,height:20};h.run('followCurrentBlank()');assert.equal(content.scrollTop,360);
+});

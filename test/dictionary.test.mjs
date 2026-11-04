@@ -35,6 +35,9 @@ test('真实内置词库查询：大小写、中文释义、跨包不规则原�
   const book = await h.lookupWord('BOOK');
   assert.match(book.entries[0].translation, /书/);
   assert.equal(book.entries[0].word.toLowerCase(), 'book');
+  const phrase = await h.lookupWord(' give   up ');
+  assert.match(phrase.entries[0].translation, /放弃/);
+  assert.equal(phrase.query, 'give up');
   const went = await h.lookupWord('went');
   assert.ok(went.entries.some(entry => entry.word === 'go'));
   const children = await h.lookupWord('children');

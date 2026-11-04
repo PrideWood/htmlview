@@ -1,11 +1,12 @@
-import {lookupWord, wordAtOffset, normalizeWord, validWord} from './dictionary-data.js';
+import {lookupWord, wordAtOffset, normalizeWord, validQuery} from './dictionary-data.js';
 
 const scope = '.stem,.option-text,#passage-content,#explanation-body,#dialog-body,.side-content';
 const dialog = document.createElement('dialog');
 dialog.id = 'dictionary-dialog';
 dialog.setAttribute('aria-labelledby', 'dictionary-title');
 dialog.innerHTML = `<header class="dictionary-heading"><div><p>随读随查 · 内置英汉词典</p><h2 id="dictionary-title">查一个单词</h2></div><button type="button" id="dictionary-close" aria-label="关闭词典">×</button></header>
- <form id="dictionary-form" role="search"><label class="dictionary-sr" for="dictionary-input">输入英文单词</label><input id="dictionary-input" type="search" placeholder="输入英文单词" autocomplete="off" autocapitalize="none" spellcheck="false" maxlength="80"><button type="submit">查询</button></form>
+ <form id="dictionary-form" role="search"><label class="dictionary-sr" for="dictionary-input">输入英文单词或短语</label><input id="dictionary-input" type="search" placeholder="输入英文单词或短语" autocomplete="off" autocapitalize="none" spellcheck="false" maxlength="80"><button type="submit">查询</button></form>
+ <div id="dictionary-expand" hidden><p>扩选相邻单词查询短语</p><button type="button" id="dictionary-expand-left">← 向前扩选</button> <button type="button" id="dictionary-expand-right">向后扩选 →</button></div>
  <div id="dictionary-result" aria-live="polite" aria-atomic="true"></div>
  <footer class="dictionary-footer"><span>词库：<a href="https://github.com/skywind3000/ECDICT" target="_blank" rel="noopener noreferrer">ECDICT</a> · <a href="https://github.com/skywind3000/ECDICT/blob/master/LICENSE" target="_blank" rel="noopener noreferrer">MIT</a></span><a id="dictionary-online" target="_blank" rel="noopener noreferrer" hidden>有道在线查词 ↗</a></footer>`;
 document.body.append(dialog);
@@ -13,7 +14,8 @@ const input = dialog.querySelector('#dictionary-input');
 const result = dialog.querySelector('#dictionary-result');
 const online = dialog.querySelector('#dictionary-online');
 let generation = 0;
-let returnFocus = null;
+let returnFocus = null, phraseRange = null;
+const expand = dialog.querySelector('#dictionary-expand');
 
 function element(tag, className, text) {
  const node = document.createElement(tag);
@@ -46,7 +48,7 @@ function renderEntry(entry, related) {
 async function queryWord(value) {
  const request = ++generation;
  const query = normalizeWord(value);
- online.hidden = !validWord(query);
+ online.hidden = !validQuery(query);
  if (!online.hidden) online.href = 'https://m.youdao.com/dict?le=eng&q=' + encodeURIComponent(query);
  result.setAttribute('aria-busy', 'true');
  result.replaceChildren(element('p', 'dictionary-message', '正在查询内置词库…'));
@@ -54,7 +56,7 @@ async function queryWord(value) {
   const data = await lookupWord(query);
   if (request !== generation || !dialog.open) return;
   result.replaceChildren();
-  if (data.invalid) result.append(element('p', 'dictionary-message', '请输入一个英文单词，可包含连字符或英文撇号。'));
+  if (data.invalid) result.append(element('p', 'dictionary-message', '请输入英文单词或短语或短语（最多五个单词），可包含连字符或英文撇号。'));
   else if (!data.entries.length) result.append(element('p', 'dictionary-message', `内置词库未收录“${query}”。可尝试单词原形，或使用下方有道在线查词。`));
   else data.entries.forEach((entry, index) => result.append(renderEntry(entry, index > 0 || normalizeWord(entry.word) !== query)));
  } catch {
@@ -64,7 +66,10 @@ async function queryWord(value) {
   if (request === generation) result.setAttribute('aria-busy', 'false');
  }
 }
-function openDictionary(word = '') {
+function openDictionary(word = '', token = null) {
+ phraseRange = token ? {text:token.text,start:token.start,end:token.end,originalStart:token.start,originalEnd:token.end} : null;
+ expand.hidden = !phraseRange;
+ updateExpansion();
  if (!dialog.open) {
   returnFocus = document.activeElement;
   dialog.showModal();
@@ -81,6 +86,24 @@ function openDictionary(word = '') {
   result.replaceChildren(element('p', 'dictionary-message', '长按英文约半秒，即可查看释义。也可以在这里输入单词查询。'));
  }
 }
+function adjacentWord(direction){
+ if(!phraseRange)return null;
+ const {text,start,end}=phraseRange;
+ const rest=direction<0?text.slice(0,start):text.slice(end);
+ const match=direction<0?rest.match(/([A-Za-z]+(?:['’‘-][A-Za-z]+)*)\s+$/):rest.match(/^\s+([A-Za-z]+(?:['’‘-][A-Za-z]+)*)/);
+ if(!match)return null;
+ const next={...phraseRange,start:direction<0?start-match[0].length:start,end:direction>0?end+match[0].length:end};
+ return validQuery(normalizeWord(text.slice(next.start,next.end)))?next:null;
+}
+function updateExpansion(){
+ dialog.querySelector('#dictionary-expand-left').disabled=!adjacentWord(-1);
+ dialog.querySelector('#dictionary-expand-right').disabled=!adjacentWord(1);
+}
+for(const [id,direction] of [['dictionary-expand-left',-1],['dictionary-expand-right',1]])dialog.querySelector('#'+id).onclick=()=>{
+ const next=adjacentWord(direction);if(!next)return;
+ phraseRange=next;input.value=next.text.slice(next.start,next.end);updateExpansion();queryWord(input.value);
+};
+input.addEventListener('input',()=>{phraseRange=null;expand.hidden=true;});
 dialog.querySelector('#dictionary-form').addEventListener('submit', event => {
  event.preventDefault();
  queryWord(input.value);
@@ -133,7 +156,7 @@ function wordAtPoint(x, y) {
   const glyph = document.createRange();
   glyph.setStart(node, index); glyph.setEnd(node, index + 1);
   if (![...glyph.getClientRects()].some(rect => x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom)) continue;
-  return token;
+  return {...token,text:node.textContent};
  }
  return null;
 }
@@ -149,7 +172,7 @@ document.addEventListener('pointerdown', event => {
   if (press !== pending) return;
   suppress = {id:pending.id, target:pending.target, until:Date.now() + 1500};
   window.getSelection()?.removeAllRanges();
-  openDictionary(token.word);
+  openDictionary(token.word, token);
  }, 520);
  press = pending;
 }, true);

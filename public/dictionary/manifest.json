@@ -2,7 +2,7 @@
   "source": "https://github.com/skywind3000/ECDICT",
   "license": "MIT",
   "sourceSHA256": "d1ecbdf9ee2b920afb6f430ca6b6bb9f559588cf0dff86e04bd255f9390843cc",
-  "entries": 58957,
+  "entries": 74148,
   "aliases": 31748,
   "fields": [
     "word",
@@ -12,5 +12,5 @@
     "exchange",
     "tag"
   ],
-  "selection": "All tagged exam words, BNC/COCA frequency <= 50000, and built-in lesson vocabulary; English single words and hyphenated/apostrophe words with Chinese translations."
+  "selection": "All tagged exam words, BNC/COCA frequency <= 50000, and built-in lesson vocabulary; English single words, plus 2–5 word phrases beginning with common verbs, articles or prepositions; all with Chinese translations."
 }
