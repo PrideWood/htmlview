@@ -1,0 +1,2836 @@
+[
+  {
+    "S01": [
+      {
+        "title": "字母不等于音素：h、元音组合与词尾读音",
+        "context": [
+          {
+            "type": "p",
+            "text": "先只比较题目标出的字母部分，再读整个词。hour、honour/honor、honest、heir 的 h 通常不发音；hotel、happy、behind 的 h 通常发 /h/。不能推出“所有以 h 开头的词都用 an”。"
+          },
+          {
+            "type": "p",
+            "text": "带读：hour /aʊə(r)/、our /aʊə(r)/（常见读法同音）；here /hɪə(r)/ 与 hear /hɪə(r)/ 同音；hair /heə(r)/ 是头发，不是 here。先认词义再区分拼写。"
+          },
+          {
+            "type": "p",
+            "text": "词尾复数或第三人称 -s：清辅音后多读 /s/（books）；元音或浊辅音后多读 /z/（pens）；/s z ʃ ʒ tʃ dʒ/ 后读 /ɪz/（buses、watches）。-ed：清辅音 /t/、浊辅音或元音 /d/，/t d/ 后 /ɪd/；如 worked、played、wanted。"
+          }
+        ]
+      }
+    ],
+    "S02": [
+      {
+        "title": "冠词全景：a、an、the 与零冠词",
+        "context": [
+          {
+            "type": "p",
+            "text": "a/an 表泛指一个，通常用于单数可数名词；the 表已明确、特指或双方知道的对象，也常用于序数词、最高级等结构。零冠词不是没有规则，而是该结构不需冠词。"
+          },
+          {
+            "type": "p",
+            "text": "读音决定 a/an：an hour、an honest boy、an apple、an umbrella、an X-ray、an MBA；a university、a useful book、a European city、a one-way street、a uniform。判断缩写须按实际读法，不只看字母。"
+          },
+          {
+            "type": "p",
+            "text": "对照：I saw a dog. The dog was black. 首次提到泛指用 a，再次指同一只用 the。不是“第二次出现任何名词都用 the”，还要看所指是否相同。"
+          }
+        ]
+      }
+    ],
+    "S03": [
+      {
+        "title": "a university：元音字母开头，也可能读辅音",
+        "context": [
+          {
+            "type": "p",
+            "text": "u 的两组：an uncle、an unusual story、an umbrella；a university、a uniform、a useful tool。后者以 /j/ 开头。one 以 /w/ 开头，因此 a one-year-old child。"
+          },
+          {
+            "type": "p",
+            "text": "易混拼写：university 大学；universal 普遍的；uniform 制服。use 是动词或名词，useful 有用的，useless 无用的；-ful 通常只有一个 l。用词性和句意一起区分，不靠首字母猜冠词。"
+          }
+        ]
+      }
+    ],
+    "S04": [
+      {
+        "title": "零冠词与有冠词表达成组比较",
+        "context": [
+          {
+            "type": "p",
+            "text": "一般说三餐、球类和学科：have breakfast、play football/chess、study English；常见乐器表达 play the piano/violin。若三餐受具体限定，冠词可能出现：a big breakfast、the dinner we had yesterday。"
+          },
+          {
+            "type": "p",
+            "text": "常见零冠词短语：in public、at home、at school、by bus、on foot、go to bed、at work。地点名词表具体建筑时可能用 the，如 go to the school to meet a teacher；不能机械认定 school 前永远无冠词。"
+          },
+          {
+            "type": "p",
+            "text": "in hospital 在英式英语常指住院；in the hospital 可指在医院建筑中，美式住院用法也常有 the。遇到依赖英美差异的题，应结合语境，不据此武断唯一判分。"
+          }
+        ]
+      }
+    ],
+    "S05": [
+      {
+        "title": "可数、不可数与计量词",
+        "context": [
+          {
+            "type": "p",
+            "text": "常见不可数名词：advice、information、news、bread、milk、water、furniture、equipment、luggage/baggage、homework、knowledge。常见数量表达 some/much/a little；many/a few 通常修饰复数可数名词。"
+          },
+          {
+            "type": "p",
+            "text": "计量结构：a piece of bread/advice/news；two pieces of information；a bottle of water；three cups of tea。变复数的是计量词，不是这里的 bread/information。"
+          },
+          {
+            "type": "p",
+            "text": "易混：advice /ədˈvaɪs/ 是名词，advise /ədˈvaɪz/ 是动词；a piece of advice，advise sb to do。news 虽以 s 结尾，通常作不可数单数看待：The news is good。"
+          }
+        ]
+      }
+    ],
+    "S06": [
+      {
+        "title": "同一个名词的可数义与不可数义",
+        "context": [
+          {
+            "type": "p",
+            "text": "experience：经验不可数（much experience）；一次经历可数（an unforgettable experience）。本题 in attending patients 限定的是护理经验。"
+          },
+          {
+            "type": "p",
+            "text": "成组对照：paper 纸 / a paper 一篇论文或一份报纸；room 空间 / a room 房间；work 工作 / works 作品；glass 玻璃 / a glass 玻璃杯；chicken 鸡肉 / a chicken 一只鸡。具体意义决定可数性。"
+          },
+          {
+            "type": "p",
+            "text": "易混：experiment 实验，experience 经验/经历；experienced 有经验的，experimental 实验性的。have experience in doing sth；do/carry out an experiment。"
+          }
+        ]
+      }
+    ],
+    "S07": [
+      {
+        "title": "名词复数：规则与高频不规则词",
+        "context": [
+          {
+            "type": "p",
+            "text": "一般加 -s；s/x/ch/sh 等结尾常加 -es：bus→buses、box→boxes、watch→watches；辅音+y→-ies：city→cities；元音+y 直接加 s：boy→boys。f/fe 变化不能一概而论：knife→knives、leaf→leaves，但 roof→roofs。"
+          },
+          {
+            "type": "p",
+            "text": "man/woman 作职业等复合词前项且表示性别时，前后常同时变复数：a woman teacher→women teachers；a man doctor→men doctors。一般名词定语常保留单数：shoe shops。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "单数",
+                "复数",
+                "提醒"
+              ],
+              [
+                "man",
+                "men",
+                "a→e"
+              ],
+              [
+                "woman",
+                "women",
+                "注意 woman /ˈwʊmən/、women /ˈwɪmɪn/"
+              ],
+              [
+                "child",
+                "children",
+                "不是 childs"
+              ],
+              [
+                "foot / tooth",
+                "feet / teeth",
+                "双元音拼写变化"
+              ],
+              [
+                "mouse / goose",
+                "mice / geese",
+                "不规则"
+              ],
+              [
+                "ox",
+                "oxen",
+                "常见特例"
+              ],
+              [
+                "sheep / deer",
+                "sheep / deer",
+                "单复数同形"
+              ],
+              [
+                "fish",
+                "fish（常见）/ fishes（可指多种鱼）",
+                "结合含义"
+              ],
+              [
+                "person",
+                "people（常见）/ persons（特定正式语境）",
+                "people 作“民族”时又可有 peoples"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "S08": [
+      {
+        "title": "所有格与时间、距离表达",
+        "context": [
+          {
+            "type": "p",
+            "text": "单数或不以 s 结尾的复数通常加 ’s：Tom’s、children’s；以 s 结尾的规则复数通常只加 ’：students’、forty minutes’。its 是“它的”，it’s 才是 it is/it has 的缩写。"
+          },
+          {
+            "type": "p",
+            "text": "a day’s work、two hours’ drive、ten minutes’ walk；也可改用复合形容词：a ten-minute walk，其中 minute 不加 s。a friend of mine 是双重所有格，不能写 a friend of me。"
+          },
+          {
+            "type": "p",
+            "text": "Jim and Mike’s room 通常表示共有一个房间；Jim’s and Mike’s rooms 通常表示各自的房间。判断时结合所修饰名词的数及语境。"
+          }
+        ]
+      }
+    ],
+    "S09": [
+      {
+        "title": "数词完整基础词表①：0—20",
+        "context": [
+          {
+            "type": "p",
+            "text": "基数词回答 how many（多少），序数词表示第几。数字可以无限组合，本处完整列出常用基础词及组合规则，遇新数字按规则拼出。0th 的 zeroth 多用于技术编号，日常次序通常从 first 开始。"
+          },
+          {
+            "type": "p",
+            "text": "带读顺序：先整列读基数词，再读序数词；最后遮住英文，看数字拼写。不要只记 one→first，而漏记 eleven、twelve 与所有 -teen 的形式。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "数字",
+                "基数词",
+                "序数词",
+                "缩写"
+              ],
+              [
+                "0",
+                "zero",
+                "zeroth",
+                "0th"
+              ],
+              [
+                "1",
+                "one",
+                "first",
+                "1st"
+              ],
+              [
+                "2",
+                "two",
+                "second",
+                "2nd"
+              ],
+              [
+                "3",
+                "three",
+                "third",
+                "3rd"
+              ],
+              [
+                "4",
+                "four",
+                "fourth",
+                "4th"
+              ],
+              [
+                "5",
+                "five",
+                "fifth",
+                "5th"
+              ],
+              [
+                "6",
+                "six",
+                "sixth",
+                "6th"
+              ],
+              [
+                "7",
+                "seven",
+                "seventh",
+                "7th"
+              ],
+              [
+                "8",
+                "eight",
+                "eighth",
+                "8th"
+              ],
+              [
+                "9",
+                "nine",
+                "ninth",
+                "9th"
+              ],
+              [
+                "10",
+                "ten",
+                "tenth",
+                "10th"
+              ],
+              [
+                "11",
+                "eleven",
+                "eleventh",
+                "11th"
+              ],
+              [
+                "12",
+                "twelve",
+                "twelfth",
+                "12th"
+              ],
+              [
+                "13",
+                "thirteen",
+                "thirteenth",
+                "13th"
+              ],
+              [
+                "14",
+                "fourteen",
+                "fourteenth",
+                "14th"
+              ],
+              [
+                "15",
+                "fifteen",
+                "fifteenth",
+                "15th"
+              ],
+              [
+                "16",
+                "sixteen",
+                "sixteenth",
+                "16th"
+              ],
+              [
+                "17",
+                "seventeen",
+                "seventeenth",
+                "17th"
+              ],
+              [
+                "18",
+                "eighteen",
+                "eighteenth",
+                "18th"
+              ],
+              [
+                "19",
+                "nineteen",
+                "nineteenth",
+                "19th"
+              ],
+              [
+                "20",
+                "twenty",
+                "twentieth",
+                "20th"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "title": "数词完整基础词表②：整十、整百与大数",
+        "context": [
+          {
+            "type": "p",
+            "text": "明确数量：two hundred / three thousand / five million，不给 hundred/thousand/million 加 -s；概数：hundreds of / thousands of / millions of，不再在前面直接加具体数字。"
+          },
+          {
+            "type": "p",
+            "text": "英式读数中百与后续十位、个位之间通常有 and，如 one hundred and five；美式也常省略 and。不能在没有口音要求时把这两种常见形式互判错误。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "数值",
+                "基数词",
+                "对应序数形式"
+              ],
+              [
+                "20",
+                "twenty",
+                "twentieth"
+              ],
+              [
+                "30",
+                "thirty",
+                "thirtieth"
+              ],
+              [
+                "40",
+                "forty",
+                "fortieth"
+              ],
+              [
+                "50",
+                "fifty",
+                "fiftieth"
+              ],
+              [
+                "60",
+                "sixty",
+                "sixtieth"
+              ],
+              [
+                "70",
+                "seventy",
+                "seventieth"
+              ],
+              [
+                "80",
+                "eighty",
+                "eightieth"
+              ],
+              [
+                "90",
+                "ninety",
+                "ninetieth"
+              ],
+              [
+                "100",
+                "one hundred",
+                "one hundredth"
+              ],
+              [
+                "1,000",
+                "one thousand",
+                "one thousandth"
+              ],
+              [
+                "1,000,000",
+                "one million",
+                "one millionth"
+              ],
+              [
+                "1,000,000,000",
+                "one billion",
+                "one billionth"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "title": "数词易错拼写与组合规则",
+        "context": [
+          {
+            "type": "p",
+            "text": "逐对默写：four—fourteen—forty（forty 没有 u）；five—fifteen—fifty—fifth（不是 fiveth）；eight—eighteen—eighty—eighth（不是 eightth）；nine—nineteen—ninety—ninth（ninth 去 e）；twelve—twelfth（ve→f）。"
+          },
+          {
+            "type": "p",
+            "text": "整十变序数：twenty→twentieth、thirty→thirtieth，y→ie 再加 th。非整十只把末尾基数变序数：twenty-one→twenty-first；forty-two→forty-second；one hundred and three→one hundred and third。"
+          },
+          {
+            "type": "p",
+            "text": "数字缩写看末两位：1st、2nd、3rd、4th，但 11th、12th、13th；21st、22nd、23rd、111th、112th、113th。不要把“尾数是 1”无限套用为 st。"
+          },
+          {
+            "type": "p",
+            "text": "听辨 thirteen/thirty、fourteen/forty、fifteen/fifty、sixteen/sixty、seventeen/seventy、eighteen/eighty、nineteen/ninety。-teen 常带末音节重音，-ty 常重读首音节；实际重音会随强调语境变化，先听完整词尾。"
+          }
+        ]
+      }
+    ],
+    "S10": [
+      {
+        "title": "数词用法：人数、楼层、年龄、日期与分数",
+        "context": [
+          {
+            "type": "p",
+            "text": "人数用基数：five people；楼层、排名常用序数：the sixth floor、rank third。the 常见于序数前，但 my first lesson 已有 my，不再加 the；rank third 不要求额外 the。"
+          },
+          {
+            "type": "p",
+            "text": "编号可用 Lesson Four 或 the fourth lesson。年龄：eight years old；前置定语 an eight-year-old girl（year 用单数）；in his sixties 表六十多岁。"
+          },
+          {
+            "type": "p",
+            "text": "日期：May 1 / May 1st，常读 May the first 或 the first of May。分数通常分子用基数、分母用序数，分子大于一时分母常加 s：one third、two thirds；a half、a quarter 也常用。"
+          },
+          {
+            "type": "p",
+            "text": "倍数：three times as big as；次数 once、twice、three times。注意 first/fast、third/thirty、fourth/fourteen/forty，不能只凭相近字形作答。"
+          }
+        ]
+      }
+    ],
+    "C01": [
+      {
+        "title": "本篇完形：整组词汇、词形与搭配",
+        "context": [
+          {
+            "type": "p",
+            "text": "先看时间对照（usually / today），再找称谓（grandpa）和指代（them）。短文主要用一般现在时讲故事，不必因事件发生过就把所有空改过去时。get up、get home、cut a piece of cake、listen to Beijing Opera 成组带读。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "词/短语",
+                "含义",
+                "成组记忆"
+              ],
+              [
+                "birthday",
+                "生日",
+                "birth 出生 + day；birthday cake"
+              ],
+              [
+                "decide",
+                "决定",
+                "decide to do；decision 名词"
+              ],
+              [
+                "buy",
+                "买",
+                "buy-bought-bought；buy sth for sb"
+              ],
+              [
+                "give",
+                "给",
+                "give-gave-given；give sth to sb"
+              ],
+              [
+                "tired",
+                "累的",
+                "tiring 令人疲惫的"
+              ],
+              [
+                "happy",
+                "高兴的",
+                "happily 副词；happiness 名词"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "R01": [
+      {
+        "title": "本篇阅读：词汇、易混词与阅读方法",
+        "context": [
+          {
+            "type": "p",
+            "text": "公告类先找栏目再看题，不要求从头逐字翻译。时长统一成分钟；票价先分成人/儿童、是否免费，再加总。a.m. 是上午，p.m. 是下午；12 a.m. 午夜、12 p.m. 正午容易混。电话号码按同一影院对应，避免串栏。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "词/短语",
+                "含义",
+                "辨析与搭配"
+              ],
+              [
+                "film / movie",
+                "电影",
+                "同义名词，结合英美语境"
+              ],
+              [
+                "adult",
+                "成年人",
+                "成人票"
+              ],
+              [
+                "child / children",
+                "孩子/孩子们",
+                "不规则复数"
+              ],
+              [
+                "free",
+                "免费的/自由的",
+                "free tickets；free time"
+              ],
+              [
+                "under",
+                "在……以下",
+                "under 10 不含10岁"
+              ],
+              [
+                "price",
+                "价格",
+                "high/low；票价总额要算条件"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "S01": [
+      {
+        "title": "other 家族一次分清",
+        "context": [
+          {
+            "type": "p",
+            "text": "other + 名词：other students；another + 单数名词或独立使用：another lamp；others=other people/things；the other 常指限定两者中的另一者，the others 指已知范围内其余全部。another 也可接“数词+复数名词”，如 another two days。"
+          },
+          {
+            "type": "p",
+            "text": "例：I have two pens. One is blue; the other is red. Some students read; others write. Five students came; two stayed and the others left. 对照有无固定范围，不只背中文“另一个”。"
+          },
+          {
+            "type": "p",
+            "text": "易混拼写：other、another、others、the others；each other 是互相，不写 each others。one another 也表相互，不必机械声称只可用于三人以上。"
+          }
+        ]
+      }
+    ],
+    "S02": [
+      {
+        "title": "不定代词与部分否定",
+        "context": [
+          {
+            "type": "p",
+            "text": "常见词组：someone/somebody/something；anyone/anybody/anything；everyone/everybody/everything；no one/nobody/nothing。指人尾部 -one/-body，指物用 -thing。修饰形容词常放后：something useful、nothing serious。"
+          },
+          {
+            "type": "p",
+            "text": "not … everybody/everything/all 常表“不是每个/并非全部”，须看语境。本题书不足，但 some … share 说明不是一本也没有。no one/nobody 作主语时谓语通常用单数；no one 分开写，nobody 连写。"
+          },
+          {
+            "type": "p",
+            "text": "some 常见于肯定句，但希望肯定答复的请求也可用：Would you like some tea? any 可在肯定句表“任何”：Choose any book。不要按肯否句机械二分。"
+          }
+        ]
+      }
+    ],
+    "S03": [
+      {
+        "title": "形式宾语 it 与常见 it 句型",
+        "context": [
+          {
+            "type": "p",
+            "text": "find/think/feel/consider + it + 形容词/名词 + to do：I find it useful to read aloud. it 先占宾语位置，to do 是被评价的事。compare：I find the book useful，book 才是实际宾语。"
+          },
+          {
+            "type": "p",
+            "text": "形式主语：It is important to practise. 时间耗费：It takes sb time to do. 形式宾语：make it possible to do。辨别时先找主语、谓语和空格位置，不把所有 it 都解释为“它”。"
+          },
+          {
+            "type": "p",
+            "text": "易混：its（它的）/it’s（it is/has）；that 常指前述内容或作从句连接词，不能随意替换固定句型中的形式 it。"
+          }
+        ]
+      }
+    ],
+    "S04": [
+      {
+        "title": "one … the other 与 both、either、neither",
+        "context": [
+          {
+            "type": "p",
+            "text": "限定两者：both 两者都，either 两者任一，neither 两者都不；one … the other 表一个……另一个。三者或以上常用 all/any/none，具体结构仍须结合名词与句法。"
+          },
+          {
+            "type": "p",
+            "text": "both + 复数名词，both of them 通常接复数谓语；either/neither + 单数名词通常接单数谓语。neither of + 复数名词的谓语存在语体差异，不靠孤立规则出唯一题。"
+          },
+          {
+            "type": "p",
+            "text": "易混：either … or（或者……或者），neither … nor（既不……也不）。二者不是 neither … or，也不是 either … nor。"
+          }
+        ]
+      }
+    ],
+    "S05": [
+      {
+        "title": "人称代词与物主代词完整表",
+        "context": [
+          {
+            "type": "p",
+            "text": "形容词性物主代词后通常要有名词：my book；名词性物主代词可以独立：This book is mine. 人称代词主格作主语，宾格跟动词或介词。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "主格",
+                "宾格",
+                "形容词性物主",
+                "名词性物主",
+                "反身代词"
+              ],
+              [
+                "I",
+                "me",
+                "my",
+                "mine",
+                "myself"
+              ],
+              [
+                "you（单数）",
+                "you",
+                "your",
+                "yours",
+                "yourself"
+              ],
+              [
+                "he",
+                "him",
+                "his",
+                "his",
+                "himself"
+              ],
+              [
+                "she",
+                "her",
+                "her",
+                "hers",
+                "herself"
+              ],
+              [
+                "it",
+                "it",
+                "its",
+                "its（独立用法少见）",
+                "itself"
+              ],
+              [
+                "we",
+                "us",
+                "our",
+                "ours",
+                "ourselves"
+              ],
+              [
+                "you（复数）",
+                "you",
+                "your",
+                "yours",
+                "yourselves"
+              ],
+              [
+                "they",
+                "them",
+                "their",
+                "theirs",
+                "themselves"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "S06": [
+      {
+        "title": "反身代词的常见搭配与易混字形",
+        "context": [
+          {
+            "type": "p",
+            "text": "主语与宾语指同一人时常用反身：He hurt himself. 高频：enjoy oneself、help oneself to、teach oneself、by oneself、look after oneself、dress oneself。"
+          },
+          {
+            "type": "p",
+            "text": "myself/yourself/himself/herself/itself 为单数；ourselves/yourselves/themselves 为复数，-self→-selves。himself 不是 hisself，themselves 不是 themself（本课按常见复数形式）。"
+          },
+          {
+            "type": "p",
+            "text": "look after him 表照顾另一个男性；look after himself 表他照顾自己。代词不能只按最近名词猜，要问动作是谁发出、落在谁身上。"
+          }
+        ]
+      }
+    ],
+    "S07": [
+      {
+        "title": "时间介词整组梳理",
+        "context": [
+          {
+            "type": "p",
+            "text": "at：at six、at noon/night；on：on Monday、on 20 February、on a cold evening；in：in May/2026、in winter、in the morning。有具体日期或某一天的早晚时常用 on。"
+          },
+          {
+            "type": "p",
+            "text": "for + 时长（for three years）；since + 起点（since 2020/since he arrived）；by 表不迟于某截止点；until/till 表直到；before/after 表之前/之后。in two days 可指两天后，within two days 指两天之内。"
+          },
+          {
+            "type": "p",
+            "text": "this/next/last/every 等常直接引导时间：next Monday、last year、every morning，不另加 on/in。介词不是见到 Monday 就固定加 on。"
+          }
+        ]
+      }
+    ],
+    "S08": [
+      {
+        "title": "of sb 与 for sb：评价对象不同",
+        "context": [
+          {
+            "type": "p",
+            "text": "It is kind/nice/polite/clever/careless of sb to do：评价人的品质或行为表现。It is important/necessary/difficult/easy for sb to do：评价某事对这个人如何。"
+          },
+          {
+            "type": "p",
+            "text": "检验：You are kind to help me 能成立，常对应 kind of you；“You are difficult to finish the work”不能表达“完成工作对你困难”，用 difficult for you。此检验是帮助理解，不替代具体词义判断。"
+          },
+          {
+            "type": "p",
+            "text": "易混：kind 友善的/种类；a kind of 一种，kinds of 多种；be kind to 对……友善；kindness 为名词。"
+          }
+        ]
+      }
+    ],
+    "S09": [
+      {
+        "title": "方位与移动介词",
+        "context": [
+          {
+            "type": "p",
+            "text": "on the left/right，in the middle，at the end of。in 常表在内部，on 常表表面接触，at 常表一个位置点。across 穿过表面（across the road），through 穿过内部（through the tunnel），over 越过或在上方。"
+          },
+          {
+            "type": "p",
+            "text": "between 连接分别考虑的对象，不必机械限定只能两个；among 强调处于群体中。in front of 在外部前面，in the front of 在内部前部。"
+          },
+          {
+            "type": "p",
+            "text": "易混：beside 在旁边；besides 此外/除……之外还；except 排除，except for 就局部例外；accept 接受。"
+          }
+        ]
+      }
+    ],
+    "S10": [
+      {
+        "title": "with、in、wear：短语还是谓语",
+        "context": [
+          {
+            "type": "p",
+            "text": "a girl with long hair（留长发的女孩）；a teacher in a black coat（穿黑外套的老师）。with/in 构成介词短语作定语，不再增加谓语。The teacher wears a coat 中 wears 才是谓语。"
+          },
+          {
+            "type": "p",
+            "text": "wear 强调穿着状态，put on 强调穿上动作，dress 可接人（dress the child），be dressed in 表穿着。试穿用 try on；脱下用 take off。"
+          },
+          {
+            "type": "p",
+            "text": "易混拼写：wear 穿戴，where 哪里，were 是 be 的过去式；hair 头发，hear 听见，here 这里。"
+          }
+        ]
+      }
+    ],
+    "C01": [
+      {
+        "title": "本篇完形：整组词汇、词形与搭配",
+        "context": [
+          {
+            "type": "p",
+            "text": "按 Peter→he/his、叙述者→me、全家→they 建立指代链。have/has、be 动词和一般现在第三人称单数要回扣主语。England 是国家，English 可指语言或形容词；America/American 同理。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "词/短语",
+                "含义",
+                "成组记忆"
+              ],
+              [
+                "friend",
+                "朋友",
+                "friendly 友好的；friendship 友谊"
+              ],
+              [
+                "help",
+                "帮助",
+                "helpful 乐于助人的；helpless 无助的"
+              ],
+              [
+                "listen",
+                "听",
+                "listen to；hear 强调听见"
+              ],
+              [
+                "from … to …",
+                "从……到……",
+                "表示起止"
+              ],
+              [
+                "each other",
+                "互相",
+                "不写 each others"
+              ],
+              [
+                "Chinese / China",
+                "中国的/中文；中国",
+                "词性与国家名称不同"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "R01": [
+      {
+        "title": "本篇阅读：词汇、易混词与阅读方法",
+        "context": [
+          {
+            "type": "p",
+            "text": "对照说明文抓比较主体：tea 与 coffee。每段各写“原料—用途—文化场景”三个关键词，最后合并成标题。题目 asking NOT true 时，先给题干画否定标记。喝茶减压或减重是材料所述人们的目的，不在课堂把它延伸成健康功效保证。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "词/短语",
+                "含义",
+                "辨析与搭配"
+              ],
+              [
+                "leaf / leaves",
+                "叶/叶子们",
+                "leaf→leaves"
+              ],
+              [
+                "stress",
+                "压力",
+                "relieve stress；不可逐字套译"
+              ],
+              [
+                "culture",
+                "文化",
+                "cultural 形容词"
+              ],
+              [
+                "relax",
+                "放松",
+                "relaxed 感到放松；relaxing 令人放松"
+              ],
+              [
+                "awake",
+                "醒着的",
+                "stay awake；wake up 醒来"
+              ],
+              [
+                "bean",
+                "豆",
+                "coffee beans"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "S01": [
+      {
+        "title": "比较等级的形成：规则与不规则",
+        "context": [
+          {
+            "type": "p",
+            "text": "一般 -er/-est：long-longer-longest；末尾 e 加 r/st：large-larger-largest；部分重读闭音节双写：big-bigger-biggest；辅音+y 改 i：happy-happier-happiest；多音节常用 more/most，如 more interesting。"
+          },
+          {
+            "type": "p",
+            "text": "不规则需整组记：good/well—better—best；bad/badly—worse—worst；many/much—more—most；little—less—least；far—farther/further—farthest/furthest（具体用法看语境）。"
+          },
+          {
+            "type": "p",
+            "text": "the + 序数词 + 最高级：the second longest river。the 已在题干，空格只填 longest，不能重复 the；more stronger 等重复比较标记错误。"
+          }
+        ]
+      }
+    ],
+    "S02": [
+      {
+        "title": "最高级范围与 the 的位置",
+        "context": [
+          {
+            "type": "p",
+            "text": "in the class / of all the students 等提示在一个范围中选择最……。the most important 不能与 much important 混用；not all 出现的句子都一定是最高级题，仍需检查比较逻辑。"
+          },
+          {
+            "type": "p",
+            "text": "形容词最高级前常有 the，但已有 my/his 等限定词时不用重复：my best friend。副词最高级前 the 常可省略：runs (the) fastest。不要把“最高级前必加 the”当作无例外规则。"
+          },
+          {
+            "type": "p",
+            "text": "最高级与比较级改写：the tallest girl ↔ taller than any other girl in the same group。改写时比较范围必须相同。"
+          }
+        ]
+      }
+    ],
+    "S03": [
+      {
+        "title": "同范围比较与比较对象一致",
+        "context": [
+          {
+            "type": "p",
+            "text": "Alice 属于班内女生，所以用 any other girl，排除与自己比较。若比较对象不在同一范围：China is larger than any country in Europe，不能照搬 other。"
+          },
+          {
+            "type": "p",
+            "text": "比较同类事物：My school is larger than yours. yours=my school 的对应物，不应把 school 与 you 比。The weather here is warmer than that in Beijing，用 that 代替 weather。"
+          },
+          {
+            "type": "p",
+            "text": "范围词 any、any other、the other + 复数名词，不能只凭“有 than”选择一个固定短语。"
+          }
+        ]
+      }
+    ],
+    "S04": [
+      {
+        "title": "比较级的修饰与固定句式",
+        "context": [
+          {
+            "type": "p",
+            "text": "much、far、a lot、a little、a bit、even 可修饰比较级；very 通常修饰原级。much better、even more interesting；不能 very better。than 是显著线索，但比较级也可不明写 than。"
+          },
+          {
+            "type": "p",
+            "text": "more and more + 多音节形容词：more and more popular；-er and -er：stronger and stronger。the + 比较级，the + 比较级：The harder you work, the better you will do。"
+          },
+          {
+            "type": "p",
+            "text": "less/least 可表示更不/最不：less expensive。不要把 less 当成所有形容词“更少”的机械前缀，先看句意。"
+          }
+        ]
+      }
+    ],
+    "S05": [
+      {
+        "title": "常见形容词搭配与 -ed/-ing",
+        "context": [
+          {
+            "type": "p",
+            "text": "人口用 large/small，数量问 What is the population of …? 价格常用 high/low，花费可说 expensive/cheap。不能把汉语“多/贵”一律替换为 much。"
+          },
+          {
+            "type": "p",
+            "text": "人感到 interested/excited/bored/tired/surprised；事物令人 interesting/exciting/boring/tiring/surprising。并非所有 -ed 都修饰人、-ing 都修饰物，如 an exciting speaker 也成立，关键是感受者和引发者。"
+          },
+          {
+            "type": "p",
+            "text": "固定搭配：be interested in、be surprised at/by、be proud of、be famous for/as。词族 population—popular 形近但意义不同：population 人口；popular 受欢迎的。"
+          }
+        ]
+      }
+    ],
+    "S06": [
+      {
+        "title": "副词与构词法：carefully 不是 careful",
+        "context": [
+          {
+            "type": "p",
+            "text": "动词常由副词修饰：do it carefully；名词前与系动词后常用形容词：a careful student，be careful。形容词转副词常加 -ly；辅音+y 常变 i：happy→happily；basic→basically，不能把拼写规则无限推广。"
+          },
+          {
+            "type": "p",
+            "text": "词族：care—careful—carefully—careless—carelessly；success—successful—successfully—succeed；beauty—beautiful—beautifully；danger—dangerous—dangerously。先定词性，再选肯定/否定词义。"
+          },
+          {
+            "type": "p",
+            "text": "易混：quiet 安静的，quite 相当，quit 停止/辞去；quietly 安静地。friendly、lovely、lonely 通常是形容词，看到 -ly 不一定是副词。"
+          }
+        ]
+      }
+    ],
+    "S07": [
+      {
+        "title": "hardly 与形近副词辨析",
+        "context": [
+          {
+            "type": "p",
+            "text": "hard 努力地/猛烈地；hardly 几乎不。near 在附近；nearly 几乎。late 晚；lately 最近。high 高；highly 高度地。加 -ly 后不一定只改变词性。"
+          },
+          {
+            "type": "p",
+            "text": "频率由高到低常见：always、usually、often、sometimes、seldom/rarely、hardly ever、never。hardly 不是“很努力”；它与 never 等含否定意义，会影响反意疑问句极性。"
+          },
+          {
+            "type": "p",
+            "text": "sometimes 有时；sometime 某个时候；some time 一段时间；some times 几次。例：I sometimes spend some time reading."
+          }
+        ]
+      }
+    ],
+    "S08": [
+      {
+        "title": "until、not … until 与时间范围",
+        "context": [
+          {
+            "type": "p",
+            "text": "I waited until six. 一直等到六点；I didn’t leave until six. 直到六点才离开。until 强调持续的终点，not … until 强调某动作此前未发生。"
+          },
+          {
+            "type": "p",
+            "text": "对照：by six 截至六点，before six 六点之前，after six 六点之后。You can’t go out until you finish：完成作业是允许外出的时间界限。"
+          },
+          {
+            "type": "p",
+            "text": "将来时间状语从句通常用现在形式：I will wait until he comes. 不能只看到“将来”就把从句改成 will come。"
+          }
+        ]
+      }
+    ],
+    "S09": [
+      {
+        "title": "条件、让步、原因连接词成组比较",
+        "context": [
+          {
+            "type": "p",
+            "text": "if 如果；unless 除非；as long as 只要；even if 即使；although/though 尽管；because 因为；so 因此；in case 以防。先把前后两个命题的关系说清，再选词。"
+          },
+          {
+            "type": "p",
+            "text": "本题保持词典干净是借出的条件，用 as long as；in case 常引出预防的情况，不等于普通“只要”。although 与 but 通常不在同一主从结构中重复使用，because 与 so 也不能机械双用。"
+          },
+          {
+            "type": "p",
+            "text": "so far 到目前为止；so far as 就……而言/在……范围内；as long as 只要。外形相近，但句法功能不同。"
+          }
+        ]
+      }
+    ],
+    "S10": [
+      {
+        "title": "unless 改写与否定范围",
+        "context": [
+          {
+            "type": "p",
+            "text": "We won’t believe it unless we see it. 可改写为 We won’t believe it if we don’t see it. unless 已含“如果不”，不能不看句意再加 not。"
+          },
+          {
+            "type": "p",
+            "text": "比较：if 表普通条件；whether 表“是否”，常引出宾语从句。若有 whether … or not，不能简单套用 unless。"
+          },
+          {
+            "type": "p",
+            "text": "课堂迁移：Unless you hurry, you will miss the bus. ↔ If you don’t hurry, you will miss the bus. 易混 then（然后）与 than（比）：比较选 than，叙事顺序用 then。"
+          }
+        ]
+      }
+    ],
+    "C01": [
+      {
+        "title": "本篇完形：整组词汇、词形与搭配",
+        "context": [
+          {
+            "type": "p",
+            "text": "故事主线：争强→设定脱衣目标→风失败→太阳成功。so hard that 表结果，much stronger than 表比较；very hot 用原级。see a man doing 是看见正在进行，不能声称 see sb do 错误。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "词/短语",
+                "含义",
+                "成组记忆"
+              ],
+              [
+                "strong",
+                "强壮的/强的",
+                "stronger/strongest；strongly 副词"
+              ],
+              [
+                "argue",
+                "争论",
+                "argument 名词"
+              ],
+              [
+                "angry",
+                "生气的",
+                "angrily 副词；anger 名词"
+              ],
+              [
+                "shine",
+                "照耀",
+                "shine-shone-shone（常见）"
+              ],
+              [
+                "take off",
+                "脱下/起飞",
+                "按宾语或主语判断"
+              ],
+              [
+                "turn",
+                "轮次/转动",
+                "It’s your turn"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "R01": [
+      {
+        "title": "本篇阅读：词汇、易混词与阅读方法",
+        "context": [
+          {
+            "type": "p",
+            "text": "习语阅读先找作者给出的解释句，再做词义题，不用中文颜色联想代替原文。red hot 在不公平事件中表愤怒，在音乐中表热烈；一词多义需回到对应场景。最后统计颜色时去重，不把 red hot 另算一种颜色。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "词/短语",
+                "含义",
+                "辨析与搭配"
+              ],
+              [
+                "red hot",
+                "愤怒的；热烈的",
+                "在不同语境下含义不同"
+              ],
+              [
+                "in the pink",
+                "身体健康",
+                "习语，不能逐字理解"
+              ],
+              [
+                "blue / blues",
+                "蓝色；布鲁斯音乐",
+                "blues 不等于 blue 的普通复数义"
+              ],
+              [
+                "green",
+                "绿色；本文指脸色不适",
+                "由文内解释判断"
+              ],
+              [
+                "expression",
+                "表达",
+                "express 动词"
+              ],
+              [
+                "opposite",
+                "相反的/对立面",
+                "the opposite of"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "S01": [
+      {
+        "title": "常用时态总表：先用时间线选范围",
+        "context": [
+          {
+            "type": "p",
+            "text": "时态不只看时间词，还看动作的状态与叙事参照点。先问“现在/过去/将来”，再问“习惯事实/正在进行/截至参照点已完成”。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "时态",
+                "基本结构",
+                "常见语境"
+              ],
+              [
+                "一般现在",
+                "do/does；am/is/are",
+                "习惯、事实、规律"
+              ],
+              [
+                "一般过去",
+                "did；was/were",
+                "已结束的过去经历"
+              ],
+              [
+                "一般将来",
+                "will do / am-is-are going to do",
+                "预测、计划等"
+              ],
+              [
+                "现在进行",
+                "am/is/are doing",
+                "现在正在或阶段活动"
+              ],
+              [
+                "过去进行",
+                "was/were doing",
+                "过去某时正在"
+              ],
+              [
+                "现在完成",
+                "have/has done",
+                "过去与现在相连"
+              ],
+              [
+                "过去完成",
+                "had done",
+                "过去参照点之前"
+              ],
+              [
+                "过去将来",
+                "would do / was-were going to do",
+                "从过去看将来"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "title": "第三人称单数与助动词",
+        "context": [
+          {
+            "type": "p",
+            "text": "He goes / works / watches / studies；have→has。一般现在时否定 does not + 原形，问句 Does he go?，不是 Does he goes?。I/you/we/they 用 do，be 动词另按 am/is/are。"
+          },
+          {
+            "type": "p",
+            "text": "every Tuesday 是反复习惯；He is going to the center tomorrow 表已安排的将来行动，不能把所有 go 都判一般现在时。"
+          }
+        ]
+      }
+    ],
+    "S02": [
+      {
+        "title": "现在完成时与 for/since；take place 不用被动",
+        "context": [
+          {
+            "type": "p",
+            "text": "have/has + 过去分词。for + 时长、since + 起点、so far、in/over the past few years 常与现在完成时连用，但仍须看语境是否截至现在。"
+          },
+          {
+            "type": "p",
+            "text": "已结束的明确过去时间常用一般过去：I worked there for six years, but now I work here. for six years 本身并不强制完成时。"
+          },
+          {
+            "type": "p",
+            "text": "take place、happen 表发生时通常不及物，不用被动；raise 提高/举起/饲养常接宾语，rise 上升通常不及物。词形：take-took-taken；happen-happened-happened；rise-rose-risen；raise-raised-raised。"
+          }
+        ]
+      }
+    ],
+    "S03": [
+      {
+        "title": "时间从句表将来与宾语从句的区别",
+        "context": [
+          {
+            "type": "p",
+            "text": "when、as soon as、before、after、until 引导将来时间状语从句时通常用一般现在形式；主句可以用 will/can/祈使句：I’ll call you when he arrives。"
+          },
+          {
+            "type": "p",
+            "text": "但 I don’t know when he will arrive 中 when 引导宾语从句，意思是“不知道他什么时候到”，可用 will。先识别从句在句中承担的功能，不只看连接词。"
+          },
+          {
+            "type": "p",
+            "text": "finish→finishes；watch→watches；study→studies。主将从现不是说从句永远只能一般现在，强调先完成也可用现在完成形式。"
+          }
+        ]
+      }
+    ],
+    "S04": [
+      {
+        "title": "被动语态全景与不规则过去分词",
+        "context": [
+          {
+            "type": "p",
+            "text": "先判断主语是否动作承受者，再确定 be 的时态。被动核心为 be + 过去分词；by 可引出施事。不是每个过去分词前都必须另加 be，分词还可作定语或补足语。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "结构",
+                "例子"
+              ],
+              [
+                "一般现在被动",
+                "English is spoken here."
+              ],
+              [
+                "一般过去被动",
+                "He was invited yesterday."
+              ],
+              [
+                "一般将来被动",
+                "The bridge will be built."
+              ],
+              [
+                "现在完成被动",
+                "The work has been finished."
+              ],
+              [
+                "情态动词被动",
+                "The room must be cleaned."
+              ],
+              [
+                "常用不规则词",
+                "build-built-built；write-wrote-written；speak-spoke-spoken；give-gave-given；make-made-made；see-saw-seen；take-took-taken；teach-taught-taught；buy-bought-bought"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "S05": [
+      {
+        "title": "过去完成：过去的过去",
+        "context": [
+          {
+            "type": "p",
+            "text": "By the end of last week, we had learned …，参照点是上周末；学完发生在该过去点之前。现在完成以现在为参照，过去完成以过去为参照。"
+          },
+          {
+            "type": "p",
+            "text": "比较：By now I have finished. / By yesterday I had finished. 不要把“完成了”直接等同于任何一种完成时，要找参照点。"
+          },
+          {
+            "type": "p",
+            "text": "常见词形：learn-learned/learnt；write-wrote-written；go-went-gone；be-was/were-been。had 后接过去分词，不接普通过去式 wrote/went。"
+          }
+        ]
+      }
+    ],
+    "S06": [
+      {
+        "title": "过去进行与过去动作交叉",
+        "context": [
+          {
+            "type": "p",
+            "text": "When I arrived, he was giving a speech. arrive 是当时到达，give speech 是到达那一刻正在进行。结构 was/were doing，不是 was/were + 原形。"
+          },
+          {
+            "type": "p",
+            "text": "while 常接一段持续动作，when 可引出某个时间点；不能机械规定 when 后只能一般过去、while 后只能进行时，须看动作性质。"
+          },
+          {
+            "type": "p",
+            "text": "give a speech 作演讲；make a speech 也可。易混：speech（演讲，名词）、speak（说话，动词）、speaker（演讲者/扬声器）。"
+          }
+        ]
+      }
+    ],
+    "S07": [
+      {
+        "title": "现在进行与系动词后接形容词",
+        "context": [
+          {
+            "type": "p",
+            "text": "Listen! / Look! 常提示正在发生：is singing。当前阶段、临时安排也可用现在进行；know、believe、belong 等状态动词通常不用于普通进行用法。"
+          },
+          {
+            "type": "p",
+            "text": "感官系动词 sound/look/smell/taste/feel + 形容词：sounds sweet、feels soft；动作用法可接副词：sing sweetly。同一词是不是系动词，要看在该句中的功能。"
+          },
+          {
+            "type": "p",
+            "text": "hear 听见；listen to 听；sound 听起来。look at 看；see 看见；watch 观看动态过程。易混 sweet 甜美的，sweat 汗/出汗。"
+          }
+        ]
+      }
+    ],
+    "S08": [
+      {
+        "title": "there be 与 have：存在和拥有",
+        "context": [
+          {
+            "type": "p",
+            "text": "There is a book on the desk 表某处存在；I have a book 表某人拥有。There will be / There is going to be 表将存在，不能写 There will have。"
+          },
+          {
+            "type": "p",
+            "text": "There is/are 的 be 与后面的存在主体配合，常见并列结构按就近形式处理。一般疑问句 Is there …? / Will there be …?。"
+          },
+          {
+            "type": "p",
+            "text": "be going to do 是将来结构，不等同于 go to school 中的 go。a basketball game against Class Two 表与二班对赛。"
+          }
+        ]
+      }
+    ],
+    "S09": [
+      {
+        "title": "将来被动与含情态动词的被动",
+        "context": [
+          {
+            "type": "p",
+            "text": "will be built = will + be + 过去分词。will 后保留 be 原形；build 的过去式和分词同为 built。对照：They will build it（主动）；It will be built（被动）。"
+          },
+          {
+            "type": "p",
+            "text": "must/can/should + be done：The work must be finished today. 句子同时考情态和语态时，先看主语 work 与 finish 的关系。"
+          },
+          {
+            "type": "p",
+            "text": "易混：built 已建造的/过去分词；building 建筑物或正在建造；builder 建筑工人。不能因看到 building 就一律判断现在进行时。"
+          }
+        ]
+      }
+    ],
+    "S10": [
+      {
+        "title": "宾语从句中的客观事实",
+        "context": [
+          {
+            "type": "p",
+            "text": "主句是过去时，从句叙述当时事件常相应后移；若从句表达仍成立的客观规律，可用一般现在时：The teacher told us that the earth moves around the sun。"
+          },
+          {
+            "type": "p",
+            "text": "不是“凡是老师说的都用现在时”，而是内容属于客观规律。比较：She said she was tired then；She said water freezes at 0°C（常见基础表述）。"
+          },
+          {
+            "type": "p",
+            "text": "move around 绕……运行；around 也可作副词表在周围。round/around 的具体选择有语境和变体差异，避免仅据一个同义形式判错。"
+          }
+        ]
+      }
+    ],
+    "C01": [
+      {
+        "title": "本篇完形：整组词汇、词形与搭配",
+        "context": [
+          {
+            "type": "p",
+            "text": "先圈 Last month，叙事主要一般过去时。注意 read 的现在/过去拼写同形而发音不同；fly 的过去式 flew，swim 的过去式 swam。take photos of、by the sea、invite us to their homes 串成旅行表达链。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "词/短语",
+                "含义",
+                "成组记忆"
+              ],
+              [
+                "fly",
+                "飞",
+                "fly-flew-flown"
+              ],
+              [
+                "swim",
+                "游泳",
+                "swim-swam-swum；swimming"
+              ],
+              [
+                "photo",
+                "照片",
+                "photos，不是 photoes"
+              ],
+              [
+                "delicious",
+                "美味的",
+                "delicious food"
+              ],
+              [
+                "invite",
+                "邀请",
+                "invite sb to …；invitation 名词"
+              ],
+              [
+                "exciting / excited",
+                "令人兴奋/感到兴奋",
+                "trip 与人的感受不同"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "R01": [
+      {
+        "title": "本篇阅读：词汇、易混词与阅读方法",
+        "context": [
+          {
+            "type": "p",
+            "text": "叙事细节先按“度假—车站—聊天—身份揭示”排列。阅读中的 anecdote（轶事）按文本理解，不把它等同于核实过的历史。NOT true 的 all year round 可被 isn’t allowed this season 明确推翻，范围词往往是关键。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "词/短语",
+                "含义",
+                "辨析与搭配"
+              ],
+              [
+                "baggage / luggage",
+                "行李",
+                "通常不可数"
+              ],
+              [
+                "vacation / holiday",
+                "假期",
+                "on vacation / on holiday"
+              ],
+              [
+                "pleasant",
+                "令人愉快的",
+                "enjoyable；pleased 常描述人感受"
+              ],
+              [
+                "allow",
+                "允许",
+                "allow sb to do"
+              ],
+              [
+                "lie",
+                "谎言/说谎",
+                "tell a lie；说谎 lie-lied-lied"
+              ],
+              [
+                "lie / lay",
+                "躺；放置",
+                "躺 lie-lay-lain；放置 lay-laid-laid"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "S01": [
+      {
+        "title": "情态动词全景：形式与核心语义",
+        "context": [
+          {
+            "type": "p",
+            "text": "核心情态词后通常接原形，无第三人称 -s：He can swim. 否定直接加 not，问句情态词前置。have to、need to 等结构有不同的助动词规则，不能一概照搬。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "词",
+                "常见意义",
+                "否定或相关形式"
+              ],
+              [
+                "can / could",
+                "能力、许可、可能；could 也表委婉",
+                "can’t / couldn’t"
+              ],
+              [
+                "may / might",
+                "许可、可能；might 常较试探",
+                "may not / might not"
+              ],
+              [
+                "must",
+                "必须；很有把握的推测",
+                "mustn’t 通常表禁止"
+              ],
+              [
+                "have to",
+                "需要、不得不",
+                "don’t/doesn’t have to 不必"
+              ],
+              [
+                "should / ought to",
+                "建议、责任、合乎预期",
+                "shouldn’t / ought not to"
+              ],
+              [
+                "need / need to",
+                "需要（情态与实义用法不同）",
+                "needn’t / don’t need to"
+              ],
+              [
+                "would",
+                "过去将来、意愿、委婉、虚拟",
+                "wouldn’t"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "S02": [
+      {
+        "title": "must、need、have to 的问答与否定",
+        "context": [
+          {
+            "type": "p",
+            "text": "Must I …? — Yes, you must. / No, you needn’t（或 don’t have to）。否定回答表示没有必要，不是禁止。禁止则说 You mustn’t …。"
+          },
+          {
+            "type": "p",
+            "text": "Need I …? — Yes, you must（常见必要性回答）. / No, you needn’t. 实义动词形式：Do I need to …? — No, you don’t。"
+          },
+          {
+            "type": "p",
+            "text": "must 与 have to 都可表必要性，不要绝对划成“主观/客观”就断言另一项语法错误。过去的外在必要性常用 had to。"
+          }
+        ]
+      }
+    ],
+    "S03": [
+      {
+        "title": "可能性推测：may/might 与 must/can’t",
+        "context": [
+          {
+            "type": "p",
+            "text": "may/might 表某件事可能发生；must 表根据证据作较有把握的肯定推测；can’t 表根据证据排除可能。不要把推测词换算为固定百分比。"
+          },
+          {
+            "type": "p",
+            "text": "本题 I’m not sure 明示未定计划，may go 最贴合。can 常表能力/许可或一般可能，不是所有“可能”都用 can。mustn’t 主要表禁止，不用来对应“肯定不是”。"
+          },
+          {
+            "type": "p",
+            "text": "拼写：maybe 是副词“也许”，may be 是情态词+be，后接表语。Maybe he is right. / He may be right。"
+          }
+        ]
+      }
+    ],
+    "S04": [
+      {
+        "title": "can’t be 与 have gone/been",
+        "context": [
+          {
+            "type": "p",
+            "text": "He has gone to Japan 表已经去了、当前不在这里，所以此刻大厅里的人 can’t be him。He has been to Japan 表有去过的经历，不自动说明他当前不在这里。"
+          },
+          {
+            "type": "p",
+            "text": "否定推测 can’t be；禁止 mustn’t do；没必要 needn’t do。推测过去可见 must have done / can’t have done，形式与当前 must/can’t do 不同，作为备查扩展。"
+          },
+          {
+            "type": "p",
+            "text": "been 是 be 的过去分词，gone 是 go 的过去分词；have been in + 地点可表示在某地待了一段时间。"
+          }
+        ]
+      }
+    ],
+    "S05": [
+      {
+        "title": "禁止、劝告与否定祈使句",
+        "context": [
+          {
+            "type": "p",
+            "text": "You mustn’t play with fire 表禁止；You shouldn’t stay up late 表劝告不应；Don’t play with fire 是否定祈使句。安全规则常用 mustn’t，不能把 needn’t 当“禁止”。"
+          },
+          {
+            "type": "p",
+            "text": "had better do / had better not do 表最好做/别做；You’d better not go，不是 You’d not better to go。ought to do 表应当，注意保留 to。"
+          },
+          {
+            "type": "p",
+            "text": "play with 玩弄；play basketball 打篮球；play the piano 弹钢琴；play a role in 在……中起作用。一个 play 有多种搭配。"
+          }
+        ]
+      }
+    ],
+    "S06": [
+      {
+        "title": "turn 家族与可分短语",
+        "context": [
+          {
+            "type": "p",
+            "text": "turn down 拒绝/调低；turn up 出现/调高；turn on/off 打开/关闭设备；turn over 翻转/移交；turn out 结果是/生产；turn into 变成；turn to 求助于/转向。"
+          },
+          {
+            "type": "p",
+            "text": "可分短语中代词宾语通常放中间：turn it down，不写 turn down it；名词可有两种位置：turn down the music / turn the music down。不是所有动词短语都可分，如 look after him 不可写 look him after。"
+          },
+          {
+            "type": "p",
+            "text": "refuse/reject 与 turn down 有相关“拒绝”义，但具体宾语搭配不同；accept（接受）与 except（除……之外）形近易混。"
+          }
+        ]
+      }
+    ],
+    "S07": [
+      {
+        "title": "take 家族：起飞、脱下与其他义",
+        "context": [
+          {
+            "type": "p",
+            "text": "take off 起飞/脱下；take up 开始从事/占用；take in 吸收/理解/欺骗；take over 接管；take away 拿走；take out 取出；take part in 参加；take care of 照顾。"
+          },
+          {
+            "type": "p",
+            "text": "本题主语 planes、浓雾阻碍航班，所以是 take off 起飞。若宾语 coat，则 take off 常指脱衣。不能只背一个汉语义。"
+          },
+          {
+            "type": "p",
+            "text": "bring 带来、take 带走常受参照点影响，不可只凭“go to a party”就排除 bring；carry 强调搬运，fetch 常指去取再带回。"
+          }
+        ]
+      }
+    ],
+    "S08": [
+      {
+        "title": "break 家族与故障表达",
+        "context": [
+          {
+            "type": "p",
+            "text": "break down 机器出故障/关系破裂/分解；break out 战争或火灾爆发；break in 闯入/插话；break into 闯入某处；break through 突破；break up 分裂/结束关系；break away (from) 脱离。"
+          },
+          {
+            "type": "p",
+            "text": "本题 driver tried to repair it 明确车出故障。词形 break-broke-broken；repair 修理，pair 一对，prepare 准备，不要仅因都有 pair/pare 的字形而混淆。"
+          },
+          {
+            "type": "p",
+            "text": "The car broke down（过去主动）与 The window was broken（被动/状态）不是同一结构。"
+          }
+        ]
+      }
+    ],
+    "S09": [
+      {
+        "title": "出现、到达与 look/get 常见短语",
+        "context": [
+          {
+            "type": "p",
+            "text": "turn up / show up 常表出现；arrive at 小地点、arrive in 较大地点；get to / reach + 地点，home/here/there 作方向副词时常不加 to：get home。"
+          },
+          {
+            "type": "p",
+            "text": "look up 查阅/向上看；look for 寻找；look after 照顾；look into 调查；look out 当心；look forward to 期待（to 为介词）。get on/off 上下车（常见公共交通）；get into/out of a car 进出小汽车。"
+          },
+          {
+            "type": "p",
+            "text": "短语不靠“词根相同”判断，先看后面跟地点、人、事情还是不定式。"
+          }
+        ]
+      }
+    ],
+    "S10": [
+      {
+        "title": "rob、steal 与花费类动词",
+        "context": [
+          {
+            "type": "p",
+            "text": "rob sb/a place of sth：rob the bank of money；steal sth from sb/a place：steal money from the bank。人/处所在前还是财物在前，是本题关键。"
+          },
+          {
+            "type": "p",
+            "text": "词形：rob-robbed-robbed（双写 b）；steal-stole-stolen。thief 小偷，复数 thieves；robber 抢劫者；theft 盗窃（名词）。"
+          },
+          {
+            "type": "p",
+            "text": "同样要看宾语的花费结构：sb spends time/money on sth/(in) doing；sth costs sb money；sb pays money for sth；It takes sb time to do。不要都按“花费”互换。"
+          }
+        ]
+      }
+    ],
+    "C01": [
+      {
+        "title": "本篇完形：整组词汇、词形与搭配",
+        "context": [
+          {
+            "type": "p",
+            "text": "把建议分四类：开工前状态、分段休息、避免拖延、固定时间。too … to、more than、without doing、too much to do 要看完整结构。结合本册校订说明，不把 like free time 等实际可成立表达说成绝对语法错误。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "词/短语",
+                "含义",
+                "成组记忆"
+              ],
+              [
+                "divide",
+                "分配/分开",
+                "divide … into …"
+              ],
+              [
+                "hungry",
+                "饥饿的",
+                "hunger 名词"
+              ],
+              [
+                "put off",
+                "推迟",
+                "put off doing"
+              ],
+              [
+                "enjoy",
+                "享受",
+                "enjoy doing / enjoy oneself"
+              ],
+              [
+                "habit / habitual",
+                "习惯/习惯性的",
+                "habitual 是形容词"
+              ],
+              [
+                "without",
+                "没有/不",
+                "介词+doing"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "R01": [
+      {
+        "title": "本篇阅读：词汇、易混词与阅读方法",
+        "context": [
+          {
+            "type": "p",
+            "text": "先区分原文明说与情节推断。reading books 与 book on music 有直接证据；最后 Thanks 是根据 Excuse me→please→thanks 的礼貌链推断。不要把推断当成原文逐字引语；借书是 borrow，不是 lend。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "词/短语",
+                "含义",
+                "辨析与搭配"
+              ],
+              [
+                "library",
+                "图书馆",
+                "librarian 图书管理员"
+              ],
+              [
+                "borrow",
+                "借入",
+                "borrow sth from sb"
+              ],
+              [
+                "lend",
+                "借出",
+                "lend sb sth / lend sth to sb"
+              ],
+              [
+                "robot",
+                "机器人",
+                "robotic 形容词"
+              ],
+              [
+                "polite",
+                "礼貌的",
+                "politely 副词；impolite 不礼貌的"
+              ],
+              [
+                "assistant",
+                "助理",
+                "assist 动词；assistance 名词"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "S01": [
+      {
+        "title": "非谓语总览与不定式常用搭配",
+        "context": [
+          {
+            "type": "p",
+            "text": "先找到句子的谓语，再判断第二个动词承担主语、宾语、定语、状语还是补足语。不定式 to do、动名词 doing、现在分词 doing、过去分词 done 的作用不能只按字形区分。"
+          },
+          {
+            "type": "p",
+            "text": "常接不定式的动词：want、hope、decide、plan、expect、agree、refuse、learn。宾语补足语：ask/tell/allow/encourage/want sb to do；否定常用 tell sb not to do。"
+          },
+          {
+            "type": "p",
+            "text": "allow doing 与 allow sb to do 不同；let/make sb do 在主动使役结构中常不用 to，be made to do 的被动结构通常恢复 to。"
+          }
+        ]
+      }
+    ],
+    "S02": [
+      {
+        "title": "介词 to 与不定式 to",
+        "context": [
+          {
+            "type": "p",
+            "text": "look forward to doing、be used to doing（习惯）、pay attention to doing、devote … to doing 中 to 是介词。to 后面能接名词时，可帮助识别其介词身份。"
+          },
+          {
+            "type": "p",
+            "text": "used to do 表过去常做；be used to doing 表习惯；be used to do 表被用来做。例：I used to walk. / I am used to walking. / A knife is used to cut。"
+          },
+          {
+            "type": "p",
+            "text": "动词词形：begin-began-begun；write-writing（去不发音 e）；run-running（双写）；lie-lying。不要看到 to 就直接选原形。"
+          }
+        ]
+      }
+    ],
+    "S03": [
+      {
+        "title": "spend、take、cost、pay 的结构复习",
+        "context": [
+          {
+            "type": "p",
+            "text": "sb spends 时间/钱 (in) doing / on sth；It takes sb 时间 to do；sth costs sb 钱；sb pays 钱 for sth。主语和后面的介词、非谓语都要匹配。"
+          },
+          {
+            "type": "p",
+            "text": "本题 spent three hours revising；改写：It took Helen three hours to revise her term paper。spend-spent-spent；pay-paid-paid；cost-cost-cost；take-took-taken。"
+          },
+          {
+            "type": "p",
+            "text": "revise 修改/复习；review 复习/评论；term 学期/术语。paper 在 term paper 中是可数“论文”，与不可数“纸张”对照。"
+          }
+        ]
+      }
+    ],
+    "S04": [
+      {
+        "title": "常接动名词的词与短语",
+        "context": [
+          {
+            "type": "p",
+            "text": "常见动词：enjoy、finish、mind、avoid、practise/practice、consider（考虑）、keep。常见短语：feel like、give up、put off、be busy、have trouble/difficulty (in)、be worth，后常接 doing。"
+          },
+          {
+            "type": "p",
+            "text": "do you mind doing? 不要套用 want to do；avoid doing 不写 avoid to do。consider 作“认为”时还有 consider sb to be 等其他结构，所以须结合义项。"
+          },
+          {
+            "type": "p",
+            "text": "practice 名词/美式动词；practise 英式动词。advice 名词/advise 动词与它类似但拼写规则并不完全相同。"
+          }
+        ]
+      }
+    ],
+    "S05": [
+      {
+        "title": "动名词作主语与动词原形的区别",
+        "context": [
+          {
+            "type": "p",
+            "text": "Reading aloud helps me. 动名词短语作主语，视为一项活动时谓语常用单数。Read aloud! 是祈使句，以原形开头；二者不是同一个句式。"
+          },
+          {
+            "type": "p",
+            "text": "to do 也能作主语，如 To learn English takes time；常用形式主语 It takes time to learn English。不能笼统说“只有动名词能作主语”。"
+          },
+          {
+            "type": "p",
+            "text": "aloud 出声地；loud/loudly 大声地；allowed 是 allow 的过去式/分词。aloud 与 allowed 常同音，语义和词性不同。"
+          }
+        ]
+      }
+    ],
+    "S06": [
+      {
+        "title": "现在分词与过去分词作定语",
+        "context": [
+          {
+            "type": "p",
+            "text": "a man named Bell：人被命名，用过去分词；a sleeping baby：婴儿在睡，用现在分词。单个分词常前置，较长分词短语常后置，但实际位置还受具体结构影响。"
+          },
+          {
+            "type": "p",
+            "text": "falling leaves 正在落的叶；fallen leaves 已落的叶。boiling water 正沸腾的水；boiled water 烧开过的水。不能简单等同 doing=现在、done=过去，核心还看主动/被动及动作状态。"
+          },
+          {
+            "type": "p",
+            "text": "named/called 意为名叫……；name 既可作名词也可作动词。Bell 是人名，bill 是账单，ball 是球，拼写相近须分词义。"
+          }
+        ]
+      }
+    ],
+    "S07": [
+      {
+        "title": "It’s no use doing 与常见否定不定式",
+        "context": [
+          {
+            "type": "p",
+            "text": "It is no use/no good doing sth 表做某事没有用/好处。It is useful to do sth 则是另一种常用结构。不要只看到 is 就找形容词作表语，需看整个搭配。"
+          },
+          {
+            "type": "p",
+            "text": "worry about sth 担心；be worried about 形容词结构；worrying 令人担忧的/动名词。It’s no use worrying 中 doing 承担所谈活动。"
+          },
+          {
+            "type": "p",
+            "text": "不定式常用 not to do，但 to not do 在实际现代英语中也可出现；本册不拿二者并列为单选的唯一判据。"
+          }
+        ]
+      }
+    ],
+    "S08": [
+      {
+        "title": "宾语补足语：make、see、hear",
+        "context": [
+          {
+            "type": "p",
+            "text": "make myself heard 表使“我的声音被别人听见”，myself 与 hear 是被动关系。make sb do 则是让某人去做；make sb happy 中是形容词补足语。"
+          },
+          {
+            "type": "p",
+            "text": "see/hear sb do 可关注完整事件或事实；see/hear sb doing 可突出正在进行。二者常都合语法，不能在缺乏语境限定时强行判唯一。"
+          },
+          {
+            "type": "p",
+            "text": "hear-heard-heard；make-made-made；see-saw-seen。heard（听见的过去式）与 hard（努力/硬的）、heart（心）拼写和发音都需区分。"
+          }
+        ]
+      }
+    ],
+    "S09": [
+      {
+        "title": "have trouble doing、find 与 find out",
+        "context": [
+          {
+            "type": "p",
+            "text": "have trouble/difficulty (in) doing 做某事困难；have trouble with sth 在某事上有困难。in 可省略，但省略后仍用 doing。trouble 常作不可数名词。"
+          },
+          {
+            "type": "p",
+            "text": "find 找到结果；look for 寻找过程；find out 查明事实；look up 查阅信息。find the way 找到路，ask the police for help 向警察求助。"
+          },
+          {
+            "type": "p",
+            "text": "police 通常按复数集合看待：The police are …；a police officer 表一个警察，不说 a police。"
+          }
+        ]
+      }
+    ],
+    "S10": [
+      {
+        "title": "have/get sth done 与 worth doing",
+        "context": [
+          {
+            "type": "p",
+            "text": "have the materials printed：安排材料被打印；have sb do：让某人做；have sb doing：让某人持续做/容忍某状态。get sth done 也可表安排或促成完成。"
+          },
+          {
+            "type": "p",
+            "text": "have sth done 还可能表示遭遇：He had his wallet stolen，不是他安排别人偷钱包。结合语境判断使役还是不幸经历。"
+          },
+          {
+            "type": "p",
+            "text": "be worth doing 值得做：The book is worth reading. worth 后的 doing 常用主动形式表达被阅读的含义；常见 also worthy of being read / worthy to be read。不要因中文“被”就直接写 worth being read。"
+          }
+        ]
+      }
+    ],
+    "C01": [
+      {
+        "title": "本篇完形：整组词汇、词形与搭配",
+        "context": [
+          {
+            "type": "p",
+            "text": "同一事实由父子作不同评价，贯穿 We have … but they have …。quite a few 不能拆成 quite+few 忽略 a。thank you for doing 由介词 for 决定动名词；what he had 是所拥有的东西。C06 为消除动物习性竞争答案而校订，课堂明确它是低难度词义配合题。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "词/短语",
+                "含义",
+                "成组记忆"
+              ],
+              [
+                "rich / poor",
+                "富有/贫穷的",
+                "对照词，结合故事价值取向"
+              ],
+              [
+                "cherish",
+                "珍爱",
+                "cherish what one has"
+              ],
+              [
+                "village / villager",
+                "村庄/村民",
+                "地点与人"
+              ],
+              [
+                "quite a few",
+                "相当多",
+                "修饰复数可数"
+              ],
+              [
+                "a few / few",
+                "有几个/几乎没有",
+                "注意肯定与否定倾向"
+              ],
+              [
+                "grow",
+                "生长/种植",
+                "grow-grew-grown"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "R01": [
+      {
+        "title": "本篇阅读：词汇、易混词与阅读方法",
+        "context": [
+          {
+            "type": "p",
+            "text": "画两条线：妻子所想（不再爱）与日记揭示（先洗澡暖房）。每题先确认问的是当时认知、表面理由还是真实动机。易混 diary（日记）/dairy（乳制品的/乳品店）；quiet（安静）/quite（相当）；later（后来）/latter（两者中后者）。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "词/短语",
+                "含义",
+                "辨析与搭配"
+              ],
+              [
+                "bankruptcy",
+                "破产",
+                "bankrupt 破产的"
+              ],
+              [
+                "support",
+                "支持/养活",
+                "support the family"
+              ],
+              [
+                "gradually",
+                "逐渐地",
+                "gradual 形容词"
+              ],
+              [
+                "diary",
+                "日记",
+                "keep a diary"
+              ],
+              [
+                "tear",
+                "眼泪/撕裂",
+                "眼泪 /tɪə(r)/；撕裂 /teə(r)/"
+              ],
+              [
+                "comfortable",
+                "舒适的",
+                "comfort；comfortably"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "S01": [
+      {
+        "title": "定语从句：关系词先看成分",
+        "context": [
+          {
+            "type": "p",
+            "text": "关系代词常见 who、whom、whose、which、that；关系副词 when、where、why。先行词是人/物/时间/地点只提供第一步信息，还要看从句是否缺主语、宾语或状语。"
+          },
+          {
+            "type": "p",
+            "text": "the days that he spent：spent 缺宾语，that 指 days；the days when he worked：worked 主谓完整，when 作时间状语。the town which he visited 与 the town where he lived 同理。"
+          },
+          {
+            "type": "p",
+            "text": "限定性从句指物时 that/which 常都能使用，不能只因先行词有最高级就绝对排除 which。本题没有 which 竞争项，that 能补宾语。"
+          }
+        ]
+      }
+    ],
+    "S02": [
+      {
+        "title": "名词性从句与 whatever/whenever/wherever",
+        "context": [
+          {
+            "type": "p",
+            "text": "whatever 既连接从句，又可在从句中充当主语、宾语等，表示任何……；whenever 表任何时候，wherever 表任何地方。根据空格缺什么成分判断，不因词尾相同就替换。"
+          },
+          {
+            "type": "p",
+            "text": "You may take whatever you like：主句 take 需要宾语，从句 like 也需要宾语。that 引导宾语从句时通常不在从句中充当所缺宾语。"
+          },
+          {
+            "type": "p",
+            "text": "what 表所……的事物；which 表选择哪个，常依赖选择范围。题干没有范围又表达任意选择时，whatever 最贴切。"
+          }
+        ]
+      }
+    ],
+    "S03": [
+      {
+        "title": "非限定性定语从句与整句指代",
+        "context": [
+          {
+            "type": "p",
+            "text": "逗号后的 which 可指前面整件事：He passed, which surprised us. that 不能引导这一非限定性定语从句。this/it 若另起独立句，需要合适句号、分号或并列连接词。"
+          },
+          {
+            "type": "p",
+            "text": "限定性从句用于限定对象，常不加逗号；非限定性从句作补充，常用逗号隔开。不能仅按“有逗号就选 which”：指人可用 who，所有关系可用 whose，仍须看成分。"
+          },
+          {
+            "type": "p",
+            "text": "surprise 名词/动词；surprised 感到惊讶的；surprising 令人惊讶的。to one’s surprise 令人惊讶的是。"
+          }
+        ]
+      }
+    ],
+    "S04": [
+      {
+        "title": "whether 与 if 的“是否”及条件义",
+        "context": [
+          {
+            "type": "p",
+            "text": "引导普通宾语从句表是否时，if/whether 常均可。whether … or not、介词后、whether to do，以及部分主语/表语等结构，常需 whether；不要声称 if 从来不能表“是否”。"
+          },
+          {
+            "type": "p",
+            "text": "I wonder whether he will come or not. 问是否；If he comes, I will call you. 表条件。从句功能不同，时态规则也不同。"
+          },
+          {
+            "type": "p",
+            "text": "易混：whether 是否，weather 天气；if 是否/如果；unless 除非。weather 是名词，不能引导“是否”从句。"
+          }
+        ]
+      }
+    ],
+    "S05": [
+      {
+        "title": "地点关系副词与介词+关系代词",
+        "context": [
+          {
+            "type": "p",
+            "text": "the town where he grew up = the town in which he grew up。grow up 不及物，主谓完整，缺的是地点状语；where 不是因为 town 这个词出现就自动确定。"
+          },
+          {
+            "type": "p",
+            "text": "the school which he visited：visit 及物，缺宾语，which 可用；the school where he studied：study 在此不带宾语，需地点状语。"
+          },
+          {
+            "type": "p",
+            "text": "whose 表所属：the student whose father is a teacher。whom 可作人称宾语，在正式“介词+关系代词”中常见。介词与关系词的选择要由实际搭配决定。"
+          }
+        ]
+      }
+    ],
+    "S06": [
+      {
+        "title": "宾语从句：连接词、语序、答句三步",
+        "context": [
+          {
+            "type": "p",
+            "text": "先读答句：乘哪路车是方式 how；多少距离 how far；多久到 how soon；多长时间 how long；多久一次 how often。然后检查从句用陈述语序。"
+          },
+          {
+            "type": "p",
+            "text": "Could you tell me how I can get there? could 在礼貌请求中不等于整句叙述过去，后面 can 不必机械后移为 could。"
+          },
+          {
+            "type": "p",
+            "text": "宾语从句疑问词作主语时，本身就是主谓顺序：Do you know who came? 不能为了所谓陈述语序多添一个人称主语。"
+          }
+        ]
+      }
+    ],
+    "S07": [
+      {
+        "title": "宾语从句中的时间与被动",
+        "context": [
+          {
+            "type": "p",
+            "text": "In 1957 对应 when，the play was written 表剧本被写成。宾语从句保留陈述语序：when the play was written，不写 when was the play written。"
+          },
+          {
+            "type": "p",
+            "text": "wh-word 对照：who 人，whose 所属，what 事物/内容，where 地点，when 时间，why 原因，how 方式。识别答句信息类别后再选连接词。"
+          },
+          {
+            "type": "p",
+            "text": "write-wrote-written；writer 作家。a play 戏剧，play 动词还可表玩/演奏；同一拼写的词性不同，不可一词一义套用。"
+          }
+        ]
+      }
+    ],
+    "S08": [
+      {
+        "title": "why 从句与主句时态配合",
+        "context": [
+          {
+            "type": "p",
+            "text": "回答起晚、错过公交，是原因，所以 why；why you were late 是陈述语序。原问句 Why were you late? 嵌入宾语从句后不保留倒装。"
+          },
+          {
+            "type": "p",
+            "text": "主句过去叙事时，从句常相应使用过去形式，但客观规律和仍成立的事实存在例外；礼貌 could 问句又不能机械当成过去。"
+          },
+          {
+            "type": "p",
+            "text": "late 晚的/迟到，lately 最近，later 后来/较晚，latter 两者中的后者，latest 最新的。易混词须整组看意义和位置。"
+          }
+        ]
+      }
+    ],
+    "S09": [
+      {
+        "title": "before、after、while、as soon as 与 not … until",
+        "context": [
+          {
+            "type": "p",
+            "text": "before 在……之前；after 在……之后；while 在……期间/同时；as soon as 一……就……；not … until 直到……才……。本题恶化之前沟通是建议，before 最贴合预防目的。"
+          },
+          {
+            "type": "p",
+            "text": "同样一句有时可选 when 或 after，只是时间关系不同；若上下文不能限定先后，不宜作为严格唯一单选。"
+          },
+          {
+            "type": "p",
+            "text": "communicate with sb 与某人交流；communication 名词。become worse 比较级，bad-worse-worst，不写 more worse。"
+          }
+        ]
+      }
+    ],
+    "S10": [
+      {
+        "title": "if 条件从句与虚拟条件的起点",
+        "context": [
+          {
+            "type": "p",
+            "text": "真实将来条件：If the weather stays fine tomorrow, we will have a picnic. 条件从句通常用一般现在形式，不因 tomorrow 就用 will。"
+          },
+          {
+            "type": "p",
+            "text": "宾语从句的 if 表是否：I don’t know if it will be fine tomorrow. 此时 will 可以出现。第8课再区分 If I were you 的非真实假设。"
+          },
+          {
+            "type": "p",
+            "text": "stay fine 是系动词+形容词；stay at home 是停留地点。fine 可表晴朗的/好的，也可作名词“罚款”，具体意义取决于结构。"
+          }
+        ]
+      }
+    ],
+    "C01": [
+      {
+        "title": "本篇完形：整组词汇、词形与搭配",
+        "context": [
+          {
+            "type": "p",
+            "text": "职业语境可按“迎新—月度生日—年会—表彰—关系与效率”归纳。the past year’s success 需名词；Speeches are made 需被动。词族 employ/employer/employee/employment 与 succeed/success/successful/successfully 要同时过一遍。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "词/短语",
+                "含义",
+                "成组记忆"
+              ],
+              [
+                "celebrate",
+                "庆祝",
+                "celebration 名词"
+              ],
+              [
+                "employee / employer",
+                "雇员/雇主",
+                "雇用 employ；employment 就业"
+              ],
+              [
+                "annual / monthly",
+                "每年的/每月的",
+                "yearly；month→monthly"
+              ],
+              [
+                "succeed",
+                "成功（动词）",
+                "succeed in doing"
+              ],
+              [
+                "success / successful",
+                "成功（名词）/成功的",
+                "successfully 副词"
+              ],
+              [
+                "efficiency",
+                "效率",
+                "efficient；efficiently"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "R01": [
+      {
+        "title": "本篇阅读：词汇、易混词与阅读方法",
+        "context": [
+          {
+            "type": "p",
+            "text": "叙事反转：起初认定邻居窗脏→清洁自己窗→发现偏见。心灵窗户是比喻，不是只讨论卫生。R04 中 B 与 had never met 明确矛盾；A 的 probably 只表示弱推测，不能讲成作者必然喜欢咖啡。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "词/短语",
+                "含义",
+                "辨析与搭配"
+              ],
+              [
+                "sew",
+                "缝纫",
+                "sew-sewed-sewn/sewed"
+              ],
+              [
+                "visible",
+                "看得见的",
+                "invisible 看不见的"
+              ],
+              [
+                "criticize",
+                "批评",
+                "criticism 名词"
+              ],
+              [
+                "judge",
+                "判断/法官",
+                "judgment/judgement"
+              ],
+              [
+                "shortcoming",
+                "缺点",
+                "short 不等于整个词义"
+              ],
+              [
+                "clear",
+                "清楚的/清理",
+                "clearly 副词"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "S01": [
+      {
+        "title": "反意疑问句全景与 Let’s/Let us",
+        "context": [
+          {
+            "type": "p",
+            "text": "普通模式：前肯后否、前否后肯，助动词与时态相配：He works, doesn’t he? / They left, didn’t they?。be 动词、情态词通常沿用：She is here, isn’t she?。"
+          },
+          {
+            "type": "p",
+            "text": "Let’s 常建议包括说话者在内的共同行动，用 shall we?；Let us 若表示请求对方允许“我们”做事，常用 will you?。要看是否包含听者，不只看 let。"
+          },
+          {
+            "type": "p",
+            "text": "普通祈使句附加问句常用 will you?；其他用法有语气差异，课堂以本题明确语境为准。"
+          }
+        ]
+      }
+    ],
+    "S02": [
+      {
+        "title": "感叹句：What 与 How 完整结构",
+        "context": [
+          {
+            "type": "p",
+            "text": "What + a/an + 形容词 + 单数可数名词 + 主语+谓语！What + 形容词 + 复数/不可数名词 + 主语+谓语！How + 形容词/副词 + 主语+谓语！"
+          },
+          {
+            "type": "p",
+            "text": "What a wonderful trip he had! / What useful advice it is! / How fast he runs! 中心是名词短语还是形容词、副词，是主要判断线索。news/advice/progress 常为不可数，不能任意加 a。"
+          },
+          {
+            "type": "p",
+            "text": "How beautiful a girl she is! 也是可用的较正式结构，语序不同；不能把它直接套进已有 a wonderful trip 的题干。"
+          }
+        ]
+      }
+    ],
+    "S03": [
+      {
+        "title": "否定意义词与疑问句极性",
+        "context": [
+          {
+            "type": "p",
+            "text": "never、hardly、seldom、rarely、few、little（表示少到几乎没有时）常使陈述部分具有否定意义，因此反意问句用肯定：He never came, did he?。"
+          },
+          {
+            "type": "p",
+            "text": "a few/a little 表有一些，通常是肯定意义；unhappy、dislike 等构词否定不自动把整句视为否定句：He is unhappy, isn’t he?。"
+          },
+          {
+            "type": "p",
+            "text": "本题 never told 是一般过去时否定意义，用 did you；不是 hadn’t you，因为主句没有 had told。"
+          }
+        ]
+      }
+    ],
+    "S04": [
+      {
+        "title": "祈使句与 and/or 结构",
+        "context": [
+          {
+            "type": "p",
+            "text": "肯定祈使句用原形：Wash your hands. 否定通常 Don’t + 原形：Don’t run. Let’s not do 表建议不要做。祈使句主语 you 通常省略。"
+          },
+          {
+            "type": "p",
+            "text": "Think it over, and you will find a way. 前项动作带来结果；Hurry up, or you will be late. or 表否则。不是所有 and 都只翻译“和”。"
+          },
+          {
+            "type": "p",
+            "text": "wash-washes-washed；watch-watches-watched。wash 洗，watch 看/手表，wish 希望，三者字形相近须分清。"
+          }
+        ]
+      }
+    ],
+    "S05": [
+      {
+        "title": "主谓一致：就近、语法主语与插入短语",
+        "context": [
+          {
+            "type": "p",
+            "text": "not only … but also / either … or / neither … nor 连接主语时，常按就近原则处理。Not only I but also Johnny and Rose are … 最近主语是两人。"
+          },
+          {
+            "type": "p",
+            "text": "A with/together with/as well as B 作主语时，谓语通常跟 A：The teacher with two students is here. 不把 with 等同于 and。"
+          },
+          {
+            "type": "p",
+            "text": "a number of + 复数名词通常配复数；the number of + 复数名词通常配单数；each/every + 单数名词通常配单数；all the money 单数意义，all the students 复数。"
+          }
+        ]
+      }
+    ],
+    "S06": [
+      {
+        "title": "并列主语、整体数量与集合名词",
+        "context": [
+          {
+            "type": "p",
+            "text": "Jim and I 表两人，过去正在用 were sitting。and 连接若实际表示一个整体（如一道菜、一个不可分概念），可能用单数，不能机械“有 and 就一定复数”。"
+          },
+          {
+            "type": "p",
+            "text": "时间/距离/钱数作整体常用单数：Ten minutes is enough. 集合名词 family/team 可按整体或成员取不同一致形式，英美及语境有差异；不宜无条件只判单数。"
+          },
+          {
+            "type": "p",
+            "text": "people、police 常按复数；news、physics 等常按单数。形态上的 s 与语法上的复数不是一回事。"
+          }
+        ]
+      }
+    ],
+    "S07": [
+      {
+        "title": "虚拟条件句：现在、过去与将来假设",
+        "context": [
+          {
+            "type": "p",
+            "text": "If I were you 是与现实不同的现在假设，主句 would + 原形。were 是这类正式考试结构的常用形式；并非现实上真的可能“我是你”。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "假设时间",
+                "if 从句常见形式",
+                "主句常见形式"
+              ],
+              [
+                "与现在事实不同",
+                "过去式；be 常用 were",
+                "would/could/might + do"
+              ],
+              [
+                "与过去事实不同",
+                "had + done",
+                "would/could/might + have done"
+              ],
+              [
+                "对将来较不可能的假设",
+                "过去式 / were to do / should do",
+                "would/could/might + do"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "S08": [
+      {
+        "title": "部分倒装：只提前助动词",
+        "context": [
+          {
+            "type": "p",
+            "text": "Not until … 放句首，主句部分倒装：Not until yesterday did he know the truth. 主句原来没有助动词时借 do/does/did，后面实义动词改原形。until 内部从句不因该结构一并倒装。"
+          },
+          {
+            "type": "p",
+            "text": "Never / Seldom / Hardly 等否定或限制性副词置于句首也常触发部分倒装：Never have I seen it. Not only he but also I 是连接主语的结构，不因句首 Not only 就机械倒装。"
+          },
+          {
+            "type": "p",
+            "text": "常见备查：Only then did I understand. / Only when he came did I leave. “only+主语”不触发这种倒装：Only he knows。"
+          }
+        ]
+      }
+    ],
+    "S09": [
+      {
+        "title": "交际用语：赞美、感谢、道歉与邀请",
+        "context": [
+          {
+            "type": "p",
+            "text": "赞美→Thank you. 感谢→You’re welcome / My pleasure. 道歉→That’s all right / Never mind（依事情程度与语气）。邀请或提议→I’d love to / Good idea；不能按同一句“没关系”到处套用。"
+          },
+          {
+            "type": "p",
+            "text": "Would you like some …? 接受 Yes, please；婉拒 No, thank you。Shall we …? 常用 Good idea。I’d love to, but … 先表达意愿再说明无法接受。"
+          },
+          {
+            "type": "p",
+            "text": "易混：pleasant（令人愉快的）、pleased（感到高兴的）、pleasure（愉快/乐事，名词）、please（请/使高兴）。"
+          }
+        ]
+      }
+    ],
+    "S10": [
+      {
+        "title": "表达同情与语言功能判断",
+        "context": [
+          {
+            "type": "p",
+            "text": "听到不幸：I’m sorry to hear that. 听到成功：Congratulations! / Well done! 对方将比赛或考试：Good luck! 对方要去享受活动：Have fun! 判断发生了什么、正在表达哪一种交际功能。"
+          },
+          {
+            "type": "p",
+            "text": "对方已经受伤，Be careful 更像提醒以后；没有依据不要断言 Nothing serious。考试里选择最贴合情境的回应，不代表其他话语在所有现实对话中都不可能出现。"
+          },
+          {
+            "type": "p",
+            "text": "hurt-hurt-hurt；fall-fell-fallen。fell 是 fall 的过去式，feel-felt-felt 是“感觉”；leg 腿、let 让、left 左边/leave 的过去式，读写须区分。"
+          }
+        ]
+      }
+    ],
+    "C01": [
+      {
+        "title": "本篇完形：整组词汇、词形与搭配",
+        "context": [
+          {
+            "type": "p",
+            "text": "按“问题—研究—设计—展示—获奖—生产”梳理发明过程。reduce by 50% 指减少的幅度；reduce to 50% 指减到的比例，不可混淆。share with、be proud of、catch the attention of、come up with 带读并回扣故事。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "词/短语",
+                "含义",
+                "成组记忆"
+              ],
+              [
+                "invent",
+                "发明",
+                "invention 发明物；inventor 发明者"
+              ],
+              [
+                "create",
+                "创造",
+                "creative；creativity"
+              ],
+              [
+                "research",
+                "研究",
+                "do research，常为不可数"
+              ],
+              [
+                "reduce",
+                "减少",
+                "reduce … by 50% 减少50%"
+              ],
+              [
+                "proud",
+                "自豪的",
+                "be proud of；pride 名词"
+              ],
+              [
+                "attention",
+                "注意",
+                "catch/pay attention to"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "R01": [
+      {
+        "title": "本篇阅读：词汇、易混词与阅读方法",
+        "context": [
+          {
+            "type": "p",
+            "text": "按家庭成员列信息表：father→最少垃圾，mother→厨余和剩饭菜，sister→双面用纸，writer→少吃零食喝饮料。猜 leftovers 先看 after dinner 与处理对象；不能把“全部厨余”当其精确同义词。最后比较 true 选项时，检查动作是否被移给错误的人。"
+          },
+          {
+            "type": "table",
+            "rows": [
+              [
+                "词/短语",
+                "含义",
+                "辨析与搭配"
+              ],
+              [
+                "trash / waste / litter",
+                "垃圾/废弃物",
+                "litter 常指乱扔的垃圾"
+              ],
+              [
+                "challenge",
+                "挑战",
+                "challenge oneself"
+              ],
+              [
+                "leftovers",
+                "剩饭菜",
+                "left + over，常用复数"
+              ],
+              [
+                "produce",
+                "产生/生产",
+                "production 名词"
+              ],
+              [
+                "both sides",
+                "两面",
+                "both sides of the paper"
+              ],
+              [
+                "realize",
+                "意识到/实现",
+                "辨别宾语和语境"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
