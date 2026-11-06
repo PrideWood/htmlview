@@ -29,7 +29,22 @@ test('内置原图及副本保留可读取的静态资源地址，不进入上�
 test('选择题必须为一个有效字母，重复题号不通过',()=>{assert.throws(()=>validateLesson({...lesson,questions:[{...lesson.questions[0],answer:'A或B'}]}),/答案必须/);assert.throws(()=>validateLesson({...lesson,questions:[lesson.questions[0],lesson.questions[0]]}),/重复/);});
 test('模型的不确定答案不计分且不自动完成老师校对',()=>{const d=validateLesson({...lesson,questions:[{...lesson.questions[0],reviewStatus:'needs_review',answer:''}]},{fromModel:true});assert.equal(d.questions[0].invalid,true);assert.deepEqual(d.questions[0].accepted,[]);assert.equal(d.questions[0].reviewed,false);});
 test('支持代码围栏JSON，不接受损坏的JSON',()=>{assert.equal(parseModelJSON('```json\n{"title":"a"}\n```').title,'a');assert.throws(()=>parseModelJSON('{"title":'),/完整有效/);});
-test('原51份1570项全部保留，内置题库不可直接覆盖',async()=>{const r=await call('/lessons');assert.equal(r.status,200);const built=r.data.lessons.filter(d=>d.sourceType==='builtin');assert.equal(built.length,179);assert.equal(built.reduce((s,d)=>s+d.count,0),2811);const original=built.filter(d=>!d.id.startsWith('builtin-danzhao2025-')&&!d.id.startsWith('builtin-selected-papers-')&&d.id!=='builtin-25-class-english-monthly-exam');assert.equal(original.length,51);assert.equal(original.reduce((s,d)=>s+d.count,0),1570);const update=await call('/lessons/'+built[0].id,'PUT',{version:1,lesson});assert.equal(update.status,400);});
+test('原51份1570项全部保留，内置题库不可直接覆盖',async()=>{const r=await call('/lessons');assert.equal(r.status,200);const built=r.data.lessons.filter(d=>d.sourceType==='builtin');assert.equal(built.length,180);assert.equal(built.reduce((s,d)=>s+d.count,0),2831);const original=built.filter(d=>!d.id.startsWith('builtin-danzhao2025-')&&!d.id.startsWith('builtin-selected-papers-')&&d.id!=='builtin-25-class-english-monthly-exam'&&d.id!=='builtin-nonfinite-supplement');assert.equal(original.length,51);assert.equal(original.reduce((s,d)=>s+d.count,0),1570);const update=await call('/lessons/'+built[0].id,'PUT',{version:1,lesson});assert.equal(update.status,400);});
+test('非谓语动词同步练习可从内置题库读取，歧义题不计分',async()=>{
+ const response=await call('/lessons/builtin-nonfinite-supplement');
+ assert.equal(response.status,200);
+ const {topic,questions}=response.data.lesson;
+ assert.equal(topic,'13 非谓语动词');
+ assert.deepEqual(questions.map(q=>q.label),Array.from({length:20},(_,i)=>String(i+1)));
+ assert.deepEqual(questions.filter(q=>q.invalid).map(q=>q.label),['11','20']);
+ for(const q of questions){
+  assert.ok(q.reason.trim(),q.label);
+  assert.equal(q.options.length,4,q.label);
+  assert.deepEqual(q.accepted,q.invalid?[]:[q.answer],q.label);
+ }
+ assert.match(questions[18].stem,/trouble ____ my bike/);
+ assert.match(questions[19].stem,/prefers ____ .*rather than ____ /);
+});
 test('错误文件类型及跨站写入被拒绝',async()=>{const x=await call('/imports','POST',{images:[{dataUrl:'data:text/html;base64,PHNjcmlwdD4='}]});assert.equal(x.status,400);const r=await fetch(base+'/api/import-json',{method:'POST',headers:{Origin:'https://evil.example','Content-Type':'application/json'},body:JSON.stringify({lesson})});assert.equal(r.status,403);});
 test('上传→真实协议请求到本地mock→校对→保存课堂→重新读取',async()=>{
  const png='iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aZ0kAAAAASUVORK5CYII=';

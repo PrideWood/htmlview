@@ -1,0 +1,779 @@
+{
+  "id": "builtin-nonfinite-supplement",
+  "title": "非谓语动词同步练习",
+  "topic": "13 非谓语动词",
+  "source": "《陕西省职教高考总复习指导与同步练：英语》非谓语动词同步练（用户提供的两张照片）",
+  "sourceType": "builtin",
+  "status": "ready",
+  "version": 1,
+  "createdAt": "2026-11-06T00:00:00.000Z",
+  "updatedAt": "2026-11-06T00:00:00.000Z",
+  "home": "/",
+  "notes": [
+    "保留同步练原题号 1—20。第一张照片上缘的残缺选项属于上一节，完整题目已收录于精选真题。",
+    "第 11、20 题保留照片标注的参考答案并说明另一种可成立的写法，暂不计分。",
+    "第 19 题删去空格后的 with，四个选项保持原样。"
+  ],
+  "reference": [],
+  "images": [],
+  "documents": [],
+  "ocrText": "",
+  "questions": [
+    {
+      "label": "1",
+      "stem": "Some people think it is a good thing ____ blood for it could save somebody's life.",
+      "options": [
+        {
+          "key": "A",
+          "text": "donating"
+        },
+        {
+          "key": "B",
+          "text": "donate"
+        },
+        {
+          "key": "C",
+          "text": "donated"
+        },
+        {
+          "key": "D",
+          "text": "to donate"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "D",
+      "accepted": [
+        "D"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "think 后接宾语从句。从句里 it 是形式主语，to donate blood 是真正的主语，a good thing 作表语。可还原成 To donate blood is a good thing。后半句 for 表示原因，说明献血可能挽救生命。注意区分动名词直接作主语的 Donating blood is a good thing 和本题所考的 It is a good thing to do sth。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "2",
+      "stem": "The boy walked into the classroom, ____ a book in his hand.",
+      "options": [
+        {
+          "key": "A",
+          "text": "holding"
+        },
+        {
+          "key": "B",
+          "text": "held"
+        },
+        {
+          "key": "C",
+          "text": "holds"
+        },
+        {
+          "key": "D",
+          "text": "to hold"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "walked 已经是谓语。男孩走进教室时手里拿着一本书，拿书与走进同时发生，且 the boy 是 hold 的执行者，所以用现在分词 holding 作伴随状语。可改写成 The boy walked into the classroom and was holding a book in his hand。held 作过去分词无法表达男孩主动拿书，to hold 则容易把拿书理解成走进教室的目的。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "3",
+      "stem": "It is no use ____ your past mistakes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "regretting"
+        },
+        {
+          "key": "B",
+          "text": "regret"
+        },
+        {
+          "key": "C",
+          "text": "to regret"
+        },
+        {
+          "key": "D",
+          "text": "regretted"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "本题考查 It is no use doing sth，表示做某事没有用。it 占据主语位置，regretting your past mistakes 表示实际被评价的行为。regret 在这里直接接名词短语 your past mistakes，表示为过去的错误后悔。按本题固定结构填 regretting。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "4",
+      "stem": "The old couple would like ____ children in the poor area rather than live an easy life.",
+      "options": [
+        {
+          "key": "A",
+          "text": "teach"
+        },
+        {
+          "key": "B",
+          "text": "to teach"
+        },
+        {
+          "key": "C",
+          "text": "teaching"
+        },
+        {
+          "key": "D",
+          "text": "taught"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "would like to do 表示想做某事，to teach children 作 would like 的补足成分。rather than live an easy life 引出对比，live 是原形，与前面的 teach 平行。句意是这对老夫妇宁愿去教贫困地区的孩子，也不愿只过安逸的生活。注意 would like 后直接接动词时，应保留 to。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "5",
+      "stem": "The cruel boss made those workers ____ fourteen hours every day.",
+      "options": [
+        {
+          "key": "A",
+          "text": "working"
+        },
+        {
+          "key": "B",
+          "text": "to work"
+        },
+        {
+          "key": "C",
+          "text": "worked"
+        },
+        {
+          "key": "D",
+          "text": "work"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "D",
+      "accepted": [
+        "D"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "主动结构 make + 宾语 + 动词原形表示让或迫使某人做某事。those workers 是 made 的宾语，也是 work 的执行者。空格填 work 作宾语补足语，过去时间已经由 made 表达。改成被动时要恢复 to，例如 Those workers were made to work fourteen hours every day。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "6",
+      "stem": "Please remember ____ the door when you leave the lab.",
+      "options": [
+        {
+          "key": "A",
+          "text": "locked"
+        },
+        {
+          "key": "B",
+          "text": "to lock"
+        },
+        {
+          "key": "C",
+          "text": "locking"
+        },
+        {
+          "key": "D",
+          "text": "locks"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "when you leave the lab 把锁门放在离开实验室时，这是说话时尚待执行的动作。remember to do 表示记得去做，故填 to lock。remember doing 表示记得曾做过某事，例如 I remember locking the door 表示我记得自己锁过门。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "7",
+      "stem": "It was midnight when he arrived. He couldn't find anything ____.",
+      "options": [
+        {
+          "key": "A",
+          "text": "eat"
+        },
+        {
+          "key": "B",
+          "text": "to eat"
+        },
+        {
+          "key": "C",
+          "text": "eating"
+        },
+        {
+          "key": "D",
+          "text": "eats"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "to eat 放在不定代词 anything 后作定语，anything to eat 表示任何可吃的东西。逻辑上是 he 吃某样东西，anything 对应 eat 的宾语，所以 eat 后无需再加 it。eating 作后置修饰语通常描述名词所指的人或物正在吃，与这里寻找食物的意思不同。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "8",
+      "stem": "She listened to my story, ____ gently.",
+      "options": [
+        {
+          "key": "A",
+          "text": "smile"
+        },
+        {
+          "key": "B",
+          "text": "to smile"
+        },
+        {
+          "key": "C",
+          "text": "smiling"
+        },
+        {
+          "key": "D",
+          "text": "smiled"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "C",
+      "accepted": [
+        "C"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "listened 是全句谓语。她一边听故事一边微笑，She 是 smile 的执行者，用现在分词 smiling 作伴随状语，gently 修饰微笑的方式。若用过去式 smiled，要加连词组成并列谓语，例如 She listened to my story and smiled gently。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "9",
+      "stem": "How about ____ a walk down the garden?",
+      "options": [
+        {
+          "key": "A",
+          "text": "to take"
+        },
+        {
+          "key": "B",
+          "text": "take"
+        },
+        {
+          "key": "C",
+          "text": "taking"
+        },
+        {
+          "key": "D",
+          "text": "to be taken"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "C",
+      "accepted": [
+        "C"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "How about doing sth? 用来提建议。about 是介词，take a walk 这一动作放在介词后要写成 taking a walk，表示去散步怎么样。take a walk 本身是固定搭配。若用动词原形提出同一建议，可以换用 Shall we take a walk?。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "10",
+      "stem": "Bamboo is used ____ houses in some places.",
+      "options": [
+        {
+          "key": "A",
+          "text": "to build"
+        },
+        {
+          "key": "B",
+          "text": "to building"
+        },
+        {
+          "key": "C",
+          "text": "to be built"
+        },
+        {
+          "key": "D",
+          "text": "being built"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "Bamboo is used 表示竹子被使用，to build houses 是目的状语，说明竹子用来盖房子。动作执行者是使用竹子的人，houses 是 build 的宾语，所以用主动不定式 to build。be used to doing 则表示习惯于做某事，其中 to 是介词，例如 Builders are used to working with bamboo。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "11",
+      "stem": "It is one of the important problems ____ tomorrow.",
+      "options": [
+        {
+          "key": "A",
+          "text": "to solve"
+        },
+        {
+          "key": "B",
+          "text": "to be solved"
+        },
+        {
+          "key": "C",
+          "text": "solved"
+        },
+        {
+          "key": "D",
+          "text": "solving"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [],
+      "invalid": true,
+      "ambiguous": false,
+      "reviewed": false,
+      "reviewStatus": "needs_review",
+      "examNote": "原题存在两种可成立的写法，本题暂不计分。",
+      "reason": "参考选 B。to be solved 是不定式的被动形式，修饰 problems，强调这些问题将于明天得到解决，执行者未指明。A 的 problems to solve tomorrow 也可以表示明天需要解决的问题，solve 的宾语由 problems 提供，执行者由语境补足。两种表达都能成立。C 的 solved 更适合描述已经解决或处于解决状态的问题，D 的 solving 会让 problems 成为执行解决动作的一方。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "12",
+      "stem": "The Greens decided ____ for a walk in the park.",
+      "options": [
+        {
+          "key": "A",
+          "text": "go"
+        },
+        {
+          "key": "B",
+          "text": "goes"
+        },
+        {
+          "key": "C",
+          "text": "going"
+        },
+        {
+          "key": "D",
+          "text": "to go"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "D",
+      "accepted": [
+        "D"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "decide to do sth 表示决定做某事，to go 是 decided 后的不定式。go for a walk 表示去散步，in the park 说明地点。decided 已承担谓语的过去时，goes 不能直接跟在后面充当另一谓语。也可用 decide on doing，使用 going 时须另有介词 on。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "13",
+      "stem": "Don't leave the water ____ while you brush your teeth.",
+      "options": [
+        {
+          "key": "A",
+          "text": "run"
+        },
+        {
+          "key": "B",
+          "text": "running"
+        },
+        {
+          "key": "C",
+          "text": "being run"
+        },
+        {
+          "key": "D",
+          "text": "to run"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "按提醒节约用水的常见说法选 running。leave + 宾语 + 现在分词表示让某物持续处于某个状态，the water running 指水龙头的水一直流着。while 说明持续状态与刷牙同时。being run 是被动进行形式，和水自己流动的意思不合。to run 更容易读成放任它去流，本题强调刷牙期间持续流水的状态。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "14",
+      "stem": "Don't forget ____ your homework after school, boys.",
+      "options": [
+        {
+          "key": "A",
+          "text": "finishing"
+        },
+        {
+          "key": "B",
+          "text": "to finish"
+        },
+        {
+          "key": "C",
+          "text": "finish"
+        },
+        {
+          "key": "D",
+          "text": "finished"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "这是提醒孩子们放学后要完成作业。after school 表示未来执行动作的时间，因此用 forget to do，表示忘了去做。forget doing 则指忘记曾经做过某事，forget finishing your homework 会把完成作业当作已经发生的经历。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "15",
+      "stem": "There is a river ____ around our school.",
+      "options": [
+        {
+          "key": "A",
+          "text": "to run"
+        },
+        {
+          "key": "B",
+          "text": "run"
+        },
+        {
+          "key": "C",
+          "text": "running"
+        },
+        {
+          "key": "D",
+          "text": "to be running"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "C",
+      "accepted": [
+        "C"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "There is a river 已构成存在句，空格与 around our school 一起说明河流的位置和走向。running 是现在分词作后置定语，相当于 that runs around our school。river 是 run 的逻辑主语，run 在这里表示延伸或流经。不定式 to run 容易带出将来或用途含义，与现有河道的描述不合。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "16",
+      "stem": "The movie is worth ____.",
+      "options": [
+        {
+          "key": "A",
+          "text": "to see"
+        },
+        {
+          "key": "B",
+          "text": "seeing"
+        },
+        {
+          "key": "C",
+          "text": "seen"
+        },
+        {
+          "key": "D",
+          "text": "see"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "be worth doing 表示值得做，固定搭配要求 seeing。电影是观看的对象，seeing 形式上主动，语义上表示这部电影值得被看。可用 The movie is worth seeing 表达评价。若换用 worthy，可说 The movie is worthy of being seen，两种句型的补足成分不同。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "17",
+      "stem": "____ her new bike made her so sad.",
+      "options": [
+        {
+          "key": "A",
+          "text": "To lose"
+        },
+        {
+          "key": "B",
+          "text": "Lost"
+        },
+        {
+          "key": "C",
+          "text": "Losing"
+        },
+        {
+          "key": "D",
+          "text": "She lost"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "C",
+      "accepted": [
+        "C"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "Losing her new bike 是动名词短语，整体作 made 的主语。题意回顾丢失新自行车这件事给她带来的情绪，动名词最贴合这一叙述。To lose 可以在别的句子里作主语，本题以 Losing 表达已发生的具体经历更自然。She lost 会引入独立谓语，若想用从句作主语，可写 That she lost her new bike made her so sad。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "18",
+      "stem": "Mary never regretted ____ part in the charity activity yesterday.",
+      "options": [
+        {
+          "key": "A",
+          "text": "take"
+        },
+        {
+          "key": "B",
+          "text": "to take"
+        },
+        {
+          "key": "C",
+          "text": "taking"
+        },
+        {
+          "key": "D",
+          "text": "took"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "C",
+      "accepted": [
+        "C"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "yesterday 说明参加慈善活动已经发生。regret doing sth 表示后悔做过某事，因此用 taking，take part in 表示参加。regret to do 常用于对即将说出的话表示遗憾，例如 regret to tell you。这里 Mary 回顾的是自己参加活动的经历。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "19",
+      "stem": "Tom, I'm having trouble ____ my bike. Could you help me?",
+      "options": [
+        {
+          "key": "A",
+          "text": "fix"
+        },
+        {
+          "key": "B",
+          "text": "fixing"
+        },
+        {
+          "key": "C",
+          "text": "to fix"
+        },
+        {
+          "key": "D",
+          "text": "fixed"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "have trouble (in) doing sth 表示做某事有困难，in 可以省略，动词仍须用 fixing。fix 是及物动词，my bike 直接作它的宾语。另一个搭配是 have trouble with + 名词，表示某物出了问题。例如 I'm having trouble with my bike，表示自行车出了问题。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "20",
+      "stem": "He prefers ____ at home rather than ____ to the cinema.",
+      "options": [
+        {
+          "key": "A",
+          "text": "stay; to go"
+        },
+        {
+          "key": "B",
+          "text": "to stay; to go"
+        },
+        {
+          "key": "C",
+          "text": "stay; going"
+        },
+        {
+          "key": "D",
+          "text": "to stay; go"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "D",
+      "accepted": [],
+      "invalid": true,
+      "ambiguous": false,
+      "reviewed": false,
+      "reviewStatus": "needs_review",
+      "examNote": "原题存在两种可成立的写法，本题暂不计分。",
+      "reason": "常见考试搭配是 prefer to do A rather than do B，因此参考选 D。第一空用 to stay，第二空用 go。也可以将两个带 to 的不定式写成平行结构，因此 B 有成立的读法。A 和 C 第一空都把 stay 原形直接放在 prefers 后，不符合 prefer 的动词搭配。另一种表达是 prefer staying at home to going to the cinema，其中 to 是介词。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    }
+  ]
+}

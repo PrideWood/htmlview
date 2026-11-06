@@ -3,7 +3,7 @@ import {readAllBuiltinSources,auditQuestionBank} from '../scripts/audit-question
 import {repairQuestionBankLesson,restoreQuestionBankLessonBeforeRepairs,questionTextRepairLedger} from '../lib/question-text-repairs.mjs';
 import {cleanLessonText} from '../public/content-format.js';
 const docs=readAllBuiltinSources(),q=(id,label)=>docs.find(d=>d.id===id).questions.find(q=>q.label===String(label));
-test('全部179份2811项均通过横线、篇章空号和题干残字核查',()=>{const report=auditQuestionBank(docs);assert.equal(report.lessons,179);assert.equal(report.questions,2811);assert.equal(report.reviewed.length,2811);assert.deepEqual(report.issues,[]);});
+test('全部180份2831项均通过横线、篇章空号和题干残字核查',()=>{const report=auditQuestionBank(docs);assert.equal(report.lessons,180);assert.equal(report.questions,2831);assert.equal(report.reviewed.length,2831);assert.deepEqual(report.issues,[]);});
 test('双空题补齐两个空，遗漏主语被恢复，词义题保留完整原句并补清问题',()=>{
  for(const [topic,n] of [['01',35],['01',42],['01',47],['01',48],['09',1],['09',2],['12',38],['12',39],['13',11]]){const item=q('builtin-danzhao2025-grammar-'+topic,n);assert.equal((item.stem.match(/_+/g)||[]).length,2,topic+'/'+n);}
  assert.match(q('builtin-danzhao2025-grammar-09',15).stem,/^I ____ this bike/);

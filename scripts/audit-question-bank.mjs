@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import {fileURLToPath} from 'node:url';
 import {hydrateMaterials} from '../public/lesson-materials.js';
 import {repairQuestionBankLesson,questionTextRepairLedger} from '../lib/question-text-repairs.mjs';
-export function readAllBuiltinSources(){return ['lessons','english-monthly-exam','selected-papers'].flatMap(name=>{const value=JSON.parse(fs.readFileSync(new URL('../seed/'+name+'.json',import.meta.url),'utf8'));return Array.isArray(value)?value:[value];});}
+export function readAllBuiltinSources(){return ['lessons','english-monthly-exam','selected-papers','nonfinite-supplement'].flatMap(name=>{const value=JSON.parse(fs.readFileSync(new URL('../seed/'+name+'.json',import.meta.url),'utf8'));return Array.isArray(value)?value:[value];});}
 export function auditQuestionBank(docs){
  const issues=[],reviewed=[];let questions=0;
  const ids=new Set();

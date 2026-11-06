@@ -13,11 +13,11 @@ const teaching=JSON.parse(fs.readFileSync(new URL('../seed/eight-course-teaching
 
 test('课堂资料只列八课，原题库及用户可演示资料有各自入口',()=>{
  const originals=[...builtins.values()].filter(d=>d.sourceType==='builtin');
- assert.equal(originals.length,179);assert.equal(originals.reduce((s,d)=>s+d.questions.length,0),2811);
+ assert.equal(originals.length,180);assert.equal(originals.reduce((s,d)=>s+d.questions.length,0),2831);
  const custom={id:'custom-ready',title:'自编资料',topic:'自编',sourceType:'copy',status:'ready',count:1};
  const list=[...builtins.values()].map(metadata).concat(custom);
  assert.deepEqual(sortLibrary(filterLibrary(list,{filter:'ready'}),'title').map(d=>d.id),courses.map(d=>d.id));
- assert.equal(filterLibrary(list,{filter:'builtin'}).length,179);
+ assert.equal(filterLibrary(list,{filter:'builtin'}).length,180);
  assert.deepEqual(filterLibrary(list,{filter:'custom'}).map(d=>d.id),[custom.id]);
  assert.equal(filterLibrary(list,{filter:'ready',search:'非谓语'}).length,1);
  assert.equal(filterLibrary([{...metadata(courses[0]),status:'trashed'}],{filter:'ready'}).length,0);

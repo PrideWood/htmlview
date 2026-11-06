@@ -1,6 +1,6 @@
 {
-  "lessons": 179,
-  "questions": 2811,
+  "lessons": 180,
+  "questions": 2831,
   "issues": [],
   "reviewed": [
     {
@@ -14057,6 +14057,106 @@
       "lessonId": "builtin-selected-papers-writing-2022",
       "label": "1",
       "classification": "无需填空横线的非选择题"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "1",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "2",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "3",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "4",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "5",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "6",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "7",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "8",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "9",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "10",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "11",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "12",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "13",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "14",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "15",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "16",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "17",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "18",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "19",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-nonfinite-supplement",
+      "label": "20",
+      "classification": "题干含可显示填空横线"
     }
   ],
   "unrecoverable": [
