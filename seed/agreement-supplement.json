@@ -1,0 +1,592 @@
+{
+  "id": "builtin-agreement-supplement",
+  "title": "主谓一致同步练习",
+  "topic": "15 主谓一致",
+  "source": "《陕西省职教高考总复习指导与同步练：英语》专题13主谓一致同步练（用户提供的两张照片）",
+  "sourceType": "builtin",
+  "status": "ready",
+  "version": 1,
+  "createdAt": "2026-11-24T00:00:00.000Z",
+  "updatedAt": "2026-11-24T00:00:00.000Z",
+  "home": "/",
+  "notes": [
+    "同步练原题号1—15。第一张照片为教材第215页，第二张为续页。",
+    "页首2022年真题已收录于“精选真题 · 13 主谓一致”，对应资料 builtin-selected-papers-agreement 的第1题。"
+  ],
+  "reference": [],
+  "images": [],
+  "documents": [],
+  "ocrText": "",
+  "questions": [
+    {
+      "label": "1",
+      "stem": "I ____ like computer games.",
+      "options": [
+        {
+          "key": "A",
+          "text": "don't"
+        },
+        {
+          "key": "B",
+          "text": "not"
+        },
+        {
+          "key": "C",
+          "text": "am not"
+        },
+        {
+          "key": "D",
+          "text": "doesn't"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "主语 I 在一般现在时中与助动词 do 搭配。实义动词 like 的否定形式为 don't like，故选 A。doesn't 用于第三人称单数主语，am not 后不能直接接这里的实义动词原形 like，not 单独也不能构成这个否定谓语。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "2",
+      "stem": "Doctor Wang, together with his family members, ____ visit Beijing this summer.",
+      "options": [
+        {
+          "key": "A",
+          "text": "is going to"
+        },
+        {
+          "key": "B",
+          "text": "are going to"
+        },
+        {
+          "key": "C",
+          "text": "was going to"
+        },
+        {
+          "key": "D",
+          "text": "were going to"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "主语的中心是单数 Doctor Wang。together with his family members 是附加成分，表示与家人一起，不把主语改成复数。this summer 在本题表示计划中的暑期行程，用 is going to visit，选 A。若写成 Doctor Wang and his family members，才需按并列主语使用 are。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "3",
+      "stem": "____ he ____ playing basketball?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Do; likes"
+        },
+        {
+          "key": "B",
+          "text": "Does; like"
+        },
+        {
+          "key": "C",
+          "text": "Do; like"
+        },
+        {
+          "key": "D",
+          "text": "Does; likes"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "一般现在时的实义动词疑问句用助动词开头。he 是第三人称单数，第一空用 Does，助动词已经体现人称变化，第二空的 like 恢复原形，故选 B。playing 作 like 的宾语，like playing basketball 表示喜欢打篮球。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "4",
+      "stem": "You are clever, and so ____ I.",
+      "options": [
+        {
+          "key": "A",
+          "text": "am"
+        },
+        {
+          "key": "B",
+          "text": "are"
+        },
+        {
+          "key": "C",
+          "text": "is"
+        },
+        {
+          "key": "D",
+          "text": "was"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "so + be动词或助动词 + 主语表示另一个人也有前句的肯定情况。前句使用 be 动词，后句也用 be，但须与后句主语 I 一致，因此为 so am I，选 A。前面的 are 与 You 搭配，不能直接照搬给 I。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "5",
+      "stem": "Everyone likes the people who ____ ready to help others.",
+      "options": [
+        {
+          "key": "A",
+          "text": "is"
+        },
+        {
+          "key": "B",
+          "text": "are"
+        },
+        {
+          "key": "C",
+          "text": "being"
+        },
+        {
+          "key": "D",
+          "text": "was"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "空格是定语从句 who ____ ready to help others 的谓语。who 指代先行词 the people，people 是复数，所以用 are，选 B。Everyone 决定主句谓语 likes 的单数形式，从句谓语则跟随 people。be ready to help 表示乐于或准备好帮助别人。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "6",
+      "stem": "Thirty percent of the money I get from my parents ____ spent on food every month.",
+      "options": [
+        {
+          "key": "A",
+          "text": "is"
+        },
+        {
+          "key": "B",
+          "text": "are"
+        },
+        {
+          "key": "C",
+          "text": "were"
+        },
+        {
+          "key": "D",
+          "text": "was"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "百分数 + of + 名词作主语时，谓语的单复数取决于 of 后的名词。这里 money 不可数，应用单数。every month 和 get 表明日常情况，钱又是被花费的对象，所以用一般现在时被动 is spent，选 A。I get from my parents 是修饰 money 的定语从句。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "7",
+      "stem": "The price of my trousers ____ reasonable, so I think it's a bargain.",
+      "options": [
+        {
+          "key": "A",
+          "text": "is"
+        },
+        {
+          "key": "B",
+          "text": "are"
+        },
+        {
+          "key": "C",
+          "text": "am"
+        },
+        {
+          "key": "D",
+          "text": "be"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "主语是 The price of my trousers，中心词 price 是单数，of my trousers 只说明什么的价格。因此谓语用 is，选 A。trousers 虽是复数形式，却不是此句决定谓语数的中心词。reasonable 作表语，表示价格合理。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "8",
+      "stem": "It is the only one of the books that ____ ever moved me to tears.",
+      "options": [
+        {
+          "key": "A",
+          "text": "has"
+        },
+        {
+          "key": "B",
+          "text": "have"
+        },
+        {
+          "key": "C",
+          "text": "was"
+        },
+        {
+          "key": "D",
+          "text": "were"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "the only one 强调这些书中唯一的那一本，that 引导的定语从句指这一本书，从句主语为单数。ever moved 在此构成现在完成时，用 has ever moved，选 A。was 或 were moved 会变成被动结构，无法与后面的 me 衔接。注意与 one of the books that have ... 的常见复数修饰范围区分。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "9",
+      "stem": "A Ping-Pong ball and a tennis ball ____ under the bed.",
+      "options": [
+        {
+          "key": "A",
+          "text": "are"
+        },
+        {
+          "key": "B",
+          "text": "am"
+        },
+        {
+          "key": "C",
+          "text": "is"
+        },
+        {
+          "key": "D",
+          "text": "is not"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "A Ping-Pong ball 和 a tennis ball 分别指一个乒乓球和一个网球，两者由 and 并列，构成复数主语，因此用 are，选 A。两个名词各有冠词，清楚表明是两个独立物品，不按单个整体处理。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "10",
+      "stem": "— The books on the chair ____ Millie's, right?\n— Yes, they are.",
+      "options": [
+        {
+          "key": "A",
+          "text": "is"
+        },
+        {
+          "key": "B",
+          "text": "they're"
+        },
+        {
+          "key": "C",
+          "text": "it's"
+        },
+        {
+          "key": "D",
+          "text": "are"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "D",
+      "accepted": [
+        "D"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "主语是复数 The books，on the chair 是修饰书的位置短语，谓语用 are，选 D。答句 they are 也与之呼应。Millie's 相当于 Millie's books，作表语。主语已经明确写出，再填 they're 会重复主语，it's 也同样引入多余主语。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "11",
+      "stem": "The teacher said, “Two weeks ____ long enough for you to finish the book.”",
+      "options": [
+        {
+          "key": "A",
+          "text": "are"
+        },
+        {
+          "key": "B",
+          "text": "were"
+        },
+        {
+          "key": "C",
+          "text": "be"
+        },
+        {
+          "key": "D",
+          "text": "is"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "D",
+      "accepted": [
+        "D"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "Two weeks 在这里表示一段总长为两周的时间，按整体看待，用单数 is，选 D。引号内是老师的直接引语，外面的 said 不要求引语改用过去时。long enough 表示足够长，后面的 for you to finish the book 说明这段时间足够完成的事情。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "12",
+      "stem": "Not only my parents but also I ____ watching the documentary (纪录片). We all like it.",
+      "options": [
+        {
+          "key": "A",
+          "text": "am"
+        },
+        {
+          "key": "B",
+          "text": "are"
+        },
+        {
+          "key": "C",
+          "text": "were"
+        },
+        {
+          "key": "D",
+          "text": "was"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "not only ... but also ... 连接主语时，谓语通常与最靠近它的主语保持一致。这里最近的是 I，按本题当前观看纪录片的语境用 am watching，选 A。my parents 虽为复数，也不能让此处直接改成 are。若交换两部分的位置，则为 Not only I but also my parents are watching ...。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "13",
+      "stem": "There ____ many chairs in the room.",
+      "options": [
+        {
+          "key": "A",
+          "text": "is"
+        },
+        {
+          "key": "B",
+          "text": "are"
+        },
+        {
+          "key": "C",
+          "text": "am"
+        },
+        {
+          "key": "D",
+          "text": "be"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "There be 表示某地存在某物，be 的数与后面的名词一致。many chairs 是复数，故用 There are，选 B。There 是引导存在句的词，不与人称 I 一样搭配 am，be 原形也不能单独承担此处一般现在时谓语。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "14",
+      "stem": "The police ____ looking into the incident now.",
+      "options": [
+        {
+          "key": "A",
+          "text": "is"
+        },
+        {
+          "key": "B",
+          "text": "was"
+        },
+        {
+          "key": "C",
+          "text": "are"
+        },
+        {
+          "key": "D",
+          "text": "were"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "C",
+      "accepted": [
+        "C"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "police 指警察群体，在本句中按复数使用。now 表示当前正在调查，需用现在进行时 are looking into，选 C。look into 表示调查。was 和 were 都是过去时形式，is 则与 police 的复数用法不符。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "15",
+      "stem": "— Physics ____ more difficult than English. Do you think so?\n— Well, I don't think so.",
+      "options": [
+        {
+          "key": "A",
+          "text": "is"
+        },
+        {
+          "key": "B",
+          "text": "are"
+        },
+        {
+          "key": "C",
+          "text": "were"
+        },
+        {
+          "key": "D",
+          "text": "was"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "Physics 表示物理这一门学科，虽然词尾有 -s，语法上仍按单数看待。这里表达对学科难度的当前看法，用 is，选 A。后面的 Do you think so 和 I don't think so 也处于现在时语境，不能仅凭词尾 -s 选 are。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    }
+  ]
+}
