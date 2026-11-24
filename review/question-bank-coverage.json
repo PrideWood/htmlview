@@ -1,6 +1,6 @@
 {
-  "lessons": 181,
-  "questions": 2846,
+  "lessons": 183,
+  "questions": 2887,
   "issues": [],
   "reviewed": [
     {
@@ -14231,6 +14231,211 @@
     {
       "lessonId": "builtin-agreement-supplement",
       "label": "15",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "1",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "2",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "3",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "4",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "5",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "6",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "7",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "8",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "9",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "10",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "11",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "12",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "13",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "14",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "15",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "16",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "17",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "18",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "19",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-sentence-types-supplement",
+      "label": "20",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "例2",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "1",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "2",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "3",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "4",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "5",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "6",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "7",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "8",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "9",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "10",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "11",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "12",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "13",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "14",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "15",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "16",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "17",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "18",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "19",
+      "classification": "题干含可显示填空横线"
+    },
+    {
+      "lessonId": "builtin-complex-sentences-supplement",
+      "label": "20",
       "classification": "题干含可显示填空横线"
     }
   ],

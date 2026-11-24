@@ -1,0 +1,817 @@
+{
+  "id": "builtin-complex-sentences-supplement",
+  "title": "复合句同步练习与例题",
+  "topic": "复合句",
+  "source": "《陕西省职教高考总复习指导与同步练：英语》（用户提供的教材照片）",
+  "sourceType": "builtin",
+  "status": "ready",
+  "version": 1,
+  "createdAt": "2026-11-24T00:00:00.000Z",
+  "updatedAt": "2026-11-24T00:00:00.000Z",
+  "home": "/",
+  "questionOrder": "manual",
+  "notes": [
+    "保留例题2与同步练原题号1—20，对应照片3—5。",
+    "照片3、4中的7道真题已收录于 builtin-selected-papers-complex-sentences。",
+    "照片3上缘的例题1仅见答句和选项，完整题干待补。",
+    "同步练第8、12、14题保留不同成立读法，暂不唯一计分。"
+  ],
+  "reference": [],
+  "images": [],
+  "documents": [],
+  "ocrText": "",
+  "questions": [
+    {
+      "label": "例2",
+      "stem": "Father is ____ busy in working ____ he often forgets rest or meals.",
+      "options": [
+        {
+          "key": "A",
+          "text": "very; that"
+        },
+        {
+          "key": "B",
+          "text": "so; that"
+        },
+        {
+          "key": "C",
+          "text": "such; as"
+        },
+        {
+          "key": "D",
+          "text": "enough; as"
+        }
+      ],
+      "context": [],
+      "section": "例题",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "busy 是形容词，so busy ... that ... 表示忙到经常忘了休息或吃饭的程度，后面的完整从句说明结果，选 B。very 可修饰 busy，却不能与 that 构成这个结果结构。such 需要适当的名词短语，enough 修饰形容词时通常放在其后。",
+      "enrichment": [],
+      "sourcePhoto": 3
+    },
+    {
+      "label": "1",
+      "stem": "____ the meeting should last two days or three days doesn't matter.",
+      "options": [
+        {
+          "key": "A",
+          "text": "That"
+        },
+        {
+          "key": "B",
+          "text": "Whether"
+        },
+        {
+          "key": "C",
+          "text": "If"
+        },
+        {
+          "key": "D",
+          "text": "Where"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "空格后的整个从句作 doesn't matter 的主语，two days or three days 给出两种选择，须表达会议持续两天还是三天，用 Whether，选 B。表示是否的主语从句直接位于句首时通常用 whether，if 不用于这个位置。that 不表达二者择一，where 问地点。",
+      "enrichment": [],
+      "sourcePhoto": 4
+    },
+    {
+      "label": "2",
+      "stem": "____ is our belief that improvements in health care will lead to a stronger and more prosperous economy.",
+      "options": [
+        {
+          "key": "A",
+          "text": "As"
+        },
+        {
+          "key": "B",
+          "text": "That"
+        },
+        {
+          "key": "C",
+          "text": "This"
+        },
+        {
+          "key": "D",
+          "text": "It"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "D",
+      "accepted": [
+        "D"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "It is our belief that ... 是形式主语句型，that 后说明实际相信的内容，即医疗改善将促进经济发展，选 D。把长主语从句移到句尾后，用 It 占据句首主语位置。As 不能独立承担此处主语，This、That 也不具有这个句型中的形式主语功能。",
+      "enrichment": [],
+      "sourcePhoto": 4
+    },
+    {
+      "label": "3",
+      "stem": "I don't doubt ____ she can dance, but I doubt ____ she is willing to do it.",
+      "options": [
+        {
+          "key": "A",
+          "text": "that; if"
+        },
+        {
+          "key": "B",
+          "text": "if; that"
+        },
+        {
+          "key": "C",
+          "text": "that; that"
+        },
+        {
+          "key": "D",
+          "text": "if; if"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "don't doubt 表示不怀疑、确信某事，因此第一空用 that 陈述她会跳舞。后半句 doubt 表示对她是否愿意存疑，第二空用 if 引出是否意义，故选 A。两处都引导宾语从句，要根据否定与肯定的怀疑含义分别选词。",
+      "enrichment": [],
+      "sourcePhoto": 4
+    },
+    {
+      "label": "4",
+      "stem": "I don't know ____ so many young people.",
+      "options": [
+        {
+          "key": "A",
+          "text": "why luosifen is popular with"
+        },
+        {
+          "key": "B",
+          "text": "why is luosifen popular with"
+        },
+        {
+          "key": "C",
+          "text": "why luosifen does popular with"
+        },
+        {
+          "key": "D",
+          "text": "why does luosifen popular with"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "know 后的宾语从句用陈述语序 why + 主语 luosifen + 谓语 is，选 A。be popular with sb 表示受某人欢迎。B 把 is 倒装到主语前，C、D 用 does 代替必要的系动词 is，均不合这里的结构。",
+      "enrichment": [],
+      "sourcePhoto": 4
+    },
+    {
+      "label": "5",
+      "stem": "Pupils usually would like to take ____ advice their teachers give.",
+      "options": [
+        {
+          "key": "A",
+          "text": "whichever"
+        },
+        {
+          "key": "B",
+          "text": "however"
+        },
+        {
+          "key": "C",
+          "text": "whatever"
+        },
+        {
+          "key": "D",
+          "text": "whenever"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "C",
+      "accepted": [
+        "C"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "本题按学生愿意接受老师给的任何建议这一泛指含义，选 C。whatever 限定 advice，与后面的 their teachers give 一起构成 take 的宾语。however 表方式或程度，whenever 表时间。whichever 用于从一定范围中任选，题目没有交代这样的选择范围。",
+      "enrichment": [],
+      "sourcePhoto": 4
+    },
+    {
+      "label": "6",
+      "stem": "The girl was greatly ____ by the news ____ she won the first place.",
+      "options": [
+        {
+          "key": "A",
+          "text": "amazing; that"
+        },
+        {
+          "key": "B",
+          "text": "amazing; what"
+        },
+        {
+          "key": "C",
+          "text": "amazed; that"
+        },
+        {
+          "key": "D",
+          "text": "amazed; what"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "C",
+      "accepted": [
+        "C"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "女孩是感到惊讶的人，第一空用 amazed，be amazed by 表示因某事惊讶。第二空引导同位语从句，说明 news 的具体内容，she won the first place 主谓宾齐全，用不作句子成分的 that，故选 C。what 会要求在从句中承担主语或宾语等成分。",
+      "enrichment": [],
+      "sourcePhoto": 4
+    },
+    {
+      "label": "7",
+      "stem": "The woman ____ is the most important in my life is my mother.",
+      "options": [
+        {
+          "key": "A",
+          "text": "which"
+        },
+        {
+          "key": "B",
+          "text": "who"
+        },
+        {
+          "key": "C",
+          "text": "whom"
+        },
+        {
+          "key": "D",
+          "text": "what"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "第一个 is 所在的定语从句修饰 The woman，空格代替这位女士并作从句主语，用 who，选 B。whom 为宾格，不能作该从句主语，which 通常指物，what 也不这样接在先行词 woman 后。最后的 is my mother 才是主句谓语和表语。",
+      "enrichment": [],
+      "sourcePhoto": 4
+    },
+    {
+      "label": "8",
+      "stem": "Who can tell me the reason ____ we see the lightning before we hear the thunder?",
+      "options": [
+        {
+          "key": "A",
+          "text": "which"
+        },
+        {
+          "key": "B",
+          "text": "why"
+        },
+        {
+          "key": "C",
+          "text": "where"
+        },
+        {
+          "key": "D",
+          "text": "that"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [],
+      "invalid": true,
+      "ambiguous": false,
+      "reviewed": false,
+      "reviewStatus": "needs_review",
+      "examNote": "原题存在其他可成立选项，参考答案及区别见解析，本题暂不计分。",
+      "reason": "常规参考选 B，the reason why ... 表示某事发生的原因，why 在从句中作原因状语。这里也可以用 that 引导 reason 后的这种从句，D 具有成立的用法。which 直接作代词不能补原因状语，where 表地点。本题保留 why 与 that 的用法区别，暂不唯一计分。",
+      "enrichment": [],
+      "sourcePhoto": 4
+    },
+    {
+      "label": "9",
+      "stem": "____ is no possibility ____ Bob can win the first prize in the match.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It; that"
+        },
+        {
+          "key": "B",
+          "text": "There; that"
+        },
+        {
+          "key": "C",
+          "text": "There; whether"
+        },
+        {
+          "key": "D",
+          "text": "It; whether"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "There is no possibility that ... 表示不存在某事发生的可能，第一空用 There 构成存在句。that 从句说明 possibility 的内容，Bob can win the first prize 结构完整，用 that 引导，选 B。whether 表是否，不适合这里直接陈述获奖可能性的内容。",
+      "enrichment": [],
+      "sourcePhoto": 4
+    },
+    {
+      "label": "10",
+      "stem": "Have you visited the house ____ the famous scientist was born?",
+      "options": [
+        {
+          "key": "A",
+          "text": "where"
+        },
+        {
+          "key": "B",
+          "text": "in that"
+        },
+        {
+          "key": "C",
+          "text": "that"
+        },
+        {
+          "key": "D",
+          "text": "which"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "先行词 house 表地点，从句 the famous scientist was born 主谓完整，缺少出生在哪里这一地点状语，因此用 where，相当于 in which，选 A。that 或 which 单独作关系代词不能承担本题缺少的地点状语，介词后也不能用关系代词 that。",
+      "enrichment": [],
+      "sourcePhoto": 4
+    },
+    {
+      "label": "11",
+      "stem": "____ we don't lose heart, we'll find a way to get rid of the difficulty.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unless"
+        },
+        {
+          "key": "B",
+          "text": "As"
+        },
+        {
+          "key": "C",
+          "text": "Even if"
+        },
+        {
+          "key": "D",
+          "text": "As long as"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "D",
+      "accepted": [
+        "D"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "按只要不灰心，就能找到摆脱困难的办法这一条件关系，选 D。As long as 表只要。Unless 自带否定条件，再接 don't lose heart 会反转所需含义。As 通常引出时间或原因，Even if 表即使，都不表达本题强调的充分条件。",
+      "enrichment": [],
+      "sourcePhoto": 5
+    },
+    {
+      "label": "12",
+      "stem": "She has never heard such a terrible story ____ he told.",
+      "options": [
+        {
+          "key": "A",
+          "text": "like"
+        },
+        {
+          "key": "B",
+          "text": "as"
+        },
+        {
+          "key": "C",
+          "text": "which"
+        },
+        {
+          "key": "D",
+          "text": "that"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [],
+      "invalid": true,
+      "ambiguous": false,
+      "reviewed": false,
+      "reviewStatus": "needs_review",
+      "examNote": "原题存在其他可成立选项，参考答案及区别见解析，本题暂不计分。",
+      "reason": "常规参考选 B，such ... as 中的 as 可作关系代词，替代 story 并作 told 的宾语。这里 he told 缺宾语，因此是在修饰故事。若将 such 看成程度限定，which 或 that 引导限制性定语从句也有成立的读法。不能把 that 一律解释成结果从句连接词后就判错，故本题暂不唯一计分。",
+      "enrichment": [],
+      "sourcePhoto": 5
+    },
+    {
+      "label": "13",
+      "stem": "On our way to New York, we visited the Browns, ____ used to be our neighbors.",
+      "options": [
+        {
+          "key": "A",
+          "text": "whom"
+        },
+        {
+          "key": "B",
+          "text": "who"
+        },
+        {
+          "key": "C",
+          "text": "which"
+        },
+        {
+          "key": "D",
+          "text": "that"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "逗号后是非限定性定语从句，补充说明布朗一家过去是邻居。关系词指人并作 used to be 的主语，用 who，选 B。whom 是宾格，which 通常指物，that 不能引导这里带逗号的非限定性定语从句。",
+      "enrichment": [],
+      "sourcePhoto": 5
+    },
+    {
+      "label": "14",
+      "stem": "— I'm going to the shopping center.\n— ____ you're there, could you buy some fruit for me?",
+      "options": [
+        {
+          "key": "A",
+          "text": "When"
+        },
+        {
+          "key": "B",
+          "text": "Unless"
+        },
+        {
+          "key": "C",
+          "text": "Until"
+        },
+        {
+          "key": "D",
+          "text": "As soon as"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [],
+      "invalid": true,
+      "ambiguous": false,
+      "reviewed": false,
+      "reviewStatus": "needs_review",
+      "examNote": "原题存在其他可成立选项，参考答案及区别见解析，本题暂不计分。",
+      "reason": "通常参考选 A，When you're there 表示你在商场时，请顺便买水果。D 的 As soon as you're there 表示一到那里就买，也能形成合理请求，只是强调立即行动。题目未限定必须是哪种时间语气，故保留 A、D 提示，暂不唯一计分。Unless 表除非，Until 表直到，不合所给请求的通常意思。",
+      "enrichment": [],
+      "sourcePhoto": 5
+    },
+    {
+      "label": "15",
+      "stem": "— Shall we get off the bus here?\n— Yes. But we won't get off ____ it stops.",
+      "options": [
+        {
+          "key": "A",
+          "text": "when"
+        },
+        {
+          "key": "B",
+          "text": "until"
+        },
+        {
+          "key": "C",
+          "text": "while"
+        },
+        {
+          "key": "D",
+          "text": "after"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "not ... until ... 表示直到某事发生才做，won't get off until it stops 即等车停稳才下车，选 B。否定词已经在 won't 中。填 when 或 after 会变成车停下时或停下后不下车，与前面的 Yes 所确认的下车计划不符。",
+      "enrichment": [],
+      "sourcePhoto": 5
+    },
+    {
+      "label": "16",
+      "stem": "He wonders ____ the sound came from.",
+      "options": [
+        {
+          "key": "A",
+          "text": "where"
+        },
+        {
+          "key": "B",
+          "text": "when"
+        },
+        {
+          "key": "C",
+          "text": "how"
+        },
+        {
+          "key": "D",
+          "text": "that"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "他想知道声音从哪里传来，用 where 引导宾语从句，选 A。come from 后的 where 指声音的来源地点。when 问时间，how 问方式，都不提供 from 所需的来源信息，that 也不能在从句中补足该成分。",
+      "enrichment": [],
+      "sourcePhoto": 5
+    },
+    {
+      "label": "17",
+      "stem": "The professor started early ____ he could get there before 9 o'clock.",
+      "options": [
+        {
+          "key": "A",
+          "text": "in order that"
+        },
+        {
+          "key": "B",
+          "text": "in that"
+        },
+        {
+          "key": "C",
+          "text": "so as to"
+        },
+        {
+          "key": "D",
+          "text": "in order to"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "空后 he could get there 是完整从句，要用能接从句的 in order that 表示目的，选 A。so as to 和 in order to 后应直接接动词原形，不能再接 he could。in that 表示因为或在于某方面，不能表达此处早出发以便九点前到达的目的。",
+      "enrichment": [],
+      "sourcePhoto": 5
+    },
+    {
+      "label": "18",
+      "stem": "A tourist will easily lose his way in Beijing's hutong ____ he has a map or a guide.",
+      "options": [
+        {
+          "key": "A",
+          "text": "if"
+        },
+        {
+          "key": "B",
+          "text": "until"
+        },
+        {
+          "key": "C",
+          "text": "unless"
+        },
+        {
+          "key": "D",
+          "text": "when"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "C",
+      "accepted": [
+        "C"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "句意是除非有地图或向导，否则游客容易在胡同迷路。unless 相当于 if ... not，选 C。地图或向导是避免迷路的条件，若用 if 或 when 则会把拥有帮助与迷路直接相连，改变通常语义，until 也不表达这种例外条件。",
+      "enrichment": [],
+      "sourcePhoto": 5
+    },
+    {
+      "label": "19",
+      "stem": "____ often you ring, no one will answer.",
+      "options": [
+        {
+          "key": "A",
+          "text": "How"
+        },
+        {
+          "key": "B",
+          "text": "However"
+        },
+        {
+          "key": "C",
+          "text": "Whom"
+        },
+        {
+          "key": "D",
+          "text": "Whenever"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "However + 副词或形容词 + 主语 + 谓语表示无论多么……，这里 However often you ring 意为无论按铃多少次，选 B。Whenever 通常直接引导表示无论何时的从句，不能直接套在本题 often 前。How 单独也不构成这里的让步连接。",
+      "enrichment": [],
+      "sourcePhoto": 5
+    },
+    {
+      "label": "20",
+      "stem": "The boy ran ____ his father couldn't catch up with him.",
+      "options": [
+        {
+          "key": "A",
+          "text": "so fast that"
+        },
+        {
+          "key": "B",
+          "text": "such fast that"
+        },
+        {
+          "key": "C",
+          "text": "fast enough to"
+        },
+        {
+          "key": "D",
+          "text": "too fast to"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "fast 是副词，修饰 ran，so fast that 引出结果从句，表示跑得太快，以至父亲追不上，选 A。such 通常修饰名词短语。enough to 和 too ... to 后应接动词原形，本题后面却是带主语 his father 和谓语 couldn't catch 的完整从句。",
+      "enrichment": [],
+      "sourcePhoto": 5
+    }
+  ]
+}

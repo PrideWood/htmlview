@@ -1,0 +1,781 @@
+{
+  "id": "builtin-sentence-types-supplement",
+  "title": "句子的种类同步练习",
+  "topic": "14 句子的种类",
+  "source": "《陕西省职教高考总复习指导与同步练：英语》（用户提供的教材照片）",
+  "sourceType": "builtin",
+  "status": "ready",
+  "version": 1,
+  "createdAt": "2026-11-24T00:00:00.000Z",
+  "updatedAt": "2026-11-24T00:00:00.000Z",
+  "home": "/",
+  "questionOrder": "manual",
+  "notes": [
+    "保留同步练原题号1—20，对应照片1、2。",
+    "第12题补充祈使句附加问句的不同用法，暂不唯一计分。"
+  ],
+  "reference": [],
+  "images": [],
+  "documents": [],
+  "ocrText": "",
+  "questions": [
+    {
+      "label": "1",
+      "stem": "— I saw David in the teachers' office this morning. Do you know ____ he was there?\n— He went there to hand in his homework.",
+      "options": [
+        {
+          "key": "A",
+          "text": "how"
+        },
+        {
+          "key": "B",
+          "text": "whether"
+        },
+        {
+          "key": "C",
+          "text": "when"
+        },
+        {
+          "key": "D",
+          "text": "why"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "D",
+      "accepted": [
+        "D"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "答句 to hand in his homework 说明去办公室的目的，因此问他为什么在那里，用 why，选 D。how 问方式，when 问时间，whether 问是否，均不能与交作业这一解释直接对应。know 后是宾语从句，he was 保持陈述语序。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "2",
+      "stem": "— Hi, Tony! Do you know ____?\n— Yes. There is a coffee shop at the corner of the street.",
+      "options": [
+        {
+          "key": "A",
+          "text": "when I can get a cup of coffee"
+        },
+        {
+          "key": "B",
+          "text": "when can I get a cup of coffee"
+        },
+        {
+          "key": "C",
+          "text": "where I can get a cup of coffee"
+        },
+        {
+          "key": "D",
+          "text": "where can I get a cup of coffee"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "C",
+      "accepted": [
+        "C"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "答句指出街角有咖啡店，说明询问地点，用 where。know 后的宾语从句采用主语 I 在情态动词 can 前的陈述语序，因此选 C。B、D 保留了独立问句的倒装语序，A 的 when 则在问时间。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "3",
+      "stem": "— Do you know ____ zongzi in tradition in China, Li Ping?\n— Usually during the Dragon-boat Festival (端午节).",
+      "options": [
+        {
+          "key": "A",
+          "text": "why people make"
+        },
+        {
+          "key": "B",
+          "text": "how people like"
+        },
+        {
+          "key": "C",
+          "text": "where people buy"
+        },
+        {
+          "key": "D",
+          "text": "when people eat"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "D",
+      "accepted": [
+        "D"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "during the Dragon-boat Festival 回答时间，所以从句用 when 引导，when people eat zongzi 表示人们何时吃粽子，选 D。why 问原因，how 问方式或看法，where 问地点，都不对应端午节这一时间信息。从句中 people eat 使用陈述语序。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "4",
+      "stem": "— John, ____ do you visit your friends?\n— Once a week.",
+      "options": [
+        {
+          "key": "A",
+          "text": "how long"
+        },
+        {
+          "key": "B",
+          "text": "how soon"
+        },
+        {
+          "key": "C",
+          "text": "how often"
+        },
+        {
+          "key": "D",
+          "text": "how much"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "C",
+      "accepted": [
+        "C"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "Once a week 表示每周一次，是频率，应以 how often 提问，选 C。how long 问持续多久，how soon 问再过多久，常答 in a week，how much 问数量或价格。一次与一周组合表达发生频次，不表示一次访问持续一周。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "5",
+      "stem": "Could you tell me ____ I can get to the railway station?",
+      "options": [
+        {
+          "key": "A",
+          "text": "how"
+        },
+        {
+          "key": "B",
+          "text": "what"
+        },
+        {
+          "key": "C",
+          "text": "where"
+        },
+        {
+          "key": "D",
+          "text": "which"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "本题是问路，get to the railway station 已说明目的地，需要询问到达的方式或路线，用 how，选 A。what 和 which 无法作这个完整从句所缺的方式状语，where 问地点，而车站这一目的地已给出。I can 保持宾语从句的陈述语序。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "6",
+      "stem": "____ it is to go swimming in a river in summer!",
+      "options": [
+        {
+          "key": "A",
+          "text": "How excited"
+        },
+        {
+          "key": "B",
+          "text": "How exciting"
+        },
+        {
+          "key": "C",
+          "text": "What excited"
+        },
+        {
+          "key": "D",
+          "text": "What exciting"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "感叹部分评价去游泳这件事令人兴奋，用 exciting，结构为 How + 形容词 + 主语 + 谓语，故选 B。it 是形式主语，to go swimming ... 表示被评价的活动。excited 通常描述人的感受，what 则需引出适当的名词短语。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "7",
+      "stem": "Listen! ____ beautiful song it is! I like it very much.",
+      "options": [
+        {
+          "key": "A",
+          "text": "How a"
+        },
+        {
+          "key": "B",
+          "text": "What a"
+        },
+        {
+          "key": "C",
+          "text": "What"
+        },
+        {
+          "key": "D",
+          "text": "How"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "中心词 song 是可数名词单数，beautiful song 前需要 a。感叹句结构为 What a + 形容词 + 单数名词 + 主语 + 谓语，因此选 B。若改用 How，可说 How beautiful the song is，语序随之改变。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "8",
+      "stem": "____ nice day it is!",
+      "options": [
+        {
+          "key": "A",
+          "text": "What a"
+        },
+        {
+          "key": "B",
+          "text": "How"
+        },
+        {
+          "key": "C",
+          "text": "What"
+        },
+        {
+          "key": "D",
+          "text": "How a"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "nice day 是带形容词的可数单数名词短语，感叹句为 What a nice day it is，选 A。day 前需要冠词 a，What 单独填入会缺冠词。How 直接修饰形容词时可改写为 How nice the day is。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "9",
+      "stem": "— Thomas Hill is 2.03 meters tall.\n— Oh, ____ tall man he is!",
+      "options": [
+        {
+          "key": "A",
+          "text": "how"
+        },
+        {
+          "key": "B",
+          "text": "how a"
+        },
+        {
+          "key": "C",
+          "text": "what a"
+        },
+        {
+          "key": "D",
+          "text": "what"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "C",
+      "accepted": [
+        "C"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "tall man 的中心是可数单数名词 man，用 What a tall man he is，选 C。how 感叹形容词时的正常结构为 How tall he is，不能直接接本题 tall man he is 的词序。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "10",
+      "stem": "____ cold it is today!",
+      "options": [
+        {
+          "key": "A",
+          "text": "How a"
+        },
+        {
+          "key": "B",
+          "text": "What a"
+        },
+        {
+          "key": "C",
+          "text": "How"
+        },
+        {
+          "key": "D",
+          "text": "What"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "C",
+      "accepted": [
+        "C"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "cold 在这里是形容词，作 is 的表语，感叹它的程度用 How cold it is today，选 C。空后没有 day、weather 等名词供 What 引导，a 也不能直接修饰 cold 这个形容词。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "11",
+      "stem": "Tom is from Canada, ____ he?",
+      "options": [
+        {
+          "key": "A",
+          "text": "doesn't"
+        },
+        {
+          "key": "B",
+          "text": "does"
+        },
+        {
+          "key": "C",
+          "text": "is"
+        },
+        {
+          "key": "D",
+          "text": "isn't"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "D",
+      "accepted": [
+        "D"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "陈述部分为肯定句，谓语是一般现在时的 is，反意问句通常用对应否定形式 isn't，主语用 he，故选 D。原句没有实义动词谓语，不需要使用 do 或 does 构成附加问句。",
+      "enrichment": [],
+      "sourcePhoto": 1
+    },
+    {
+      "label": "12",
+      "stem": "Be sure to call me, ____?",
+      "options": [
+        {
+          "key": "A",
+          "text": "will you"
+        },
+        {
+          "key": "B",
+          "text": "aren't you"
+        },
+        {
+          "key": "C",
+          "text": "can you"
+        },
+        {
+          "key": "D",
+          "text": "mustn't you"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [],
+      "invalid": true,
+      "ambiguous": false,
+      "reviewed": false,
+      "reviewStatus": "needs_review",
+      "examNote": "原题存在其他可成立选项，参考答案及区别见解析，本题暂不计分。",
+      "reason": "参考选 A。Be sure to call me 是要求对方一定打电话的祈使句，通常接 will you 征求配合。肯定祈使句也可以接 can you，C 在适当语气下能成立。aren't you 把句首 Be 误当成以 you are 开头的陈述句，mustn't you 则没有对应的 must 谓语。本题保留 A、C 的用法提示。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "13",
+      "stem": "You'd rather work than play, ____ you?",
+      "options": [
+        {
+          "key": "A",
+          "text": "hadn't"
+        },
+        {
+          "key": "B",
+          "text": "wouldn't"
+        },
+        {
+          "key": "C",
+          "text": "didn't"
+        },
+        {
+          "key": "D",
+          "text": "mustn't"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "B",
+      "accepted": [
+        "B"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "You'd rather 中的 'd 是 would，would rather do 表示宁愿做某事。肯定陈述部分对应否定附加问句 wouldn't you，选 B。had better 的 'd 才是 had，不能因相同缩写就使用 hadn't。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "14",
+      "stem": "Henry seldom came here to help us, ____?",
+      "options": [
+        {
+          "key": "A",
+          "text": "didn't he"
+        },
+        {
+          "key": "B",
+          "text": "doesn't he"
+        },
+        {
+          "key": "C",
+          "text": "does he"
+        },
+        {
+          "key": "D",
+          "text": "did he"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "D",
+      "accepted": [
+        "D"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "seldom 表示很少，使陈述部分带有否定意义，附加问句应使用肯定形式。came 是一般过去时，因此用 did he，选 D。does he 的时态不符，didn't he 则没有处理 seldom 的否定含义。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "15",
+      "stem": "I don't suppose you could let me borrow your car this evening, ____?",
+      "options": [
+        {
+          "key": "A",
+          "text": "couldn't I"
+        },
+        {
+          "key": "B",
+          "text": "don't I"
+        },
+        {
+          "key": "C",
+          "text": "could you"
+        },
+        {
+          "key": "D",
+          "text": "will you"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "C",
+      "accepted": [
+        "C"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "I don't suppose 表达说话者的否定判断，反意问句通常依据后面从句的主语和助动词，并把否定意义计入。you could 对应肯定形式 could you，故选 C。不能只按句首 I don't 机械构造 don't I，也不能把 could 改成 will。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "16",
+      "stem": "— Kate, why are you so happy?\n— Oh, you know, there ____ a football match.",
+      "options": [
+        {
+          "key": "A",
+          "text": "is"
+        },
+        {
+          "key": "B",
+          "text": "are"
+        },
+        {
+          "key": "C",
+          "text": "/"
+        },
+        {
+          "key": "D",
+          "text": "were"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "There be 表示有某项活动，a football match 是单数，所以用 is，选 A。问句处于当前语境，were 既是过去时又是复数形式，are 数不符，省去 be 后也缺少完整谓语。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "17",
+      "stem": "There ____ two tennis courts in the sports center.",
+      "options": [
+        {
+          "key": "A",
+          "text": "are"
+        },
+        {
+          "key": "B",
+          "text": "is"
+        },
+        {
+          "key": "C",
+          "text": "has"
+        },
+        {
+          "key": "D",
+          "text": "have"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "two tennis courts 为复数，There be 的 be 与它一致，用 are，选 A。has 和 have 表示拥有，不能直接代替存在句的 be。地点 in the sports center 说明球场在哪里，不改变主语名词的复数性质。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "18",
+      "stem": "There ____ a computer and some books on the desk.",
+      "options": [
+        {
+          "key": "A",
+          "text": "is"
+        },
+        {
+          "key": "B",
+          "text": "are"
+        },
+        {
+          "key": "C",
+          "text": "has"
+        },
+        {
+          "key": "D",
+          "text": "have"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "按本题常见的 There be 就近一致规则，最靠近 be 的名词是单数 a computer，所以用 is，选 A。若把 some books 放在前面，可写 There are some books and a computer ...。has 和 have 不构成本题的存在句。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "19",
+      "stem": "The wind is blowing harder. There ____ a heavy snow tonight.",
+      "options": [
+        {
+          "key": "A",
+          "text": "may be"
+        },
+        {
+          "key": "B",
+          "text": "maybe"
+        },
+        {
+          "key": "C",
+          "text": "may not be"
+        },
+        {
+          "key": "D",
+          "text": "can not be"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "A",
+      "accepted": [
+        "A"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "根据风更大的线索预测今晚可能下大雪，本题取肯定推测 There may be，选 A。may 是情态动词，后接 be 原形。maybe 是副词，不能单独提供这里所缺的谓语，may not be 与 can not be 分别表示可能没有、不会有，不符合本题的正向预测。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    },
+    {
+      "label": "20",
+      "stem": "We all think that ____ no need to be anxious before the exam.",
+      "options": [
+        {
+          "key": "A",
+          "text": "it is"
+        },
+        {
+          "key": "B",
+          "text": "there has"
+        },
+        {
+          "key": "C",
+          "text": "it has"
+        },
+        {
+          "key": "D",
+          "text": "there is"
+        }
+      ],
+      "context": [],
+      "section": "同步练",
+      "mode": "choice",
+      "questionType": "single_choice",
+      "answer": "D",
+      "accepted": [
+        "D"
+      ],
+      "invalid": false,
+      "ambiguous": false,
+      "reviewed": true,
+      "reviewStatus": "ok",
+      "examNote": "",
+      "reason": "there is no need to do sth 表示没有必要做某事，故选 D。think that 后面的宾语从句使用完整存在结构 there is。need 在这里是名词，it is no need 不构成该固定表达，there has 和 it has 也不符合所需句型。",
+      "enrichment": [],
+      "sourcePhoto": 2
+    }
+  ]
+}

@@ -9,3 +9,5 @@ await access(new URL('../seed/eight-course-lessons.json',import.meta.url));
 await access(new URL('../seed/eight-course-teaching.json',import.meta.url));
 await access(new URL('../seed/nonfinite-supplement.json',import.meta.url));
 await access(new URL('../seed/agreement-supplement.json',import.meta.url));
+await access(new URL('../seed/sentence-types-supplement.json',import.meta.url));
+await access(new URL('../seed/complex-sentences-supplement.json',import.meta.url));
